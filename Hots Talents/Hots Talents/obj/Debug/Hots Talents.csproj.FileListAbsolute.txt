@@ -1,0 +1,20 @@
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\bin\Debug\Hots Talents.exe.config
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\bin\Debug\Hots Talents.exe
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\bin\Debug\Hots Talents.pdb
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\obj\Debug\Hots_Talents.Form1.resources
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\obj\Debug\Hots_Talents.Properties.Resources.resources
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\obj\Debug\Hots Talents.csproj.GenerateResource.Cache
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\obj\Debug\Hots Talents.exe
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\obj\Debug\Hots Talents.pdb
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\obj\Debug\Hots Talents.csprojResolveAssemblyReference.cache
+C:\Users\Craig\Desktop\CIS 202 Programs\Hots Talents\Hots Talents\obj\Debug\Hots_Talents.Talent_Builds.resources
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\bin\Debug\Hots Talents.exe.config
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Debug\Hots Talents.exe
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Debug\Hots Talents.pdb
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\bin\Debug\Hots Talents.exe
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\bin\Debug\Hots Talents.pdb
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Debug\Hots Talents.csprojResolveAssemblyReference.cache
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Debug\Hots_Talents.Falstad_Talents.resources
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Debug\Hots_Talents.Form1.resources
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Debug\Hots_Talents.Properties.Resources.resources
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Debug\Hots Talents.csproj.GenerateResource.Cache
