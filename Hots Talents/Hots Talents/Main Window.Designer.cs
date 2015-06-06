@@ -213,6 +213,19 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.trackbarlabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lblManaRegen = new System.Windows.Forms.Label();
+            this.lblSpeed = new System.Windows.Forms.Label();
+            this.lblDamage = new System.Windows.Forms.Label();
+            this.lblMana = new System.Windows.Forms.Label();
+            this.lblHealthRegen = new System.Windows.Forms.Label();
+            this.lblHealth = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picFalstad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picIllidan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJania)).BeginInit();
@@ -2045,15 +2058,15 @@
             // 
             // lblHero
             // 
-            this.lblHero.AutoSize = true;
             this.lblHero.BackColor = System.Drawing.Color.Transparent;
-            this.lblHero.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHero.Font = new System.Drawing.Font("Moire", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHero.ForeColor = System.Drawing.Color.White;
-            this.lblHero.Location = new System.Drawing.Point(1329, 85);
+            this.lblHero.Location = new System.Drawing.Point(1142, 85);
             this.lblHero.Name = "lblHero";
-            this.lblHero.Size = new System.Drawing.Size(130, 37);
+            this.lblHero.Size = new System.Drawing.Size(505, 37);
             this.lblHero.TabIndex = 104;
             this.lblHero.Text = "Falstad";
+            this.lblHero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Border1_2
             // 
@@ -2558,8 +2571,9 @@
             // trackBar1
             // 
             this.trackBar1.BackColor = System.Drawing.Color.Black;
+            this.trackBar1.LargeChange = 1;
             this.trackBar1.Location = new System.Drawing.Point(1848, 286);
-            this.trackBar1.Maximum = 25;
+            this.trackBar1.Maximum = 26;
             this.trackBar1.Minimum = 1;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
@@ -2581,6 +2595,175 @@
             this.trackbarlabel.TabIndex = 201;
             this.trackbarlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Moire", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(581, 651);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 29);
+            this.label1.TabIndex = 202;
+            this.label1.Text = "Statisics";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label2.Location = new System.Drawing.Point(539, 691);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 23);
+            this.label2.TabIndex = 203;
+            this.label2.Text = "Health";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label3.Location = new System.Drawing.Point(539, 733);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 23);
+            this.label3.TabIndex = 204;
+            this.label3.Text = "Regen";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Cyan;
+            this.label4.Location = new System.Drawing.Point(539, 775);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 23);
+            this.label4.TabIndex = 205;
+            this.label4.Text = "Mana";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(539, 901);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(91, 23);
+            this.label5.TabIndex = 206;
+            this.label5.Text = "Damage";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.SpringGreen;
+            this.label6.Location = new System.Drawing.Point(539, 859);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(112, 23);
+            this.label6.TabIndex = 207;
+            this.label6.Text = "Atk Speed";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Cyan;
+            this.label15.Location = new System.Drawing.Point(539, 817);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(74, 23);
+            this.label15.TabIndex = 208;
+            this.label15.Text = "Regen";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblManaRegen
+            // 
+            this.lblManaRegen.AutoSize = true;
+            this.lblManaRegen.BackColor = System.Drawing.Color.Transparent;
+            this.lblManaRegen.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblManaRegen.ForeColor = System.Drawing.Color.White;
+            this.lblManaRegen.Location = new System.Drawing.Point(680, 817);
+            this.lblManaRegen.Name = "lblManaRegen";
+            this.lblManaRegen.Size = new System.Drawing.Size(63, 23);
+            this.lblManaRegen.TabIndex = 214;
+            this.lblManaRegen.Text = "Skills";
+            this.lblManaRegen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSpeed
+            // 
+            this.lblSpeed.AutoSize = true;
+            this.lblSpeed.BackColor = System.Drawing.Color.Transparent;
+            this.lblSpeed.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpeed.ForeColor = System.Drawing.Color.White;
+            this.lblSpeed.Location = new System.Drawing.Point(680, 859);
+            this.lblSpeed.Name = "lblSpeed";
+            this.lblSpeed.Size = new System.Drawing.Size(63, 23);
+            this.lblSpeed.TabIndex = 213;
+            this.lblSpeed.Text = "Skills";
+            this.lblSpeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblDamage
+            // 
+            this.lblDamage.AutoSize = true;
+            this.lblDamage.BackColor = System.Drawing.Color.Transparent;
+            this.lblDamage.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDamage.ForeColor = System.Drawing.Color.White;
+            this.lblDamage.Location = new System.Drawing.Point(680, 901);
+            this.lblDamage.Name = "lblDamage";
+            this.lblDamage.Size = new System.Drawing.Size(63, 23);
+            this.lblDamage.TabIndex = 212;
+            this.lblDamage.Text = "Skills";
+            this.lblDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblMana
+            // 
+            this.lblMana.AutoSize = true;
+            this.lblMana.BackColor = System.Drawing.Color.Transparent;
+            this.lblMana.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMana.ForeColor = System.Drawing.Color.White;
+            this.lblMana.Location = new System.Drawing.Point(680, 775);
+            this.lblMana.Name = "lblMana";
+            this.lblMana.Size = new System.Drawing.Size(63, 23);
+            this.lblMana.TabIndex = 211;
+            this.lblMana.Text = "Skills";
+            this.lblMana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealthRegen
+            // 
+            this.lblHealthRegen.AutoSize = true;
+            this.lblHealthRegen.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthRegen.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthRegen.ForeColor = System.Drawing.Color.White;
+            this.lblHealthRegen.Location = new System.Drawing.Point(680, 733);
+            this.lblHealthRegen.Name = "lblHealthRegen";
+            this.lblHealthRegen.Size = new System.Drawing.Size(63, 23);
+            this.lblHealthRegen.TabIndex = 210;
+            this.lblHealthRegen.Text = "Skills";
+            this.lblHealthRegen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealth
+            // 
+            this.lblHealth.AutoSize = true;
+            this.lblHealth.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealth.Font = new System.Drawing.Font("Moire", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealth.ForeColor = System.Drawing.Color.White;
+            this.lblHealth.Location = new System.Drawing.Point(680, 691);
+            this.lblHealth.Name = "lblHealth";
+            this.lblHealth.Size = new System.Drawing.Size(63, 23);
+            this.lblHealth.TabIndex = 209;
+            this.lblHealth.Text = "Skills";
+            this.lblHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2588,7 +2771,20 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1915, 955);
+            this.ClientSize = new System.Drawing.Size(1915, 1000);
+            this.Controls.Add(this.lblManaRegen);
+            this.Controls.Add(this.lblSpeed);
+            this.Controls.Add(this.lblDamage);
+            this.Controls.Add(this.lblMana);
+            this.Controls.Add(this.lblHealthRegen);
+            this.Controls.Add(this.lblHealth);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.trackbarlabel);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.spec4);
@@ -3084,6 +3280,19 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Label trackbarlabel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lblManaRegen;
+        private System.Windows.Forms.Label lblSpeed;
+        private System.Windows.Forms.Label lblDamage;
+        private System.Windows.Forms.Label lblMana;
+        private System.Windows.Forms.Label lblHealthRegen;
+        private System.Windows.Forms.Label lblHealth;
     }
 }
 

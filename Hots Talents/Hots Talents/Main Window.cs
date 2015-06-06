@@ -239,6 +239,8 @@ namespace Hots_Talents
                 label11.Visible = true;
                 label10.Visible = true;
                 picGold.Visible = true;
+
+                trackBar1.Value = 1;
             }
 
             else if (lblHero.Text == "The Lost Vikings")
@@ -327,6 +329,8 @@ namespace Hots_Talents
                 label11.Visible = true;
                 label10.Visible = true;
                 picGold.Visible = true;
+
+                trackBar1.Value = 1;
             }
 
             else if (lblHero.Text == "Brightwing")
@@ -415,6 +419,8 @@ namespace Hots_Talents
                 label11.Visible = true;
                 label10.Visible = true;
                 picGold.Visible = true;
+
+                trackBar1.Value = 1;
             }
             else if (lblHero.Text == "Falstad")
             {
@@ -502,6 +508,8 @@ namespace Hots_Talents
                 label11.Visible = true;
                 label10.Visible = true;
                 picGold.Visible = true;
+
+                trackBar1.Value = 1;
             }
             else if (lblHero.Text == "Sgt. Hammer")
             {
@@ -589,6 +597,8 @@ namespace Hots_Talents
                 label11.Visible = true;
                 label10.Visible = true;
                 picGold.Visible = true;
+
+                trackBar1.Value = 1;
             }
             else
             {
@@ -680,6 +690,8 @@ namespace Hots_Talents
                 label11.Visible = true;
                 label10.Visible = true;
                 picGold.Visible = true;
+
+                trackBar1.Value = 1;
             }
         }
 
@@ -2087,6 +2099,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Falstad\Talents\Tier 20\Nexus_Frenzy.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Falstad\Talents\Tier 20\Epic_Mount.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "710";
+            lblHealthRegen.Text = "1.4804";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.43";
+            lblDamage.Text = "38";
         }
 
         //**ILLIDAN**//
@@ -2170,6 +2189,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Illidan\Talents\Tier 20\Nexus_Blades_Icon.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Illidan\Talents\Tier 20\Bolt_of_the_Storm_Icon.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "750";
+            lblHealthRegen.Text = "1.7304";
+            lblMana.Text = "N/A";
+            lblManaRegen.Text = "N/A";
+            lblSpeed.Text = "1.67";
+            lblDamage.Text = "30";
         }
 
         //**JAINA**//
@@ -2201,15 +2227,15 @@ namespace Hots_Talents
             picQAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Skills\76px-Frostbolt_Icon.png");
             picWAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Skills\76px-Blizzard_Icon.png");
             picEAbility.ImageLocation = @"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Skills\76px-Cone_of_Cold_Icon.png";
-            picR1Ability.ImageLocation = @"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Skills\76px-Summon_Water_Elemental_Icon.png";
-            picR2Ability.ImageLocation = @"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Skills\76px-Ring_of_Frost_Icon.png";
+            picR1Ability.ImageLocation = @"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Skills\76px-Ring_of_Frost_Icon.png";
+            picR2Ability.ImageLocation = @"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Skills\76px-Summon_Water_Elemental_Icon.png";
             picTrait.ImageLocation = @"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Skills\76px-Frostbite_Icon.png";
 
             lblQ.Text = "Frostbolt\nQ";
             lblW.Text = "Blizzard\nW";
             lblE.Text = "Cone of Cold\nE";
-            lblR1.Text = "Summon Water Elemental\nR (Heroic)";
-            lblR2.Text = "Ring of Frost\nR (Heroic)";
+            lblR1.Text = "Ring of Frost\nR (Heroic)";
+            lblR2.Text = "Summon Water Elemental\nR (Heroic)";
             lblTrait.Text = "Frostbite\nTrait";
 
             Ability1_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Talents\Tier 1\64px-Winter's_Reach_Icon.png");
@@ -2250,6 +2276,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Talents\Tier 20\Arcane_Power_Icon.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Talents\Tier 20\64px-Bolt_of_the_Storm_Icon.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "710";
+            lblHealthRegen.Text = "1.4804";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.00";
+            lblDamage.Text = "42";
         }
 
         //**KAEL'THAS**//
@@ -2331,6 +2364,12 @@ namespace Hots_Talents
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kael'Thas\Talents\Tier 20\arcane-power-talent.png");
             Ability7_5.Visible = false;
 
+            lblHealth.Text = "740";
+            lblHealthRegen.Text = "1.539";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.11";
+            lblDamage.Text = "39";
         }
 
         //**KERRIGAN**//
@@ -2391,6 +2430,7 @@ namespace Hots_Talents
             Ability3_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 7\64px-Impaling_Swarm_Icon.png");
             Ability3_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 7\64px-Adaptation_Icon.png");
             Ability3_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 7\Searing_Attacks_Icon.png");
+            Ability3_5.Visible = false;
 
             Ability4_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 10\64px-Maelstrom_Icon.png");
             Ability4_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 10\64px-Summon_Ultralisk_Icon.png");
@@ -2399,17 +2439,26 @@ namespace Hots_Talents
             Ability5_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 13\64px-Eviscerate_Icon.png");
             Ability5_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 13\64px-Double_Strike_Icon.png");
             Ability5_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 13\Sprint_Icon.png");
+            Ability5_5.Visible = false;
 
             Ability6_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 16\64px-Aggressive_Defense_Icon.png");
             Ability6_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 16\64px-Blade_Torrent_Icon.png");
             Ability6_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 16\Blood_for_Blood_Icon.png");
             Ability6_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 16\Overdrive_Icon.png");
+            Ability6_5.Visible = false;
 
             Ability7_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 20\64px-Omegastorm_Icon.png");
             Ability7_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 20\64px-Torrasque_Icon.png");
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 20\Nexus_Blades_Icon.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Kerrigan\Talents\Tier 20\64px-Bolt_of_the_Storm_Icon.png");
+            Ability7_5.Visible = false;
 
+            lblHealth.Text = "830";
+            lblHealthRegen.Text = "1.664";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "40";
         }
 
         //**NOVA**//
@@ -4888,15 +4937,90 @@ namespace Hots_Talents
             Ability7_5.Visible = false;
         }
 
-        //**TRACKBAR LABEL**//
+        //**TRACKBAR AND STATS+**//
 
         private void trackBar1_ValueChanged(object sender, EventArgs e)
         {
-            trackbarlabel.Text = "Level " + trackBar1.Value.ToString();
+            if (trackBar1.Value <= 25)
+            {
+                trackbarlabel.Text = "Level " + trackBar1.Value.ToString();
+            }
+
+            if (lblHero.Text == "Falstad")
+            {
+                int FalstadHealth = 710;
+                double FalstadHRegen = 1.4804;
+                int FalstadMana = 500;
+                double FalstadMRegen = 3;
+                int FalstadDamage = 38;
+
+                lblHealth.Text = (FalstadHealth + (trackBar1.Value - 1) * 120).ToString();
+                lblHealthRegen.Text = (FalstadHRegen + (trackBar1.Value - 1) * .250).ToString();
+                lblMana.Text = (FalstadMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (FalstadMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (FalstadDamage + (trackBar1.Value - 1) * 10).ToString();
+            }
+
+            if (lblHero.Text == "Illidan")
+            {
+                int IllidanHealth = 750;
+                double IllidanHRegen = 1.7304;
+                int IllidanDamage = 30;
+
+                lblHealth.Text = (IllidanHealth + (trackBar1.Value - 1) * 125).ToString();
+                lblHealthRegen.Text = (IllidanHRegen + (trackBar1.Value - 1) * .262).ToString();
+                lblDamage.Text = (IllidanDamage + (trackBar1.Value - 1) * 7).ToString();
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                int JainaHealth = 710;
+                double JainaHRegen = 1.4804;
+                int JainaMana = 500;
+                double JainaMRegen = 3;
+                int JainaDamage = 42;
+
+                lblHealth.Text = (JainaHealth + (trackBar1.Value - 1) * 120).ToString();
+                lblHealthRegen.Text = (JainaHRegen + (trackBar1.Value - 1) * .250).ToString();
+                lblMana.Text = (JainaMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (JainaMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (JainaDamage + (trackBar1.Value - 1) * 8).ToString();
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                int KaelHealth = 740;
+                double KaelHRegen = 1.539;
+                int KaelMana = 500;
+                double KaelMRegen = 3;
+                int KaelDamage = 39;
+
+                lblHealth.Text = (KaelHealth + (trackBar1.Value - 1) * 130).ToString();
+                lblHealthRegen.Text = (KaelHRegen + (trackBar1.Value - 1) * .270).ToString();
+                lblMana.Text = (KaelMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (KaelMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (KaelDamage + (trackBar1.Value - 1) * 8).ToString();
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                int KerriganHealth = 830;
+                double KerriganHRegen = 1.644;
+                int KerriganMana = 500;
+                double KerriganMRegen = .098;
+                int KerriganDamage = 40;
+
+                lblHealth.Text = (KerriganHealth + (trackBar1.Value - 1) * 150).ToString();
+                lblHealthRegen.Text = (KerriganHRegen + (trackBar1.Value - 1) * .313).ToString();
+                lblMana.Text = (KerriganMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (KerriganMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (KerriganDamage + (trackBar1.Value - 1) * 11).ToString();
+            }
         }
 
-        //FALSTAD TOOLTIPS**//
+        //**TOOLTIPS**//
 
+        //**Q ABILITY**//
         private void picQAbility_MouseHover(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
@@ -4905,7 +5029,38 @@ namespace Hots_Talents
                 int falhammer = 50 + (12 * trackBar1.Value);
                 toolTip1.SetToolTip(picQAbility, "Mana: 70\nCooldown: 10 seconds\n\nThrow out a Hammer that returns to you, dealing " + falhammer.ToString() + " damage\nand slowing enemies by 25% for 2 seconds.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Dive";
+                int illdive = 45 + (5 * trackBar1.Value);
+                toolTip1.SetToolTip(picQAbility, "Cooldown: 6 seconds\n\nDive at the target, dealing " + illdive.ToString() + " damage\nand flipping to the other side of the target.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Frostbolt";
+                int jainabolt = 50 + (15 * trackBar1.Value);
+                toolTip1.SetToolTip(picQAbility, "Mana: 30\nCooldown: 4 seconds\n\nDeal " + jainabolt.ToString() + " damage and Chill the target.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Flamestrike";
+                int kaelstrikeone = 74 + (20 * trackBar1.Value);
+                int kaelstriketwo = 111 + (30 * trackBar1.Value);
+                toolTip1.SetToolTip(picQAbility, "Mana: 70\n\nCooldown: 7 seconds\n\nAfter a short delay, deal " + kaelstrikeone.ToString() + " damage in an area.\nVerdant Spheres increases the radius by 50% and deals " + kaelstriketwo.ToString() + " damage.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Ravage";
+                int kerrav = 50 + (20 * trackBar1.Value);
+                toolTip1.SetToolTip(picQAbility, "Mana: 75\nCooldown: 8 seconds\n\nLeap to a target, dealing " + kerrav.ToString() + " damage.\nIf this kills the target, its cooldown is instantly reset.");
+            }
         }
+
+        //**W ABILITY**//
 
         private void picWAbility_MouseHover(object sender, EventArgs e)
         {
@@ -4916,7 +5071,39 @@ namespace Hots_Talents
                 int fallightningtwo = 25 + (7 * trackBar1.Value);
                 toolTip1.SetToolTip(picWAbility, "Mana: 70\nCooldown: 15 seconds\n\nDeal " + fallightningone.ToString() + " damage to an enemy, and an additional  " + fallightningtwo.ToString() + " damage per second\nfor 4.25 seconds if you remain close to the target.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Sweeping Strike";
+                int illsweep = 60 + (10 * trackBar1.Value);
+                toolTip1.SetToolTip(picWAbility, "Charge Cooldown: 8 seconds\n\nDash towards target point, dealing " + illsweep.ToString() + " damage to enemies along the way.\nIf you hit an enemy, Basic Attacks do 35% more damage for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Blizzard";
+                int jainablizz = 45 + (16 * trackBar1.Value);
+                toolTip1.SetToolTip(picWAbility, "Mana: 75\n\nCooldown: 15 seconds\n\nBombard an area with 2 waves of ice, dealing " + jainablizz.ToString() + " damage each.\nDamaged enemies are Chilled.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Living Bomb";
+                int kaelbombone = 60 + (18 * trackBar1.Value);
+                int kaelbombtwo = 30 + (9 * trackBar1.Value);
+                toolTip1.SetToolTip(picWAbility, "Mana: 50\n\nCooldown: 10 seconds\n\nDeal " + kaelbombone.ToString() + " damage over 3 seconds to an enemy,\nthen they explode dealing " + kaelbombtwo.ToString() + " damage to all nearby enemies.\nCasting a second Living Bomb on an enemy causes the previous Living Bomb to explode immediately.\nVerdant Spheres makes this Ability cost no Mana and have no cooldown.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Imapling Blades";
+                int kerimpale = 110 + (22 * trackBar1.Value);
+                toolTip1.SetToolTip(picWAbility, "Mana: 60\nCooldown: 12 seconds\n\nDeals " + kerimpale.ToString() + "damage to enemies within the target area, stunning them for 1 second.");
+            }
+
         }
+
+        //**E ABILITY**//
 
         private void picEAbility_MouseHover(object sender, EventArgs e)
         {
@@ -4926,18 +5113,78 @@ namespace Hots_Talents
                 int falbarrel = 75 + (15 * trackBar1.Value);
                 toolTip1.SetToolTip(picEAbility, "Mana: 75\nCooldown: 14 seconds\n\nDashes forward and grants a " + falbarrel.ToString() + " point Shield for 2 seconds.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Evasion";
+                toolTip1.SetToolTip(picEAbility, "Cooldown: 15 seconds\n\nEvade enemy Basic Attacks for 2 seconds.");
+            }
+
+            if (lblHero.Text =="Jaina")
+            {
+                toolTip1.ToolTipTitle = "Cone of Cold";
+                int jainacone = 55 + (18 * trackBar1.Value);
+                toolTip1.SetToolTip(picEAbility, "Mana: 50\nCooldown: 10 seconds\n\nDeal " + jainacone.ToString() + " damage and Chill targets.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Gravity Lapse";
+                toolTip1.SetToolTip(picEAbility, "Mana: 85\nCooldown: 13 seconds\nStun the first enemy hit for 1.5 seconds.\nVerdant Spheres causes Gravity Lapse to stun the first 3 enemies hit.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Primal Grasp";
+                int kerprimal = 50 + (13 * trackBar1.Value);
+                toolTip1.SetToolTip(picEAbility, "Mana: 50\nCooldown: 8 seconds\n\nPulls enemies within the target area towards you, dealing " + kerprimal.ToString() + " damage.");
+            }
+
         }
 
-        private void picR1Ability_MouseHover(object sender, EventArgs e)
+        //**R1 ABILITY**//
+
+        private void picR1Ability_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Mighty Gust";
                 toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 70\nCooldown: 50 seconds\n\nPush enemies away and apply an 60% slow that decays over 3 seconds.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Metamorphosis";
+                int illmetaone = 200 + (10 * trackBar1.Value);
+                int illmetatwo = 100 + (15 * trackBar1.Value);
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nCooldown: 120 seconds\n\nTransform into Demon Form at the target location, dealing " + illmetaone.ToString() + " damage in the area.\nGain " + illmetatwo.ToString() + " temporary max Health for each Hero hit and 20% increased Attack Speed.\nLasts for 18 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Ring of Frost";
+                int jainaring = 200 + (24 * trackBar1.Value);
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 70\nCooldown: 100 seconds\n\nAfter a 1.5 second delay, create a Ring of Frost in an area\nthat deals " + jainaring.ToString() + " damage and roots enemies for 3 seconds.\n\nThe ring persists for 3 seconds afterward, Chilling any enemies who touch it.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Phoenix";
+                int kaelphoenix = 10 + (8 * trackBar1.Value);
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 80\nCooldown: 40 seconds\n\nLaunch a Phoenix to an area, dealing " + kaelphoenix.ToString() + " damage to enemies along the way.\nThe Phoenix persists for 7 seconds, attacking enemies for " + kaelphoenix.ToString() + " damage and splashing for 50%.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Maelstrom";
+                int kermael = 50 + (5 * trackBar1.Value);
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 120 seconds\n\nDeals " + kermael.ToString() + " damage per second to nearby enemies. Lasts for 9 seconds.");
+            }
         }
 
-        private void picR2Ability_MouseHover(object sender, EventArgs e)
+        //**R2 ABILITY**//
+
+        private void picR2Ability_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
@@ -4945,16 +5192,75 @@ namespace Hots_Talents
                 int falhinter = 280 + (31 * trackBar1.Value);
                 toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 90 seconds\n\nAfter a short delay, deal " + falhinter.ToString() + " damage to enemies within a long line.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "The Hunt";
+                int illhunt = 150 + (20 * trackBar1.Value);
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nCooldown: 60 seconds\nCharge to target unit, dealing " + illhunt.ToString() + " damage on impact and stunning for 1 second.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Summon Water Elemental";
+                int jainawater1 = 65 + (7 * trackBar1.Value);
+                int jainawater2 = 50 + (6 * trackBar1.Value);
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 75\nCooldown: 80 seconds\n\nSummons a Water Elemental at target location, dealing " + jainawater1.ToString() + " damage and Chilling nearby enemies.\nThe Water Elemental's Basic Attacks do " + jainawater2.ToString() + " damage, splash for 25% damage and Chill.\nCan reactivate the Ability to retarget the Water Elemental.\nLasts 20 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Pyroblast";
+                int kaelpyroone = 300 + (65 * trackBar1.Value);
+                double kaelpyrotwo = 150 + (32.5 * trackBar1.Value);
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 80\nCooldown: 50 seconds\n\nAfter 2 seconds, cast a slow-moving fireball that deals " + kaelpyroone.ToString() + " damage\nto an enemy Hero and " + kaelpyrotwo.ToString() + " damage to enemies nearby.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Summon Ultralisk";
+                int kerultra = 40 + (8 * trackBar1.Value);
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nSummon an Ultralisk that attacks the target to deal " + kerultra.ToString() + " damage.\nAttacks splash to nearby enemies for 50% damage.\nCan reactivate the Ability to retarget the Ultralisk.\nLasts for 20 seconds.");
+            }
         }
 
-        private void picTrait_MouseHover(object sender, EventArgs e)
+        //**TRAIT**//
+
+        private void picTrait_MouseHover_1(object sender, EventArgs e)
         {
-            if (lblHero.Text == "Falstad")
+             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Tailwind";
                 toolTip1.SetToolTip(picTrait, "Cooldown: 6 seconds\n\nGain 20% increased Movement Speed after not taking damage for 6 seconds.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Betrayer's Trust";
+                toolTip1.SetToolTip(picTrait, "Basic Attacks heal for 20% of damage dealt and reduce your Ability cooldowns by 1 second.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Frostbite";
+                toolTip1.SetToolTip(picTrait, "All abilities Chill targets, slowing Movement Speed by 25% and amplifying damage from your abilities by 50%.\nLasts 4 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Verdant Spheres";
+                toolTip1.SetToolTip(picTrait, "Cooldown: 6 seconds\n\nActivate to make your next Basic Ability more powerful.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Assimilation";
+                int kerass = 200 + (100 * trackBar1.Value);
+                toolTip1.SetToolTip(picTrait, "Gain 10% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds.\nShield amount gained doubled against Heroes.\nCurrent maximum: " + kerass.ToString() + ".");
+            }
         }
+
+        //**ABILITY 1_1**//
 
         private void Ability1_1_MouseHover_1(object sender, EventArgs e)
         {
@@ -4963,99 +5269,390 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Power Throw";
                 toolTip1.SetToolTip(Ability1_1, "Increase the range of Hammerang by 40%\nand the slow duration by 25%.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Battered Assault";
+                toolTip1.SetToolTip(Ability1_1, "Increases the Basic Attack bonus of Sweeping Strike to 50%.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Winter's Reach";
+                toolTip1.SetToolTip(Ability1_1, "Increases the range of Frostbolt by 30%.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Mana Addict";
+                toolTip1.SetToolTip(Ability1_1, "Increase your maximum Mana by 15 when you pick up a Regeneration Globe.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Siphoning Impact";
+                toolTip1.SetToolTip(Ability1_1, "Ravage heals you for 10.15% of your maximum\nHealth if it hits an enemy");
+            }
         }
 
-        private void Ability1_2_MouseHover(object sender, EventArgs e)
+        //**ABILITY 1_2**//
+
+        private void Ability1_2_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Updraft";
                 toolTip1.SetToolTip(Ability1_2, "Increase the range of Barrel Roll by 30%.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Shadow Shield";
+                double illshield = 62.5 + (12.5 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability1_2, "Evasion grants a " + illshield.ToString() + " point Shield for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Lingering Chill";
+                toolTip1.SetToolTip(Ability1_2, "Increases the duration of Chill from 4 seconds to 6 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Convection";
+                toolTip1.SetToolTip(Ability1_2, "Flamestrike deals 20% bonus damage to\nenemies stunned by Gravity Lapse.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Sharpened Blades";
+                toolTip1.SetToolTip(Ability1_2, "Impaling Blades deals 20% more damage.");
+            }
         }
 
-        private void Ability1_3_MouseHover(object sender, EventArgs e)
+        //**ABILITY 1_3**//
+
+        private void Ability1_3_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Seasoned Marksman";
                 toolTip1.SetToolTip(Ability1_3, "For every 6 enemy Minion or Mercenary kills near your Hero,\ngain 1 Basic Attack damage.\nHero Takedowns count as 2 Minion kills.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Regeneration Master";
+                toolTip1.SetToolTip(Ability1_3, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases this bonus by 4.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Deep Chill";
+                toolTip1.SetToolTip(Ability1_3, "Increases the slow of Chill from 25% to 35%.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Energy Roll";
+                toolTip1.SetToolTip(Ability1_3, "Gravity Lapse's cooldown is reduced by 3\nseconds for each enemy hit.");
+            }
+
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Sweeping Grasp";
+                toolTip1.SetToolTip(Ability1_3, "Increases the range of Primal Grasp by 20%.");
+            }
         }
 
-        private void Ability1_4_MouseHover(object sender, EventArgs e)
+        //**ABILITY 1_4**//
+
+        private void Ability1_4_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Conjurer's Pursuit";
                 toolTip1.SetToolTip(Ability1_4, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases this bonus by 0.25.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Seasoned Marksman";
+                toolTip1.SetToolTip(Ability1_4, "For every 6 enemy Minion or Mercenary kills near your Hero,\ngain 1 Basic Attack damage.\nHero Takedowns count as 2 Minion kills.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Conjurer's Pursuit";
+                toolTip1.SetToolTip(Ability1_4, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases this bonus by 0.25.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Fel Infusion";
+                int kaelfel = 26 + (9 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability1_4, "Heal for " + kaelfel.ToString() + " Health when you\nactivate Verdant Spheres.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Block";
+                toolTip1.SetToolTip(Ability1_4, "Periodically reduces the damage received from Hero Basic Attacks by 50%.\nStores up to 2 charges.");
+            }
         }
 
-        private void Ability1_5_MouseHover(object sender, EventArgs e)
+        //**ABILITY 1_5**//
+
+
+        private void Ability1_5_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Bribe";
                 toolTip1.SetToolTip(Ability1_5, "Kill enemy Minions to gain up to 50 stacks of Bribe.\nUse 20 stacks to bribe target Mercenary, instantly defeating them.\nDoes not work on Bosses.");
             }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Seasoned Marksman";
+                toolTip1.SetToolTip(Ability1_5, "For every 6 enemy Minion or Mercenary kills near your Hero,\ngain 1 Basic Attack damage.\nHero Takedowns count as 2 Minion kills.");
+            }
         }
 
-        private void Ability2_1_MouseHover(object sender, EventArgs e)
+        //**ABILITY 2_1**//
+
+        private void Ability2_1_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Charged Up";
                 toolTip1.SetToolTip(Ability2_1, "Lightning Rod strikes the target 2 additional times.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Marked for Death";
+                toolTip1.SetToolTip(Ability2_1, "Your next Basic Attack on the Dive target deals 100% more damage.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Frost Shards";
+                toolTip1.SetToolTip(Ability2_1, "Frostbolt will now pierce the first target to hit\nan additional target behind them.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Mana Tap";
+                toolTip1.SetToolTip(Ability2_1, "Flamestrike restores 20 Mana per enemy killed.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Focused Attack";
+                toolTip1.SetToolTip(Ability2_1, "Every 10 seconds, your next Basic Attack deals\n75% additional damage. Basic Attacks reduce\nthis cooldown by 1 second.");
+            }
         }
 
-        private void Ability2_2_MouseHover(object sender, EventArgs e)
+        //**ABILITY 2_2**//
+
+        private void Ability2_2_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Flow Rider";
                 toolTip1.SetToolTip(Ability2_2, "Lowers the cooldown of Barrel Roll by 40%.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Fel Reach";
+                toolTip1.SetToolTip(Ability2_2, "Increases the range of Sweeping Strike by 20%.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Snowstorm";
+                toolTip1.SetToolTip(Ability2_2, "Increases the radius of Blizzard by 30%.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Nether Wind";
+                toolTip1.SetToolTip(Ability2_2, "Increases Gravity Lapse's range and speed by 30%.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Fury of the Swarm";
+                toolTip1.SetToolTip(Ability2_2, "Basic Attacks splash for 50% damage around Kerrigan.");
+            }
         }
 
-        private void Ability2_3_MouseHover(object sender, EventArgs e)
+        //**ABILITY 2_3**//
+
+        private void Ability2_3_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Vampiric Assault";
                 toolTip1.SetToolTip(Ability2_3, "Basic Attacks heal for 15% of the\ndamage dealt to the primary target.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Immolation";
+                double illimm = 13 + (2.5 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability2_3, "After using Sweeping Strike, burn nearby enemies for " + illimm.ToString() + " damage a second for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Arcane Intellect";
+                toolTip1.SetToolTip(Ability2_3, "Dealing damage to a Chilled target returns Mana to Jaina.\nBasic Attacks return 5 Mana and abilities return 25.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Gathering Power";
+                toolTip1.SetToolTip(Ability2_3, "Passively grants 5% Ability Power.\nEach Hero takedown increases this bonus by 2% to a maximum of 15%.\nThis bonus Ability Power is reset to 5% on death.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Clean Kill";
+                toolTip1.SetToolTip(Ability2_3, "If Ravage kills the target, it also restores 100% of its Mana cost.");
+            }
         }
 
-        private void Ability2_4_MouseHover(object sender, EventArgs e)
+        //**ABILITY 2_4**//
+
+        private void Ability2_4_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Gathering Power";
                 toolTip1.SetToolTip(Ability2_4, "Passively grants 5% Ability Power.\nEach Hero takedown increases this bonus by 2% to a maximum of 15%.\nThis bonus Ability Power is reset to 5% on death.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Thirsting Blade";
+                toolTip1.SetToolTip(Ability2_4, "Healing from Basic Attacks increased to 30% of damage dealt.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Envenom";
+                int jainavenom = 180 + (30 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + jainavenom.ToString() + " damage over 5 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Envenom";
+                int kaelvenom = 180 + (30 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + kaelvenom.ToString() + " damage over 5 seconds.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Psionic Pulse";
+                int kerpsi = 60 + (12 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability2_4, "After casting Primal Grasp, deal " + kerpsi.ToString() + " damage over 5 seconds to nearby enemies.");
+            }
+
         }
 
-        private void Ability3_1_MouseHover(object sender, EventArgs e)
+        //**ABILITY 2_5**//
+
+        private void Ability2_5_MouseHover(object sender, EventArgs e)
+        {
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Envenom";
+                int kerrvenom = 180 + (30 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability2_5, "Activate to poison an enemy Hero, dealing " + kerrvenom.ToString() + " damage over 5 seconds.");
+            }
+        }
+
+        //**ABILITY 3_1**//
+
+        private void Ability3_1_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Battle Momentum";
                 toolTip1.SetToolTip(Ability3_1, "Basic Attacks reduce Ability cooldowns by 0.5 seconds.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Rapid Chase";
+                toolTip1.SetToolTip(Ability3_1, "Gain 20% Movement Speed for 2 seconds after using Dive.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Ice Floes";
+                toolTip1.SetToolTip(Ability3_1, "Doubles the width of Cone of Cold and causes\neach target hit to reduce its cooldown by 0.5 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Fission Bomb";
+                toolTip1.SetToolTip(Ability3_1, "Increases Living Bomb's explosion damage by 75%.");
+            }
+
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Battle Momentum";
+                toolTip1.SetToolTip(Ability3_1, "Basic Attacks reduce Ability cooldowns by 0.5 seconds.");
+            }
         }
 
-        private void Ability3_2_MouseHover(object sender, EventArgs e)
+        //**ABILITY 3_2**//
+
+        private void Ability3_2_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Secret Weapon";
                 toolTip1.SetToolTip(Ability3_2, "Basic Attacks deal 80% bonus damage while Hammerang is in flight.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Reflexive Block";
+                toolTip1.SetToolTip(Ability3_2, "Gain 2 charges of Block (50% reduced Basic Attack damage) after Evasion wears off.\nLasts 5 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Frostbitten";
+                toolTip1.SetToolTip(Ability3_2, "Increases the damage bonus of Frostbite from 50% to 65%.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Sunfire Enchantment";
+                int kaelsunfire = 78 + (16 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability3_2, "Activating Verdant Spheres causes your next\nBasic Attack to instead shoot a spell dealing\n" + kaelsunfire.ToString() +  " damage.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Impaling Swarm";
+                toolTip1.SetToolTip(Ability3_2, "Impaling Blades spawns 2 Zerglings at the target location.");
+            }
         }
 
-        private void Ability3_3_MouseHover(object sender, EventArgs e)
+        //**ABILITY 3_3**//
+
+        private void Ability3_3_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
@@ -5063,36 +5660,127 @@ namespace Hots_Talents
                 int falboom = 25 + (12 * trackBar1.Value);
                 toolTip1.SetToolTip(Ability3_3, "Reactivate Hammerang mid-flight to deal " + falboom.ToString() + " damage around the Hammer.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Follow Through";
+                toolTip1.SetToolTip(Ability3_3, "After using an ability, your next Basic Attack within 6 seconds deals 40% additional damage.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Frost Armor";
+                toolTip1.SetToolTip(Ability3_3, "Enemy Heroes that attack you are Chilled.\nAdditionally, every 8 seconds you can block the\nnext Basic Attack from an enemy Hero reducing\nits damage by 24%.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Tri-Optimal";
+                toolTip1.SetToolTip(Ability3_3, "Reduces Verdant Spheres' cooldown by 2\nseconds per target hit with Gravity Lapse.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Adapation";
+                toolTip1.SetToolTip(Ability3_3, "Ravage can be used to jump to allies for half the cooldown.");
+            }
         }
 
-        private void Ability3_4_MouseHover(object sender, EventArgs e)
+        //**ABILITY 3_4**//
+
+        private void Ability3_4_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Free Roll";
                 toolTip1.SetToolTip(Ability3_4, "Barrel Roll costs no mana.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Thrill of Battle";
+                toolTip1.SetToolTip(Ability3_4, "Activate to double the cooldown reduction from Basic Attacks for 8 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Ice Lance";
+                toolTip1.SetToolTip(Ability3_4, "The cooldown of Frostbolt is reduced by 2 seconds if it impacts a Chilled target.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Clairvoyance";
+                toolTip1.SetToolTip(Ability3_4, "Activate to reveal an area for 10 seconds.\nEnemies in the area are revealed for 4 seconds.");
+            }
+
+              if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Searing Attacks";
+                toolTip1.SetToolTip(Ability3_4, "Activate to increase Basic Attack damage by 50% for 5 seconds.\nEach attack costs 15 Mana.");
+            }
         }
 
-        private void Ability3_5_MouseHover(object sender, EventArgs e)
+        //**ABILITY 3_5**//
+
+        private void Ability3_5_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "First Aid";
                 toolTip1.SetToolTip(Ability3_5, "Activate to heal 35.49% of your max Health over 6 seconds.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "First Aid";
+                toolTip1.SetToolTip(Ability3_5, "Activate to heal 35.49% of your max Health over 6 seconds.");
+            }
         }
 
-        private void Ability4_1_MouseHover(object sender, EventArgs e)
+        //**ABILITY 4_1**//
+
+        private void Ability4_1_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Mighty Gust";
                 toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 70\nCooldown: 50 seconds\n\nPush enemies away and apply an 60% slow that decays over 3 seconds.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Metamorphosis";
+                int illmetaone = 200 + (10 * trackBar1.Value);
+                int illmetatwo = 100 + (15 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nCooldown: 120 seconds\n\nTransform into Demon Form at the target location, dealing " + illmetaone.ToString() + " damage in the area.\nGain " + illmetatwo.ToString() + " temporary max Health for each Hero hit and 20% increased Attack Speed.\nLasts for 18 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Ring of Frost";
+                int jainaring = 200 + (24 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 70\nCooldown: 100 seconds\n\nAfter a 1.5 second delay, create a Ring of Frost in an area\nthat deals " + jainaring.ToString() + " damage and roots enemies for 3 seconds.\n\nThe ring persists for 3 seconds afterward, Chilling any enemies who touch it.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Phoenix";
+                int kaelphoenix = 10 + (8 * trackBar1.Value);
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 80\nCooldown: 40 seconds\n\nLaunch a Phoenix to an area, dealing " + kaelphoenix.ToString() + " damage to enemies along the way.\nThe Phoenix persists for 7 seconds, attacking enemies for " + kaelphoenix.ToString() + " damage and splashing for 50%.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Maelstrom";
+                int kermael = 50 + (5 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 120 seconds\n\nDeals " + kermael.ToString() + " damage per second to nearby enemies. Lasts for 9 seconds.");
+            }
         }
 
-        private void Ability4_2_MouseHover(object sender, EventArgs e)
+        //**ABILITY 4_2**//
+
+        private void Ability4_2_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
@@ -5100,300 +5788,516 @@ namespace Hots_Talents
                 int falhinter = 280 + (31 * trackBar1.Value);
                 toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 90 seconds\n\nAfter a short delay, deal " + falhinter.ToString() + " damage to enemies within a long line.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "The Hunt";
+                int illhunt = 150 + (20 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nCooldown: 60 seconds\nCharge to target unit, dealing " + illhunt.ToString() + " damage on impact and stunning for 1 second.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Summon Water Elemental";
+                int jainawater1 = 65 + (7 * trackBar1.Value);
+                int jainawater2 = 50 + (6 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 75\nCooldown: 80 seconds\n\nSummons a Water Elemental at target location, dealing " + jainawater1.ToString() + " damage and Chilling nearby enemies.\nThe Water Elemental's Basic Attacks do " + jainawater2.ToString() + " damage, splash for 25% damage and Chill.\nCan reactivate the Ability to retarget the Water Elemental.\nLasts 20 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Pyroblast";
+                int kaelpyroone = 300 + (65 * trackBar1.Value);
+                double kaelpyrotwo = 150 + (32.5 * trackBar1.Value);
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 80\nCooldown: 50 seconds\n\nAfter 2 seconds, cast a slow-moving fireball that deals " + kaelpyroone.ToString() + " damage\nto an enemy Hero and " + kaelpyrotwo.ToString() + " damage to enemies nearby.");
+            }
+
+              if (lblHero.Text == "Kerrigan")
+             {
+                toolTip1.ToolTipTitle = "Summon Ultralisk";
+		        int kerultra = 40 + (8 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nSummon an Ultralisk that attacks the target to deal " + kerultra.ToString() + " damage.\nAttacks splash to nearby enemies for 50% damage.\nCan reactivate the Ability to retarget the Ultralisk.\nLasts for 20 seconds.");
+            }
+
+
         }
 
-        private void Ability5_1_MouseHover(object sender, EventArgs e)
+        //**ABILITY 5_1**//
+
+        private void Ability5_1_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Giant Killer";
                 toolTip1.SetToolTip(Ability5_1, "Basic Attacks against enemy Heroes deal bonus damage\nequal to 1.5% of the Hero's maximum Health.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Giant Killer";
+                toolTip1.SetToolTip(Ability5_1, "Basic Attacks against enemy Heroes deal bonus damage\nequal to 1.5% of the Hero's maximum Health.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Storm Front";
+                toolTip1.SetToolTip(Ability5_1, "Increases the cast range of Blizzard by 100%.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Flamethrower";
+                toolTip1.SetToolTip(Ability5_1, "Increases the cast range of Flamestrike by 50%.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Lingering Essence";
+                toolTip1.SetToolTip(Ability5_1, "Assimilation Shield duration increased to 12 seconds.");
+            }
         }
 
-        private void Ability5_2_MouseHover(object sender, EventArgs e)
+        //**ABILITY 5_2**//
+
+        private void Ability5_2_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Crippling Hammer";
                 toolTip1.SetToolTip(Ability5_2, "Increases the Movement Speed Slow of Hammerang to 50%.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Lunge";
+                toolTip1.SetToolTip(Ability5_2, "Increases the range of Dive by 30%.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Improved Ice Block";
+                toolTip1.SetToolTip(Ability5_2, "Activate to place yourself in Stasis and gain\nInvulnerability for 3 seconds. When this effect\nexpires, nearby enemies are Chilled.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Chain Bomb";
+                toolTip1.SetToolTip(Ability5_2, "Living Bomb's explosion applies Living Bomb to enemies.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Eviscerate";
+                toolTip1.SetToolTip(Ability5_2, "Increases the range of Ravage by 25%.");
+            }
         }
 
-        private void Ability5_3_MouseHover(object sender, EventArgs e)
+        //**ABILITY 5_3**//
+
+        private void Ability5_3_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Thunderstrikes";
                 toolTip1.SetToolTip(Ability5_3, "Lightning Rod deals 15% more damage each subsequent strike.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Friend or Foe";
+                toolTip1.SetToolTip(Ability5_3, "Can use Dive on allies (but you will not flip).\nWhen used this way, the cooldown is reduced by 2 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Icy Veins";
+                toolTip1.SetToolTip(Ability5_3, "Activate to make your Basic Abilities' cooldowns\nrecharge three times as fast and reduce their\nMana cost by 50% for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Pyromaniac";
+                toolTip1.SetToolTip(Ability5_3, "Every tick of Living Bomb's damage over time\neffect reduces Basic Ability cooldowns by 1 second.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Double Strike";
+                toolTip1.SetToolTip(Ability5_3, "When your Basic Abilities damage an enemy,\nyour next Basic Attack hits for 50% extra damage.");
+            }
         }
 
-        private void Ability5_4_MouseHover(object sender, EventArgs e)
+        //**ABILITY 5_4**//
+
+        private void Ability5_4_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Static Shield";
                 toolTip1.SetToolTip(Ability5_4, "Gain a Shield equal to 5% of your maximum Health after every Lightning Rod strike.\nLasts 4 seconds and stacks.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Unbound";
+                toolTip1.SetToolTip(Ability5_4, "Ignore all collision while using Sweeping Strike, allowing you to go over walls and terrain.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Sprint";
+                toolTip1.SetToolTip(Ability5_4, "Activate to gain 75% Movement Speed for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for 2 seconds.\nCan only trigger once every 30 seconds.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Sprint";
+                toolTip1.SetToolTip(Ability5_4, "Activate to gain 75% Movement Speed for 3 seconds.");
+            }
         }
 
-        private void Ability6_1_MouseHover(object sender, EventArgs e)
+        //**ABILITY 5_5**//
+
+        private void Ability5_5_MouseHover(object sender, EventArgs e)
+        {
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Sixth Sense";
+                toolTip1.SetToolTip(Ability5_5, "Take 50% reduced damage from Abilities while Evasion is active.");
+            }
+        }
+
+        //**ABILITY 6_1**//
+
+        private void Ability6_1_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Aerie Gusts";
                 toolTip1.SetToolTip(Ability6_1, "Reduce activation time for Tailwind to 2 seconds,\nand increase the Movement Speed bonus to 30%.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Hunter's Onslaught";
+                toolTip1.SetToolTip(Ability6_1, "Abilities heal for 15% of damage dealt.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Snow Crash";
+                toolTip1.SetToolTip(Ability6_1, "Increases the number of Blizzard waves from 2 to 3.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Ignite";
+                toolTip1.SetToolTip(Ability6_1, "Flamestrike also applies Living Bomb to Heroes.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Aggressive Defense";
+                toolTip1.SetToolTip(Ability6_1, "Assimilation Shields earned from Basic Attacks\nand Abilities increased by 100%.");
+            }
         }
 
-        private void Ability6_2_MouseHover(object sender, EventArgs e)
+        //**ABILITY 6_2**//
+
+        private void Ability6_2_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Hammer Time";
                 toolTip1.SetToolTip(Ability6_2, "Your first Basic Attack against a target slowed by\nHammerang will stun them for 0.75 seconds.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Second Sweep";
+                toolTip1.SetToolTip(Ability6_2, "Store up to 2 charges of Sweeping Strike.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Northern Exposure";
+                toolTip1.SetToolTip(Ability6_2, "Enemies damaged by Cone of Cold are also\nafflicted with Vulnerable, increasing the damage\nthey take by 25% for 2 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Backdraft";
+                toolTip1.SetToolTip(Ability6_2, "Living Bomb's explosion slows enemies\nMovement Speed by 40% for 2.5 seconds.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Blade Torrent";
+                toolTip1.SetToolTip(Ability6_2, "Impaling Blades radius increased by 30%.");
+            }
         }
 
-        private void Ability6_3_MouseHover(object sender, EventArgs e)
+        //**ABILITY 6_3**//
+
+        private void Ability6_3_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Afterburner";
                 toolTip1.SetToolTip(Ability6_3, "After using Barrel Roll, gain 60% Movement\nSpeed that decreases over 3 seconds.");
             }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Blood for Blood";
+                toolTip1.SetToolTip(Ability6_3, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Numbing Blast";
+                toolTip1.SetToolTip(Ability6_3, "Cone of Cold also roots Chilled targets for 1 second.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Gravity Throw";
+                toolTip1.SetToolTip(Ability6_3, "Increases the duration of Gravity Lapse's stun\nby 33% and causes it to instantly destroy Minions.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Blood for Blood";
+                toolTip1.SetToolTip(Ability6_3, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+            }
+
         }
 
-        private void Ability6_4_MouseHover(object sender, EventArgs e)
+        //**ABILITY 6_4**//
+
+        private void Ability6_4_MouseHover_1(object sender, EventArgs e)
         {
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Overdrive";
                 toolTip1.SetToolTip(Ability6_4, "Activate to increase Ability Power by 25% and\nMana costs by 40% for 5 seconds.");
             }
-        }
 
-        private void Ability7_1_MouseHover(object sender, EventArgs e)
-        {
-            if (lblHero.Text == "Falstad")
+            if (lblHero.Text == "Illidan")
             {
-                toolTip1.ToolTipTitle = "Call of the Wildhammer";
-                toolTip1.SetToolTip(Ability7_1, "Hinterland Blast has double the range and deals\n25% more damage.");
+                toolTip1.ToolTipTitle = "Stoneskin";
+                toolTip1.SetToolTip(Ability6_4, "Activate to gain 30% of your maximum Health as a Shield for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Ice Barrier";
+                toolTip1.SetToolTip(Ability6_4, "When Jaina does increased damage from\nFrostbite, she is shielded for 25% of the total\ndamage dealt. This Shield lasts 3 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Arcane Barrier";
+                toolTip1.SetToolTip(Ability6_4, "Activate to gain a Shield equal to 200% of your\nmaximum Mana for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Overdrive";
+                toolTip1.SetToolTip(Ability6_4, "Activate to increase Ability Power by 25% and\nMana costs by 40% for 5 seconds.");
             }
         }
 
-        private void Ability7_2_MouseHover(object sender, EventArgs e)
-        {
-            if (lblHero.Text == "Falstad")
-            {
-                toolTip1.ToolTipTitle = "Wind Tunnel";
-                toolTip1.SetToolTip(Ability7_2, "Mighty Gust creates a wind tunnel for 4 seconds.\nEnemies caught in the tunnel will periodically be pushed back.");
-            }
-        }
-
-        private void Ability7_3_MouseHover(object sender, EventArgs e)
-        {
-            if (lblHero.Text == "Falstad")
-            {
-                toolTip1.ToolTipTitle = "Nexus Frenzy";
-                toolTip1.SetToolTip(Ability7_3, "Increases Attack Speed by 20% and Attack Range by 20%.");
-            }
-        }
-
-        private void Ability7_4_MouseHover(object sender, EventArgs e)
-        {
-            if (lblHero.Text == "Falstad")
-            {
-                toolTip1.ToolTipTitle = "Epic Mount";
-                toolTip1.SetToolTip(Ability7_4, "Reduce the cooldown of Flight to 20 seconds,\nreduce the cast time before flying to 0.5 seconds,\nand increase the speed by 50%.");
-            }
-        }
-
-        private void picR1Ability_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void picR2Ability_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void picTrait_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability1_2_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability1_3_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability1_4_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability1_5_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability2_1_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability2_2_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability2_3_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability2_4_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability2_5_MouseHover(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability3_1_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability3_2_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability3_3_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability3_4_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability3_5_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability4_1_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability4_2_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability5_1_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability5_2_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability5_3_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability5_4_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability5_5_MouseHover(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability6_1_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability6_2_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability6_3_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Ability6_4_MouseHover_1(object sender, EventArgs e)
-        {
-
-        }
+        //**ABILITY 6_5**//
 
         private void Ability6_5_MouseHover(object sender, EventArgs e)
         {
 
         }
 
+        //**ABILITY 7_1**//
+
         private void Ability7_1_MouseHover_1(object sender, EventArgs e)
         {
+            if (lblHero.Text == "Falstad")
+            {
+                toolTip1.ToolTipTitle = "Call of the Wildhammer";
+                toolTip1.SetToolTip(Ability7_1, "Hinterland Blast has double the range and deals\n25% more damage.");
+            }
 
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Demonic Form";
+                toolTip1.SetToolTip(Ability7_1, "Permanently remain in Demonic Form.\nIncreases the Attack Speed bonus of Demonic Form to 30%\nand grants a 50% reduction in the duration of disabling effects.\nIllidan can now mount in this form.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Cold Snap";
+                toolTip1.SetToolTip(Ability7_1, "The center of the ring also explodes with frost\nafter the first ring expires.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Rebirth";
+                toolTip1.SetToolTip(Ability7_1, "Increases Phoenix duration by 100%.\nYou may order the Phoenix to move to a different location once\nwhile the Phoenix is alive.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Omegastorm";
+                toolTip1.SetToolTip(Ability7_1, "Maelstrom size increased by 25%.\nAmount of Assimilation Shields generated by Maelstrom\nincreased by 100%.");
+            }
         }
+
+        //**ABILITY 7_2**//
 
         private void Ability7_2_MouseHover_1(object sender, EventArgs e)
         {
+            if (lblHero.Text == "Falstad")
+            {
+                toolTip1.ToolTipTitle = "Wind Tunnel";
+                toolTip1.SetToolTip(Ability7_2, "Mighty Gust creates a wind tunnel for 4 seconds.\nEnemies caught in the tunnel will periodically be pushed back.");
+            }
 
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Nowhere to Hide";
+                toolTip1.SetToolTip(Ability7_2, "Grants The Hunt global range.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Wintermute";
+                toolTip1.SetToolTip(Ability7_2, "Your Water Elemental will now mimic your\nFrostbolt, Blizzard, and Cone of Cold Abilities for\n50% damage. Cast range increased by 50%.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Presence of Mind";
+                toolTip1.SetToolTip(Ability7_2, "Increases Pyroblast's explosion radius by 50%\nand reduces its cooldown by 10 seconds per\nenemy Hero hit.");
+            }
+
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Torrasque";
+                toolTip1.SetToolTip(Ability7_2, "The Ultralisk morphs into an egg when it dies.\nIf the egg isn't killed within 8 seconds, a new Ultralisk is born.\nThis can only occur once per Ultralisk.");
+            }
         }
+
+        //**ABILITY 7_3**//
 
         private void Ability7_3_MouseHover_1(object sender, EventArgs e)
         {
+            if (lblHero.Text == "Falstad")
+            {
+                toolTip1.ToolTipTitle = "Nexus Frenzy";
+                toolTip1.SetToolTip(Ability7_3, "Increases Attack Speed by 20% and Attack Range by 20%.");
+            }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Nexus Blades";
+                toolTip1.SetToolTip(Ability7_3, "Basic attacks deal 20% more damage and slow the target for 1 second.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Arcane Power";
+                toolTip1.SetToolTip(Ability7_3, "Activate to instantly restore 400 Mana\nand increase Ability Power by 15% for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_3, "Activate to teleport to a nearby location.");
+            }
+
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Nexus Blades";
+                toolTip1.SetToolTip(Ability7_3, "Basic attacks deal 20% more damage and slow\nthe target for 1 second.");
+            }
 
         }
+
+        //**ABILITY 7_4**//
 
         private void Ability7_4_MouseHover_1(object sender, EventArgs e)
         {
+            if (lblHero.Text == "Falstad")
+            {
+                toolTip1.ToolTipTitle = "Epic Mount";
+                toolTip1.SetToolTip(Ability7_4, "Reduce the cooldown of Flight to 20 seconds,\nreduce the cast time before flying to 0.5 seconds,\nand increase the speed by 50%.");
+            }
+
+            if (lblHero.Text == "Illidan")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "Jaina")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "Kael'Thas")
+            {
+                toolTip1.ToolTipTitle = "Arcane Power";
+                toolTip1.SetToolTip(Ability7_4, "Activate to instantly restore 400 Mana =\nand increase Ability Power by 15% for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Kerrigan")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            }
 
         }
+
+        //**ABILITY 7_5**//
 
         private void Ability7_5_MouseHover(object sender, EventArgs e)
         {
 
         }
 
+        //**SPECIAL 1**//
+
         private void picSpec1_MouseHover(object sender, EventArgs e)
         {
-
+            if (lblHero.Text == "Falstad")
+            {
+                toolTip1.ToolTipTitle = "Flight";
+                toolTip1.SetToolTip(picSpec1, "Cooldown: 45 seconds\n\nInstead of mounting, you can fly a great distance over terrain.");
+            }
         }
+
+        //**SPECIAL 2**//
 
         private void picSpec2_MouseHover(object sender, EventArgs e)
         {
 
         }
 
+        //**SPECIAL 3**//
+
         private void picSpec3_MouseHover(object sender, EventArgs e)
         {
 
         }
+
+        //**SPECIAL 4**//
 
         private void picSpec4_MouseHover(object sender, EventArgs e)
         {
