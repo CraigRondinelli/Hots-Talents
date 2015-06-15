@@ -133,7 +133,7 @@ namespace Hots_Talents
             trackbarlabel.Text = "Level " + trackBar1.Value.ToString();
         }
 
-        int growW = 150;
+        int growW = 154;
         int growH = 50;
 
         private void Form1_Load(object sender, EventArgs e)
@@ -149,6 +149,11 @@ namespace Hots_Talents
 
         void initial()
         {
+            if (this.Width >= 846)
+            {
+                panel1.Visible = false;
+            }
+
             if (lblHero.Text == "Abathur")
             {
                 lblSpecial.Visible = true;
@@ -2535,6 +2540,13 @@ namespace Hots_Talents
             Ability7_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Nova\Talents\Tier 20\64px-Precision_Barrage_Icon.png");
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Nova\Talents\Tier 20\Rewind_Icon.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Nova\Talents\Tier 20\64px-Bolt_of_the_Storm_Icon.png");
+
+            lblHealth.Text = "700";
+            lblHealthRegen.Text = "1.457";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.00";
+            lblDamage.Text = "40";
         }
 
         //**RAYNOR**//
@@ -2619,7 +2631,12 @@ namespace Hots_Talents
             Ability7_5.Visible = true;
             Ability7_5.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Raynor\Talents\Tier 20\bolt-of-the-storm-talent.png");
 
-
+            lblHealth.Text = "725";
+            lblHealthRegen.Text = "1.5117";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "35";
         }
 
         //**THRALL**//
@@ -2700,6 +2717,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Thrall\Talents\Tier 20\nexus-blades.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Thrall\Talents\Tier 20\bolt-of-the-storm-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "875";
+            lblHealthRegen.Text = "1.8242";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "0.91";
+            lblDamage.Text = "55";
         }
 
         //**TYCHUS**//
@@ -5007,7 +5031,7 @@ namespace Hots_Talents
                 int KerriganHealth = 830;
                 double KerriganHRegen = 1.644;
                 int KerriganMana = 500;
-                double KerriganMRegen = .098;
+                double KerriganMRegen = 3;
                 int KerriganDamage = 40;
 
                 lblHealth.Text = (KerriganHealth + (trackBar1.Value - 1) * 150).ToString();
@@ -5015,6 +5039,51 @@ namespace Hots_Talents
                 lblMana.Text = (KerriganMana + (trackBar1.Value - 1) * 10).ToString();
                 lblManaRegen.Text = (KerriganMRegen + (trackBar1.Value - 1) * .098).ToString();
                 lblDamage.Text = (KerriganDamage + (trackBar1.Value - 1) * 11).ToString();
+            }
+
+            if (lblHero.Text == "Nova")
+            {
+                int NovaHealth = 700;
+                double NovaHRegen = 1.457;
+                int NovaMana = 500;
+                double NovaMRegen = 3;
+                int NovaDamage = 40;
+
+                lblHealth.Text = (NovaHealth + (trackBar1.Value - 1) * 110).ToString();
+                lblHealthRegen.Text = (NovaHRegen + (trackBar1.Value - 1) * .227).ToString();
+                lblMana.Text = (NovaMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (NovaMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (NovaDamage + (trackBar1.Value - 1) * 10).ToString();
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                int RaynorHealth = 725;
+                double RaynorHRegen = 1.5117;
+                int RaynorMana = 500;
+                double RaynorMRegen = 3;
+                int RaynorDamage = 35;
+
+                lblHealth.Text = (RaynorHealth + (trackBar1.Value - 1) * 120).ToString();
+                lblHealthRegen.Text = (RaynorHRegen + (trackBar1.Value - 1) * .250).ToString();
+                lblMana.Text = (RaynorMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (RaynorMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (RaynorDamage + (trackBar1.Value - 1) * 12).ToString();
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                int ThrallHealth = 875;
+                double ThrallHRegen = 1.8242;
+                int ThrallMana = 500;
+                double ThrallMRegen = 3;
+                int ThrallDamage = 55;
+
+                lblHealth.Text = (ThrallHealth + (trackBar1.Value - 1) * 160).ToString();
+                lblHealthRegen.Text = (ThrallHRegen + (trackBar1.Value - 1) * .332).ToString();
+                lblMana.Text = (ThrallMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (ThrallMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (ThrallDamage + (trackBar1.Value - 1) * 17).ToString();
             }
         }
 
@@ -5058,6 +5127,28 @@ namespace Hots_Talents
                 int kerrav = 50 + (20 * trackBar1.Value);
                 toolTip1.SetToolTip(picQAbility, "Mana: 75\nCooldown: 8 seconds\n\nLeap to a target, dealing " + kerrav.ToString() + " damage.\nIf this kills the target, its cooldown is instantly reset.");
             }
+
+              if (lblHero.Text == "Nova")
+            {
+		        int novasnipe = 115 + (31 * trackBar1.Value);
+                toolTip1.ToolTipTitle ="Snipe";
+                toolTip1.SetToolTip(picQAbility, "Mana: 65\nCooldown: 10 seconds\n\nDeals " + novasnipe.ToString() + "  damage to the first enemy hit.");
+            }
+
+              if (lblHero.Text == "Raynor")
+              {
+                  int raynorpen = 85 + (22 * trackBar1.Value);
+                  toolTip1.ToolTipTitle = "Penetrating Round";
+                  toolTip1.SetToolTip(picQAbility, "Mana: 60\nCooldown: 12 seconds\n\nDeals “ + raynorpen.ToString() + “ damage and knocks enemies back.");
+              }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  int thrallchain = 50 + (17 * trackBar1.Value);
+                  toolTip1.ToolTipTitle = "Chain Lightning";
+                  toolTip1.SetToolTip(picQAbility, "Mana: 40\nCharge Cooldown: 6 seconds\n\nDeal " + thrallchain.ToString() + " damage to an enemy and half that amount to 2 nearby enemies.");
+              }
+
         }
 
         //**W ABILITY**//
@@ -5101,6 +5192,27 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(picWAbility, "Mana: 60\nCooldown: 12 seconds\n\nDeals " + kerimpale.ToString() + "damage to enemies within the target area, stunning them for 1 second.");
             }
 
+
+            if (lblHero.Text == "Nova")
+            {
+                int novapin = 40 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Pinning Shot";
+                toolTip1.SetToolTip(picWAbility, "Mana: 65\nCooldown: 12 seconds\n\nDeal " + novapin.ToString() + " damage to an enemy and slow it by 30% for 2.25 seconds.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Inspire";
+                toolTip1.SetToolTip(picWAbility, "Mana: 40 \nCooldown: 10 seconds\n\nGain 30% bonus Attack Speed for 6 seconds.\nNearby allies gain half of the bonus.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                int thrallferal = 35 + (15 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Feral Spirit";
+                toolTip1.SetToolTip(picWAbility, "Mana: 60\nCooldown: 12 seconds\n\nSend out a Feral Spirit that deals " + thrallferal.ToString() + " damage to enemies in its path. Upon\nhitting an enemy Hero, the wolf stops and roots that hero in place for 1 second.");
+            }
+
         }
 
         //**E ABILITY**//
@@ -5140,6 +5252,24 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(picEAbility, "Mana: 50\nCooldown: 8 seconds\n\nPulls enemies within the target area towards you, dealing " + kerprimal.ToString() + " damage.");
             }
 
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Holo Decoy";
+                toolTip1.SetToolTip(picEAbility, "Mana: 50\nCooldown: 15 seconds\n\nCreate a decoy for 5 seconds that appears to attack enemies.\n\nUsing this Ability does not break Cloak.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                int raynorrush = 160 + (40 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Adrenaline Rush";
+                toolTip1.SetToolTip(picEAbility, "Cooldown: 45 seconds\n\nAutomatically activates to heal for “ + raynorrush.ToString() + “ when you are\nbelow 30% health.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Windfury";
+                toolTip1.SetToolTip(picEAbility, "Mana: 65\nCooldown: 12 seconds\n\nIncrease your Movement Speed by 30% for 4 seconds.\nYour next 3 Basic Attacks occur 100% faster.");
+            }
         }
 
         //**R1 ABILITY**//
@@ -5180,6 +5310,27 @@ namespace Hots_Talents
                 int kermael = 50 + (5 * trackBar1.Value);
                 toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 120 seconds\n\nDeals " + kermael.ToString() + " damage per second to nearby enemies. Lasts for 9 seconds.");
             }
+
+              if (lblHero.Text == "Nova")
+            {
+		        int novatriple = 80 + (33 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Triple Tap";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nLocks in on the target Hero, then fires 3 shots that hit the first Hero or\nStructure they come in contact with for " + novatriple.ToString() + " damage each.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+	            int raynorhyperionone = 25 + (6 * trackBar1.Value);
+	            int raynorhyperiontwo = 300 + (72 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Hyperion";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nOrder the Hyperion to make a strafing run dealing "  + raynorhyperionone.ToString() + "\n hitting up to 4 enemies. Also occasionally fires its Yamato Cannon\non Structures for " + raynorhyperiontwo.ToString() + " damage. Lasts 12 seconds.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  toolTip1.ToolTipTitle = "Earthquake";
+                  toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 90\nCooldown: 60 seconds\n\nSummon a massive Earthquake that periodically slows enemies in the area by 70%.\nLasts for 10 seconds.");
+              }
         }
 
         //**R2 ABILITY**//
@@ -5222,6 +5373,27 @@ namespace Hots_Talents
                 int kerultra = 40 + (8 * trackBar1.Value);
                 toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nSummon an Ultralisk that attacks the target to deal " + kerultra.ToString() + " damage.\nAttacks splash to nearby enemies for 50% damage.\nCan reactivate the Ability to retarget the Ultralisk.\nLasts for 20 seconds.");
             }
+
+              if (lblHero.Text == "Nova")
+            {
+		        int novastrike = 300 + (35 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Precision Strike";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCharge Cooldown: 60 seconds\n\nAfter a 1.5 second delay, deals " + novastrike.ToString() + " damage to enemies within an area.\n\nUnlimited range.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+	            int raynorraider = 16 + (4 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Raynor’s Raiders";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nSummon two Stealthed Banshees that attack an enemy. Each Banshee\ndeals “ + raynorraiders.ToString + “ damage a second and lasts 22 seconds. Can reactivate\nthe Ability to retarget the Banshees.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  int thrallsunder = 160 + (22 * trackBar1.Value);
+                  toolTip1.ToolTipTitle = "Sundering";
+                  toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 75\nCooldown: 70 seconds\n\nAfter a short delay, sunder the earth in a long line, dealing " + thrallsunder.ToString() + " damage and shoving\nenemies to the side, stunning them for 1.5 seconds.");
+              }
         }
 
         //**TRAIT**//
@@ -5258,6 +5430,26 @@ namespace Hots_Talents
                 int kerass = 200 + (100 * trackBar1.Value);
                 toolTip1.SetToolTip(picTrait, "Gain 10% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds.\nShield amount gained doubled against Heroes.\nCurrent maximum: " + kerass.ToString() + ".");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Permanent Cloak, Sniper";
+                toolTip1.SetToolTip(picTrait, "Cooldown: 3 seconds\n\nGain Stealth when out of combat for 3 seconds. Taking damage, attacking, or\nchanneling reveals you.\n\nBasic Attack range is 20% further than other ranged Heroes, and you see 10%\nfurther than other Heroes.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Advanced Optics";
+                toolTip1.SetToolTip(picTrait, "Basic Attack range is 20% further than other ranged Heroes, and you\nsee 10% further than other Heroes.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  int thrallfrostwolf = 60 + (30 * trackBar1.Value);
+                  toolTip1.ToolTipTitle = "Frostwolf Resilience";
+                  toolTip1.SetToolTip(picTrait, "Dealing damage with Abilities grants 1 stack of Frostwolf Resilience.At 5 stacks, you are instantly\nhealed for" + thrallfrostwolf.ToString() + " Health.");
+              }
+
         }
 
         //**ABILITY 1_1**//
@@ -5293,6 +5485,24 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Siphoning Impact";
                 toolTip1.SetToolTip(Ability1_1, "Ravage heals you for 10.15% of your maximum\nHealth if it hits an enemy");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Conjurer's Pursuit";
+                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases this bonus by 0.25.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Give Me More!";
+                toolTip1.SetToolTip(Ability1_1, "Increases Adrenaline Rush healing by 50%.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  toolTip1.ToolTipTitle = "Block";
+                  toolTip1.SetToolTip(Ability1_1, "Periodically reduces the damage received from\nHero Basic Attacks by 50% . Stores up to 2\ncharges.");
+              }
         }
 
         //**ABILITY 1_2**//
@@ -5329,6 +5539,25 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Sharpened Blades";
                 toolTip1.SetToolTip(Ability1_2, "Impaling Blades deals 20% more damage.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Psi-Op Rangefinder";
+                toolTip1.SetToolTip(Ability1_2, "Increases Snipe's range by 20% and reduces\nthe Cooldown by 2 seconds.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Seasoned Marksman";
+                toolTip1.SetToolTip(Ability1_2, "For every 6 enemy Minion or Mercenary kills\nnear your Hero, gain 1 Basic Attack damage.\nHero Takedowns count as 2 Minion kills.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  toolTip1.ToolTipTitle = "Champions Restitution";
+                  toolTip1.SetToolTip(Ability1_2, "Increases Chain Lightning's range by 30% and\nattacking enemies recently hit by Chain\nLightning restores 10 Mana.");
+              }
+
         }
 
         //**ABILITY 1_3**//
@@ -5365,6 +5594,24 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Sweeping Grasp";
                 toolTip1.SetToolTip(Ability1_3, "Increases the range of Primal Grasp by 20%.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Ambush Snipe";
+                toolTip1.SetToolTip(Ability1_3, "Increases Snipe's damage by 20% when used\nfrom Cloak or within one second of being Cloaked.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Raiders Recruitment";
+                toolTip1.SetToolTip(Ability1_3, "Kill enemy Minions to gain stacks of\nRecruitment. Use 15 stacks to recruit target\nMercenary, instantly defeating them. Does not\nwork on Bosses. Maximum 50 stacks.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  toolTip1.ToolTipTitle = "Rabid Wolves";
+                  toolTip1.SetToolTip(Ability1_3, "Damaging Heroes with Feral Spirit grants 3\nstacks of Frostwolf Resilience");
+              }
         }
 
         //**ABILITY 1_4**//
@@ -5401,6 +5648,25 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Block";
                 toolTip1.SetToolTip(Ability1_4, "Periodically reduces the damage received from Hero Basic Attacks by 50%.\nStores up to 2 charges.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Tazer Rounds";
+                toolTip1.SetToolTip(Ability1_4, "Increases the duration of Pinning Shot's slow to\n4 seconds.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Scouting Drone";
+                toolTip1.SetToolTip(Ability1_4, "Places a Scouting Drone at target location,\nrevealing a large area around it for 45 seconds.\nThis drone cannot be hidden and is killed by\nenemies with 2 Basic Attacks.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  toolTip1.ToolTipTitle = "Seasoned Marksman";
+                  toolTip1.SetToolTip(Ability1_4, "For every 6 enemy Minion or Mercenary kills\nnear your Hero, gain 1 Basic Attack damage.\nHero Takedowns count as 2 Minion kills.");
+              }
+
         }
 
         //**ABILITY 1_5**//
@@ -5454,6 +5720,24 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Focused Attack";
                 toolTip1.SetToolTip(Ability2_1, "Every 10 seconds, your next Basic Attack deals\n75% additional damage. Basic Attacks reduce\nthis cooldown by 1 second.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Perfect Shot";
+                toolTip1.SetToolTip(Ability2_1, "Hitting an enemy Hero with Snipe refunds 50%\nof the Mana cost. Killing an enemy Hero with\nSnipe refunds 100% of the Mana cost.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Focused Attacks";
+                toolTip1.SetToolTip(Ability2_1, "Every 10 seconds, your next Basic Attack deals\n75% additional damage. Basic Attacks reduce\nthis cooldown by 1 second.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  toolTip1.ToolTipTitle = "Ride The Lightning";
+                  toolTip1.SetToolTip(Ability2_1, "Chain Lightning can hit 2 additional enemies for\n50% damage.");
+              }
         }
 
         //**ABILITY 2_2**//
@@ -5488,6 +5772,24 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Fury of the Swarm";
                 toolTip1.SetToolTip(Ability2_2, "Basic Attacks splash for 50% damage around Kerrigan.");
+            }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Remote Delivery";
+                toolTip1.SetToolTip(Ability2_2, "Reduces the cooldown of Holo Decoy by 3\nseconds, and increases the range by 100%.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Vampiric Assault";
+                toolTip1.SetToolTip(Ability2_2, "Basic Attacks heal for 15% of the damage dealt\nto the primary target.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Spirit Journey";
+                toolTip1.SetToolTip(Ability2_2, "Feral Spirit travels 50% farther.");
             }
         }
 
@@ -5524,6 +5826,24 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Clean Kill";
                 toolTip1.SetToolTip(Ability2_3, "If Ravage kills the target, it also restores 100% of its Mana cost.");
+            }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Gathering Power";
+                toolTip1.SetToolTip(Ability2_3, "Passively grants 5% Ability Power.\nEach Hero takedown increases this bonus by 2% to a maximum of 15%.\nThis bonus Ability Power is reset to 5% on death.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Confident Aim";
+                toolTip1.SetToolTip(Ability2_3, "Lowers the cooldown of Penetrating Round by 4\nseconds if it hits an enemy Hero.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Mana Tide";
+                toolTip1.SetToolTip(Ability2_3, "Frostwolf Resilience also restores 15 Mana.");
             }
         }
 
@@ -5563,6 +5883,27 @@ namespace Hots_Talents
                 int kerpsi = 60 + (12 * trackBar1.Value);
                 toolTip1.SetToolTip(Ability2_4, "After casting Primal Grasp, deal " + kerpsi.ToString() + " damage over 5 seconds to nearby enemies.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Envenom";
+                int novavenom = 180 + (30 * trackBar1.Value);
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + novavenom.ToString() + " damage over 5 seconds.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Activated Rush";
+                toolTip1.SetToolTip(Ability2_4, "Lowers the cooldown of Adrenaline Rush by 10\nseconds, and it can now be manually activated.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                int thrallvenom = 180 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Envenom";
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing\n" + thrallvenom.ToString() + " damage over 5 seconds.");
+            }
+
 
         }
 
@@ -5612,6 +5953,24 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Battle Momentum";
                 toolTip1.SetToolTip(Ability3_1, "Basic Attacks reduce Ability cooldowns by 0.5 seconds.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Explosive Round";
+                toolTip1.SetToolTip(Ability3_1, "Snipe also deals 50% damage to enemies near\nthe impact.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Hamstring Shot";
+                toolTip1.SetToolTip(Ability3_1, "Enemies hit by Penetrating Round have a 20%\nMovement Speed slow for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Wind Shear";
+                toolTip1.SetToolTip(Ability3_1, "Reduces the cooldown of Windfury by 4 seconds.");
+            }
         }
 
         //**ABILITY 3_2**//
@@ -5647,6 +6006,25 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Impaling Swarm";
                 toolTip1.SetToolTip(Ability3_2, "Impaling Blades spawns 2 Zerglings at the target location.");
+            }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "One in the Chamber";
+                toolTip1.SetToolTip(Ability3_2, "After using an ability, your next Basic Attack\ndeals 80% additional damage.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Revolution Overdrive";
+                toolTip1.SetToolTip(Ability3_2, "Gain 10% Movement Speed while affected by\nInspire. Increase this bonus by 5% for each\nallied Hero nearby when Inspire is cast.");
+            }
+
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Stone Wolves";
+                toolTip1.SetToolTip(Ability3_2, "Increases the duration of Feral Spirit's root from\n1 second to 1.5 seconds.");
             }
         }
 
@@ -5684,6 +6062,24 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Adapation";
                 toolTip1.SetToolTip(Ability3_3, "Ravage can be used to jump to allies for half the cooldown.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Anti-Armor Shells";
+                toolTip1.SetToolTip(Ability3_3, "Your Basic Attacks deal 250% damage, but your\nAttack Speed is proportionally slower.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Fight or Flight";
+                toolTip1.SetToolTip(Ability3_3, "When Adrenaline Rush activates it removes all\nstuns, roots, silences, and slows.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  toolTip1.ToolTipTitle = "Follow Through";
+                  toolTip1.SetToolTip(Ability3_3, "After using an ability, your next Basic Attack\nwithin 6 seconds deals 40% additional damage.");
+              }
         }
 
         //**ABILITY 3_4**//
@@ -5714,10 +6110,28 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability3_4, "Activate to reveal an area for 10 seconds.\nEnemies in the area are revealed for 4 seconds.");
             }
 
-              if (lblHero.Text == "Kerrigan")
+            if (lblHero.Text == "Kerrigan")
             {
                 toolTip1.ToolTipTitle = "Searing Attacks";
                 toolTip1.SetToolTip(Ability3_4, "Activate to increase Basic Attack damage by 50% for 5 seconds.\nEach attack costs 15 Mana.");
+            }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Covert Ops";
+                toolTip1.SetToolTip(Ability3_4, "Increases the Movement Speed slow of Pinning\nShot by 1% for every second that Nova is\nCloaked, to a maximum of a 50% slow. Bonus\nfades when Nova is un-Cloaked for one second.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Mercenary Lord";
+                toolTip1.SetToolTip(Ability3_4, "Siege and Bruiser Mercenaries near your hero\ndeal 50% more damage.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Frostwolf's Grace";
+                toolTip1.SetToolTip(Ability3_4, "Frostwolf Resilience can be activated to\nimmediately heal Thrall.");
             }
         }
 
@@ -5767,7 +6181,7 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Phoenix";
                 int kaelphoenix = 10 + (8 * trackBar1.Value);
-                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 80\nCooldown: 40 seconds\n\nLaunch a Phoenix to an area, dealing " + kaelphoenix.ToString() + " damage to enemies along the way.\nThe Phoenix persists for 7 seconds, attacking enemies for " + kaelphoenix.ToString() + " damage and splashing for 50%.");
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 80\nCooldown: 40 seconds\n\nLaunch a Phoenix to an area, dealing " + kaelphoenix.ToString() + " damage to enemies along the way.\nThe Phoenix persists for 7 seconds, attacking enemies for " + kaelphoenix.ToString() + " damage and splashing for 50%.");
             }
 
             if (lblHero.Text == "Kerrigan")
@@ -5776,6 +6190,27 @@ namespace Hots_Talents
                 int kermael = 50 + (5 * trackBar1.Value);
                 toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 120 seconds\n\nDeals " + kermael.ToString() + " damage per second to nearby enemies. Lasts for 9 seconds.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                int novatriple = 80 + (33 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Triple Tap";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nLocks in on the target Hero, then fires 3 shots that hit the first Hero or\nStructure they come in contact with for " + novatriple.ToString() + " damage each.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+	            int raynorhyperionone = 25 + (6 * trackBar1.Value);
+	            int raynorhyperiontwo = 300 + (72 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Hyperion";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nOrder the Hyperion to make a strafing run dealing " + raynorhyperionone.ToString() + "\n hitting up to 4 enemies. Also occasionally fires its Yamato Cannon\non Structures for " + raynorhyperiontwo.ToString() + " damage. Lasts 12 seconds.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  toolTip1.ToolTipTitle = "Earthquake";
+                  toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 90\nCooldown: 60 seconds\n\nSummon a massive Earthquake that periodically slows enemies in the area by 70%.\nLasts for 10 seconds.");
+              }
         }
 
         //**ABILITY 4_2**//
@@ -5809,7 +6244,7 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Pyroblast";
                 int kaelpyroone = 300 + (65 * trackBar1.Value);
                 double kaelpyrotwo = 150 + (32.5 * trackBar1.Value);
-                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 80\nCooldown: 50 seconds\n\nAfter 2 seconds, cast a slow-moving fireball that deals " + kaelpyroone.ToString() + " damage\nto an enemy Hero and " + kaelpyrotwo.ToString() + " damage to enemies nearby.");
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 80\nCooldown: 50 seconds\n\nAfter 2 seconds, cast a slow-moving fireball that deals " + kaelpyroone.ToString() + " damage\nto an enemy Hero and " + kaelpyrotwo.ToString() + " damage to enemies nearby.");
             }
 
               if (lblHero.Text == "Kerrigan")
@@ -5819,7 +6254,26 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nSummon an Ultralisk that attacks the target to deal " + kerultra.ToString() + " damage.\nAttacks splash to nearby enemies for 50% damage.\nCan reactivate the Ability to retarget the Ultralisk.\nLasts for 20 seconds.");
             }
 
+            if (lblHero.Text == "Nova")
+            {
+                int novastrike = 300 + (35 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Precision Strike";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCharge Cooldown: 60 seconds\n\nAfter a 1.5 second delay, deals " + novastrike.ToString() + " damage to enemies within an area.\n\nUnlimited range.");
+            }
 
+            if (lblHero.Text == "Raynor")
+            {
+                int raynorraider = 16 + (4 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Raynor’s Raiders";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nSummon two Stealthed Banshees that attack an enemy. Each Banshee\ndeals “ + raynorraiders.ToString + “ damage a second and lasts 22 seconds. Can reactivate\nthe Ability to retarget the Banshees.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                int thrallsunder = 160 + (22 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Sundering";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 75\nCooldown: 70 seconds\n\nAfter a short delay, sunder the earth in a long line, dealing " + thrallsunder.ToString() + " damage and shoving\nenemies to the side, stunning them for 1.5 seconds.");
+            }
         }
 
         //**ABILITY 5_1**//
@@ -5854,6 +6308,24 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Lingering Essence";
                 toolTip1.SetToolTip(Ability5_1, "Assimilation Shield duration increased to 12 seconds.");
+            }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Lethal Decoy";
+                toolTip1.SetToolTip(Ability5_1, "Holo Decoy now deals 25% of Nova's damage.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Giant Killer";
+                toolTip1.SetToolTip(Ability5_1, "Basic Attacks against enemy Heroes deal bonus\ndamage equal to 1.5% of the Hero's maximum Health.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Restless Wolves";
+                toolTip1.SetToolTip(Ability5_1, "If Feral Spirit hits an enemy Hero, its cooldown\nis reduced by 50% .");
             }
         }
 
@@ -5890,6 +6362,24 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Eviscerate";
                 toolTip1.SetToolTip(Ability5_2, "Increases the range of Ravage by 25%.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Advanced Cloaking";
+                toolTip1.SetToolTip(Ability5_2, "While Stealthed from Permanent Cloak, your\nMovement Speed is increased by 25% and you\nheal for 1.95% of your maximum Health per second.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Double-Barreled";
+                toolTip1.SetToolTip(Ability5_2, "Penetrating Round gains a second charge.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Grace of Air";
+                toolTip1.SetToolTip(Ability5_2, "Windfury attacks grant twice as many stacks of\nFrostwolf Resilience.");
+            }
         }
 
         //**ABILITY 5_3**//
@@ -5925,6 +6415,24 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Double Strike";
                 toolTip1.SetToolTip(Ability5_3, "When your Basic Abilities damage an enemy,\nyour next Basic Attack hits for 50% extra damage.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Headshot";
+                toolTip1.SetToolTip(Ability5_3, "Reduces your Ability cooldowns by 4 seconds when you kill an enemy Hero.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Steel Resolve";
+                toolTip1.SetToolTip(Ability5_3, "Increases Inspire's duration by 50% and causes\nAdrenaline Rush to also apply Inspire.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Giant Killer";
+                toolTip1.SetToolTip(Ability5_3, "Basic Attacks against enemy Heroes deal bonus\ndamage equal to 1.5% of the Hero's maximum\nHealth.");
+            }
         }
 
         //**ABILITY 5_4**//
@@ -5959,6 +6467,24 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Sprint";
                 toolTip1.SetToolTip(Ability5_4, "Activate to gain 75% Movement Speed for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for 2 seconds.\nCan only trigger once every 30 seconds.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Puttin’ On a Clinic";
+                toolTip1.SetToolTip(Ability5_4, "Whenever an enemy you have recently\ndamaged is destroyed, your Ability cooldowns\nare reduced by 1.5 seconds.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
             }
         }
 
@@ -6006,6 +6532,25 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Aggressive Defense";
                 toolTip1.SetToolTip(Ability6_1, "Assimilation Shields earned from Basic Attacks\nand Abilities increased by 100%.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Railgun";
+                toolTip1.SetToolTip(Ability6_1, "Snipe penetrates through the first enemy hit\nand deals 50% damage to subsequent targets.\nSnipe cooldown is reduced by 1 second for each\ntarget hit.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Executioner";
+                toolTip1.SetToolTip(Ability6_1, "Basic Attacks deal 40% more damage against\nslowed, rooted, or stunned targets.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Forked Lightning";
+                toolTip1.SetToolTip(Ability6_1, "Allows Chain Lightning to hold 2 charges that\ncan be used in quick succession.");
+            }
+
         }
 
         //**ABILITY 6_2**//
@@ -6040,6 +6585,24 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Blade Torrent";
                 toolTip1.SetToolTip(Ability6_2, "Impaling Blades radius increased by 30%.");
+            }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Crippling Shot";
+                toolTip1.SetToolTip(Ability6_2, "Enemies hit by Pinning shot become Vulnerable,\ntaking 25% increased damage for the duration\nof the slow.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Cluster Round";
+                toolTip1.SetToolTip(Ability6_2, "Penetrating Round damage is increased by 10%\nfor each additional target hit, and the width is\nincreased by 50% .");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Tempest Fury";
+                toolTip1.SetToolTip(Ability6_2, "The final strike of Windfury hits 3 times for 75%\nnormal damage.");
             }
         }
 
@@ -6077,6 +6640,23 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability6_3, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
             }
 
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Double Fake";
+                toolTip1.SetToolTip(Ability6_3, "Casting Holo Decoy creates an additional Decoy\nat your current location.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Bullseye";
+                toolTip1.SetToolTip(Ability6_3, "The first enemy hit by Penetrating Round is\nstunned for 1 second and takes 50% more damage.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Ride The Wind";
+                toolTip1.SetToolTip(Ability6_3, "Increases Windfury's Movement Speed bonus\nfrom 30% to 40% . Windfury attacks increase\nthe Movement Speed duration by 1 second.");
+            }
         }
 
         //**ABILITY 6_4**//
@@ -6112,12 +6692,36 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Overdrive";
                 toolTip1.SetToolTip(Ability6_4, "Activate to increase Ability Power by 25% and\nMana costs by 40% for 5 seconds.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Overdrive";
+                toolTip1.SetToolTip(Ability6_4, "Activate to increase Ability Power by 25% and\nMana costs by 40% for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Relentless Leader";
+                toolTip1.SetToolTip(Ability6_4, "Reduces the duration of silences, stuns, slows,\nroots, and polymorphs against you by 50%.\nOnce every 5 seconds, if you are stunned you\nknock nearby enemies away.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Blood for Blood";
+                toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+            }
         }
 
         //**ABILITY 6_5**//
 
         private void Ability6_5_MouseHover(object sender, EventArgs e)
         {
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Berserk";
+                toolTip1.SetToolTip(Ability6_5, "Activate to increase your Attack Speed by 40%\nand Movement Speed by 10% for 4 seconds.");
+            }
 
         }
 
@@ -6154,6 +6758,25 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Omegastorm";
                 toolTip1.SetToolTip(Ability7_1, "Maelstrom size increased by 25%.\nAmount of Assimilation Shields generated by Maelstrom\nincreased by 100%.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Fast Reload";
+                toolTip1.SetToolTip(Ability7_1, "Triple Tap's cooldown is reset if it kills an enemy Hero.");
+            }
+
+              if (lblHero.Text == "Raynor")
+            {
+	            double raynorearth = 15 + (3.6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Scorched Earth";
+                toolTip1.SetToolTip(Ability7_1, "An additional set of lasers blast the ground 5\ntimes per second, dealing “ + raynorearth.ToString() + “ damage in an area.");
+            }
+
+              if (lblHero.Text == "Thrall")
+              {
+                  toolTip1.ToolTipTitle = "Worldbreaker";
+                  toolTip1.SetToolTip(Ability7_1, "Sundering travels indefinitely.");
+              }
         }
 
         //**ABILITY 7_2**//
@@ -6190,6 +6813,24 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Torrasque";
                 toolTip1.SetToolTip(Ability7_2, "The Ultralisk morphs into an egg when it dies.\nIf the egg isn't killed within 8 seconds, a new Ultralisk is born.\nThis can only occur once per Ultralisk.");
             }
+
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Precision Barrage";
+                toolTip1.SetToolTip(Ability7_2, "Precision Strike now holds two charges with a short cooldown.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Dusk Wings";
+                toolTip1.SetToolTip(Ability7_2, "Banshees remain Stealthed while attacking and fire\n50% more frequently.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Eathern Shields";
+                toolTip1.SetToolTip(Ability7_2, "You and your allies within the Earthquake area\ngain a Shield equal to 15% of max Health each\npulse. This shield lasts 4 seconds.");
+            }
         }
 
         //**ABILITY 7_3**//
@@ -6220,13 +6861,29 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability7_3, "Activate to teleport to a nearby location.");
             }
 
-
             if (lblHero.Text == "Kerrigan")
             {
                 toolTip1.ToolTipTitle = "Nexus Blades";
                 toolTip1.SetToolTip(Ability7_3, "Basic attacks deal 20% more damage and slow\nthe target for 1 second.");
             }
 
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Rewind";
+                toolTip1.SetToolTip(Ability7_3, "Activate to reset the cooldowns of your Basic Abilities.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "A Card to Play";
+                toolTip1.SetToolTip(Ability7_3, "Whenever a Hero (ally or enemy) is killed, the\ncooldown of your Heroic Ability is reduced by 10\nseconds.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Nexus Blades";
+                toolTip1.SetToolTip(Ability7_3, "Basic attacks deal 20% more damage and slow\nthe target for 1 second.");
+            }
         }
 
         //**ABILITY 7_4**//
@@ -6263,13 +6920,34 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
             }
 
+            if (lblHero.Text == "Nova")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Nexus Frenzy";
+                toolTip1.SetToolTip(Ability7_4, "Increases Attack Speed by 20% and Attack\nRange by 20%.");
+            }
+
+            if (lblHero.Text == "Thrall")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            }
         }
 
         //**ABILITY 7_5**//
 
         private void Ability7_5_MouseHover(object sender, EventArgs e)
         {
-
+            if (lblHero.Text == "Raynor")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_5, "Activate to teleport to a nearby location.");
+            }
         }
 
         //**SPECIAL 1**//

@@ -226,6 +226,7 @@
             this.lblMana = new System.Windows.Forms.Label();
             this.lblHealthRegen = new System.Windows.Forms.Label();
             this.lblHealth = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.picFalstad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picIllidan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJania)).BeginInit();
@@ -2764,6 +2765,14 @@
             this.lblHealth.Text = "Skills";
             this.lblHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Location = new System.Drawing.Point(528, 657);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(260, 304);
+            this.panel1.TabIndex = 215;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2771,7 +2780,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1915, 1000);
+            this.ClientSize = new System.Drawing.Size(829, 1000);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblManaRegen);
             this.Controls.Add(this.lblSpeed);
             this.Controls.Add(this.lblDamage);
@@ -3293,6 +3303,7 @@
         private System.Windows.Forms.Label lblMana;
         private System.Windows.Forms.Label lblHealthRegen;
         private System.Windows.Forms.Label lblHealth;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
