@@ -227,6 +227,8 @@
             this.lblHealthRegen = new System.Windows.Forms.Label();
             this.lblHealth = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.picETC = new System.Windows.Forms.PictureBox();
+            this.lblETC = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picFalstad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picIllidan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJania)).BeginInit();
@@ -344,6 +346,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picSpec1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSpec4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picETC)).BeginInit();
             this.SuspendLayout();
             // 
             // picFalstad
@@ -651,7 +654,7 @@
             // picTyrael
             // 
             this.picTyrael.Image = ((System.Drawing.Image)(resources.GetObject("picTyrael.Image")));
-            this.picTyrael.Location = new System.Drawing.Point(544, 301);
+            this.picTyrael.Location = new System.Drawing.Point(545, 396);
             this.picTyrael.Name = "picTyrael";
             this.picTyrael.Size = new System.Drawing.Size(70, 70);
             this.picTyrael.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -663,7 +666,7 @@
             // picJohanna
             // 
             this.picJohanna.Image = ((System.Drawing.Image)(resources.GetObject("picJohanna.Image")));
-            this.picJohanna.Location = new System.Drawing.Point(318, 301);
+            this.picJohanna.Location = new System.Drawing.Point(318, 395);
             this.picJohanna.Name = "picJohanna";
             this.picJohanna.Size = new System.Drawing.Size(70, 70);
             this.picJohanna.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -675,7 +678,7 @@
             // picMuradin
             // 
             this.picMuradin.Image = ((System.Drawing.Image)(resources.GetObject("picMuradin.Image")));
-            this.picMuradin.Location = new System.Drawing.Point(318, 395);
+            this.picMuradin.Location = new System.Drawing.Point(318, 480);
             this.picMuradin.Name = "picMuradin";
             this.picMuradin.Size = new System.Drawing.Size(70, 70);
             this.picMuradin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -687,7 +690,7 @@
             // picSonya
             // 
             this.picSonya.Image = ((System.Drawing.Image)(resources.GetObject("picSonya.Image")));
-            this.picSonya.Location = new System.Drawing.Point(315, 481);
+            this.picSonya.Location = new System.Drawing.Point(318, 569);
             this.picSonya.Name = "picSonya";
             this.picSonya.Size = new System.Drawing.Size(70, 70);
             this.picSonya.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -699,7 +702,7 @@
             // picStitches
             // 
             this.picStitches.Image = ((System.Drawing.Image)(resources.GetObject("picStitches.Image")));
-            this.picStitches.Location = new System.Drawing.Point(318, 570);
+            this.picStitches.Location = new System.Drawing.Point(545, 300);
             this.picStitches.Name = "picStitches";
             this.picStitches.Size = new System.Drawing.Size(70, 70);
             this.picStitches.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -762,7 +765,7 @@
             this.lblJohanna.BackColor = System.Drawing.Color.Transparent;
             this.lblJohanna.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJohanna.ForeColor = System.Drawing.Color.White;
-            this.lblJohanna.Location = new System.Drawing.Point(394, 325);
+            this.lblJohanna.Location = new System.Drawing.Point(394, 419);
             this.lblJohanna.Name = "lblJohanna";
             this.lblJohanna.Size = new System.Drawing.Size(95, 25);
             this.lblJohanna.TabIndex = 38;
@@ -775,7 +778,7 @@
             this.lblTyrael.BackColor = System.Drawing.Color.Transparent;
             this.lblTyrael.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTyrael.ForeColor = System.Drawing.Color.White;
-            this.lblTyrael.Location = new System.Drawing.Point(620, 325);
+            this.lblTyrael.Location = new System.Drawing.Point(620, 419);
             this.lblTyrael.Name = "lblTyrael";
             this.lblTyrael.Size = new System.Drawing.Size(72, 25);
             this.lblTyrael.TabIndex = 39;
@@ -788,7 +791,7 @@
             this.lblMuradin.BackColor = System.Drawing.Color.Transparent;
             this.lblMuradin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMuradin.ForeColor = System.Drawing.Color.White;
-            this.lblMuradin.Location = new System.Drawing.Point(394, 419);
+            this.lblMuradin.Location = new System.Drawing.Point(394, 499);
             this.lblMuradin.Name = "lblMuradin";
             this.lblMuradin.Size = new System.Drawing.Size(90, 25);
             this.lblMuradin.TabIndex = 40;
@@ -801,7 +804,7 @@
             this.lblSonya.BackColor = System.Drawing.Color.Transparent;
             this.lblSonya.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSonya.ForeColor = System.Drawing.Color.White;
-            this.lblSonya.Location = new System.Drawing.Point(391, 499);
+            this.lblSonya.Location = new System.Drawing.Point(394, 590);
             this.lblSonya.Name = "lblSonya";
             this.lblSonya.Size = new System.Drawing.Size(73, 25);
             this.lblSonya.TabIndex = 41;
@@ -814,7 +817,7 @@
             this.lblStiches.BackColor = System.Drawing.Color.Transparent;
             this.lblStiches.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStiches.ForeColor = System.Drawing.Color.White;
-            this.lblStiches.Location = new System.Drawing.Point(394, 590);
+            this.lblStiches.Location = new System.Drawing.Point(620, 325);
             this.lblStiches.Name = "lblStiches";
             this.lblStiches.Size = new System.Drawing.Size(83, 25);
             this.lblStiches.TabIndex = 42;
@@ -2773,6 +2776,31 @@
             this.panel1.Size = new System.Drawing.Size(260, 304);
             this.panel1.TabIndex = 215;
             // 
+            // picETC
+            // 
+            this.picETC.Image = ((System.Drawing.Image)(resources.GetObject("picETC.Image")));
+            this.picETC.Location = new System.Drawing.Point(318, 300);
+            this.picETC.Name = "picETC";
+            this.picETC.Size = new System.Drawing.Size(70, 70);
+            this.picETC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picETC.TabIndex = 216;
+            this.picETC.TabStop = false;
+            this.picETC.Visible = false;
+            this.picETC.Click += new System.EventHandler(this.picETC_Click);
+            // 
+            // lblETC
+            // 
+            this.lblETC.AutoSize = true;
+            this.lblETC.BackColor = System.Drawing.Color.Transparent;
+            this.lblETC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblETC.ForeColor = System.Drawing.Color.White;
+            this.lblETC.Location = new System.Drawing.Point(394, 325);
+            this.lblETC.Name = "lblETC";
+            this.lblETC.Size = new System.Drawing.Size(72, 25);
+            this.lblETC.TabIndex = 217;
+            this.lblETC.Text = "E.T.C.";
+            this.lblETC.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2780,7 +2808,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(829, 1000);
+            this.ClientSize = new System.Drawing.Size(829, 240);
+            this.Controls.Add(this.lblETC);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblManaRegen);
             this.Controls.Add(this.lblSpeed);
@@ -2901,18 +2930,10 @@
             this.Controls.Add(this.pic_assassin);
             this.Controls.Add(this.lblGazlowe);
             this.Controls.Add(this.lblVikings);
-            this.Controls.Add(this.lblHammer);
-            this.Controls.Add(this.lblNazeebo);
-            this.Controls.Add(this.lblMurky);
-            this.Controls.Add(this.lblSylvanas);
-            this.Controls.Add(this.lblZagara);
             this.Controls.Add(this.lblSupoort);
             this.Controls.Add(this.lblLiLi);
             this.Controls.Add(this.lblMalfurion);
             this.Controls.Add(this.lblRehgar);
-            this.Controls.Add(this.lblUther);
-            this.Controls.Add(this.lblTyrande);
-            this.Controls.Add(this.lblTassadar);
             this.Controls.Add(this.lblWarriors);
             this.Controls.Add(this.lblAssassins);
             this.Controls.Add(this.picZeratul);
@@ -2920,7 +2941,6 @@
             this.Controls.Add(this.lblChen);
             this.Controls.Add(this.lblDiablo);
             this.Controls.Add(this.lblStiches);
-            this.Controls.Add(this.lblSonya);
             this.Controls.Add(this.lblMuradin);
             this.Controls.Add(this.lblTyrael);
             this.Controls.Add(this.lblJohanna);
@@ -2929,7 +2949,6 @@
             this.Controls.Add(this.lblKael);
             this.Controls.Add(this.lblKerrigan);
             this.Controls.Add(this.lblZeratul);
-            this.Controls.Add(this.lblRaynor);
             this.Controls.Add(this.lblThrall);
             this.Controls.Add(this.lblTychus);
             this.Controls.Add(this.lblValla);
@@ -2941,13 +2960,6 @@
             this.Controls.Add(this.Border5_5);
             this.Controls.Add(this.picBrightwing);
             this.Controls.Add(this.picLiLi);
-            this.Controls.Add(this.picMalfurion);
-            this.Controls.Add(this.picRehgar);
-            this.Controls.Add(this.picTassadar);
-            this.Controls.Add(this.picTyrande);
-            this.Controls.Add(this.picUther);
-            this.Controls.Add(this.picZagara);
-            this.Controls.Add(this.picValla);
             this.Controls.Add(this.picAnub);
             this.Controls.Add(this.picFalstad);
             this.Controls.Add(this.picArthas);
@@ -2961,7 +2973,6 @@
             this.Controls.Add(this.picMuradin);
             this.Controls.Add(this.picNova);
             this.Controls.Add(this.picSonya);
-            this.Controls.Add(this.picRaynor);
             this.Controls.Add(this.picStitches);
             this.Controls.Add(this.picThrall);
             this.Controls.Add(this.picTyrael);
@@ -2972,11 +2983,30 @@
             this.Controls.Add(this.picVikings);
             this.Controls.Add(this.picMurky);
             this.Controls.Add(this.picNazeebo);
-            this.Controls.Add(this.picHammer);
             this.Controls.Add(this.picSylvanas);
             this.Controls.Add(this.Border2_5);
             this.Controls.Add(this.Border6_5);
             this.Controls.Add(this.Border7_5);
+            this.Controls.Add(this.picMalfurion);
+            this.Controls.Add(this.picRehgar);
+            this.Controls.Add(this.picETC);
+            this.Controls.Add(this.picTassadar);
+            this.Controls.Add(this.picTyrande);
+            this.Controls.Add(this.picUther);
+            this.Controls.Add(this.picRaynor);
+            this.Controls.Add(this.picHammer);
+            this.Controls.Add(this.picZagara);
+            this.Controls.Add(this.lblMurky);
+            this.Controls.Add(this.lblTassadar);
+            this.Controls.Add(this.lblNazeebo);
+            this.Controls.Add(this.lblTyrande);
+            this.Controls.Add(this.lblSonya);
+            this.Controls.Add(this.lblUther);
+            this.Controls.Add(this.lblRaynor);
+            this.Controls.Add(this.lblHammer);
+            this.Controls.Add(this.lblSylvanas);
+            this.Controls.Add(this.lblZagara);
+            this.Controls.Add(this.picValla);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1931, 1038);
@@ -3100,6 +3130,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picSpec1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSpec4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picETC)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3304,6 +3335,8 @@
         private System.Windows.Forms.Label lblHealthRegen;
         private System.Windows.Forms.Label lblHealth;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox picETC;
+        private System.Windows.Forms.Label lblETC;
     }
 }
 
