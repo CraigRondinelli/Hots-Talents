@@ -427,6 +427,97 @@ namespace Hots_Talents
 
                 trackBar1.Value = 1;
             }
+
+            else if (lblHero.Text == "Uther")
+            {
+
+                lblSpecial.Visible = true;
+                picSpec1.Visible = true;
+                spec1.Visible = true;
+
+
+                Border1_1.Visible = false;
+                Border1_2.Visible = false;
+                Border1_3.Visible = false;
+                Border1_4.Visible = false;
+                Border1_5.Visible = false;
+                Border2_1.Visible = false;
+                Border2_2.Visible = false;
+                Border2_3.Visible = false;
+                Border2_4.Visible = false;
+                Border2_5.Visible = false;
+                Border3_1.Visible = false;
+                Border3_2.Visible = false;
+                Border3_3.Visible = false;
+                Border3_4.Visible = false;
+                Border3_5.Visible = false;
+                Border4_1.Visible = false;
+                Border4_2.Visible = false;
+                Border5_1.Visible = false;
+                Border5_2.Visible = false;
+                Border5_3.Visible = false;
+                Border5_4.Visible = false;
+                Border5_5.Visible = false;
+                Border6_1.Visible = false;
+                Border6_2.Visible = false;
+                Border6_3.Visible = false;
+                Border6_4.Visible = false;
+                Border6_5.Visible = false;
+                Border7_1.Visible = false;
+                Border7_2.Visible = false;
+                Border7_3.Visible = false;
+                Border7_4.Visible = false;
+                Border7_5.Visible = false;
+
+                Ability1_1.Visible = true;
+                Ability1_2.Visible = true;
+                Ability1_3.Visible = true;
+                Ability1_4.Visible = true;
+                Ability2_1.Visible = true;
+                Ability2_2.Visible = true;
+                Ability2_3.Visible = true;
+                Ability2_4.Visible = true;
+                Ability3_1.Visible = true;
+                Ability3_2.Visible = true;
+                Ability3_3.Visible = true;
+                Ability3_4.Visible = true;
+                Ability4_1.Visible = true;
+                Ability4_2.Visible = true;
+                Ability5_1.Visible = true;
+                Ability5_2.Visible = true;
+                Ability5_3.Visible = true;
+                Ability5_4.Visible = true;
+                Ability6_1.Visible = true;
+                Ability6_2.Visible = true;
+                Ability6_3.Visible = true;
+                Ability6_4.Visible = true;
+                Ability7_1.Visible = true;
+                Ability7_2.Visible = true;
+                Ability7_3.Visible = true;
+                Ability7_4.Visible = true;
+
+                picQAbility.Visible = true;
+                picWAbility.Visible = true;
+                picEAbility.Visible = true;
+                picR1Ability.Visible = true;
+                picR2Ability.Visible = true;
+                picTrait.Visible = true;
+
+
+                picHero.Visible = true;
+                label7.Visible = true;
+                label9.Visible = true;
+                label8.Visible = true;
+                label14.Visible = true;
+                label13.Visible = true;
+                label12.Visible = true;
+                label11.Visible = true;
+                label10.Visible = true;
+                picGold.Visible = true;
+
+                trackBar1.Value = 1;
+            }
+
             else if (lblHero.Text == "Falstad")
             {
 
@@ -516,6 +607,7 @@ namespace Hots_Talents
 
                 trackBar1.Value = 1;
             }
+
             else if (lblHero.Text == "Sgt. Hammer")
             {
 
@@ -605,6 +697,103 @@ namespace Hots_Talents
 
                 trackBar1.Value = 1;
             }
+
+            else if (lblHero.Text == "Abathur")
+            {
+
+                lblSpecial.Visible = true;
+                picSpec1.Visible = true;
+                picSpec2.Visible = true;
+                picSpec3.Visible = true;
+                picSpec4.Visible = true;
+
+                spec1.Visible = true;
+                spec2.Visible = true;
+                spec3.Visible = true;
+                spec4.Visible = true;
+
+                Border1_1.Visible = false;
+                Border1_2.Visible = false;
+                Border1_3.Visible = false;
+                Border1_4.Visible = false;
+                Border1_5.Visible = false;
+                Border2_1.Visible = false;
+                Border2_2.Visible = false;
+                Border2_3.Visible = false;
+                Border2_4.Visible = false;
+                Border2_5.Visible = false;
+                Border3_1.Visible = false;
+                Border3_2.Visible = false;
+                Border3_3.Visible = false;
+                Border3_4.Visible = false;
+                Border3_5.Visible = false;
+                Border4_1.Visible = false;
+                Border4_2.Visible = false;
+                Border5_1.Visible = false;
+                Border5_2.Visible = false;
+                Border5_3.Visible = false;
+                Border5_4.Visible = false;
+                Border5_5.Visible = false;
+                Border6_1.Visible = false;
+                Border6_2.Visible = false;
+                Border6_3.Visible = false;
+                Border6_4.Visible = false;
+                Border6_5.Visible = false;
+                Border7_1.Visible = false;
+                Border7_2.Visible = false;
+                Border7_3.Visible = false;
+                Border7_4.Visible = false;
+                Border7_5.Visible = false;
+
+                Ability1_1.Visible = true;
+                Ability1_2.Visible = true;
+                Ability1_3.Visible = true;
+                Ability1_4.Visible = true;
+                Ability2_1.Visible = true;
+                Ability2_2.Visible = true;
+                Ability2_3.Visible = true;
+                Ability2_4.Visible = true;
+                Ability3_1.Visible = true;
+                Ability3_2.Visible = true;
+                Ability3_3.Visible = true;
+                Ability3_4.Visible = true;
+                Ability4_1.Visible = true;
+                Ability4_2.Visible = true;
+                Ability5_1.Visible = true;
+                Ability5_2.Visible = true;
+                Ability5_3.Visible = true;
+                Ability5_4.Visible = true;
+                Ability6_1.Visible = true;
+                Ability6_2.Visible = true;
+                Ability6_3.Visible = true;
+                Ability6_4.Visible = true;
+                Ability7_1.Visible = true;
+                Ability7_2.Visible = true;
+                Ability7_3.Visible = true;
+                Ability7_4.Visible = true;
+
+                picQAbility.Visible = true;
+                picWAbility.Visible = true;
+                picEAbility.Visible = true;
+                picR1Ability.Visible = true;
+                picR2Ability.Visible = true;
+                picTrait.Visible = true;
+
+
+                picHero.Visible = true;
+                label7.Visible = true;
+                label9.Visible = true;
+                label8.Visible = true;
+                label14.Visible = true;
+                label13.Visible = true;
+                label12.Visible = true;
+                label11.Visible = true;
+                label10.Visible = true;
+                picGold.Visible = true;
+
+                trackBar1.Value = 1;
+            }
+
             else
             {
                 Border1_1.Visible = false;
@@ -3268,6 +3457,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Arthas\Talents\Tier 20\hardened-shield-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Arthas\Talents\Tier 20\rewind-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "1040";
+            lblHealthRegen.Text = "2.168";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.00";
+            lblDamage.Text = "47";
         }
 
         //**CHEN**//
@@ -3348,6 +3544,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Chen\Talents\Tier 20\hardened-shield-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Chen\Talents\Tier 20\bolt-of-the-storm-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "1040";
+            lblHealthRegen.Text = "2.168";
+            lblMana.Text = "100";
+            lblManaRegen.Text = "N/A";
+            lblSpeed.Text = "1.11";
+            lblDamage.Text = "50";
         }
 
         //**DIABLO**//
@@ -3428,6 +3631,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Diablo\Talents\Tier 20\lord-of-terror-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Diablo\Talents\Tier 20\bolt.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "1050";
+            lblHealthRegen.Text = "2.1875";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "0.93";
+            lblDamage.Text = "49";
         }
 
         //**E.T.C.**//
@@ -3509,6 +3719,13 @@ namespace Hots_Talents
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\E.T.C.\Talents\Tier 20\storm-shield-talent.png");
             Ability7_5.Visible = true;
             Ability7_5.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\E.T.C.\Talents\Tier 20\bolt-of-the-storm-talent.png");
+
+            lblHealth.Text = "1040";
+            lblHealthRegen.Text = "2.168";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.00";
+            lblDamage.Text = "47";
         }
 
         //**JOHANNA**//
@@ -3589,6 +3806,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Johanna\Talents\Tier 20\indestructible-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Johanna\Talents\Tier 20\storm-shield-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "1000";
+            lblHealthRegen.Text = "2.0781";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "0.91";
+            lblDamage.Text = "45";
         }
 
         //**MURADIN**//
@@ -3669,6 +3893,13 @@ namespace Hots_Talents
             Ability7_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Muradin\Talents\Tier 20\grand-slam.png");
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Muradin\Talents\Tier 20\hardened-shield-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Muradin\Talents\Tier 20\rewind-talent.png");
+
+            lblHealth.Text = "1040";
+            lblHealthRegen.Text = "2.168";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.11";
+            lblDamage.Text = "42";
         }
 
         //**SONYA**//
@@ -3749,6 +3980,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Sonya\Talents\Tier 20\nexus-blades.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Sonya\Talents\Tier 20\ignore-pain-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "930";
+            lblHealthRegen.Text = "1.9375";
+            lblMana.Text = "100";
+            lblManaRegen.Text = "N/A";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "40";
         }
 
         //**STITCHES**//
@@ -3830,6 +4068,12 @@ namespace Hots_Talents
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Stitches\Talents\Tier 20\bolt-of-the-storm-talent.png");
             Ability7_5.Visible = false;
 
+            lblHealth.Text = "1060";
+            lblHealthRegen.Text = "2.207";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "0.91";
+            lblDamage.Text = "48";
         }
 
         //**TYRAEL**//
@@ -3912,6 +4156,12 @@ namespace Hots_Talents
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Tyrael\Talents\Tier 20\nexus-blades.png");
             Ability7_5.Visible = false;
 
+            lblHealth.Text = "1020";
+            lblHealthRegen.Text = "2.125";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "37";
         }
 
         //**ABATHUR**//
@@ -3946,6 +4196,10 @@ namespace Hots_Talents
             picR1Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\ultimate-evolution.png");
             picR2Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\evolve-monstrosity.png");
             picTrait.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\locust-strain.png");
+            picSpec1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\stab.png");
+            picSpec2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\spike-burst.png");
+            picSpec3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\carapace.png");
+            picSpec4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\deep-tunnel.png");
             picSpec1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\stab.png");
             picSpec2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\spike-burst.png");
             picSpec3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Skills\carapace.png");
@@ -4000,6 +4254,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Talents\Tier 20\hivemind.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Abathur\Talents\Tier 20\locust-nest-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "550";
+            lblHealthRegen.Text = "1.1445";
+            lblMana.Text = "N/A";
+            lblManaRegen.Text = "N/A";
+            lblSpeed.Text = "1.43";
+            lblDamage.Text = "18";
         }
 
         //**AZMODAN**//
@@ -4083,6 +4344,13 @@ namespace Hots_Talents
             Ability7_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Azmodan\Talents\Tier 20\fifth-circle.png");
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Azmodan\Talents\Tier 20\bolt-of-the-storm-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Azmodan\Talents\Tier 20\storm-shield-talent.png");
+
+            lblHealth.Text = "1060";
+            lblHealthRegen.Text = "2.207";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.00";
+            lblDamage.Text = "34";
         }
 
         //**GAZLOWE**//
@@ -4166,6 +4434,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Gazlowe\Talents\Tier 20\fury-of-the-storm.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Gazlowe\Talents\Tier 20\hardened-shield-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "770";
+            lblHealthRegen.Text = "1.6054";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "37";
         }
 
         //**THE LOST VIKINGS**//
@@ -4327,6 +4602,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Murky\Talents\Tier 20\rewind-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Murky\Talents\Tier 20\bolt-of-the-storm-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "250";
+            lblHealthRegen.Text = "10";
+            lblMana.Text = "N/A";
+            lblManaRegen.Text = "N/A";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "18";
         }
 
         //**NAZEEBO**//
@@ -4408,6 +4690,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Nazeebo\Talents\Tier 20\fury-of-the-storm.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Nazeebo\Talents\Tier 20\bolt-of-the-storm-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "740";
+            lblHealthRegen.Text = "1.539";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.11";
+            lblDamage.Text = "41";
         }
 
         //**SGT. HAMMER**//
@@ -4492,6 +4781,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Sgt. Hammer\Talents\Tier 20\fury-of-the-storm.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Sgt. Hammer\Talents\Tier 20\nexus-frenzy.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "720";
+            lblHealthRegen.Text = "1.5";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.00";
+            lblDamage.Text = "44";
         }
 
         //**SYLVANAS**//
@@ -4573,6 +4869,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Sylvanas\Talents\Tier 20\fury-of-the-storm.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Sylvanas\Talents\Tier 20\bolt-of-the-storm-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "720";
+            lblHealthRegen.Text = "1.461";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.67";
+            lblDamage.Text = "30";
         }
 
         //**ZAGARA**//
@@ -4657,6 +4960,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Zagara\Talents\Tier 20\fury-of-the-storm.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Zagara\Talents\Tier 20\bolt-of-the-storm-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "750";
+            lblHealthRegen.Text = "1.5117";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "37";
         }
 
         //**BRIGHTWING**//
@@ -4739,6 +5049,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\storm-shield-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\rewind-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "750";
+            lblHealthRegen.Text = "1.6132";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.11";
+            lblDamage.Text = "34";
         }
 
         //**LI LI**//
@@ -4820,6 +5137,13 @@ namespace Hots_Talents
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Li Li\Talents\Tier 20\storm-shield-talent.png");
             Ability7_5.Visible = true;
             Ability7_5.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Li Li\Talents\Tier 20\bolt-of-the-storm-talent.png");
+
+            lblHealth.Text = "835";
+            lblHealthRegen.Text = "1.7382";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "25";
         }
 
         //**MALFURION**//
@@ -4904,6 +5228,12 @@ namespace Hots_Talents
             Ability7_5.Visible = true;
             Ability7_5.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 20\bolt-of-the-storm-talent.png");
 
+            lblHealth.Text = "835";
+            lblHealthRegen.Text = "1.7382";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.11";
+            lblDamage.Text = "33";
         }
 
         //**REHGAR**//
@@ -4987,6 +5317,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Rehgar\Talents\Tier 20\rewind-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Rehgar\Talents\Tier 20\storm-shield-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "880";
+            lblHealthRegen.Text = "1.832";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "37";
         }
 
         //**TASSADAR**//
@@ -5069,6 +5406,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Tassadar\Talents\Tier 20\storm-shield-talent.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Tassadar\Talents\Tier 20\rewind-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "750";
+            lblHealthRegen.Text = "1.8125";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.00";
+            lblDamage.Text = "32";
         }
 
         //**TYRANDE**//
@@ -5151,6 +5495,13 @@ namespace Hots_Talents
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Tyrande\Talents\Tier 20\storm-shield-talent.png");
             Ability7_5.Visible = true;
             Ability7_5.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Tyrande\Talents\Tier 20\rewind-talent.png");
+
+            lblHealth.Text = "635";
+            lblHealthRegen.Text = "1.3242";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.25";
+            lblDamage.Text = "30";
         }
 
         //**UTHER**//
@@ -5185,6 +5536,7 @@ namespace Hots_Talents
             picR1Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Uther\Skills\divine-shield.png");
             picR2Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Uther\Skills\divine-storm.png");
             picTrait.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Uther\Skills\eternal-devotion.png");
+            picSpec1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Uther\Skills\flash-of-light.png");
 
             lblQ.Text = "Holy Light\nQ";
             lblW.Text = "Holy Radiance\nW";
@@ -5192,6 +5544,7 @@ namespace Hots_Talents
             lblR1.Text = "Divine Shield\nR (Heroic)";
             lblR2.Text = "Divine Storm\nR (Heroic)";
             lblTrait.Text = "Eternal Devotion\nTrait";
+            spec1.Text = "Flash of Light";
 
             Ability1_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Uther\Talents\Tier 1\conjurers-pursuit.png");
             Ability1_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Uther\Talents\Tier 1\reach.png");
@@ -5232,6 +5585,13 @@ namespace Hots_Talents
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Uther\Talents\Tier 20\redemption.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Uther\Talents\Tier 20\storm-shield-talent.png");
             Ability7_5.Visible = false;
+
+            lblHealth.Text = "890";
+            lblHealthRegen.Text = "1.8554";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.00";
+            lblDamage.Text = "38";
         }
 
         //**TRACKBAR AND STATS+**//
@@ -5418,6 +5778,379 @@ namespace Hots_Talents
                 lblManaRegen.Text = (AnubMRegen + (trackBar1.Value - 1) * .098).ToString();
                 lblDamage.Text = (AnubDamage + (trackBar1.Value - 1) * 9).ToString();
             }
+
+            if (lblHero.Text == "Arthas")
+            {
+                int ArthasHealth = 1040;
+                double ArthasHRegen = 2.168;
+                int ArthasMana = 500;
+                double ArthasMRegen = 3;
+                int ArthasDamage = 47;
+
+                lblHealth.Text = (ArthasHealth + (trackBar1.Value - 1) * 220).ToString();
+                lblHealthRegen.Text = (ArthasHRegen + (trackBar1.Value - 1) * .457).ToString();
+                lblMana.Text = (ArthasMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (ArthasMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (ArthasDamage + (trackBar1.Value - 1) * 9).ToString();
+            }
+
+            if (lblHero.Text == "Chen")
+            {
+                int ChenHealth = 1040;
+                double ChenHRegen = 2.168;
+                int ChenBrew = 500;
+                int ChenDamage = 50;
+
+                lblHealth.Text = (ChenHealth + (trackBar1.Value - 1) * 240).ToString();
+                lblHealthRegen.Text = (ChenHRegen + (trackBar1.Value - 1) * .500).ToString();
+                lblDamage.Text = (ChenDamage + (trackBar1.Value - 1) * 7).ToString();
+            }
+
+            if (lblHero.Text == "Diablo")
+            {
+                int DiabloHealth = 1050;
+                double DiabloHRegen = 2.1875;
+                int DiabloMana = 500;
+                double DiabloMRegen = 3;
+                int DiabloDamage = 49;
+
+                lblHealth.Text = (DiabloHealth + (trackBar1.Value - 1) * 250).ToString();
+                lblHealthRegen.Text = (DiabloHRegen + (trackBar1.Value - 1) * .520).ToString();
+                lblMana.Text = (DiabloMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (DiabloMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (DiabloDamage + (trackBar1.Value - 1) * 11).ToString();
+            }
+
+            if (lblHero.Text == "E.T.C.")
+            {
+                int ETCHealth = 1040;
+                double ETCHRegen = 2.168;
+                int ETCMana = 500;
+                double ETCMRegen = 3;
+                int ETCDamage = 47;
+
+                lblHealth.Text = (ETCHealth + (trackBar1.Value - 1) * 240).ToString();
+                lblHealthRegen.Text = (ETCHRegen + (trackBar1.Value - 1) * .500).ToString();
+                lblMana.Text = (ETCMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (ETCMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (ETCDamage + (trackBar1.Value - 1) * 9).ToString();
+            }
+
+            if (lblHero.Text == "Johanna")
+            {
+                int JohannaHealth = 1000;
+                double JohannaHRegen = 2.0781;
+                int JohannaMana = 500;
+                double JohannaMRegen = 3;
+                int JohannaDamage = 45;
+
+                lblHealth.Text = (JohannaHealth + (trackBar1.Value - 1) * 230).ToString();
+                lblHealthRegen.Text = (JohannaHRegen + (trackBar1.Value - 1) * .477).ToString();
+                lblMana.Text = (JohannaMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (JohannaMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (JohannaDamage + (trackBar1.Value - 1) * 9).ToString();
+            }
+
+            if (lblHero.Text == "Muradin")
+            {
+                int MuradinHealth = 1040;
+                double MuradinHRegen = 2.168;
+                int MuradinMana = 500;
+                double MuradinMRegen = 3;
+                int MuradinDamage = 42;
+
+                lblHealth.Text = (MuradinHealth + (trackBar1.Value - 1) * 240).ToString();
+                lblHealthRegen.Text = (MuradinHRegen + (trackBar1.Value - 1) * .500).ToString();
+                lblMana.Text = (MuradinMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (MuradinMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (MuradinDamage + (trackBar1.Value - 1) * 9).ToString();
+            }
+
+            if (lblHero.Text == "Sonya")
+            {
+                int SonyaHealth = 930;
+                double SonyaHRegen = 1.9375;
+                int SonyaMana = 100;
+                int SonyaDamage = 40;
+
+                lblHealth.Text = (SonyaHealth + (trackBar1.Value - 1) * 210).ToString();
+                lblHealthRegen.Text = (SonyaHRegen + (trackBar1.Value - 1) * .438).ToString();
+                lblDamage.Text = (SonyaDamage + (trackBar1.Value - 1) * 8).ToString();
+            }
+
+            if (lblHero.Text == "Stitches")
+            {
+                int StitchesHealth = 1060;
+                double StitchesHRegen = 2.207;
+                int StitchesMana = 500;
+                double StitchesMRegen = 3;
+                int StitchesDamage = 48;
+
+                lblHealth.Text = (StitchesHealth + (trackBar1.Value - 1) * 230).ToString();
+                lblHealthRegen.Text = (StitchesHRegen + (trackBar1.Value - 1) * .477).ToString();
+                lblMana.Text = (StitchesMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (StitchesMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (StitchesDamage + (trackBar1.Value - 1) * 6).ToString();
+            }
+
+            if (lblHero.Text == "Tyrael")
+            {
+                int TyraelHealth = 1020;
+                double TyraelHRegen = 2.125;
+                int TyraelMana = 500;
+                double TyraelMRegen = 3;
+                int TyraelDamage = 37;
+
+                lblHealth.Text = (TyraelHealth + (trackBar1.Value - 1) * 220).ToString();
+                lblHealthRegen.Text = (TyraelHRegen + (trackBar1.Value - 1) * .457).ToString();
+                lblMana.Text = (TyraelMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (TyraelMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (TyraelDamage + (trackBar1.Value - 1) * 7).ToString();
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                int AbathurHealth = 550;
+                double AbathurHRegen = 1.1445;
+                int AbathurDamage = 18;
+
+                lblHealth.Text = (AbathurHealth + (trackBar1.Value - 1) * 50).ToString();
+                lblHealthRegen.Text = (AbathurHRegen + (trackBar1.Value - 1) * .105).ToString();
+                lblDamage.Text = (AbathurDamage + (trackBar1.Value - 1) * 2).ToString();
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int AzmodanHealth = 1060;
+                double AzmodanHRegen = 2.207;
+                int AzmodanMana = 500;
+                double AzmodanMRegen = 3;
+                int AzmodanDamage = 34;
+
+                lblHealth.Text = (AzmodanHealth + (trackBar1.Value - 1) * 260).ToString();
+                lblHealthRegen.Text = (AzmodanHRegen + (trackBar1.Value - 1) * .543).ToString();
+                lblMana.Text = (AzmodanMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (AzmodanMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (AzmodanDamage + (trackBar1.Value - 1) * 8).ToString();
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                int GazloweHealth = 770;
+                double GazloweHRegen = 1.6054;
+                int GazloweMana = 500;
+                double GazloweMRegen = 3;
+                int GazloweDamage = 37;
+
+                lblHealth.Text = (GazloweHealth + (trackBar1.Value - 1) * 170).ToString();
+                lblHealthRegen.Text = (GazloweHRegen + (trackBar1.Value - 1) * .355).ToString();
+                lblMana.Text = (GazloweMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (GazloweMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (GazloweDamage + (trackBar1.Value - 1) * 9).ToString();
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int BaelogHealth = 740;
+                double BaelogHRegen = 1.539;
+                int BaelogDamage = 39;
+
+                int ErikHealth = 740;
+                double ErikHRegen = 1.539;
+                int ErikDamage = 39;
+
+                int OlafHealth = 740;
+                double OlafHRegen = 1.539;
+                int OlafDamage = 39;
+
+                lblHealth.Text = (BaelogHealth + (trackBar1.Value - 1) * 100).ToString();
+                lblHealthRegen.Text = (BaelogHRegen + (trackBar1.Value - 1) * .207).ToString();
+                lblDamage.Text = (BaelogDamage + (trackBar1.Value - 1) * 7).ToString();
+
+                lblHealth.Text = (ErikHealth + (trackBar1.Value - 1) * 70).ToString();
+                lblHealthRegen.Text = (ErikHRegen + (trackBar1.Value - 1) * .145).ToString();
+                lblDamage.Text = (ErikDamage + (trackBar1.Value - 1) * 6).ToString();
+
+                lblHealth.Text = (OlafHealth + (trackBar1.Value - 1) * 130).ToString();
+                lblHealthRegen.Text = (OlafHRegen + (trackBar1.Value - 1) * .270).ToString();
+                lblDamage.Text = (OlafDamage + (trackBar1.Value - 1) * 5).ToString();
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                int MurkyHealth = 250;
+                double MurkyHRegen = 10;
+                int MurkyDamage = 18;
+
+                lblHealth.Text = (MurkyHealth + (trackBar1.Value - 1) * 60).ToString();
+                lblHealthRegen.Text = (MurkyHRegen + (trackBar1.Value - 1) * .2398).ToString();
+                lblDamage.Text = (MurkyDamage + (trackBar1.Value - 1) * 6).ToString();
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int NazeeboHealth = 740;
+                double NazeeboHRegen = 1.539;
+                int NazeeboMana = 500;
+                double NazeeboMRegen = 3;
+                int NazeeboDamage = 41;
+
+                lblHealth.Text = (NazeeboHealth + (trackBar1.Value - 1) * 150).ToString();
+                lblHealthRegen.Text = (NazeeboHRegen + (trackBar1.Value - 1) * .313).ToString();
+                lblMana.Text = (NazeeboMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (NazeeboMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (NazeeboDamage + (trackBar1.Value - 1) * 8).ToString();
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                int HammerHealth = 720;
+                double HammerHRegen = 1.5;
+                int HammerMana = 500;
+                double HammerMRegen = 3;
+                int HammerDamage = 44;
+
+                lblHealth.Text = (HammerHealth + (trackBar1.Value - 1) * 140).ToString();
+                lblHealthRegen.Text = (HammerHRegen + (trackBar1.Value - 1) * .289).ToString();
+                lblMana.Text = (HammerMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (HammerMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (HammerDamage + (trackBar1.Value - 1) * 13).ToString();
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                int SylvanasHealth = 720;
+                double SylvanasHRegen = 1.461;
+                int SylvanasMana = 500;
+                double SylvanasMRegen = 3;
+                int SylvanasDamage = 30;
+
+                lblHealth.Text = (SylvanasHealth + (trackBar1.Value - 1) * 130).ToString();
+                lblHealthRegen.Text = (SylvanasHRegen + (trackBar1.Value - 1) * .270).ToString();
+                lblMana.Text = (SylvanasMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (SylvanasMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (SylvanasDamage + (trackBar1.Value - 1) * 7).ToString();
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                int ZagaraHealth = 750;
+                double ZagaraHRegen = 1.5117;
+                int ZagaraMana = 500;
+                double ZagaraMRegen = 3;
+                int ZagaraDamage = 37;
+
+                lblHealth.Text = (ZagaraHealth + (trackBar1.Value - 1) * 150).ToString();
+                lblHealthRegen.Text = (ZagaraHRegen + (trackBar1.Value - 1) * .313).ToString();
+                lblMana.Text = (ZagaraMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (ZagaraMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (ZagaraDamage + (trackBar1.Value - 1) * 9).ToString();
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int BrightwingHealth = 750;
+                double BrightwingHRegen = 1.6132;
+                int BrightwingMana = 500;
+                double BrightwingMRegen = 3;
+                int BrightwingDamage = 34;
+
+                lblHealth.Text = (BrightwingHealth + (trackBar1.Value - 1) * 130).ToString();
+                lblHealthRegen.Text = (BrightwingHRegen + (trackBar1.Value - 1) * .270).ToString();
+                lblMana.Text = (BrightwingMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (BrightwingMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (BrightwingDamage + (trackBar1.Value - 1) * 8).ToString();
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                int LiLiHealth = 835;
+                double LiLiHRegen = 1.7382;
+                int LiLiMana = 500;
+                double LiLiMRegen = 3;
+                int LiLiDamage = 25;
+
+                lblHealth.Text = (LiLiHealth + (trackBar1.Value - 1) * 135).ToString();
+                lblHealthRegen.Text = (LiLiHRegen + (trackBar1.Value - 1) * .281).ToString();
+                lblMana.Text = (LiLiMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (LiLiMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (LiLiDamage + (trackBar1.Value - 1) * 6).ToString();
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int MalfurionHealth = 835;
+                double MalfurionHRegen = 1.7382;
+                int MalfurionMana = 500;
+                double MalfurionMRegen = 3;
+                int MalfurionDamage = 33;
+
+                lblHealth.Text = (MalfurionHealth + (trackBar1.Value - 1) * 150).ToString();
+                lblHealthRegen.Text = (MalfurionHRegen + (trackBar1.Value - 1) * .313).ToString();
+                lblMana.Text = (MalfurionMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (MalfurionMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (MalfurionDamage + (trackBar1.Value - 1) * 6).ToString();
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                int RehgarHealth = 880;
+                double RehgarHRegen = 1.832;
+                int RehgarMana = 500;
+                double RehgarMRegen = 3;
+                int RehgarDamage = 37;
+
+                lblHealth.Text = (RehgarHealth + (trackBar1.Value - 1) * 190).ToString();
+                lblHealthRegen.Text = (RehgarHRegen + (trackBar1.Value - 1) * .395).ToString();
+                lblMana.Text = (RehgarMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (RehgarMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (RehgarDamage + (trackBar1.Value - 1) * 9).ToString();
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                int TassadarHealth = 750;
+                double TassadarHRegen = 1.8125;
+                int TassadarMana = 500;
+                double TassadarMRegen = 3;
+                int TassadarDamage = 32;
+
+                lblHealth.Text = (TassadarHealth + (trackBar1.Value - 1) * 125).ToString();
+                lblHealthRegen.Text = (TassadarHRegen + (trackBar1.Value - 1) * .262).ToString();
+                lblMana.Text = (TassadarMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (TassadarMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (TassadarDamage + (trackBar1.Value - 1) * 6).ToString();
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                int TyrandeHealth = 635;
+                double TyrandeHRegen = 1.3242;
+                int TyrandeMana = 500;
+                double TyrandeMRegen = 3;
+                int TyrandeDamage = 30;
+
+                lblHealth.Text = (TyrandeHealth + (trackBar1.Value - 1) * 150).ToString();
+                lblHealthRegen.Text = (TyrandeHRegen + (trackBar1.Value - 1) * .313).ToString();
+                lblMana.Text = (TyrandeMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (TyrandeMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (TyrandeDamage + (trackBar1.Value - 1) * 9).ToString();
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                int UtherHealth = 890;
+                double UtherHRegen = 1.8554;
+                int UtherMana = 500;
+                double UtherMRegen = 3;
+                int UtherDamage = 38;
+
+                lblHealth.Text = (UtherHealth + (trackBar1.Value - 1) * 190).ToString();
+                lblHealthRegen.Text = (UtherHRegen + (trackBar1.Value - 1) * .395).ToString();
+                lblMana.Text = (UtherMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (UtherMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (UtherDamage + (trackBar1.Value - 1) * 7).ToString();
+            }
         }
 
         //**TOOLTIPS**//
@@ -5576,6 +6309,119 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(picQAbility, "Mana: 55\nCooldown: 12 seconds\n\nDeals " + tyraelmight.ToString() + " damage to enemies within target area, slowing them by 25% . Reactivating will\nteleport you to the blade and slow nearby enemies by 25%.");
             }
 
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightflareone = 70 + (20 * trackBar1.Value);
+                int brightflaretwo = 35 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Arcane Flare";
+                toolTip1.SetToolTip(picQAbility, "Mana: 50\nCooldown: 8 seconds\n\nDeal " + brightflareone.ToString() + " damage in a small area and " + brightflaretwo.ToString() + " damage in a larger area.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                int lilibrew = 70 + (18 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Healing Brew";
+                toolTip1.SetToolTip(picQAbility, "Mana: 30\nCooldown: 3 seconds\n\nHeal lowest Health ally (prioritizing Heroes) for " + lilibrew.ToString() + " Health.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int malfurionregrowthone = 40 + (12 * trackBar1.Value);
+                int malfurionregrowthtwo = 100 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Regrowth";
+                toolTip1.SetToolTip(picQAbility, "Mana: 75\nCooldown: 7 seconds\n\nHeal target ally for " + malfurionregrowthone.ToString() + " Health instantly and an additional " + malfurionregrowthtwo.ToString() + " Health over\n10 seconds.");
+            }
+            if (lblHero.Text == "Rehgar")
+            {
+                int rehgarchainone = 90 + (28 * trackBar1.Value);
+                int rehgarchaintwo = 45 + (14 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Chain Heal";
+                toolTip1.SetToolTip(picQAbility, "Mana: 70\nCooldown: 9 seconds\n\nHeal an ally for " + rehgarchainone.ToString() + " Health, then heal up to two other nearby allies for " + rehgarchaintwo.ToString() + "\nHealth each.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                int tassplasma = 200 + (40 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Plasma Shield";
+                toolTip1.SetToolTip(picQAbility, "Mana: 60\nCooldown: 8 seconds\n\nGive an ally a Shield that absorbs " + tassplasma.ToString() + " damage over 8 seconds.");
+            }
+            if (lblHero.Text == "Tyrande")
+            {
+                int tyrandeeluneone = 60 + (14 * trackBar1.Value);
+                int tyrandeelunetwo = 120 + (28 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Light of Elune";
+                toolTip1.SetToolTip(picQAbility, "Mana: 45\nCooldown: 8 seconds\n\nHeal yourself for " + tyrandeeluneone.ToString() + ". If cast on an ally, also heals them for " + tyrandeelunetwo.ToString() + " Health.");
+            }
+            if (lblHero.Text == "Uther")
+            {
+                int utherlight = 135 + (40 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Holy Light";
+                toolTip1.SetToolTip(picQAbility, "Mana: 90\nCooldown: 12 seconds\n\nHeal an ally for " + utherlight.ToString() + " Health.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Symbiote";
+                toolTip1.SetToolTip(picQAbility, "Cooldown: 4 seconds\n\nAssist another allied Unit or Combat Structure, allowing you to shield them and use new Abilities.\n\nCannot be used on another Hero's Summons.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int azmodanglobe = 60 + (15 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Globe of Annihilation";
+                toolTip1.SetToolTip(picQAbility, "Mana: 60\nCooldown: 10 seconds\n\nShoot a globe of destruction, dealing " + azmodanglobe.ToString() + " damage on impact. Long range.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                int gazrock = 30 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Rock-It! Turret";
+                toolTip1.SetToolTip(picQAbility, "Mana: 60\nCharge Cooldown: 15 seconds\n\nCreate a turret that deals " + gazrock.ToString() + " damage. Lasts for 30 seconds.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int vikingsspin = 50 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Spin To Win!";
+                toolTip1.SetToolTip(picQAbility, "Cooldown: 12 seconds\n\nActivate to have each Viking deal " + vikingsspin.ToString() + " damage to nearby enemies.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                int murkyslimeone = 55 + (6 * trackBar1.Value);
+                double murkyslimetwo = 137.5 + (15 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Slime";
+                toolTip1.SetToolTip(picQAbility, "Cooldown: 4 seconds\n\nDeal " + murkyslimeone.ToString() + " damage and applies Slime on nearby enemies for 8 seconds, slowing enemies by 20%.\n\nDoes " + murkyslimetwo.ToString() + " damage to enemies who are already Slimed.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int nazspidersone = 40 + (8 * trackBar1.Value);
+                int nazspiderstwo = 10 + (1 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Corpse Spiders";
+                toolTip1.SetToolTip(picQAbility, "Mana: 60\nCooldown: 10 seconds\n\nDeal " + nazspidersone.ToString() + " damage and create 3 Corpse Spiders that deal " + nazspiderstwo.ToString() + " damage. Spiders\nlast for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                int hammerspider = 50 + (8 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Spider Mines";
+                toolTip1.SetToolTip(picQAbility, "Mana: 50\nCooldown: 14 seconds\n\nCreate 3 mines that deal " + hammerspider.ToString() + " damage and slow enemies by 25% for 1.5 seconds.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                int sylwither = 25 + (3 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Withering Fire";
+                toolTip1.SetToolTip(picQAbility, "Charge Cooldown: 2 seconds\nShoot the closest enemy for " + sylwither.ToString() + " damage, preferring Heroes. Stores 5 charges.\n\nGain 1 charge on nearby enemy Minion or Mercenary deaths, and 3 charges on nearby enemy Hero deaths.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                int zagbane = 35 + (5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Baneling Barrage";
+                toolTip1.SetToolTip(picQAbility, "Mana: 50\nCooldown: 10 seconds\n\nLaunch 4 Banelings that deal " + zagbane.ToString() + " splash damage each.");
+            }
         }
 
         //**W ABILITY**//
@@ -5732,6 +6578,122 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Righteousness";
                 toolTip1.SetToolTip(picWAbility, "Mana: 65\nCooldown: 12 seconds\n\n Shields you for " + tyraelrightone.ToString() + " damage and nearby allies for " + tyraelrighttwo.ToString() + " damage for 4\nseconds.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightpoly = 25 + (5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Polymorph";
+                toolTip1.SetToolTip(picWAbility, "Mana: 75\nCooldown: 15 seconds\n\nDeal " + brightpoly.ToString() + " damage. Target cannot attack or use Abilities for 2 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                double liliserpent = 20 + (2.2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Cloud Serpent";
+                toolTip1.SetToolTip(picWAbility, "Mana: 30\nCooldown: 10 seconds\n\nSummon a Cloud Serpent on target allied Hero that automatically attacks nearby enemies, doing " + liliserpent.ToString() + "\ndamage per attack. Heroes can only have 1 Cloud Serpent at a time. Lasts for 8 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int malfurionmoonfire = 30 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Moonfire";
+                toolTip1.SetToolTip(picWAbility, "Mana: 20\nCooldown: 3 seconds\n\nDeal " + malfurionmoonfire.ToString() + " damage to enemies within target area and reveals them for 2 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                int regharlightone = 8 + (3 * trackBar1.Value);
+                int rehgarlighttwo = 16 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Lightning Shield";
+                toolTip1.SetToolTip(picWAbility, "Mana: 60\nCooldown: 8 seconds\n\nImbue an ally with lightning dealing " + regharlightone.ToString() + " damage to nearby enemies and an additional " + rehgarlighttwo.ToString() + "\ndamage a second. Lasts 5 seconds.");
+
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                int tasspsionic = 40 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Psionic Storm";
+                toolTip1.SetToolTip(picWAbility, "Mana: 65\nCooldown: 8 seconds\n\nDeal " + tasspsionic.ToString() + " damage per second to enemies in target area for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                int tyrandesentinel = 60 + (16 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Sentinel";
+                toolTip1.SetToolTip(picWAbility, "Mana: 65\nCooldown: 18 seconds\n\nSend an Owl that travels across the battleground revealing its path. Deals " + tyrandesentinel.ToString() + " damage to\nthe first enemy Hero hit and reveals them for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                int utherradianceone = 80 + (20 * trackBar1.Value);
+                int utherradiancetwo = 50 + (15 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Holy Radiance";
+                toolTip1.SetToolTip(picWAbility, "Mana: 65\nCooldown: 12 seconds\n\nHeal all allies in a line for " + utherradianceone.ToString() + " Health, dealing " + utherradiancetwo.ToString() + " damage to enemies.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                int abathurtoxic = 35 + (15 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Toxic Nest";
+                toolTip1.SetToolTip(picWAbility, "Charge Cooldown: 12 seconds\n\nSpawn a mine that becomes active after a short time. Deals " + abathurtoxic.ToString() + " damage and reveals the\nenemy for 4 seconds. Lasts 90 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int azmodansummon = 20 + (3 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Summon Demon Warrior";
+                toolTip1.SetToolTip(picWAbility, "Mana: 40\nCharge Cooldown: 10 seconds\n\nSpawn a Demon Warrior that marches toward a point. Warriors deal " + azmodansummon.ToString() + " damage per\nsecond and last for 10 seconds.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                int gazdethone = 60 + (12 * trackBar1.Value);
+                int gazdethtwo = 120 + (24 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Deth Lazor";
+                toolTip1.SetToolTip(picWAbility, "Mana: 60\nCooldown: 12 seconds\n\nCharged attack that deals " + gazdethone.ToString() + " to " + gazdethtwo.ToString() + " damage to enemies in a line.Damage\nand range increase the longer the Ability is charged, reaching maximum power after 3 seconds.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Jump!";
+                toolTip1.SetToolTip(picWAbility, "Cooldown: 30 seconds\n\nMakes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                int murkypuffer = 130 + (35 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Pufferfish";
+                toolTip1.SetToolTip(picWAbility, "Cooldown: 15 seconds\n\nSpit out a Pufferfish at the target point. After 3 seconds, the fish will blow up for " + murkypuffer.ToString() + " damage.\nEnemies can attack the fish to prevent it from exploding.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int nazwall = 18 + (2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Zombie Wall";
+                toolTip1.SetToolTip(picWAbility, "Mana: 70\nCooldown: 14 seconds\n\nAfter a short delay, create a ring of Zombies surrounding the target area that deal " + nazwall.ToString() + "\ndamage and last for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                int hammerblast = 50 + (13 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Concussive Blast";
+                toolTip1.SetToolTip(picWAbility, "Mana: 75\nCooldown: 12 seconds\n\nDeals " + hammerblast.ToString() + " damage and pushes enemies away.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                double syldaggerone = 10 + (3.5 * trackBar1.Value);
+                int syldaggertwo = 40 + (14 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Shadow Dagger";
+                toolTip1.SetToolTip(picWAbility, "Mana: 75\nCooldown: 10 seconds\n\nDeals " + syldaggerone.ToString() + " damage and an additional " + syldaggertwo.ToString() + " damage over 2 seconds to target\nunit. The effect spreads to nearby targets.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                int zaghunter = 40 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Hunter Killer";
+                toolTip1.SetToolTip(picWAbility, "Mana: 60\nCharge Cooldown: 14  seconds\n\nSummon a Hydralisk to attack a single target, dealing " + zaghunter.ToString() + " damage per second. Lasts 8\nseconds.");
+            }
         }
 
         //**E ABILITY**//
@@ -5877,6 +6839,108 @@ namespace Hots_Talents
                 int tyraelsmite = 75 + (12 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Smite";
                 toolTip1.SetToolTip(picEAbility, "Mana: 50\nCooldown: 7 seconds\n\nRake target area for " + tyraelsmite.ToString() + " damage.Allies moving through the targeted area gain 25%\nincreased Movement Speed for 2 seconds.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Pixie Dust";
+                toolTip1.SetToolTip(picEAbility, "Mana: 60\nCooldown: 10 seconds\n\nIncrease targets Movement Speed by 20% and block 1 Hero Basic Attack, reducing their damage by\n50%. Lasts 3 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                int liliwind = 30 + (13 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Blinding Wind";
+                toolTip1.SetToolTip(picEAbility, "Mana: 40\nCooldown: 10 seconds\n\nThrow a cloud of Blinding Wind at the 2 nearest enemies (prioritizing Heroes), dealing " + liliwind.ToString() + "\ndamage. Targers miss their next 2 Basic Attacks in the next 4 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int malufrionroots = 15 + (12 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Entangling Roots";
+                toolTip1.SetToolTip(picEAbility, "Mana: 75\nCooldown: 12 seconds\n\nRoot enemies within the target area for 1.5 seconds, and deals " + malufrionroots.ToString() + " damage over the\nduration. Affected area grows over 3 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                int rehgartotem = 75 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Earthbind Totem";
+                toolTip1.SetToolTip(picEAbility, "Mana: 60\nCooldown: 15 seconds\n\nCreate a totem that slows nearby enemies by 35% . The totem has " + rehgartotem.ToString() + " Health and lasts\nfor 8 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Dimensional Shift";
+                toolTip1.SetToolTip(picEAbility, "Mana: 75\nCooldown: 20 seconds\n\nBecome invulnerable and fully invisible for 1.5 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                int tyrandeflare = 90 + (18 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Lunar Flare";
+                toolTip1.SetToolTip(picEAbility, "Mana: 60\nCooldown: 12 seconds\n\nAfter a short delay, deal " + tyrandeflare.ToString() + " damage and stun enemies in the target area for 1 second.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                int utherhammer = 50 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Hammer of Justice";
+                toolTip1.SetToolTip(picEAbility, "Mana: 50\nCooldown: 10 seconds\n\nDeal " + utherhammer.ToString() + " damage and stuns the target for 1 second.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int azmodanburnone = 60 + (8 * trackBar1.Value);
+                int azmodanburntwo = 120 + (16 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "All Shall Burn";
+                toolTip1.SetToolTip(picEAbility, "Mana: 16\nCooldown: 6 seconds\n\nChannel a death beam on an enemy dealing " + azmodanburnone.ToString() + " damage a second. The damage amount\ngrows the longer it is channeled, to a maximum of " + azmodanburntwo.ToString() + " damage per second. Does 25%\nmore damage to Structures.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                int gazxplode = 65 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Xplodium Charge";
+                toolTip1.SetToolTip(picEAbility, "Mana: 70\nCharge Cooldown: 12 seconds\n\nPlaces a bomb that deals " + gazxplode.ToString() + " damage to enemies within target area after 2.5 seconds,\nstunning them for 2 seconds.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int vikingsnorseone = 100 + (20 * trackBar1.Value);
+                int vikingsnorsetwo = 200 + (40 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Norse Force!";
+                toolTip1.SetToolTip(picEAbility, "Cooldown: 60 seconds\n\nAll Vikings gain a " + vikingsnorseone.ToString() + " to " + vikingsnorsetwo.ToString() + " point Shield, increasing in strength for each\nViking alive. Lasts 7 seconds.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Safety Bubble";
+                toolTip1.SetToolTip(picEAbility, "Cooldown: 14 seconds\n\nBecomes Invulnerable for 2 seconds. While active, you cannot attack or use abilities.");
+            }
+            if (lblHero.Text == "Nazeebo")
+            {
+                int naztoads = 30 + (8 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Plague of Toads";
+                toolTip1.SetToolTip(picEAbility, "Mana: 55\nCooldown: 10 seconds\n\nCreate 5 toads that deal " + naztoads.ToString() + " damage.");
+            }
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Siege Mode";
+                toolTip1.SetToolTip(picEAbility, "Mana: 40\nCooldown: 5 seconds\n\nBecome immobile to increase Basic Attack range by 90% , deal 25% splash damage, and deal 30%\nbonus damage to Minions and Structures.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                int sylwave = 30 + (11 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Haunting Wave";
+                toolTip1.SetToolTip(picEAbility, "Mana: 75\nCooldown: 11 seconds\n\nSend forth a wave of banshees dealing " + sylwave.ToString() + " damage to all targets. Reactivate to teleport to\nthe banshees' location.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                int zagdropone = 60 + (12 * trackBar1.Value);
+                int zagdroptwo = 13 + (2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Infested Drop";
+                toolTip1.SetToolTip(picEAbility, "Mana: 50\nCooldown: 12 seconds\n\nBombard target area with a Zerg Drop Pod for " + zagdropone.ToString() + " damage.\n\nThe pod spawns 2 Roachlings that deal " + zagdroptwo.ToString() + " damage per second and last for 8 seconds.");
             }
         }
 
@@ -6026,6 +7090,121 @@ namespace Hots_Talents
                 int tyraeljudgetwo = 30 + (4 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Judgment";
                 toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nCooldown: 80 seconds\n\nCharge the target, dealing " + tyraeljudgeone.ToString() + " damage and stunning them for 1.5 seconds. Nearby\nenemies are knocked away and take " + tyraeljudgetwo.ToString() + " damage.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightblink = 108 + (17 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Blink Heal";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 40\nCharge Cooldown: 10 seconds\n\nTeleport to a nearby ally, healing them for " + brightblink.ToString() + ". Can store 2 charges.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                int lilicups = 480 + (156 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Jug of 1,000 Cups";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 70 seconds\n\nRapidly tosses brew to the most injured nearby allies, prioritizing Heroes, restoring a total of  " + lilicups.ToString() + "\nHealth over 6 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int malufriontranq = 20 + (9 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Tranquillity";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nHeals " + malufriontranq.ToString() + " Health per second to nearby allies over 10 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Bloodlust";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 125\nCooldown: 120 seconds\n\nGrant nearby allied Heroes 40% Attack Speed and 30% Movement Speed. Lasts for 10 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                int tassarchonone = 200 + (40 * trackBar1.Value);
+                int tassarchonetwo = 64 + (12 * trackBar1.Value);
+                int tassarchonthree = 32 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Archon";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 80\nCooldown: 100 seconds\n\nTransform into an Archon, gaining a " + tassarchonone.ToString() + " point Shield, causing Basic Attacks to deal " + tassarchonetwo.ToString() + "\ndamage and splash for " + tassarchonthree.ToString() + " additional damage. Lasts for 12 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                int tyrandestarfall = 20 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Starfall";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nDeal " + tyrandestarfall.ToString() + " damage per second and slow enemies by 20% in an area. Lasts 8 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Divine Shield";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 70 seconds\n\nMake an allied Hero Invulnerable and increase their Movement SPeed by 20% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Ultimate Evolution";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nCooldown: 70 seconds\n\nClone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20%\nAbility Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic\nAbility.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int azmodandemonicone = 20 + (5 * trackBar1.Value);
+                int azmodandemonictwo = 20 + (2 * trackBar1.Value);
+                int azmodandemonicthree = 200 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Demonic Invasion";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nRain a small army of Demonic Grunts down on enemies, dealing " + azmodandemonicone.ToString() + " damage per impact.\nDemon Grunts deal " + azmodandemonictwo.ToString() + " damage and have " + azmodandemonicthree.ToString() + " health.\n\nDamage is doubled versus non-Heroic targets.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Robo-Goblin";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nBasic Attacks deal an additional 150% damage to Minions, Mercenaries, and Structures.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int vikingsraidone = 30 + (14 * trackBar1.Value);
+                int vikingsraidtwo = 50 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Longboat Raid!";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nCooldown: 90 seconds\n\nHop into an Unstoppable Longboat that fires at nearby enemies for " + vikingsraidone.ToString() + " damage per\nsecond and can fire a mortar that deals " + vikingsraidtwo.ToString() + " damage in an area. The boat has increased\nHealth for each Viking inside. Lasts 12 seconds.\n\nRequires all surviving Vikings to be nearby.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                double murkymurloc = 60 + (37.5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "March of the Murlocs";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nCooldown: 100 seconds\n\nCommand a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero\nor Structure they find. Each Murloc deals " + murkymurloc.ToString() + " damage and slow its target by 15% for 5\nseconds. Does half damage to Structures.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int nazgargone = 30 + (15 * trackBar1.Value);
+                int nazgartwo = 100 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Gargantuan";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 90\nCooldown: 60 seconds\n\nSummon a Gargantuan that guards you for 20 seconds. Deals " + nazgargone.ToString() + "damage to nearby\nenemies when summoned, attacks for " + nazgartwo.ToString() + " damage, and can be ordered to stomp,\ndealing " + nazgargone.ToString() + " damage. The Gargantuan deals extra damage to Minions and Structures.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                int hammerblunt = 220 + (29 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Blunt Force Gun";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 70 seconds\n\nFire a missile across the battlefield, dealing " + hammerblunt.ToString() + " damage to enemies in its path.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                int sylwail = 200 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Wailing Arrow";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 90 seconds\n\nShoot an arrow that can be reactivated to deal " + sylwail.ToString() + " damage and silencing enemies in an\narea for 2,5 seconds. The arrow detonates automatically when it reaches maximum range.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                int zagmawone = 75 + (24 * trackBar1.Value);
+                int zagmawtwo = 38 + (2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Devouring Maw";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nSummon a Devouring Maw that deals " + zagmawone.ToString() + " damage and devours enemies for 4 seconds.\nDevours enemies cannot fight and take " + zagmawtwo.ToString() + " damage per second.");
             }
         }
 
@@ -6180,6 +7359,111 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Sanctification";
                 toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 75\nCooldown: 50 seconds\n\nWhile channeling, Tyrael makes all nearby allied Heroes invulnerable and unstoppable. Lasts 3 seconds.\n\nDoes not affect Tyrael.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightemerald = 100 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Emerald Wind";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 90\nCooldown: 60 seconds\n\nCreate an expanding nova of wind, dealing " + brightemerald.ToString() + " damage and pushing enemies away.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                int lilidragon = 140 + (14 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Water Dragon";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 45 seconds\n\nSummon a Water Dragon that after a delay hits the nearest enemy Hero and all enemies near them,\ndealing " + lilidragon.ToString() + " damage and slowing their Movement Speed by 70% for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int malfuriondream = 100 + (36 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Twilight Dream";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 90 seconds\n\nAfter a short delay, deal " + malfuriondream.ToString() + " damage in a large area around you, silencing enemies for 3/seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                int rehgarancesetral = 600 + (140 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Ancestral Healing";
+                toolTip1.SetToolTip(picR2Ability, "Mana: 80\nCooldown: 60 seconds\n\nAfter a short delay, heal an allied Hero for " + rehgarancesetral.ToString() + " Health.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Force Wall";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 35\nCooldown: 12 seconds\n\nCreate a wall that blocks all units from moving through it for 2.5 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Shadowstalk";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 75\nCooldown: 70 seconds\n\nStealth you and all allied Heroes for 8 seconds, and reveal all enemy Heroes for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                int utherstorm = 50 + (18 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Divine Storm";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nDeal " + utherstorm.ToString() + " damage and stun nearby enemies for 1.5 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Evolve Monstrosity";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nCooldown: 90 seconds\n\nTurn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it\ngains 5% Health and 5% Basic Attack damage, stacking up to 30 times. The Monstrosity takes 50%\nless damage from Minions and Structures.\n\nUsing Symbiote on the Monstrosity allows you to control it, in addition to Symbiote's normal benefits.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Black Pool";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 60\nCharge Cooldown: 20 seconds\n\nCreate a pool that empowers Azmodan, his Demons, and allied Minions, increasing their attack and\nability damage by 75% . Pools last 5 seconds.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                int gazgrav = 150 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Grav-O-Bomb 3000";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 110 seconds\n\nAfter a 2 second delay, pull enemies toward the center of an area and deal " + gazgrav.ToString() + " damage.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Play Again!";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nCooldown: 80 seconds\n\nSummon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.\n\nOnly one Viking may attempt to summon at a time.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Octo-Grab";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nCooldown: 50 seconds\n\nSummon an octopus to stun target enemy Hero for 3 seconds while you hit them for 1 damage a second.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int nazspirit = 60 + (18 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Ravenous Spirit";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 90 seconds\n\nChannel a Ravenous Spirit that deals " + nazspirit.ToString() + "damage per second. Cannot move while\nchanneling. Lasts for 8 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                int hammernapalmone = 40 + (16 * trackBar1.Value);
+                int hammernapalmtwo = 30 + (4 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Napalm Strike";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 35\nCooldown: 6 seconds\n\nDeals " + hammernapalmone.ToString() + " damage on impact and leaves a napalm area that deals " + hammernapalmtwo.ToString() + "\ndamage per second. Lasts for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Possession";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 20\nCooldown: 4 seconds\n\nForce an enemy Minion to fight for you. It gains 20% Attack Damage and Health. Cooldown increased to\n20 seconds when used on Catapults.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Nydus Network";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 50\nCharge Cooldown: 60 seconds\n\nSummon a Nydus Worm at target location that you can enter by right-clicking. While inside, you exit by\ntargeting a Nydus Worm with R or right-clicking near the Worm. Maximum 4 Nydus Worms.");
+            }
         }
 
         //**TRAIT**//
@@ -6308,19 +7592,117 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(picTrait, "Use Fury instead of Mana, which is gained by taking or dealing damage. Using an Ability grants 10%\nMovement Speed for 4 seconds.");
             }
 
-              if (lblHero.Text == "Stitches")
+            if (lblHero.Text == "Stitches")
             {
-				double stitchesgas = 10 + (1.5 * trackBar1.Value);
+                double stitchesgas = 10 + (1.5 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Vile Gas";
                 toolTip1.SetToolTip(picTrait, "When damaged, Stitches emits a gas cloud that persists for 4 seconds. Enemies who enter it are\npoisoned for " + stitchesgas.ToString() + " damage per second for 3 seconds.");
             }
 
-              if (lblHero.Text == "Tyrael")
-              {
-                  int tyraelwrath = 200 + (40 * trackBar1.Value);
-                  toolTip1.ToolTipTitle = "Archangel's Wrath";
-                  toolTip1.SetToolTip(picTrait, "When you die, become invulnerable and explode for " + tyraelwrath.ToString() + " damage after 3.5 seconds.");
-              }
+            if (lblHero.Text == "Tyrael")
+            {
+                int tyraelwrath = 200 + (40 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Archangel's Wrath";
+                toolTip1.SetToolTip(picTrait, "When you die, become invulnerable and explode for " + tyraelwrath.ToString() + " damage after 3.5 seconds.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightmist = 36 + (9 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Soothing Mist";
+                toolTip1.SetToolTip(picTrait, "Cooldown: 5 seconds\n\nBrightwing heals nearby allied Heroes for " + brightmist.ToString() + " every 5 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Fast Feet";
+                toolTip1.SetToolTip(picTrait, "Upon taking damage, gain 10% Movement Speed for 1 second.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Innervate";
+                toolTip1.SetToolTip(picTrait, "Cooldown: 30 seconds\n\nGrant target allied Hero 100 Mana over 10 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Ghost Wolf";
+                toolTip1.SetToolTip(picTrait, "Instead of using a mount, Rehgar transforms into a Ghost Wolf, increasing movement speed by 30%.\nTransformation is instant and can be used while moving. Basic Attacks in Ghost Wolf form deal 100%\nmore damage, but cancel Ghost Wolf form.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Oracle";
+                toolTip1.SetToolTip(picTrait, "Mana: 25\nCooldown: 30 seconds\n\nGreatly increases your vision radius and allows you to detect enemy Heroes. Lasts for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Hunter's Mark";
+                toolTip1.SetToolTip(picTrait, "Cooldown: 20 seconds\n\nMarks a target enemy, increasing all damage taken by 25% and revealing them for 4 seconds. Cannot\nbe used on Structures.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Eternal Devotion";
+                toolTip1.SetToolTip(picTrait, "Upon dying, become an Invulnerable spirit for up to 10 seconds. While in spirit form, you can heal allies\nwith Flash of Light.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Locust Strain";
+                toolTip1.SetToolTip(picTrait, "Cooldown: 15 seconds\n\nSpawns a Locust to attack down the nearest lane every 15 seconds. Locusts last for 25 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "General of Hell";
+                toolTip1.SetToolTip(picTrait, "Cooldown: 30 seconds\n\nSummon a Demon Lieutenant at an allied Mercenary, Minion, or Summon. The Lieutenant will march\nwith the target, granting 15% increased damage and 15% increased maximum Health to all nearby\nfriendly Mercenaries, Minions, and Summons. Unlimited range.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Salvager";
+                toolTip1.SetToolTip(picTrait, "Destroyed enemy Structures and your Rock-It! Turrets drop scrap. Collecting scrap restores 30 Mana\nand causes his Abilities to cooldown twice as fast for 3.07 seconds.\n\nActivate Salvager to dismantle a target Rock-it! Turret and turn it into scrap.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Fast Restart";
+                toolTip1.SetToolTip(picTrait, "The Lost Vikings' death time is reduced by 25% .");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Spawn Egg";
+                toolTip1.SetToolTip(picTrait, "Cooldown: 15 seconds\n\nPlace an Egg at target location, revealing the nearby area. Upon dying, you respawn at the Egg after 5\nseconds. If your egg is killed, you are revealed to enemies for 15 seconds. You only grant 25% of a\nHero's experience upon dying.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int nazvoodoo = 20 + (4 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Voodoo Ritual";
+                toolTip1.SetToolTip(picTrait, "Ability and attack damage poisons enemies for " + nazvoodoo.ToString() + " additional damage over 4 seconds.\n\nIf a poisoned enemy dies, Nazeebo regenerates 1.95% Health and 1% Mana.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Artillery";
+                toolTip1.SetToolTip(picTrait, "Cooldown: 5 seconds\n\nBasic Attacks deal 20% more damage to distant enemies.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Black Arrows";
+                toolTip1.SetToolTip(picTrait, "Basic Attacks and Abilities stun Minions, Mercenaries, and Towers for 1 second.");
+            }
+            if (lblHero.Text == "Zagara")
+            {
+                double zagcreep = 1.5 + (0.3125 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Creep Tumor";
+                toolTip1.SetToolTip(picTrait, "Mana: 20\nCharge Cooldown: 15 secconds\n\nLay a Creep Tumor that generates Creep. You and your summons move 20% faster on Creep and\nrestore " + zagcreep.ToString() + " Health per second. Tumors last 240 seconds.");
+            }
         }
 
         //**ABILITY 1_1**//
@@ -6453,6 +7835,101 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability1_1, "When Archangel's Wrath explodes, shield nearby\nallies for 50% of their max Health for 5 seconds.");
             }
 
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Arcane Precision";
+                toolTip1.SetToolTip(Ability1_1, "Inner area damage increased by 33%.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Conjurer's Pursuit";
+                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 0.25.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Conjurer's Pursuit";
+                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 0.25.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Spiritwalker's Grace";
+                toolTip1.SetToolTip(Ability1_1, "Reduces Chain Heal's Mana cost from 70 to 45.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Conjurer's Pursuit";
+                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 0.25.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Ranger's Mark";
+                toolTip1.SetToolTip(Ability1_1, "Lower the Cooldown of Hunter's Mark by 8 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Conjurer's Pursuit";
+                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 0.25.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Pressurized Glands";
+                toolTip1.SetToolTip(Ability1_1, "Increases the range of Symbiote's Spike Burst\nby 25% and decreases the cooldown by 1\nsecond.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Taste for Blood";
+                toolTip1.SetToolTip(Ability1_1, "Enemies killed by Globe of Annihilation's impact\npermanently increase its damage by 2 up to a\nmaximum of 500.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Regeneration Master";
+                toolTip1.SetToolTip(Ability1_1, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Olaf the Stout";
+                toolTip1.SetToolTip(Ability1_1, "Every 8 seconds Olaf can block a Basic Attack,\nreducing its damage by 75% . Can store up to 2\ncharges.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Block";
+                toolTip1.SetToolTip(Ability1_1, "Periodically reduces the damage received from\nHero Basic Attacks by 50% . Stores up to 2\ncharges.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Blood Ritual";
+                toolTip1.SetToolTip(Ability1_1, "Increases Health and Mana granted by Voodoo\nRitual by 100%.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Advanced Artillery";
+                toolTip1.SetToolTip(Ability1_1, "Increase the damage bonus to long distance\nenemies by 10%.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "With the Wind";
+                toolTip1.SetToolTip(Ability1_1, "Increases Withering Fire's range by 25%.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Centrifugal Hooks";
+                toolTip1.SetToolTip(Ability1_1, "Banelings can travel twice as far before\nexploding.");
+            }
         }
 
         //**ABILITY 1_2**//
@@ -6586,6 +8063,99 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Horadric Reforging";
                 toolTip1.SetToolTip(Ability1_2, "Increases the damage dealt by El'Druin's Might\nby 30%.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Shield Dust";
+                toolTip1.SetToolTip(Ability1_2, "Increase number of Basic Attack blocks to 2.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Pro Toss";
+                toolTip1.SetToolTip(Ability1_2, "Increases the range of Healing Brew by 30%.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Moonburn";
+                toolTip1.SetToolTip(Ability1_2, "Moonfire deals 30% more damage to non-Heroic\ntargets.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Empowering Charge";
+                toolTip1.SetToolTip(Ability1_2, "Lightning Shield also increases the damage of \nthe target's next 3 Basic Attacks by 25%.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Overload";
+                toolTip1.SetToolTip(Ability1_2, "Increases Psionic Storm's range by 33%.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Celestial Attunement";
+                toolTip1.SetToolTip(Ability1_2, "Reduce the Mana cost of Light of Elune by 15.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Reach";
+                toolTip1.SetToolTip(Ability1_2, "Increases the range of Holy Light and Flash of\nLight by 40%.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Survival Instincts";
+                toolTip1.SetToolTip(Ability1_2, "Increases Locust's Health by 30% and duration\nby 40%.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Sieging Wrath";
+                toolTip1.SetToolTip(Ability1_2, "Increases the impact damage dealt by up to\n50%, depending on how far the missile traveled.");
+            }
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Scrap-o-Matic Smelter";
+                toolTip1.SetToolTip(Ability1_2, "Increases the amount of Mana restored by scrap\nto 60.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Spy Games";
+                toolTip1.SetToolTip(Ability1_2, "After standing still for 5 seconds, Erik gains\nStealth and his Sight Radius is increased by\n75%. The Stealth persists for 3 seconds after\nmoving.");
+            }
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Bubble Breeze";
+                toolTip1.SetToolTip(Ability1_2, "Gain 20% Movement Speed while in Safety Bubble.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Death Ritual";
+                toolTip1.SetToolTip(Ability1_2, "Permanently gain 5 Health and 3 Mana when a\nMinion dies under Voodoo Ritual.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Lethal Blast";
+                toolTip1.SetToolTip(Ability1_2, "Increase the damage of Concussive Blast by 50%.");
+            }
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Lost Soul";
+                toolTip1.SetToolTip(Ability1_2, "Reduces the cooldown of Shadow Dagger by 2 seconds.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Corpse Feeders";
+                toolTip1.SetToolTip(Ability1_2, "Roachlings take 30% less damage from non-\nheroic sources.");
+            }
         }
 
         //**ABILITY 1_3**//
@@ -6716,6 +8286,103 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Purge Evil";
                 toolTip1.SetToolTip(Ability1_3, "Smite deals 25% more damage to Heroes.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Bribe";
+                toolTip1.SetToolTip(Ability1_3, "Kill enemy Minions to gain stacks of Bribe. Use\n20 stacks to bribe target Mercenary, instantly\ndefeating them. Does not work on Bosses.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Timeless Creature";
+                toolTip1.SetToolTip(Ability1_3, "Increases the duration of Cloud Serpent by 50%.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Harmony";
+                toolTip1.SetToolTip(Ability1_3, "Casting Regrowth on Minions or Mercenaries \nnstantly returns 100% of the Mana cost.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Colossal Totem";
+                toolTip1.SetToolTip(Ability1_3, "Increases the area of Earthbind Totem by 50%\nand its Health by 100%.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Psi-Infusion";
+                toolTip1.SetToolTip(Ability1_3, "Psionic Storm returns 7 Mana for each target\ninitally hit.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Empower";
+                toolTip1.SetToolTip(Ability1_3, "When Sentinel impacts, your cooldowns are instantly reduced by 3\nseconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Fist of Justice";
+                toolTip1.SetToolTip(Ability1_3, "Basic Attacks reduce cooldown of Hammer of\nJustice by 1 second.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                int abathurmicrobes = 7 + (2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Regenerative Microbes";
+                toolTip1.SetToolTip(Ability1_3, "Symbiote's Carapace heals the target for " + abathurmicrobes.ToString() + "\nHealth per second.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Spare Nothing";
+                toolTip1.SetToolTip(Ability1_3, "All Shall Burn will destroy 1 ammo a second\nfrom structures.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Break It Down!";
+                toolTip1.SetToolTip(Ability1_3, "Scrap now causes Abilities to cooldown three\ntimes as fast for 3.07 seconds.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Viking Hoard";
+                toolTip1.SetToolTip(Ability1_3, "Each Lost Viking gains 1 Health per second. This bonus\nis increased by 0.5 on all Vikings when a Regeneration\nGlobe is picked up.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Assault Egg";
+                toolTip1.SetToolTip(Ability1_3, "Health and sight range of Egg increased by 150%.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Demolitionist";
+                toolTip1.SetToolTip(Ability1_3, "Basic Attacks against Structures destroy 1\nammo and deal an additional 10% damage.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Resistant";
+                toolTip1.SetToolTip(Ability1_3, "While in Siege Mode, the duration of Silences,\nStuns, Slows, and Roots are reduced by 75%.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Barbed Shot";
+                toolTip1.SetToolTip(Ability1_3, "Withering Fire deals 200% bonus damage to Minions and Mercenaries.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Reconstitution";
+                toolTip1.SetToolTip(Ability1_3, "Health Restoration bonus on Creep increased by 200%.");
             }
         }
 
@@ -6849,6 +8516,94 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Regeneration Master";
                 toolTip1.SetToolTip(Ability1_4, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Scouting Drone";
+                toolTip1.SetToolTip(Ability1_4, "Places a Scouting Drone at target location,\nrevealing a large area around it for 45 seconds.\nThis drone cannot be hidden and is killed by\nenemies with 2 Basic Attacks.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Gale Force";
+                toolTip1.SetToolTip(Ability1_4, "Increases Blinding Wind damage by 50%.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Scouting Drone";
+                toolTip1.SetToolTip(Ability1_4, "Places a Scouting Drone at target location,\nrevealing a large area around it for 45 seconds.\nThis drone cannot be hidden and is killed by\nenemies with 2 Basic Attacks.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Healing Totem";
+                toolTip1.SetToolTip(Ability1_4, "Activate to place a Totem that heals allies in an\narea for 1.95% of their max Health every\nsecond for 10 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Minion Bulwark";
+                toolTip1.SetToolTip(Ability1_4, "Increases Plasma Shield amount by 50% on\nMinions and Mercenaries and makes it last\nforever.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Seasoned Marksman";
+                toolTip1.SetToolTip(Ability1_4, "For every 6 enemy Minion or Mercenary kills near your Hero, gain 1\nBasic Attack damage. Hero Takedowns count as 2 Minion kills.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Block";
+                toolTip1.SetToolTip(Ability1_4, "Periodically reduces the damage received from\nHero Basic Attacks by 50%. Stores up to 2\ncharges.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Envenomed Nest";
+                toolTip1.SetToolTip(Ability1_4, "Toxic Nests deal 50% more damage over 3\nseconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Healing Ward";
+                toolTip1.SetToolTip(Ability1_4, "Activate to place a ward on the ground that\nheals allies in an area for 1.95% of their max\nHealth every second for 10 seconds.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Extra TNT";
+                toolTip1.SetToolTip(Ability1_4, "Xplodium Charge damage increased by 10% per\ntarget hit, to a max of 100% increased damage.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Bribe";
+                toolTip1.SetToolTip(Ability1_4, "Kill enemy Minions to gain stacks of Bribe. Use\n20 stacks to bribe target Mercenary, instantly\ndefeating them. Does not work on Bosses.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Bribe";
+                toolTip1.SetToolTip(Ability1_4, "Kill enemy Minions to gain stacks of Bribe. Use\n20 stacks to bribe target Mercenary, instantly\ndefeating them. Does not work on Bosses.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Ambush";
+                toolTip1.SetToolTip(Ability1_4, "Stealth when entering Siege Mode. Your next\nBasic Attack will deal 100% more damage.");
+            }
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Corruption";
+                toolTip1.SetToolTip(Ability1_4, "Basic Attacks against Structures destroy 2 Ammunition.");
+            }
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Demolitionist";
+                toolTip1.SetToolTip(Ability1_4, "Basic Attacks against Structures destroy 1\nammo and deal an additional 10% damage.");
+            }
         }
 
         //**ABILITY 1_5**//
@@ -6886,6 +8641,23 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability1_5, "For every 6 enemy Minion or Mercenary kills\nnear your Hero, gain 1 Basic Attack damage.\nHero Takedowns count as 2 Minion kills.");
             }
 
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Bribe";
+                toolTip1.SetToolTip(Ability1_5, "Kill enemy Minions to gain stacks of Bribe. Use\n20 stacks to bribe target Mercenary, instantly\ndefeating them. Does not work on Bosses.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Demolitionist";
+                toolTip1.SetToolTip(Ability1_5, "Basic Attacks against Structures destroy 1\nammo and deal an additional 10% damage.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Regeneration Master";
+                toolTip1.SetToolTip(Ability1_5, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+            }
         }
 
         //**ABILITY 2_1**//
@@ -7019,6 +8791,104 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Amplified Healing";
                 toolTip1.SetToolTip(Ability2_1, "Increases regeneration effects and all healing\nreceived by 30%.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Anti-magic Powder";
+                toolTip1.SetToolTip(Ability2_1, "Block one instance of Spell damage by 50%.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Healing Ward";
+                toolTip1.SetToolTip(Ability2_1, "Activate to place a ward on the ground that\nheals allies in an area for 1.95% of their max\nHealth every second for 10 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int malfurionvengeful = 20 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Vengeful Roots";
+                toolTip1.SetToolTip(Ability2_1, "Entangling Roots also spawns a Treant that does " + malfurionvengeful.ToString() + "\ndamage per second and lasts\n12 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Feral Heart";
+                toolTip1.SetToolTip(Ability2_1, "Gain 100% increased Health Regeneration and \n00% increased Mana Regeneration while in\nGhost Wolf form.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Mental Acuity";
+                toolTip1.SetToolTip(Ability2_1, "Reduces the cooldown of Oracle by 15 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Pierce";
+                toolTip1.SetToolTip(Ability2_1, "Sentinel no longer stops at the first Hero hit, affecting all enemy Heroes\nalong the path.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Boundless Conviction";
+                toolTip1.SetToolTip(Ability2_1, "Increases the width and length of Holy Radiance\nby 40%.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Prolific Dispersal";
+                toolTip1.SetToolTip(Ability2_1, "Reduces the cooldown of Toxic Nest by 2\nseconds and adds 2 additional charges.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Burn the Weak";
+                toolTip1.SetToolTip(Ability2_1, "Structure damage bonus now applies to Minions\nand Mercenaries and is increased to 50%.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Superiority";
+                toolTip1.SetToolTip(Ability2_1, "Reduce damage taken from Minions, Structures,\nand Mercenaries by 50%.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Pain Don't Hurt";
+                toolTip1.SetToolTip(Ability2_1, "Baleog's Basic Attacks and splash damage heal\nfor 20% of the damage dealt.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Bigger Slime";
+                toolTip1.SetToolTip(Ability2_1, "Slime area increased by 30%.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Spider Cluster";
+                toolTip1.SetToolTip(Ability2_1, "Corpse Spiders creates 3 more spiders over 3 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Vampiric Assault";
+                toolTip1.SetToolTip(Ability2_1, "Basic Attacks heal for 15% of the damage dealt\nto the primary target.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Paralysis";
+                toolTip1.SetToolTip(Ability2_1, "Increases duration of Black Arrows by 100%.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                int zagspines = 15 + (3 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Envenomed Spines";
+                toolTip1.SetToolTip(Ability2_1, "Basic Attacks have their range increased by\n20% and deal an additional " + zagspines.ToString() + "\ndamage over 3 seconds.");
+            }
         }
 
         //**ABILITY 2_2**//
@@ -7149,6 +9019,105 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Vampiric Assault";
                 toolTip1.SetToolTip(Ability2_2, "Basic Attacks heal for 15% of the damage dealt\nto the primary target.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightshield = 185 + (35 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Protective Shield";
+                toolTip1.SetToolTip(Ability2_2, "Activate to shield an allied Hero from " + brightshield.ToString() + "\ndamage for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                double lilimend = 15 + (1.65 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Mending Serpent";
+                toolTip1.SetToolTip(Ability2_2, "Cloud Serpent heals the friendly unit for " + lilimend.ToString() + "\nHealth each time it attacks.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Shan'do's Clarity";
+                toolTip1.SetToolTip(Ability2_2, "Innervate's cooldown is reduced by 10 seconds\nand grants Mana twice as fast.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Chain Reaction";
+                toolTip1.SetToolTip(Ability2_2, "Chain Heals on allies with Lightning Shield active\nare increased by 25%.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Leeching Plasma";
+                toolTip1.SetToolTip(Ability2_2, "While Plasma Shield is active, 20% of the\ntarget's Basic Attack damage against the\nprimary target is returned as Health.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                int tyrandeshield = 285 + (35 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Protective Shield";
+                toolTip1.SetToolTip(Ability2_2, "Activate to shield an allied Hero from " + tyrandeshield.ToString() + " damage for 5\nseconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Hammer of the Lightbringer";
+                toolTip1.SetToolTip(Ability2_2, "Basic Attacks also restore 8 Mana.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Ballistosproes";
+                toolTip1.SetToolTip(Ability2_2, "Increases Toxic Nest's range to global and\nincreases duration by 20%.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Gluttony";
+                toolTip1.SetToolTip(Ability2_2, "15% of the damage dealt by All Shall Burn is\nreturned as Health for Azmodan.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Reduce, Reuse, Recycle";
+                toolTip1.SetToolTip(Ability2_2, "Enemy minions that die near you have a 15%\nchance to drop scrap.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "It's a Sabotage!";
+                toolTip1.SetToolTip(Ability2_2, "Erik's Basic Attacks against Structures destroy 5\nAmmo over 10 seconds.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Tufferfish";
+                toolTip1.SetToolTip(Ability2_2, "Pufferfish take an additional attack before being disarmed.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Gathering Power";
+                toolTip1.SetToolTip(Ability2_2, "Passively grants 5% Ability Power. Each Hero\ntakedown increases this bonus by 2% to a\nmaximum of 15% . This bonus Ability Power is\nreset to 5% on death.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Focused Attack";
+                toolTip1.SetToolTip(Ability2_2, "Every 10 seconds, your next Basic Attack deals\n75% additional damage. Basic Attacks reduce\nthis cooldown by 1 second.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Overflowing Quiver";
+                toolTip1.SetToolTip(Ability2_2, "Whenever you would gain a Withering Fire charge from killing a Minion\nor Hero while at maximum charges, it is automatically fired.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Medusa Blades";
+                toolTip1.SetToolTip(Ability2_2, "Basic Attacks deal 25% damage to three nearby targets.");
             }
         }
 
@@ -7281,6 +9250,102 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Retribution";
                 toolTip1.SetToolTip(Ability2_3, "Cooldown is lowered by 0.5 seconds for each\ntarget hit by Smite.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightvenom = 180 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Envenom";
+                toolTip1.SetToolTip(Ability2_3, "Activate to poison an enemy Hero, dealing " + brightvenom.ToString() + "\nddamage over 5 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Mass Vortex";
+                toolTip1.SetToolTip(Ability2_3, "Increases the number of enemies hit by Blinding\nWind from 2 to 4.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Versatile";
+                toolTip1.SetToolTip(Ability2_3, "Innervate also increases Attack Speed by 10%\nand can be cast on non-mana using Heroes.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Focused Attack";
+                toolTip1.SetToolTip(Ability2_3, "Every 10 seconds, your next Basic Attack deals \n5% additional damage. Basic Attacks reduce\nthis cooldown by 1 second.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Reinforce Structure";
+                toolTip1.SetToolTip(Ability2_3, "Plasma Shield is 100% stronger and lasts 100%\nlonger when cast on Structures.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Focused Attack";
+                toolTip1.SetToolTip(Ability2_3, "Every 10 seconds, your next Basic Attack deals 75% additional damage.\nBasic Attacks reduce this cooldown by 1 second.");
+            }
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Amplified Healing";
+                toolTip1.SetToolTip(Ability2_3, "Increases regeneration effects and all healing\nreceived by 30%.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Sustained Carapace";
+                toolTip1.SetToolTip(Ability2_3, "Increases the duration of Symbiote's Carapace\nby 50% and allows it to persist after Symbiote\nends.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Army of Hell";
+                toolTip1.SetToolTip(Ability2_3, "Increases the maximum number of charges\nfrom 2 to 3.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Clockwerk Steam Fists";
+                toolTip1.SetToolTip(Ability2_3, "Basic Attacks increase the duration of active\nRock-It! Turrets by 1 second.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Hardheaded Redhead";
+                toolTip1.SetToolTip(Ability2_3, "Erik gains a melee Basic Attack that knocks\nthe enemy away. This effect has a 6 second\ncooldown.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Living The Dream";
+                toolTip1.SetToolTip(Ability2_3, "Passively grants 10% Ability Power. Every 5 seconds\nMurky is alive he gains 1% more Ability\nPower, to a maximum of 15% extra. These\nstacks are lost on death.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int nazvenom = 180 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Envenom";
+                toolTip1.SetToolTip(Ability2_3, "Activate to poison an enemy Hero, dealing " + nazvenom.ToString() + "\ndamage over 5 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Maelstrom Shells";
+                toolTip1.SetToolTip(Ability2_3, "Increase standard Basic Attack range by 20%.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Ranger's Ambush";
+                toolTip1.SetToolTip(Ability2_3, "Using Haunting Wave to teleport refills all charges of Withering Fire.");
+            }
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Tumor Clutch";
+                toolTip1.SetToolTip(Ability2_3, "Creep Tumor mana cost removed. Cooldown\ndecreased to 10 seconds.");
             }
         }
 
@@ -7418,6 +9483,105 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability2_4, "Non-Heroic abilities can be used before\nexploding, but deal no damage.");
             }
 
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Promote";
+                toolTip1.SetToolTip(Ability2_4, "Activate to give target allied lane Minion +300%\nHealth and +100% damage for 30 seconds. Has\n2 charges.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Lingering Blind";
+                toolTip1.SetToolTip(Ability2_4, "Increases the number of Basic Attacks missed\ndue to Blinding Wind from 2 to 3");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int malfurionshield = 185 + (35 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Protective Shield";
+                toolTip1.SetToolTip(Ability2_4, "Activate to shield an allied Hero from " + malfurionshield.ToString() + "\ndamage for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Reactive Spark";
+                toolTip1.SetToolTip(Ability2_4, "Lightning Shield's duration does not start until\nan enemy is nearby.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Promote";
+                toolTip1.SetToolTip(Ability2_4, "Activate to give target allied lane Minion +300%\nHealth and +100% damage for 30 seconds. Has\n2 charges.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Searing Arrows";
+                toolTip1.SetToolTip(Ability2_4, "Activate to increase Basic Attack damage by 40% for 5 seconds. Each\nattack costs 10 Mana.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                int uthershield = 185 + (35 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Protective Shield";
+                toolTip1.SetToolTip(Ability2_4, "Activate to shield an allied Hero from " + uthershield.ToString() + "\ndamage for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Adrenal Overload";
+                toolTip1.SetToolTip(Ability2_4, "Symbiote host gains 25% increased Attack\nSpeed.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Bound Minion";
+                toolTip1.SetToolTip(Ability2_4, "Using General of Hell on a Lane Minion increases\nthe Minion's damage by 100% and its Health by\n300% for 30 seconds.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Goblin Fusion";
+                toolTip1.SetToolTip(Ability2_4, "Deth Lazor gains an additional charge level after\nreaching max size, which increases the damage\ndealt by 25%.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int vikingsspin = 50 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Spin To Win!";
+                toolTip1.SetToolTip(Ability2_4, "Cooldown: 12 seconds\n\nActivate to have each Viking deal " + vikingsspin.ToString() + " damage to nearby enemies.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                int murkyvenom = 180 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Envenom";
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + murkyvenom.ToString() + "\ndamage over 5 seconds.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Promote";
+                toolTip1.SetToolTip(Ability2_4, "Activate to give target allied lane Minion +300%\nHealth and +100% damage for 30 seconds. Has\n2 charges.");
+            }
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Excessive Force";
+                toolTip1.SetToolTip(Ability2_4, "Double the knock back distance.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                int sylvenom = 180 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Envenom";
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + sylvenom.ToString() + " damage\nover 5 seconds.");
+            }
+            if (lblHero.Text == "Zagara")
+            {
+                int zagvenom = 180 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Envenom";
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + zagvenom.ToString() + "\ndamage over 5 seconds.");
+            }
         }
 
         //**ABILITY 2_5**//
@@ -7435,6 +9599,48 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Vorpal Blade";
                 toolTip1.SetToolTip(Ability2_5, "Activate to teleport to the last non-structure\ntarget you attacked within 3 seconds. 15 second\ncooldown.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Healing Ward";
+                toolTip1.SetToolTip(Ability2_5, "Activate to place a ward on the ground that\nheals allies in an area for 1.95% of their max\nHealth every second for 10 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Farsight";
+                toolTip1.SetToolTip(Ability2_5, "Activate to reveal an area for 10 seconds.\nEnemies in the area are revealed for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Healing Ward";
+                toolTip1.SetToolTip(Ability2_5, "Activate to place a ward on the ground that\nheals allies in an area for 1.95% of their max\nHealth every second for 10 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Healing Ward";
+                toolTip1.SetToolTip(Ability2_5, "Activate to place a ward on the ground that heals allies in an area for\n1.95% of their max Health every second for 10 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Superiority";
+                toolTip1.SetToolTip(Ability2_5, "Reduce damage taken from Minions, Structures,\nand Mercenaries by 50%.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Promote";
+                toolTip1.SetToolTip(Ability2_5, "Activate to give target allied lane Minion +300%\nHealth and +100% damage for 30 seconds. Has\n2 charges.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Infest";
+                toolTip1.SetToolTip(Ability2_5, "Increases an allied lane Minion's damage by\n400% for 30 seconds. Holds up to 2 charges.");
             }
         }
 
@@ -7569,6 +9775,104 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Battle Momentum";
                 toolTip1.SetToolTip(Ability3_1, "Basic Attacks reduce Ability cooldowns by 0.5\nseconds.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Regenerative Rains";
+                toolTip1.SetToolTip(Ability3_1, "Soothing Mist activates each time you use a\nbasic Ability, but with 50% reduced\neffectiveness.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Shake It Off";
+                toolTip1.SetToolTip(Ability3_1, "Reduces the duration of the next Stun or Root \nagainst you by 75% . Can only trigger once\nevery 15 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Battle Momentum";
+                toolTip1.SetToolTip(Ability3_1, "Basic Attacks reduce Ability cooldowns by 0.5\nseconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Battle Momentum";
+                toolTip1.SetToolTip(Ability3_1, "Basic Attacks reduce Ability cooldowns by 0.5\nseconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Khala's Embrace";
+                toolTip1.SetToolTip(Ability3_1, "If Plasma Shield expires, 50% of the Shield\nremains indefinitely. This effect does not stack.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Quickening Blessing";
+                toolTip1.SetToolTip(Ability3_1, "If cast on an ally, Light of Elune also increases their Movement Speed\nby 25% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Wave of Light";
+                toolTip1.SetToolTip(Ability3_1, "Each Hero healed by Holy Radiance returns 10\nMana and reduces the cooldown by 1 second, up\nto a maximum of 50 Mana and 5 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Needlespine";
+                toolTip1.SetToolTip(Ability3_1, "Increases the damage and range of Symbiote's\nStab by 20%.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Enduring Warriors";
+                toolTip1.SetToolTip(Ability3_1, "Demons last 5 seconds longer.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Mercenary Lord";
+                toolTip1.SetToolTip(Ability3_1, "Siege and Bruiser Mercenaries near your hero\ndeal 50% more damage.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Baleog the Fierce";
+                toolTip1.SetToolTip(Ability3_1, "Baleog's Basic Attacks increase his Attack Speed\nby 8% , stacking up to 5 times. After 3 seconds\nof not attacking, these stacks will rapidly decay.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Slime Advantage";
+                toolTip1.SetToolTip(Ability3_1, "Your Basic Attacks deal 100% bonus damage to\nSlimed targets.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Gidbinn";
+                toolTip1.SetToolTip(Ability3_1, "Increases the explosion area of Plague Toads\nand the duration of your Zombie Wall and\nCorpse Spiders by 25%.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Slowing Mines";
+                toolTip1.SetToolTip(Ability3_1, "Increase the Movement Speed slow of Spider\nMines to 40% , and the duration to 2 seconds.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                int sylunstable = 75 + (9 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Unstable Poison";
+
+                toolTip1.SetToolTip(Ability3_1, "Minions and Mercenaries that die under the effects of Black Arrows\nexplode, dealing " + sylunstable.ToString() + " damage to nearby enemies.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Battle Momentum";
+                toolTip1.SetToolTip(Ability3_1, "Basic Attacks reduce Ability cooldowns by 0.5\nseconds.");
+            }
         }
 
         //**ABILITY 3_2**//
@@ -7597,7 +9901,7 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Sunfire Enchantment";
                 int kaelsunfire = 78 + (16 * trackBar1.Value);
-                toolTip1.SetToolTip(Ability3_2, "Activating Verdant Spheres causes your next\nBasic Attack to instead shoot a spell dealing\n" + kaelsunfire.ToString() +  " damage.");
+                toolTip1.SetToolTip(Ability3_2, "Activating Verdant Spheres causes your next\nBasic Attack to instead shoot a spell dealing\n" + kaelsunfire.ToString() + " damage.");
             }
 
             if (lblHero.Text == "Kerrigan")
@@ -7704,6 +10008,106 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Angel's Grace";
                 toolTip1.SetToolTip(Ability3_2, "After teleporting using El'Druin's Might, gain\n25% Movement Speed for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Gust of Healing";
+                toolTip1.SetToolTip(Ability3_2, "Activate to release a Soothing Mist every second\nfor 4 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Pitch Perfect";
+                toolTip1.SetToolTip(Ability3_2, "After casting Healing Brew, its cost is reduced by \n0 Mana for 6 seconds. This effect does not\nstack.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Enduring Growth";
+                toolTip1.SetToolTip(Ability3_2, "Increases the duration of Regrowth by 6\nseconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                int rehgarearth = 100 + (21 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Earth Shield";
+                toolTip1.SetToolTip(Ability3_2, "Lightning Shield also gives the ally a Shield that\nabsorbs " + rehgarearth.ToString() + " damage over 3\nseconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                double tasscharge = 24 + (4.5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Static Charge";
+                toolTip1.SetToolTip(Ability3_2, "Enemies damaged by Psionic Storm are marked\nwith Static Charge. Your Basic Attacks consume\nthe Static Charge to deal " + tasscharge.ToString() + " damage.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Lunar Blaze";
+                toolTip1.SetToolTip(Ability3_2, "Increases the range of Lunar Flare by 50%.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Burden of Guilt";
+                toolTip1.SetToolTip(Ability3_2, "After Hammer of Justice's stun fades, the\nenemy's Movement Speed is slowed by 30% for\n2 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Vile Nest";
+                toolTip1.SetToolTip(Ability3_2, "Toxic Nests slow enemy Movement Speed by\n50% for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Master of Destruction";
+                toolTip1.SetToolTip(Ability3_2, "Mana cost reduced from 16 to 10 per second.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Rock-It! Turret XL";
+                toolTip1.SetToolTip(Ability3_2, "Turrets attack up to 2 additonal targets for 50% damage.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int erikswift = 15 + (3 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Erik the Swift";
+                toolTip1.SetToolTip(Ability3_2, "As long as Erik is moving, he heals " + erikswift.ToString() + "\nhealth per second.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Hindering Slime";
+                toolTip1.SetToolTip(Ability3_2, "Increases the slow amount of Slime from 20%\nto 30%.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Fresh Corpses";
+                toolTip1.SetToolTip(Ability3_2, "Zombies deal 50% more damage.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Hyper-Cooling Engines";
+                toolTip1.SetToolTip(Ability3_2, "Reduce the cooldown of Thrusters by 10\nseconds. Thrusters are always active while at\nthe Altar.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                double syldrain = 10 + (3.5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Life Drain";
+                toolTip1.SetToolTip(Ability3_2, "Shadow Dagger heals you for " + syldrain.ToString() + " each time it spreads to\na new enemy.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Volatile Acid";
+                toolTip1.SetToolTip(Ability3_2, "Baneling damage against non-Heroic targets\nincreased by 50%.");
             }
         }
 
@@ -7839,6 +10243,104 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Reciprocate";
                 toolTip1.SetToolTip(Ability3_3, "When your shield expires, it explodes for " + tyraelrecip.ToString() + "\ndamage to nearby enemies.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Calldown: MULE";
+                toolTip1.SetToolTip(Ability3_3, "Activate to calldown a Mule that repairs\nStructures, one at a time, near target point for\n40 seconds, healing for 100 Health every 1\nsecond. Grants 1 ammo every 3 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                double lilistuff = 21 + (5.4 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "The Good Stuff";
+                toolTip1.SetToolTip(Ability3_3, "Healing Brew heals for an additional " + lilistuff.ToString() + "\nHealth over 6 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Strangling Vines";
+                toolTip1.SetToolTip(Ability3_3, "Entangling Roots deals 100% more damage.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Shadow Wolf";
+                toolTip1.SetToolTip(Ability3_3, "When entering Ghost Wolf, you are Stealthed\nfor 2 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Deep Shift";
+                toolTip1.SetToolTip(Ability3_3, "Dimensional Shift duration increased by 1.5\nseconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Battle Momentum";
+                toolTip1.SetToolTip(Ability3_3, "Basic Attacks reduce Ability cooldowns by 0.5 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                double utherfire = 8 + (1.6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Holy Fire";
+                toolTip1.SetToolTip(Ability3_3, "Deal " + utherfire.ToString() + " damage per second to\nnearby enemies.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Networked Carapace";
+                toolTip1.SetToolTip(Ability3_3, "Using Symbiote's Carapace on a Minion or\nMercenary also applies Carapace to all nearby\nallied Minions and Mercenaries.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int azmodaninfernal = 12 + (3 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Infernal Globe";
+                toolTip1.SetToolTip(Ability3_3, "Reduces the cast and travel time by 40% and\ndeals an additional " + azmodaninfernal.ToString() + " damage over\n4 seconds.");
+            }
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Engine Gunk";
+                toolTip1.SetToolTip(Ability3_3, "Turret attacks slow Movement Speed by 25%\nfor 2 seconds.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Mercenary Lord";
+                toolTip1.SetToolTip(Ability3_3, "Siege and Bruiser Mercenaries near your hero\ndeal 50% more damage.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Compressed Air";
+                toolTip1.SetToolTip(Ability3_3, "Area of effect of Pufferfish increased by 50%.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Mercenary Lord";
+                toolTip1.SetToolTip(Ability3_3, "Siege and Bruiser Mercenaries near your hero\ndeal 50% more damage.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "First Aid";
+                toolTip1.SetToolTip(Ability3_3, "Activate to heal 35.49% of your max Health\nover 6 seconds.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Remorseless";
+                toolTip1.SetToolTip(Ability3_3, "After using an ability, your next Basic Attack within 3 seconds deals\n25% additional damage.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Ventral Sacs";
+                toolTip1.SetToolTip(Ability3_3, "Infested Drop now spawns 3 Roachlings.");
+            }
         }
 
         //**ABILITY 3_4**//
@@ -7965,6 +10467,97 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Zealotry";
                 toolTip1.SetToolTip(Ability3_4, "Increases shield duration by 100%.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Cleanse";
+                toolTip1.SetToolTip(Ability3_4, "Activate to remove all stuns, roots, silences, and\nslows from the target and prevents their \nreapplication for 1 second.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                double lililightning = 10 + (1.1 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Lightning Serpent";
+                toolTip1.SetToolTip(Ability3_4, "Cloud Serpent's attacks bounce to 3 nearby\nenemy targets, dealing " + lililightning.ToString() + "\ndamage each.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Elune's Grace";
+                toolTip1.SetToolTip(Ability3_4, "Increases the range of Regrowth, Moonfire, and\nEntangling Roots by 2.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Searing Attacks";
+                toolTip1.SetToolTip(Ability3_4, "Activate to increase Basic Attack damage by\n50% for 5 seconds. Each attack costs 15 Mana.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Calldown: MULE";
+                toolTip1.SetToolTip(Ability3_4, "Activate to calldown a Mule that repairs\nStructures, one at a time, near target point for\n40 seconds, healing for 100 Health every 1\nsecond. Grants 1 ammo every 3 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Calldown: MULE";
+                toolTip1.SetToolTip(Ability3_4, "Activate to calldown a Mule that repairs Structures, on at a time, near\ntarget point for 40 seconds, healing for 100 Health every 1 second.\nGrants 1 ammo every 3 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Cleanse";
+                toolTip1.SetToolTip(Ability3_4, "Activate to remove all stuns, roots, silences, and\nslows from the target and prevents their\nreapplication for 1 second.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Calldown: MULE";
+                toolTip1.SetToolTip(Ability3_4, "Activate to calldown a Mule that repairs\nStructures, one at a time, near target point for\n40 seconds, healing for 100 Health every 1\nsecond. Grants 1 ammo every 3 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Mercenary Lord";
+                toolTip1.SetToolTip(Ability3_4, "Siege and Bruiser Mercenaries near your hero\ndeal 50% more damage.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "First Aid";
+                toolTip1.SetToolTip(Ability3_4, "Activate to heal 35.49% of your max Health\nover 6 seconds.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Jump!";
+                toolTip1.SetToolTip(Ability3_4, "Makes all Vikings Invulnerable and able to pass\nover enemies for 1.5 seconds.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Clairvoyance";
+                toolTip1.SetToolTip(Ability3_4, "Activate to reveal an area for 10 seconds.\nEnemies in the area are revealed for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Calldown: MULE";
+                toolTip1.SetToolTip(Ability3_4, "Activate to calldown a Mule that repairs\nStructures, one at a time, near target point for\n40 seconds, healing for 100 Health every 1\nsecond. Grants 1 ammo every 3 seconds.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Mercenary Lord";
+                toolTip1.SetToolTip(Ability3_4, "Siege and Bruiser Mercenaries near your hero deal\n50% more damage.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Endless Creep";
+                toolTip1.SetToolTip(Ability3_4, "Creep Tumors spread Creep 50% farther and\nhave 100% increased health.");
+            }
         }
 
         //**ABILITY 3_5**//
@@ -8006,8 +10599,50 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Searing Attacks";
                 toolTip1.SetToolTip(Ability3_5, "Activate to increase Basic Attack damage by\n50% for 5 seconds. Each attack costs 15 Mana.");
             }
-        }
 
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Calldown: MULE";
+                toolTip1.SetToolTip(Ability3_5, "Activate to calldown a Mule that repairs\nStructures, one at a time, near target point for\n40 seconds, healing for 100 Health every 1\nsecond. Grants 1 ammo every 3 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Clairvoyance";
+                toolTip1.SetToolTip(Ability3_5, "Activate to reveal an area for 10 seconds.\nEnemies in the area are revealed for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "First Aid";
+                toolTip1.SetToolTip(Ability3_5, "Activate to heal 35.49% of your max Health\nover 6 seconds.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Calldown: MULE";
+                toolTip1.SetToolTip(Ability3_5, "Activate to calldown a Mule that repairs\nStructures, one at a time, near target point for\n40 seconds, healing for 100 Health every 1\nsecond. Grants 1 ammo every 3 seconds.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Clairvoyance";
+                toolTip1.SetToolTip(Ability3_5, "Activate to reveal an area for 10 seconds.\nEnemies in the area are revealed for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Shade Form";
+                toolTip1.SetToolTip(Ability3_5, "Haunting Waves grant Stealth for 3 seconds. Activating the teleport\ndoes not break the Stealth.");
+            }
+
+             if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Rapid Incubation";
+                toolTip1.SetToolTip(Ability3_5, "Channel to regenerate up to 25% of your Health\nand Mana over 3 seconds.");
+            }
+        }
+    
         //**ABILITY 4_1**//
 
         private void Ability4_1_MouseHover_1(object sender, EventArgs e)
@@ -8154,6 +10789,121 @@ namespace Hots_Talents
                 int tyraeljudgetwo = 30 + (4 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Judgment";
                 toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nCooldown: 80 seconds\n\nCharge the target, dealing " + tyraeljudgeone.ToString() + " damage and stunning them for 1.5 seconds. Nearby\nenemies are knocked away and take " + tyraeljudgetwo.ToString() + " damage.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightblink = 108 + (17 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Blink Heal";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 40\nCharge Cooldown: 10 seconds\n\nTeleport to a nearby ally, healing them for " + brightblink.ToString() + ". Can store 2 charges.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                int lilicups = 480 + (156 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Jug of 1,000 Cups";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 70 seconds\n\nRapidly tosses brew to the most injured nearby allies, prioritizing Heroes, restoring a total of  " + lilicups.ToString() + "\nHealth over 6 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int malufriontranq = 20 + (9 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Tranquillity";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nHeals " + malufriontranq.ToString() + " Health per second to nearby allies over 10 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Bloodlust";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 125\nCooldown: 120 seconds\n\nGrant nearby allied Heroes 40% Attack Speed and 30% Movement Speed. Lasts for 10 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                int tassarchonone = 200 + (40 * trackBar1.Value);
+                int tassarchonetwo = 64 + (12 * trackBar1.Value);
+                int tassarchonthree = 32 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Archon";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 80\nCooldown: 100 seconds\n\nTransform into an Archon, gaining a " + tassarchonone.ToString() + " point Shield, causing Basic Attacks to deal " + tassarchonetwo.ToString() + "\ndamage and splash for " + tassarchonthree.ToString() + " additional damage. Lasts for 12 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                int tyrandestarfall = 20 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Starfall";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nDeal " + tyrandestarfall.ToString() + " damage per second and slow enemies by 20% in an area. Lasts 8 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Divine Shield";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 70 seconds\n\nMake an allied Hero Invulnerable and increase their Movement SPeed by 20% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Ultimate Evolution";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nCooldown: 70 seconds\n\nClone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20%\nAbility Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic\nAbility.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int azmodandemonicone = 20 + (5 * trackBar1.Value);
+                int azmodandemonictwo = 20 + (2 * trackBar1.Value);
+                int azmodandemonicthree = 200 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Demonic Invasion";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nRain a small army of Demonic Grunts down on enemies, dealing " + azmodandemonicone.ToString() + " damage per impact.\nDemon Grunts deal " + azmodandemonictwo.ToString() + " damage and have " + azmodandemonicthree.ToString() + " health.\n\nDamage is doubled versus non-Heroic targets.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Robo-Goblin";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nBasic Attacks deal an additional 150% damage to Minions, Mercenaries, and Structures.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int vikingsraidone = 30 + (14 * trackBar1.Value);
+                int vikingsraidtwo = 50 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Longboat Raid!";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nCooldown: 90 seconds\n\nHop into an Unstoppable Longboat that fires at nearby enemies for " + vikingsraidone.ToString() + " damage per\nsecond and can fire a mortar that deals " + vikingsraidtwo.ToString() + " damage in an area. The boat has increased\nHealth for each Viking inside. Lasts 12 seconds.\n\nRequires all surviving Vikings to be nearby.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                double murkymurloc = 60 + (37.5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "March of the Murlocs";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nCooldown: 100 seconds\n\nCommand a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero\nor Structure they find. Each Murloc deals " + murkymurloc.ToString() + " damage and slow its target by 15% for 5\nseconds. Does half damage to Structures.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int nazgargone = 30 + (15 * trackBar1.Value);
+                int nazgartwo = 100 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Gargantuan";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 90\nCooldown: 60 seconds\n\nSummon a Gargantuan that guards you for 20 seconds. Deals " + nazgargone.ToString() + "damage to nearby\nenemies when summoned, attacks for " + nazgartwo.ToString() + " damage, and can be ordered to stomp,\ndealing " + nazgargone.ToString() + " damage. The Gargantuan deals extra damage to Minions and Structures.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                int hammerblunt = 220 + (29 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Blunt Force Gun";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 70 seconds\n\nFire a missile across the battlefield, dealing " + hammerblunt.ToString() + " damage to enemies in its path.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                int sylwail = 200 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Wailing Arrow";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 90 seconds\n\nShoot an arrow that can be reactivated to deal " + sylwail.ToString() + " damage and silencing enemies in an\narea for 2,5 seconds. The arrow detonates automatically when it reaches maximum range.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                int zagmawone = 75 + (24 * trackBar1.Value);
+                int zagmawtwo = 38 + (2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Devouring Maw";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nSummon a Devouring Maw that deals " + zagmawone.ToString() + " damage and devours enemies for 4 seconds.\nDevours enemies cannot fight and take " + zagmawtwo.ToString() + " damage per second.");
             }
         }
 
@@ -8308,6 +11058,111 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Sanctification";
                 toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 75\nCooldown: 50 seconds\n\nWhile channeling, Tyrael makes all nearby allied Heroes invulnerable and unstoppable. Lasts 3 seconds.\n\nDoes not affect Tyrael.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightemerald = 100 + (30 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Emerald Wind";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 90\nCooldown: 60 seconds\n\nCreate an expanding nova of wind, dealing " + brightemerald.ToString() + " damage and pushing enemies away.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                int lilidragon = 140 + (14 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Water Dragon";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 45 seconds\n\nSummon a Water Dragon that after a delay hits the nearest enemy Hero and all enemies near them,\ndealing " + lilidragon.ToString() + " damage and slowing their Movement Speed by 70% for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                int malfuriondream = 100 + (36 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Twilight Dream";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 90 seconds\n\nAfter a short delay, deal " + malfuriondream.ToString() + " damage in a large area around you, silencing enemies for 3/seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                int rehgarancesetral = 600 + (140 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Ancestral Healing";
+                toolTip1.SetToolTip(Ability4_2, "Mana: 80\nCooldown: 60 seconds\n\nAfter a short delay, heal an allied Hero for " + rehgarancesetral.ToString() + " Health.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Force Wall";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 35\nCooldown: 12 seconds\n\nCreate a wall that blocks all units from moving through it for 2.5 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Shadowstalk";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 75\nCooldown: 70 seconds\n\nStealth you and all allied Heroes for 8 seconds, and reveal all enemy Heroes for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                int utherstorm = 50 + (18 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Divine Storm";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nDeal " + utherstorm.ToString() + " damage and stun nearby enemies for 1.5 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Evolve Monstrosity";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nCooldown: 90 seconds\n\nTurn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it\ngains 5% Health and 5% Basic Attack damage, stacking up to 30 times. The Monstrosity takes 50%\nless damage from Minions and Structures.\n\nUsing Symbiote on the Monstrosity allows you to control it, in addition to Symbiote's normal benefits.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Black Pool";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 60\nCharge Cooldown: 20 seconds\n\nCreate a pool that empowers Azmodan, his Demons, and allied Minions, increasing their attack and\nability damage by 75% . Pools last 5 seconds.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                int gazgrav = 150 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Grav-O-Bomb 3000";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 110 seconds\n\nAfter a 2 second delay, pull enemies toward the center of an area and deal " + gazgrav.ToString() + " damage.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Play Again!";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nCooldown: 80 seconds\n\nSummon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.\n\nOnly one Viking may attempt to summon at a time.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Octo-Grab";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nCooldown: 50 seconds\n\nSummon an octopus to stun target enemy Hero for 3 seconds while you hit them for 1 damage a second.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int nazspirit = 60 + (18 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Ravenous Spirit";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 90 seconds\n\nChannel a Ravenous Spirit that deals " + nazspirit.ToString() + "damage per second. Cannot move while\nchanneling. Lasts for 8 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                int hammernapalmone = 40 + (16 * trackBar1.Value);
+                int hammernapalmtwo = 30 + (4 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Napalm Strike";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 35\nCooldown: 6 seconds\n\nDeals " + hammernapalmone.ToString() + " damage on impact and leaves a napalm area that deals " + hammernapalmtwo.ToString() + "\ndamage per second. Lasts for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Possession";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 20\nCooldown: 4 seconds\n\nForce an enemy Minion to fight for you. It gains 20% Attack Damage and Health. Cooldown increased to\n20 seconds when used on Catapults.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Nydus Network";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 50\nCharge Cooldown: 60 seconds\n\nSummon a Nydus Worm at target location that you can enter by right-clicking. While inside, you exit by\ntargeting a Nydus Worm with R or right-clicking near the Worm. Maximum 4 Nydus Worms.");
+            }
         }
 
         //**ABILITY 5_1**//
@@ -8444,6 +11299,105 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Burning Rage";
                 toolTip1.SetToolTip(Ability5_1, "Deal " + tyraelrage.ToString() + " damage per second to\nnearby enemies.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Sticky Flare";
+                toolTip1.SetToolTip(Ability5_1, "Targets are slowed by 30% Movement Speed for\n3 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Elusive Feet";
+                toolTip1.SetToolTip(Ability5_1, "When Fast Feet is triggered, gain 2 charges of\nBlock ( 50% reduced Basic Attack damage) for\n10 seconds. Can only trigger once every 10\nseconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Life Seed";
+                toolTip1.SetToolTip(Ability5_1, "Nearby damaged allied Heroes will automatically\ngain the heal over time portion of Regrowth.\nThis effect has a 15 second cooldown.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Healing Surge";
+                toolTip1.SetToolTip(Ability5_1, "Increases Chain Heal's healing on the primary\ntarget by 25% and heal an additional target.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Distortion Beam";
+                toolTip1.SetToolTip(Ability5_1, "Basic Attacks slow enemies by 20% for 1.5\nseconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Overflowing Light";
+                toolTip1.SetToolTip(Ability5_1, "When you are above 50% Health, Light of Elune's allied heal is\nincreased by 35%.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Blessed Champion";
+                toolTip1.SetToolTip(Ability5_1, "After using Holy Light, your next Basic Attack\nheals nearby allied Heroes for 30% of the\nhealing amount.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                int abathurstrain = 50 + (5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Assault Strain";
+                toolTip1.SetToolTip(Ability5_1, "Locust Basic Attacks cleave for 50% damage,\nand explode on death for " + abathurstrain.ToString() + " damage.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Hellforged Armor";
+                toolTip1.SetToolTip(Ability5_1, "Demon Warriors take 50% less damage from\nnon-Heroic sources of damage.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                int gazrage = 10 + (2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Burning Rage";
+                toolTip1.SetToolTip(Ability5_1, "Deal " + gazrage.ToString() + " damage per second to\nnearby enemies.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int olafhunka = 15 + (3 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Hunka' Burning Olaf";
+                toolTip1.SetToolTip(Ability5_1, "Olaf deals " + olafhunka.ToString() + " damage every second\nto nearby enemies.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Continuous Slime";
+                toolTip1.SetToolTip(Ability5_1, "Decreases the cooldown of Slime from 4 seconds\nto 3 seconds.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Dead Rush";
+                toolTip1.SetToolTip(Ability5_1, "Upon expiring, up to 5 remaining Zombies\nuproot and attack nearby enemies for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Giant Killer";
+                toolTip1.SetToolTip(Ability5_1, "Basic Attacks against enemy Heroes deal bonus\ndamage equal to 1.5% of the Hero's maximum\nHealth.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Overwhelming Affliction";
+                toolTip1.SetToolTip(Ability5_1, "Black Arrows now also applies to Heroes, slowing their Movement Speed\nby 5% for the duration. Stacks up to 5 times.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Mutalisk";
+                toolTip1.SetToolTip(Ability5_1, "Your Hunter Killer now spawns a Mutalisk with a\nbounce attack and 50% increased duration.");
+            }
         }
 
         //**ABILITY 5_2**//
@@ -8576,6 +11530,104 @@ namespace Hots_Talents
                 int tyraelangelic = 60 + (12 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Angelic Absorption";
                 toolTip1.SetToolTip(Ability5_2, "Enemies that attack you while shielded grant " + tyraelangelic.ToString() + "\nHealth over 3 seconds.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                int brightphase = 200 + (50 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Phase Shield";
+                toolTip1.SetToolTip(Ability5_2, "After finishing the teleport, the target of your\nPhase Shift gains a " + brightphase.ToString() + " point\nShield for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Hindering Winds";
+                toolTip1.SetToolTip(Ability5_2, "Blinding Wind also slows enemy Movement\nSpeed by 25% for 2 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Full Moonfire";
+                toolTip1.SetToolTip(Ability5_2, "Moonfire radius increased by 50% and Mana\ncost reduced to 10.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Stormcaller";
+                toolTip1.SetToolTip(Ability5_2, "Reduces the cooldown of Lightning Shield from 8\nseconds to 6 seconds and its Mana cost by 50%.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Prescience";
+                toolTip1.SetToolTip(Ability5_2, "Dimensional Shift will automatically activate\nwhen you fall below 15% Health. This effect has\na seperate 45 second cooldown.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Shrink Ray";
+                toolTip1.SetToolTip(Ability5_2, "Activate to reduce an enemy Hero's damage by 50% and Movement\nSpeed by 50% for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_2, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Bombard Strain";
+                toolTip1.SetToolTip(Ability5_2, "Locust's Basic Attacks become a long-range\nsiege attack that deal 66% more damage.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int azmodanblazing = 10 + (1 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Blazing Demons";
+                toolTip1.SetToolTip(Ability5_2, "Demon Warriors deal " + azmodanblazing.ToString() + " damage\nto nearby enemies every second.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Turret Storage";
+                toolTip1.SetToolTip(Ability5_2, "Max Turret charges increased to 3.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Speedrun";
+                toolTip1.SetToolTip(Ability5_2, "While under 50% life, Vikings gain 20%\nincreased Movement Speed.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Wrath of Cod";
+                toolTip1.SetToolTip(Ability5_2, "Increase Pufferfish's damage by 35% against\nSlimed targets.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Toads of Hugeness";
+                toolTip1.SetToolTip(Ability5_2, "Toad damage is increased by 20% each time\nthey hop.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "First Strike";
+                toolTip1.SetToolTip(Ability5_2, "Basic Attacks deal 25% more damage if you\nhaven't been attacked within the last 5 seconds.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Evasive Fire";
+                toolTip1.SetToolTip(Ability5_2, "You gain 10% Movement Speed for 2 seconds whenever an enemy is\nhit with Withering Fire, stacking up to 30%.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Grooved Spines";
+                toolTip1.SetToolTip(Ability5_2, "Hunter Killer has its range increased by 35%\nand damage increased by 20%.");
             }
         }
 
@@ -8710,7 +11762,105 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Imposing Will";
                 toolTip1.SetToolTip(Ability5_3, "Enemies that attack you while shielded have\ntheir Attack Speed slowed by 50% and\nMovement Speed slowed by 50% for 2 seconds.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Sprint";
+                toolTip1.SetToolTip(Ability5_3, "Activate to gain 75% Movement Speed for 3\nseconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Surging Winds";
+                toolTip1.SetToolTip(Ability5_3, "Gain 5% Ability Power for 8 seconds for every\nenemy hit by Blinding Wind. Additional enemies\nhit refresh the duration of this buff and further\nincrease Ability Power. Stacks up to 4 times.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Shrink Ray";
+                toolTip1.SetToolTip(Ability5_3, "Activate to reduce an enemy Hero's damage by\n50% and Movement Speed by 50% for 4\nseconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Lightning Totem";
+                toolTip1.SetToolTip(Ability5_3, "Earthbind Totem automatically gains Lightning\nShield when created.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Scryer";
+                toolTip1.SetToolTip(Ability5_3, "Oracle duration increased by 3 seconds and\ngrants 20% increased Movement Speed.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Sprint";
+                toolTip1.SetToolTip(Ability5_3, "Activate to gain 75% Movement Speed for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Holy Shock";
+                toolTip1.SetToolTip(Ability5_3, "Holy Light can be used on an enemy to do 50%\nof its healing amount as damage and with 4\nseconds less cooldown.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Spatial Efficiency";
+                toolTip1.SetToolTip(Ability5_3, "Symbiote's Stab gains 1 additional charge.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "March of Sin";
+                toolTip1.SetToolTip(Ability5_3, "Azmodan can move at 75% speed while\nchanneling All Shall Burn.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "EZ-PZ Dimensional Ripper";
+                toolTip1.SetToolTip(Ability5_3, "Deth Lazor slows Heroes by 40% and freezes\nminions or structures for 3 seconds.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Impatience Is a Virtue";
+                toolTip1.SetToolTip(Ability5_3, "Enemies damaged by a Viking's Basic Attack\nreduce the cooldown of all Viking Abilities by\n0.25 seconds.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Bubble Machine";
+                toolTip1.SetToolTip(Ability5_3, "Safety Bubble cooldown reduced by 5 seconds.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Sprint";
+                toolTip1.SetToolTip(Ability5_3, "Activate to gain 75% Movement Speed for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Bullhead Mines";
+                toolTip1.SetToolTip(Ability5_3, "Middle Spider Mine knocks target back a short distance.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                double sylsplinter = 18.75 + (2.25 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Splinter Shot";
+                toolTip1.SetToolTip(Ability5_3, "Withering Fire hits a second target for " + sylsplinter.ToString() + " damage.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Bile Drop";
+                toolTip1.SetToolTip(Ability5_3, "Increases the impact damage of Infested Drop\nby 100%.");
+            }
         }
+
         //**ABILITY 5_4**//
 
         private void Ability5_4_MouseHover_1(object sender, EventArgs e)
@@ -8840,6 +11990,96 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Angelic Might";
                 toolTip1.SetToolTip(Ability5_4, "Gain 25% increased damage on your next Basic\nAttack for each target hit by Smite.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Ice Block";
+                toolTip1.SetToolTip(Ability5_4, "Activate to place yourself in Stasis and gain\nInvulnerability for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Shrink Ray";
+                toolTip1.SetToolTip(Ability5_4, "Activate to reduce an enemy Hero's damage by\n50% and Movement Speed by 50% for 4\nseconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Ice Block";
+                toolTip1.SetToolTip(Ability5_4, "Activate to place yourself in Stasis and gain\nInvulnerability for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Feral Lunge";
+                toolTip1.SetToolTip(Ability5_4, "While in Ghost Wolf, you lunge a short distance\ntowards your attack target. The damage bonus\nfor Basic Attacks in Ghost Wolf is increased from\n100% to 200%.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Hunteress' Fury";
+                toolTip1.SetToolTip(Ability5_4, "Gain 40% additional Attack Speed for 4 seconds when using Hunter's\nMark.");
+            }
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Shrink Ray";
+                toolTip1.SetToolTip(Ability5_4, "Activate to reduce an enemy Hero's damage by\n50% and Movement Speed by 50% for 4\nseconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                int abathursoma = 20 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Soma Transference";
+                toolTip1.SetToolTip(Ability5_4, "Symbiote's Spike Burst heals the host for " + abathursoma.ToString() + "\nHealth per enemy Hero hit.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Relentless";
+                toolTip1.SetToolTip(Ability5_4, "Reduces the duration of silences, stuns, slows,\nroots, and polymorphs against your Hero by 50%.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Sprint";
+                toolTip1.SetToolTip(Ability5_4, "Activate to gain 75% Movement Speed for 3\nseconds.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Hidden Assault";
+                toolTip1.SetToolTip(Ability5_4, "When you respawn from the Egg, you gain\nStealth and 20% Movement Speed for 5.125\nseconds.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Ice Block";
+                toolTip1.SetToolTip(Ability5_4, "Activate to place yourself in Stasis and gain\nInvulnerability for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Barricade";
+                toolTip1.SetToolTip(Ability5_4, "Create a wall of path blocking debris for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that damage and further Ability\nDamaage by 50% for 2 seconds. Can only trigger once every 30 seconds.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Giant Killer";
+                toolTip1.SetToolTip(Ability5_4, "Basic Attacks against enemy Heroes deal bonus\ndamage equal to 1.5% of the Hero's maximum\nHealth.");
+            }
         }
 
         //**ABILITY 5_5**//
@@ -8853,6 +12093,24 @@ namespace Hots_Talents
             }
 
             if (lblHero.Text == "Zeratul")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_5, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_5, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Shrink Ray";
+                toolTip1.SetToolTip(Ability5_5, "Activate to reduce an enemy Hero's damage by 50%\nand Movement Speed by 50% for 4\nseconds.");
+            }
+
+            if (lblHero.Text == "Zagara")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
                 toolTip1.SetToolTip(Ability5_5, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
@@ -8989,6 +12247,102 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Blade of Justice";
                 toolTip1.SetToolTip(Ability6_1, "After teleporting using El'Druin's Might, your\nnext 3 Basic Attacks within 5 seconds deal 75%\nmore damage.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Hardened Focus";
+                toolTip1.SetToolTip(Ability6_1, "While above 80% life, your Basic Ability\ncooldowns regenerate 50% faster.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Safety Sprint";
+                toolTip1.SetToolTip(Ability6_1, "Increase the Movement Speed bonus of Fast\nFeet from 10% to 20% while under 50%\nHealth.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Hardened Focus";
+                toolTip1.SetToolTip(Ability6_1, "While above 80% life, your Basic Ability\ncooldowns regenerate 50% faster.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Lightning Bond";
+                toolTip1.SetToolTip(Ability6_1, "Casting Lightning Shield on an ally also casts it\non you, including any talent bonuses.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Evasive Shielding";
+                toolTip1.SetToolTip(Ability6_1, "The target of your Plasma Shield also gains 25%\nMovement Speed for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Ranger";
+                toolTip1.SetToolTip(Ability6_1, "Increases width of Sentinel by 100%. Increases damage dealt based on\ndistance travelled, up to a maximum of +200% damage.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Gathering Radiance";
+                toolTip1.SetToolTip(Ability6_1, "Increases damage by 10% for each enemy hit,\nup to 100%.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Envenomed Spikes";
+                toolTip1.SetToolTip(Ability6_1, "Your Symbiote's Spike Burst also slows enemy\nMovement Speed by 40% for 2 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Battleborn";
+                toolTip1.SetToolTip(Ability6_1, "If Globe of Annihilation hits an enemy, a Demon\nWarrior is summoned at the impact point.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Long-Ranged Turrets";
+                toolTip1.SetToolTip(Ability6_1, "Turret range increased by 40%.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Large and In Charge";
+                toolTip1.SetToolTip(Ability6_1, "When Olaf charges enemies, they are stunned for 1 second.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Slimy End";
+                toolTip1.SetToolTip(Ability6_1, "Slime is used on death.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Specialized Toxin";
+                toolTip1.SetToolTip(Ability6_1, "Increases the damage dealt to Heroes from\nVoodoo Ritual by 100%.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Executioner";
+                toolTip1.SetToolTip(Ability6_1, "Basic Attacks deal 40% more damage against\nslowed, rooted, or stunned targets.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Windrunner";
+                toolTip1.SetToolTip(Ability6_1, "After you teleport from Haunting Wave, you can cast a second one for\n free within 2 seconds.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Baneling Massacre";
+                toolTip1.SetToolTip(Ability6_1, "Now spawns 8 Banelings.");
+            }
         }
 
         //**ABILITY 6_2**//
@@ -9120,6 +12474,103 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Holy Ground";
                 toolTip1.SetToolTip(Ability6_2, "Create a ring that blocks enemies from entering\nthe area teleported to using El'Druin's Might.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Sticky Powder";
+                toolTip1.SetToolTip(Ability6_2, "Polymorph targets are slowed by 50%\nMovement Speed.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Two For One";
+                toolTip1.SetToolTip(Ability6_2, "Increases the number of allies healed by Healing\nBrew to 2 , but increases the cooldown by 1.5\nseconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Hindering Moonfire";
+                toolTip1.SetToolTip(Ability6_2, "Moonfire slows targets by 20% for 2 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Earthgrasp Totem";
+                toolTip1.SetToolTip(Ability6_2, "Increases the cast range of Earthbind Totem by\n100% and its initial slow amount is increased to\n90% and lasts for 1 second.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Resonation";
+                toolTip1.SetToolTip(Ability6_2, "Psionic Storm targets are slowed by 25% for 1\nsecond.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Shooting Star";
+                toolTip1.SetToolTip(Ability6_2, "Lunar Flare deals 50% more damage and refunds all Mana if you hit an\nenemy Hero.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Hardened Focus";
+                toolTip1.SetToolTip(Ability6_2, "While above 80% life, your Basic Ability\ncooldowns regenerate 50% faster.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Adrenaline Boost";
+                toolTip1.SetToolTip(Ability6_2, "Symbiote's Carapace increases the Movement\nSpeed of the target by 40% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int azmodansmite = 500 + (20 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Demonic Smite";
+                toolTip1.SetToolTip(Ability6_2, "Demon Lieutenants will periodically blast enemy\nMinions with demonic energy, " + azmodansmite.ToString() + " damage.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Kwik Release Charge";
+                toolTip1.SetToolTip(Ability6_2, "Increased number of Bomb charges to 2.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "64 KB Marathon";
+                toolTip1.SetToolTip(Ability6_2, "Gain an additional 40% Movement Speed when\nactivating Go Go Go! that decays over 4\nseconds. Additionally, the Vikings are\nUnstoppable for 1 second.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Slimy Pufferfish";
+                toolTip1.SetToolTip(Ability6_2, "The Pufferfish casts Slime at its location upon\nlanding.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Leaping Spiders";
+                toolTip1.SetToolTip(Ability6_2, "Corpse Spiders leap at their targets and deal\n25% more damage.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Mine Field";
+                toolTip1.SetToolTip(Ability6_2, "Increase the number of mines by 2.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Cold Embrace";
+                toolTip1.SetToolTip(Ability6_2, "Shadow Dagger makes enemies Vulnerable, taking 25% more damage,\nbut the range of Shadow Dagger is reduced by 25%.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Brood Expansion";
+                toolTip1.SetToolTip(Ability6_2, "Now spawns 8 Banelings.");
             }
         }
 
@@ -9253,6 +12704,104 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Salvation";
                 toolTip1.SetToolTip(Ability6_3, "Shield is 25% stronger for each allied Hero that\ngets shielded.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Critterize";
+                toolTip1.SetToolTip(Ability6_3, "Polymorphed targets take 25% more damage.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Herbal Cleanse";
+                toolTip1.SetToolTip(Ability6_3, "Healing Brew removes all silences, stuns, slows,\nroots, and polymorphs and increases the\nMovement Speed of the target by 20% for 3\nseconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Lunar Shower";
+                toolTip1.SetToolTip(Ability6_3, "Using Moonfire reduces the cooldown of your\nnext Moonfire by 0.5 seconds, and increases the\ndamage by 10% . Stacks up to 3 times.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Blood for Blood";
+                toolTip1.SetToolTip(Ability6_3, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Second Strike";
+                toolTip1.SetToolTip(Ability6_3, "After casting Psionic Storm, you may cast\nPsionic Storm again for free within 3 seconds.\nThe damage does not stack.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Mark of Mending";
+                toolTip1.SetToolTip(Ability6_3, "Basic Attacks against Marked targets heal for 2.5% maximum Health.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Imposing Presence";
+                toolTip1.SetToolTip(Ability6_3, "Enemies that attack you have their Attack\nSpeed slowed by 50%.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Locust Brood";
+                toolTip1.SetToolTip(Ability6_3, "Activate to spawn 3 Locusts at a nearby\nlocation.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Imposing Presence";
+                toolTip1.SetToolTip(Ability6_3, "Enemies that attack you have their Attack\nSpeed slowed by 50%.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Hyperfocus Coils";
+                toolTip1.SetToolTip(Ability6_3, "Deth Lazor charges twice as fast.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int vikingsnorseone = 100 + (20 * trackBar1.Value);
+                int vikingsnorsetwo = 200 + (40 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Norse Force!";
+                toolTip1.SetToolTip(Ability6_3, "Cooldown: 60 seconds\n\nAll Vikings gain a " + vikingsnorseone.ToString() + " to " + vikingsnorsetwo.ToString() + " point Shield, increasing in strength for each\nViking alive. Lasts 7 seconds.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Rejuvenating Bubble";
+                toolTip1.SetToolTip(Ability6_3, "Safety Bubble restores 50% of your Health.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Infested Toads";
+                toolTip1.SetToolTip(Ability6_3, "Toads explode into Corpse Spiders upon death.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Hover Siege Mode";
+                toolTip1.SetToolTip(Ability6_3, "You can move at 50% Movement Speed in Siege Mode.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Will of the Foresaken";
+                toolTip1.SetToolTip(Ability6_3, "Activate to become Unstoppable and gain 30% Movement Speed for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Metabolic Boost";
+                toolTip1.SetToolTip(Ability6_3, "Movement Speed boost on Creep increased to 40%.");
+            }
         }
 
         //**ABILITY 6_4**//
@@ -9385,6 +12934,97 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
             }
 
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Stoneskin";
+                toolTip1.SetToolTip(Ability6_4, "Activate to gain 30% of your maximum Health\nas a Shield for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Serpent Sidekick";
+                toolTip1.SetToolTip(Ability6_4, "You also gain a Cloud Serpent whenever you\ncast it on another ally.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Tenacious Roots";
+                toolTip1.SetToolTip(Ability6_4, "Entangling Roots grows 25% larger, lasts 25%\nlonger, and roots targets for 0.5 seconds longer.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Berserk";
+                toolTip1.SetToolTip(Ability6_4, "Activate to increase your Attack Speed by 40%\nand Movement Speed by 10% for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                int tasswarp = 40 + (40 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Dimensional Warp";
+                toolTip1.SetToolTip(Ability6_4, "While Dimensional Shifted, gain 50% Movement\nSpeed and heal for " + tasswarp.ToString() + " Health.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Trueshot Aura";
+                toolTip1.SetToolTip(Ability6_4, "You passively grant 15% Basic Attack damage to nearby allies.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Benediction";
+                toolTip1.SetToolTip(Ability6_4, "Activate to reduce the Mana cost of your next\nBasic Ability by 50 and its cooldown by 10\nseconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                int abathurmutation = 36 + (7 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Volatile Mutation";
+                toolTip1.SetToolTip(Ability6_4, "Ultimate Evolution clones and Monstrosities deal " + abathurmutation.ToString() + "\ndamage to nearby enemies every 3 seconds\nand when they die.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Blood for Blood";
+                toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Stoneskin";
+                toolTip1.SetToolTip(Ability6_4, "Activate to gain 30% of your maximum Health\nas a Shield for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Blood for Blood";
+                toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Stoneskin";
+                toolTip1.SetToolTip(Ability6_4, "Activate to gain 30% of your maximum Health\nas a Shield for 5 seconds.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Graduating Range";
+                toolTip1.SetToolTip(Ability6_4, "While in Siege Mode your standard Basic Attack\nrange increases by 20% every 3 seconds, up to\n100%.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Blood for Blood";
+                toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's Max Health and slow its\nMovement Speed by 30% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Stoneskin";
+                toolTip1.SetToolTip(Ability6_4, "Activate to gain 30% of your maximum Health\nas a Shield for 5 seconds.");
+            }
         }
 
         //**ABILITY 6_5**//
@@ -9402,6 +13042,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Stoneform";
                 toolTip1.SetToolTip(Ability6_5, "Activate to heal for 50% of your maximum\nHealth over 8 seconds. Second Wind is disabled\nduring this time.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Stoneskin";
+                toolTip1.SetToolTip(Ability6_5, "Activate to gain 30% of your maximum Health\nas a Shield for 5 seconds.");
             }
         }
 
@@ -9539,6 +13185,102 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Angel of Justice";
                 toolTip1.SetToolTip(Ability7_1, "Increases the cast range of Judgment by 50%,\nand reduces the cooldown by 30 seconds.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Ysera's Blessing";
+                toolTip1.SetToolTip(Ability7_1, "Increase maximum charges to 3.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Jug of 1,000,000 Cups";
+                toolTip1.SetToolTip(Ability7_1, "Jug of 1,000 Cups now hits two targets at a time.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Serenity";
+                toolTip1.SetToolTip(Ability7_1, "Tranquility healing amount is increased by 25%\nand restores 5 Mana per second.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Farseer's Blessing";
+                toolTip1.SetToolTip(Ability7_1, "Increases healing amount by 50%. Allies near\nthe target are healed for 25% of\nthe amount of health regained.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Twilight Archon";
+                toolTip1.SetToolTip(Ability7_1, "Increases Archon's initial Shield, Attack Damage,\nand Basic Attack range by 35%.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Celestial Wrath";
+                toolTip1.SetToolTip(Ability7_1, "Starfall can now be cast globally. Damage is increased by 30%.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Bulwark of Light";
+                toolTip1.SetToolTip(Ability7_1, "Divine Shield lasts 2 seconds longer and its\ncooldown is reduced by 20 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Evolutionary Link";
+                toolTip1.SetToolTip(Ability7_1, "As long as the Ultimate Evolution is alive, the\noriginal target of the clone gains a Shield equal\nto 20% of their maximum Health. Refreshes\nevery 5 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                int azmodanflame = 50 + (5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Perishing Flame";
+                toolTip1.SetToolTip(Ability7_1, "When the Grunts die, they explode, dealing " + azmodanflame.ToString() + "\ndamage to nearby enemies.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Mecha-Lord";
+                toolTip1.SetToolTip(Ability7_1, "Basic attacks deal an additional 150% damage\nto Heroes.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Ragnarok 'n' Roll!";
+                toolTip1.SetToolTip(Ability7_1, "The Longboat can attack two targets at once\nand the range of its Mortar is increased by 100%");
+            }
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Never-Ending Murlocs";
+                toolTip1.SetToolTip(Ability7_1, "Murlocs from March of the Murlocs travel farther\nand cling to targets for 2 seconds longer.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Humongoid";
+                toolTip1.SetToolTip(Ability7_1, "Gargantuan lasts until killed instead of timing\nout, and deals 100% more damage against non-\nHeroic targets.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Orbital BFG";
+                toolTip1.SetToolTip(Ability7_1, "Blunt Force Gun's missile orbits the planet every\n5 seconds. Only the last missile fired orbits.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Deafening Blast";
+                toolTip1.SetToolTip(Ability7_1, "Enemies at the center of Wailing Arrow's explosion take 50% more\ndamage and are silenced for twice as long.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Tyrant Maw";
+                toolTip1.SetToolTip(Ability7_1, "Devouring Maw deals 50% more damage and\neach Takedown reduces its cooldown by 25\nseconds.");
+            }
         }
 
         //**ABILITY 7_2**//
@@ -9672,6 +13414,99 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability7_2, "Increases duration of Sanctification by 1 second\nand increases the damage of allies by 25% ");
             }
 
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Continuous Winds";
+                toolTip1.SetToolTip(Ability7_2, "Release two additional novas that deal 25%\ndamage.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Double Dragon";
+                toolTip1.SetToolTip(Ability7_2, "After hitting a target with Water Dragon,\nanother dragon is summoned at the point of\nimpact.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Nightmare";
+                toolTip1.SetToolTip(Ability7_2, "Twilight Dream silence duration increased to 4 \nseconds and also slows enemies by 50%.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Gladiator's War Shout";
+                toolTip1.SetToolTip(Ability7_2, "Bloodlust affects all allied Heroes, Minions, and\nMercenaries on the entire battleground and can\nbe cast without breaking Ghost Wolf.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Force Barrier";
+                toolTip1.SetToolTip(Ability7_2, "Force Wall range increased by 50% and duration\nby 1 second.");
+            }
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Hunter's Prey";
+                toolTip1.SetToolTip(Ability7_2, "When using Shadowstalk, you and allied Heroes gain 25% additional\nMovement Speed for 8 seconds, and your next Basic Attack deals 100%\nmore damage.");
+            }
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Divine Hurricane";
+                toolTip1.SetToolTip(Ability7_2, "Divine Storm's radius is increased by 50% and\nits cooldown is reduced by 20 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Evolution Complete";
+                toolTip1.SetToolTip(Ability7_2, "Monstrosity gains the ability to Deep Tunnel to\nany visible location once every 30 seconds.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Fifth Circle";
+                toolTip1.SetToolTip(Ability7_2, "Azmodan and other empowered ally attacks and\nAbilities slow Movement and Attack Speeds by\n40% for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Miniature Black Hole";
+                toolTip1.SetToolTip(Ability7_2, "Grav-O-Bomb radius increased by 25% and\ndamage increased by 50%.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Checkpoint Reached";
+                toolTip1.SetToolTip(Ability7_2, "10 seconds later, any dead Vikings are revived,\nliving ones are healed to full, and all are\nsummoned again.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "...And A Shark Too!";
+                toolTip1.SetToolTip(Ability7_2, "Increases the damage of Octo-Grab by 10,000%.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Annihilating Spirit";
+                toolTip1.SetToolTip(Ability7_2, "Increases the range of Ravenous Spirit by 50%\nand Movement Speed by 30%.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Advanced Lava Strike";
+                toolTip1.SetToolTip(Ability7_2, "Napalm Strike's range is increased by 75% and\nits impact does 50% more damage.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Dark Lady's Call";
+                toolTip1.SetToolTip(Ability7_2, "Increases the Attack Damage and Health bonus to 30% and allows\nPossession of enemy Mercenaries with a 20 second cooldown.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Brooding Nest";
+                toolTip1.SetToolTip(Ability7_2, "Exiting a Nydus Worm spawns 6 broodlings to\nattack up the nearest lane. This effect has a 20\nsecond cooldown.");
+            }
         }
 
         //**ABILITY 7_3**//
@@ -9804,6 +13639,111 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability7_3, "Activate to reduce damage taken by 75% for 4\nseconds.");
             }
 
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Storm Shield";
+                toolTip1.SetToolTip(Ability7_3, "Activate to give all nearby allied Heroes a Shield\nfor 20% of their max Health for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Kung Fu Hustle";
+                toolTip1.SetToolTip(Ability7_3, "Abilities recharge three times as fast while Fast\nFeet is active.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Storm Shield";
+                toolTip1.SetToolTip(Ability7_3, "Activate to give all nearby allied Heroes a Shield\nfor 20% of their max Health for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Rewind";
+                toolTip1.SetToolTip(Ability7_3, "Activate to reset the cooldowns of your Basic\nAbilities.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Storm Shield";
+                toolTip1.SetToolTip(Ability7_3, "Activate to give all nearby allied Heroes a Shield\nfor 20% of their max Health for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Nexus Frenzy";
+                toolTip1.SetToolTip(Ability7_3, "Increases Attack Speed by 20% and Attack Range by 20%.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Redemption";
+                toolTip1.SetToolTip(Ability7_3, "After Eternal Devotion ends, return to 50% of\nyour maximum Health at your spirit's location.\nThis effect has a 180 second cooldown.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Hivemind";
+                toolTip1.SetToolTip(Ability7_3, "Casting Symbiote creates an additional Symbiote\non a nearby allied Hero. This Symbiote mimics\nthe commands of the first. If the second host\nmoves too far away, it is destroyed.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_3, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                int gazfuryone = 20 + (9 * trackBar1.Value);
+                int gazfurytwo = 20 + (24 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Fury of the Storm";
+                toolTip1.SetToolTip(Ability7_3, "Every 5 seconds, your next basic attack will deal\nan additional " + gazfuryone.ToString() + " damage to the target,\nand " + gazfurytwo.ToString() + " damage to all\nnearby Minions and Mercenaries.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "The Sequel!";
+                toolTip1.SetToolTip(Ability7_3, "Increases the Lost Vikings' death time reduction\nfrom 25% to 50%.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Rewind";
+                toolTip1.SetToolTip(Ability7_3, "Activate to reset the cooldowns of your Basic\nAbilities.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                int nazfuryone = 20 + (9 * trackBar1.Value);
+                int nazfurytwo = 20 + (24 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Fury of the Storm";
+                toolTip1.SetToolTip(Ability7_3, "Every 5 seconds, your next basic attack will deal\nan additional " + nazfuryone.ToString() + "damage to the \ntarget, and " + nazfurytwo.ToString() + " damage to all \nnearby Minions and Mercenaries.");
+            }
+
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                int hammerfuryone = 20 + (9 * trackBar1.Value);
+                int hammerfurytwo = 20 + (24 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Fury of the Storm";
+                toolTip1.SetToolTip(Ability7_3, "Every 5 seconds, your next basic attack will deal\nan additional " + hammerfuryone.ToString() + " damage to the target\nand " + hammerfurytwo.ToString() + " damage to all nearby\nMinions and Mercenaries.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                int sylfuryone = 20 + (9 * trackBar1.Value);
+                int sylfurytwo = 20 + (24 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Fury of the Storm";
+                toolTip1.SetToolTip(Ability7_3, "Every 5 seconds, your next Basic Attack will deal an additional " + sylfuryone.ToString() + "\ndamage to the target, and " + sylfurytwo.ToString() + " damage to all\nearby Minions and Mercenaries.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                int zagfuryone = 20 + (9 * trackBar1.Value);
+                int zagfurytwo = 20 + (4 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Fury of the Storm";
+                toolTip1.SetToolTip(Ability7_3, "Every 5 seconds, your next basic attack will deal \nan additional " + zagfuryone.ToString() + " damage to the\ntarget, and " + zagfurytwo.ToString() + " damage to all\nnearby Minions and Mercenaries.");
+            }
         }
 
         //**ABILITY 7_4**//
@@ -9935,6 +13875,104 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Nexus Blades";
                 toolTip1.SetToolTip(Ability7_4, "Basic attacks deal 20% more damage and slow\nthe target for 1 second.");
             }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Rewind";
+                toolTip1.SetToolTip(Ability7_4, "Activate to reset the cooldowns of your Basic\nAbilities.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Storm Shield";
+                toolTip1.SetToolTip(Ability7_4, "Activate to give all nearby allied Heroes a Shield\nfor 20% of their max Health for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Rewind";
+                toolTip1.SetToolTip(Ability7_4, "Activate to reset the cooldowns of your Basic\nAbilities.");
+            }
+
+            if (lblHero.Text == "Rehgar")
+            {
+                toolTip1.ToolTipTitle = "Storm Shield";
+                toolTip1.SetToolTip(Ability7_4, "Activate to give all nearby allied Heroes a Shield\nfor 20% of their max Health for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Tassadar")
+            {
+                toolTip1.ToolTipTitle = "Rewind";
+                toolTip1.SetToolTip(Ability7_4, "Activate to reset the cooldowns of your Basic\nAbilities.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Storm Shield";
+                toolTip1.SetToolTip(Ability7_4, "Activate to give all nearby allied Heroes a Shield for 20% of their max\nHealth for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                toolTip1.ToolTipTitle = "Storm Shield";
+                toolTip1.SetToolTip(Ability7_4, "Activate to give all nearby allied Heroes a Shield\nfor 20% of their max Health for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Locust Nest";
+                toolTip1.SetToolTip(Ability7_4, "Activate to create a nest that periodically\nspawns Locusts. Only one Locust Nest can be\nactive at a time.");
+            }
+
+            if (lblHero.Text == "Azmodan")
+            {
+                toolTip1.ToolTipTitle = "Storm Shield";
+                toolTip1.SetToolTip(Ability7_4, "Activate to give all nearby allied Heroes a Shield\nfor 20% of their max Health for 3 seconds.");
+            }
+
+            if (lblHero.Text == "Gazlowe")
+            {
+                toolTip1.ToolTipTitle = "Hardened Shield";
+                toolTip1.SetToolTip(Ability7_4, "Activate to reduce damage taken by 75% for 4\nseconds.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                int vikingsfuryone = 20 + (9 * trackBar1.Value);
+                int vikingsfurytwo = 20 + (24 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Fury of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Every 5 seconds, your next basic attack will deal\nan additional " + vikingsfuryone.ToString() + " damage to the target,\n" + vikingsfurytwo.ToString() + " damage to all nearby Minions\nand Mercenaries.");
+            }
+
+            if (lblHero.Text == "Murky")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "Nazeebo")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            } 
+            
+            if (lblHero.Text == "Sgt. Hammer")
+            {
+                toolTip1.ToolTipTitle = "Nexus Frenzy";
+                toolTip1.SetToolTip(Ability7_4, "Increases Attack Speed by 20% and Attack\nRange by 20%.");
+            }
+
+            if (lblHero.Text == "Sylvanas")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            }
         }
 
         //**ABILITY 7_5**//
@@ -9951,6 +13989,24 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Bolt of the Storm";
                 toolTip1.SetToolTip(Ability7_5, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "Li Li")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_5, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "Malfurion")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_5, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Rewind";
+                toolTip1.SetToolTip(Ability7_5, "Activate to reset the cooldowns of your next Basic\nAbilities.");
             }
         }
 
@@ -9971,11 +14027,31 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(picSpec1, "Cooldown: 7 seconds\n\nFire the Odin's cannons in a straight line, dealing " + tychusannihilate.ToString() + " damage\nto everything in the path.");
             }
 
-              if (lblHero.Text == "Chen")
+            if (lblHero.Text == "Chen")
             {
                 int chentriple = 10 + (4 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Triple Attack";
                 toolTip1.SetToolTip(picSpec1, "Cooldown: 6 seconds\n\nOrder the Spirits to smash the targeted point, dealing " + chentriple.ToString() + " damage per Spirit alive and\nslowing enemies in the targeted area by 20% for 2 seconds.");
+            }
+
+            if (lblHero.Text == "Brightwing")
+            {
+                toolTip1.ToolTipTitle = "Phase Shift";
+                toolTip1.SetToolTip(picSpec1, "Cooldown: 45 seconds\n\nInstead of mounting, teleport to an allied Hero.");
+            }
+
+            if (lblHero.Text == "Uther")
+            {
+                double utherflash = 81 + (22.5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Flash of Light";
+                toolTip1.SetToolTip(picSpec1, "Cooldown: 1 second\n\nWhile in Eternal Devoation, heal an ally for " + utherflash.ToString() + " Health.");
+            }
+
+            if (lblHero.Text == "Abathur")
+            {
+                double abathurstab = 46 + (9.5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Stab";
+                toolTip1.SetToolTip(picSpec1, "Charge Cooldown: 3 seconds\n\nShoots a spike towards target area that deals " + abathurstab.ToString() + " damage to the first enemy it contacts.");
             }
         }
 
@@ -9995,6 +14071,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Split Up";
                 toolTip1.SetToolTip(picSpec2, "Cooldown: 6 seconds\n\nOrder the Spirits to immediately spread out, jumping a short distance away from each other.");
             }
+
+            if (lblHero.Text == "Abathur")
+            {
+                int abathurspike = 32 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Spike Burst";
+                toolTip1.SetToolTip(picSpec1, "Cooldown: 6 seconds\n\nDeals " + abathurspike.ToString() + " damage to nearby enemies.");
+            }
         }
 
         //**SPECIAL 3**//
@@ -10006,13 +14089,24 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = " Thrusters";
                 toolTip1.SetToolTip(picSpec3, "Cooldown: 8 seconds\n\nDash in target direction.");
             }
+
+             if (lblHero.Text == "Abathur")
+            {
+                int abathurcarapace = 140 + (16 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Carapace";
+                toolTip1.SetToolTip(picSpec1, "Cooldown: 12 seconds\n\nShields the assisted ally for " + abathurcarapace.ToString() + ". Lasts for 8 seconds.");
+            }
         }
 
         //**SPECIAL 4**//
 
         private void picSpec4_MouseHover(object sender, EventArgs e)
         {
-
+             if (lblHero.Text == "Abathur")
+            {
+                toolTip1.ToolTipTitle = "Deep Tunnel";
+                toolTip1.SetToolTip(picSpec1, "Cooldown: 30 seconds\n\nQuickly tunnel to a visible location.");
+            }
         }
     }
 }
