@@ -228,6 +228,32 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.picETC = new System.Windows.Forms.PictureBox();
             this.lblETC = new System.Windows.Forms.Label();
+            this.picButch = new System.Windows.Forms.PictureBox();
+            this.lblButch = new System.Windows.Forms.Label();
+            this.lblDamageBaelog = new System.Windows.Forms.Label();
+            this.lblDamageErik = new System.Windows.Forms.Label();
+            this.lblHealthOlaf = new System.Windows.Forms.Label();
+            this.lblHealthErik = new System.Windows.Forms.Label();
+            this.lblHealthRegenBaelog = new System.Windows.Forms.Label();
+            this.lblHealthBaelog = new System.Windows.Forms.Label();
+            this.lblHealthRegenErik = new System.Windows.Forms.Label();
+            this.lblHealthRegenOlaf = new System.Windows.Forms.Label();
+            this.lblSpeedOlaf = new System.Windows.Forms.Label();
+            this.lblSpeedErik = new System.Windows.Forms.Label();
+            this.lblDamageOlaf = new System.Windows.Forms.Label();
+            this.lblSpeedBaelog = new System.Windows.Forms.Label();
+            this.OlafHealth = new System.Windows.Forms.Label();
+            this.ErikHealth = new System.Windows.Forms.Label();
+            this.BaelogHealth = new System.Windows.Forms.Label();
+            this.OlafRegen = new System.Windows.Forms.Label();
+            this.ErikRegen = new System.Windows.Forms.Label();
+            this.BaelogRegen = new System.Windows.Forms.Label();
+            this.BaelogASpeed = new System.Windows.Forms.Label();
+            this.BaelogDamage = new System.Windows.Forms.Label();
+            this.ErikASpeed = new System.Windows.Forms.Label();
+            this.ErikDamage = new System.Windows.Forms.Label();
+            this.OlafASpeed = new System.Windows.Forms.Label();
+            this.OlafDamage = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picFalstad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picIllidan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJania)).BeginInit();
@@ -345,7 +371,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.picSpec1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSpec4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picETC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picButch)).BeginInit();
             this.SuspendLayout();
             // 
             // picFalstad
@@ -388,7 +416,7 @@
             // picZeratul
             // 
             this.picZeratul.Image = ((System.Drawing.Image)(resources.GetObject("picZeratul.Image")));
-            this.picZeratul.Location = new System.Drawing.Point(544, 480);
+            this.picZeratul.Location = new System.Drawing.Point(545, 571);
             this.picZeratul.Name = "picZeratul";
             this.picZeratul.Size = new System.Drawing.Size(70, 70);
             this.picZeratul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -412,7 +440,7 @@
             // picTychus
             // 
             this.picTychus.Image = ((System.Drawing.Image)(resources.GetObject("picTychus.Image")));
-            this.picTychus.Location = new System.Drawing.Point(544, 302);
+            this.picTychus.Location = new System.Drawing.Point(545, 393);
             this.picTychus.Name = "picTychus";
             this.picTychus.Size = new System.Drawing.Size(70, 70);
             this.picTychus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -436,7 +464,7 @@
             // picThrall
             // 
             this.picThrall.Image = ((System.Drawing.Image)(resources.GetObject("picThrall.Image")));
-            this.picThrall.Location = new System.Drawing.Point(318, 569);
+            this.picThrall.Location = new System.Drawing.Point(545, 302);
             this.picThrall.Name = "picThrall";
             this.picThrall.Size = new System.Drawing.Size(70, 70);
             this.picThrall.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -472,7 +500,7 @@
             // picValla
             // 
             this.picValla.Image = ((System.Drawing.Image)(resources.GetObject("picValla.Image")));
-            this.picValla.Location = new System.Drawing.Point(544, 394);
+            this.picValla.Location = new System.Drawing.Point(545, 485);
             this.picValla.Name = "picValla";
             this.picValla.Size = new System.Drawing.Size(70, 70);
             this.picValla.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -513,7 +541,7 @@
             this.lblValla.BackColor = System.Drawing.Color.Transparent;
             this.lblValla.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblValla.ForeColor = System.Drawing.Color.White;
-            this.lblValla.Location = new System.Drawing.Point(620, 419);
+            this.lblValla.Location = new System.Drawing.Point(621, 510);
             this.lblValla.Name = "lblValla";
             this.lblValla.Size = new System.Drawing.Size(60, 25);
             this.lblValla.TabIndex = 17;
@@ -526,7 +554,7 @@
             this.lblTychus.BackColor = System.Drawing.Color.Transparent;
             this.lblTychus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTychus.ForeColor = System.Drawing.Color.White;
-            this.lblTychus.Location = new System.Drawing.Point(620, 325);
+            this.lblTychus.Location = new System.Drawing.Point(621, 416);
             this.lblTychus.Name = "lblTychus";
             this.lblTychus.Size = new System.Drawing.Size(82, 25);
             this.lblTychus.TabIndex = 18;
@@ -539,7 +567,7 @@
             this.lblThrall.BackColor = System.Drawing.Color.Transparent;
             this.lblThrall.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThrall.ForeColor = System.Drawing.Color.White;
-            this.lblThrall.Location = new System.Drawing.Point(394, 590);
+            this.lblThrall.Location = new System.Drawing.Point(621, 323);
             this.lblThrall.Name = "lblThrall";
             this.lblThrall.Size = new System.Drawing.Size(66, 25);
             this.lblThrall.TabIndex = 19;
@@ -565,7 +593,7 @@
             this.lblZeratul.BackColor = System.Drawing.Color.Transparent;
             this.lblZeratul.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblZeratul.ForeColor = System.Drawing.Color.White;
-            this.lblZeratul.Location = new System.Drawing.Point(620, 499);
+            this.lblZeratul.Location = new System.Drawing.Point(621, 590);
             this.lblZeratul.Name = "lblZeratul";
             this.lblZeratul.Size = new System.Drawing.Size(79, 25);
             this.lblZeratul.TabIndex = 21;
@@ -2758,9 +2786,33 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Location = new System.Drawing.Point(1051, 899);
+            this.panel1.Controls.Add(this.lblDamageOlaf);
+            this.panel1.Controls.Add(this.lblSpeedOlaf);
+            this.panel1.Controls.Add(this.lblHealthRegenOlaf);
+            this.panel1.Controls.Add(this.lblHealthRegenErik);
+            this.panel1.Controls.Add(this.OlafDamage);
+            this.panel1.Controls.Add(this.lblSpeedErik);
+            this.panel1.Controls.Add(this.lblHealthOlaf);
+            this.panel1.Controls.Add(this.lblDamageErik);
+            this.panel1.Controls.Add(this.OlafASpeed);
+            this.panel1.Controls.Add(this.ErikDamage);
+            this.panel1.Controls.Add(this.BaelogHealth);
+            this.panel1.Controls.Add(this.BaelogDamage);
+            this.panel1.Controls.Add(this.lblDamageBaelog);
+            this.panel1.Controls.Add(this.lblSpeedBaelog);
+            this.panel1.Controls.Add(this.lblHealthErik);
+            this.panel1.Controls.Add(this.ErikHealth);
+            this.panel1.Controls.Add(this.ErikASpeed);
+            this.panel1.Controls.Add(this.OlafHealth);
+            this.panel1.Controls.Add(this.BaelogRegen);
+            this.panel1.Controls.Add(this.BaelogASpeed);
+            this.panel1.Controls.Add(this.lblHealthRegenBaelog);
+            this.panel1.Controls.Add(this.ErikRegen);
+            this.panel1.Controls.Add(this.lblHealthBaelog);
+            this.panel1.Controls.Add(this.OlafRegen);
+            this.panel1.Location = new System.Drawing.Point(843, 894);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(495, 77);
+            this.panel1.Size = new System.Drawing.Size(892, 77);
             this.panel1.TabIndex = 215;
             // 
             // picETC
@@ -2788,6 +2840,346 @@
             this.lblETC.Text = "E.T.C.";
             this.lblETC.Visible = false;
             // 
+            // picButch
+            // 
+            this.picButch.Image = ((System.Drawing.Image)(resources.GetObject("picButch.Image")));
+            this.picButch.Location = new System.Drawing.Point(318, 571);
+            this.picButch.Name = "picButch";
+            this.picButch.Size = new System.Drawing.Size(70, 70);
+            this.picButch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picButch.TabIndex = 218;
+            this.picButch.TabStop = false;
+            this.picButch.Visible = false;
+            this.picButch.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // lblButch
+            // 
+            this.lblButch.AutoSize = true;
+            this.lblButch.BackColor = System.Drawing.Color.Transparent;
+            this.lblButch.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblButch.ForeColor = System.Drawing.Color.White;
+            this.lblButch.Location = new System.Drawing.Point(396, 590);
+            this.lblButch.Name = "lblButch";
+            this.lblButch.Size = new System.Drawing.Size(129, 25);
+            this.lblButch.TabIndex = 219;
+            this.lblButch.Text = "The Butcher";
+            this.lblButch.Visible = false;
+            // 
+            // lblDamageBaelog
+            // 
+            this.lblDamageBaelog.AutoSize = true;
+            this.lblDamageBaelog.BackColor = System.Drawing.Color.Transparent;
+            this.lblDamageBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDamageBaelog.ForeColor = System.Drawing.Color.White;
+            this.lblDamageBaelog.Location = new System.Drawing.Point(802, 0);
+            this.lblDamageBaelog.Name = "lblDamageBaelog";
+            this.lblDamageBaelog.Size = new System.Drawing.Size(49, 18);
+            this.lblDamageBaelog.TabIndex = 225;
+            this.lblDamageBaelog.Text = "Skills";
+            this.lblDamageBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblDamageErik
+            // 
+            this.lblDamageErik.AutoSize = true;
+            this.lblDamageErik.BackColor = System.Drawing.Color.Transparent;
+            this.lblDamageErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDamageErik.ForeColor = System.Drawing.Color.White;
+            this.lblDamageErik.Location = new System.Drawing.Point(800, 29);
+            this.lblDamageErik.Name = "lblDamageErik";
+            this.lblDamageErik.Size = new System.Drawing.Size(49, 18);
+            this.lblDamageErik.TabIndex = 224;
+            this.lblDamageErik.Text = "Skills";
+            this.lblDamageErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealthOlaf
+            // 
+            this.lblHealthOlaf.AutoSize = true;
+            this.lblHealthOlaf.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthOlaf.ForeColor = System.Drawing.Color.White;
+            this.lblHealthOlaf.Location = new System.Drawing.Point(131, 59);
+            this.lblHealthOlaf.Name = "lblHealthOlaf";
+            this.lblHealthOlaf.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthOlaf.TabIndex = 223;
+            this.lblHealthOlaf.Text = "Skills";
+            this.lblHealthOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealthErik
+            // 
+            this.lblHealthErik.AutoSize = true;
+            this.lblHealthErik.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthErik.ForeColor = System.Drawing.Color.White;
+            this.lblHealthErik.Location = new System.Drawing.Point(131, 29);
+            this.lblHealthErik.Name = "lblHealthErik";
+            this.lblHealthErik.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthErik.TabIndex = 222;
+            this.lblHealthErik.Text = "Skills";
+            this.lblHealthErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealthRegenBaelog
+            // 
+            this.lblHealthRegenBaelog.AutoSize = true;
+            this.lblHealthRegenBaelog.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthRegenBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthRegenBaelog.ForeColor = System.Drawing.Color.White;
+            this.lblHealthRegenBaelog.Location = new System.Drawing.Point(340, 0);
+            this.lblHealthRegenBaelog.Name = "lblHealthRegenBaelog";
+            this.lblHealthRegenBaelog.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthRegenBaelog.TabIndex = 221;
+            this.lblHealthRegenBaelog.Text = "Skills";
+            this.lblHealthRegenBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealthBaelog
+            // 
+            this.lblHealthBaelog.AutoSize = true;
+            this.lblHealthBaelog.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthBaelog.ForeColor = System.Drawing.Color.White;
+            this.lblHealthBaelog.Location = new System.Drawing.Point(131, 0);
+            this.lblHealthBaelog.Name = "lblHealthBaelog";
+            this.lblHealthBaelog.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthBaelog.TabIndex = 220;
+            this.lblHealthBaelog.Text = "Skills";
+            this.lblHealthBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealthRegenErik
+            // 
+            this.lblHealthRegenErik.AutoSize = true;
+            this.lblHealthRegenErik.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthRegenErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthRegenErik.ForeColor = System.Drawing.Color.White;
+            this.lblHealthRegenErik.Location = new System.Drawing.Point(340, 28);
+            this.lblHealthRegenErik.Name = "lblHealthRegenErik";
+            this.lblHealthRegenErik.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthRegenErik.TabIndex = 231;
+            this.lblHealthRegenErik.Text = "Skills";
+            this.lblHealthRegenErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealthRegenOlaf
+            // 
+            this.lblHealthRegenOlaf.AutoSize = true;
+            this.lblHealthRegenOlaf.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthRegenOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthRegenOlaf.ForeColor = System.Drawing.Color.White;
+            this.lblHealthRegenOlaf.Location = new System.Drawing.Point(340, 59);
+            this.lblHealthRegenOlaf.Name = "lblHealthRegenOlaf";
+            this.lblHealthRegenOlaf.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthRegenOlaf.TabIndex = 230;
+            this.lblHealthRegenOlaf.Text = "Skills";
+            this.lblHealthRegenOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSpeedOlaf
+            // 
+            this.lblSpeedOlaf.AutoSize = true;
+            this.lblSpeedOlaf.BackColor = System.Drawing.Color.Transparent;
+            this.lblSpeedOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpeedOlaf.ForeColor = System.Drawing.Color.White;
+            this.lblSpeedOlaf.Location = new System.Drawing.Point(583, 59);
+            this.lblSpeedOlaf.Name = "lblSpeedOlaf";
+            this.lblSpeedOlaf.Size = new System.Drawing.Size(49, 18);
+            this.lblSpeedOlaf.TabIndex = 229;
+            this.lblSpeedOlaf.Text = "Skills";
+            this.lblSpeedOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSpeedErik
+            // 
+            this.lblSpeedErik.AutoSize = true;
+            this.lblSpeedErik.BackColor = System.Drawing.Color.Transparent;
+            this.lblSpeedErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpeedErik.ForeColor = System.Drawing.Color.White;
+            this.lblSpeedErik.Location = new System.Drawing.Point(583, 28);
+            this.lblSpeedErik.Name = "lblSpeedErik";
+            this.lblSpeedErik.Size = new System.Drawing.Size(49, 18);
+            this.lblSpeedErik.TabIndex = 228;
+            this.lblSpeedErik.Text = "Skills";
+            this.lblSpeedErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblDamageOlaf
+            // 
+            this.lblDamageOlaf.AutoSize = true;
+            this.lblDamageOlaf.BackColor = System.Drawing.Color.Transparent;
+            this.lblDamageOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDamageOlaf.ForeColor = System.Drawing.Color.White;
+            this.lblDamageOlaf.Location = new System.Drawing.Point(800, 59);
+            this.lblDamageOlaf.Name = "lblDamageOlaf";
+            this.lblDamageOlaf.Size = new System.Drawing.Size(49, 18);
+            this.lblDamageOlaf.TabIndex = 227;
+            this.lblDamageOlaf.Text = "Skills";
+            this.lblDamageOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSpeedBaelog
+            // 
+            this.lblSpeedBaelog.AutoSize = true;
+            this.lblSpeedBaelog.BackColor = System.Drawing.Color.Transparent;
+            this.lblSpeedBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpeedBaelog.ForeColor = System.Drawing.Color.White;
+            this.lblSpeedBaelog.Location = new System.Drawing.Point(583, -1);
+            this.lblSpeedBaelog.Name = "lblSpeedBaelog";
+            this.lblSpeedBaelog.Size = new System.Drawing.Size(49, 18);
+            this.lblSpeedBaelog.TabIndex = 226;
+            this.lblSpeedBaelog.Text = "Skills";
+            this.lblSpeedBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OlafHealth
+            // 
+            this.OlafHealth.AutoSize = true;
+            this.OlafHealth.BackColor = System.Drawing.Color.Transparent;
+            this.OlafHealth.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OlafHealth.ForeColor = System.Drawing.Color.DarkOrange;
+            this.OlafHealth.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.OlafHealth.Location = new System.Drawing.Point(-1, 59);
+            this.OlafHealth.Name = "OlafHealth";
+            this.OlafHealth.Size = new System.Drawing.Size(93, 18);
+            this.OlafHealth.TabIndex = 232;
+            this.OlafHealth.Text = "Olaf Health";
+            this.OlafHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ErikHealth
+            // 
+            this.ErikHealth.AutoSize = true;
+            this.ErikHealth.BackColor = System.Drawing.Color.Transparent;
+            this.ErikHealth.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErikHealth.ForeColor = System.Drawing.Color.DarkOrange;
+            this.ErikHealth.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ErikHealth.Location = new System.Drawing.Point(-1, 28);
+            this.ErikHealth.Name = "ErikHealth";
+            this.ErikHealth.Size = new System.Drawing.Size(94, 18);
+            this.ErikHealth.TabIndex = 233;
+            this.ErikHealth.Text = "Erik Health";
+            this.ErikHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BaelogHealth
+            // 
+            this.BaelogHealth.AutoSize = true;
+            this.BaelogHealth.BackColor = System.Drawing.Color.Transparent;
+            this.BaelogHealth.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BaelogHealth.ForeColor = System.Drawing.Color.DarkOrange;
+            this.BaelogHealth.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BaelogHealth.Location = new System.Drawing.Point(-2, 0);
+            this.BaelogHealth.Name = "BaelogHealth";
+            this.BaelogHealth.Size = new System.Drawing.Size(116, 18);
+            this.BaelogHealth.TabIndex = 234;
+            this.BaelogHealth.Text = "Baelog Health";
+            this.BaelogHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OlafRegen
+            // 
+            this.OlafRegen.AutoSize = true;
+            this.OlafRegen.BackColor = System.Drawing.Color.Transparent;
+            this.OlafRegen.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OlafRegen.ForeColor = System.Drawing.Color.DarkOrange;
+            this.OlafRegen.Location = new System.Drawing.Point(202, 59);
+            this.OlafRegen.Name = "OlafRegen";
+            this.OlafRegen.Size = new System.Drawing.Size(93, 18);
+            this.OlafRegen.TabIndex = 235;
+            this.OlafRegen.Text = "Olaf Regen";
+            this.OlafRegen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ErikRegen
+            // 
+            this.ErikRegen.AutoSize = true;
+            this.ErikRegen.BackColor = System.Drawing.Color.Transparent;
+            this.ErikRegen.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErikRegen.ForeColor = System.Drawing.Color.DarkOrange;
+            this.ErikRegen.Location = new System.Drawing.Point(202, 28);
+            this.ErikRegen.Name = "ErikRegen";
+            this.ErikRegen.Size = new System.Drawing.Size(94, 18);
+            this.ErikRegen.TabIndex = 236;
+            this.ErikRegen.Text = "Erik Regen";
+            this.ErikRegen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BaelogRegen
+            // 
+            this.BaelogRegen.AutoSize = true;
+            this.BaelogRegen.BackColor = System.Drawing.Color.Transparent;
+            this.BaelogRegen.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BaelogRegen.ForeColor = System.Drawing.Color.DarkOrange;
+            this.BaelogRegen.Location = new System.Drawing.Point(202, 0);
+            this.BaelogRegen.Name = "BaelogRegen";
+            this.BaelogRegen.Size = new System.Drawing.Size(116, 18);
+            this.BaelogRegen.TabIndex = 237;
+            this.BaelogRegen.Text = "Baelog Regen";
+            this.BaelogRegen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BaelogASpeed
+            // 
+            this.BaelogASpeed.AutoSize = true;
+            this.BaelogASpeed.BackColor = System.Drawing.Color.Transparent;
+            this.BaelogASpeed.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BaelogASpeed.ForeColor = System.Drawing.Color.SpringGreen;
+            this.BaelogASpeed.Location = new System.Drawing.Point(415, 0);
+            this.BaelogASpeed.Name = "BaelogASpeed";
+            this.BaelogASpeed.Size = new System.Drawing.Size(145, 18);
+            this.BaelogASpeed.TabIndex = 239;
+            this.BaelogASpeed.Text = "Baelog Atk Speed";
+            this.BaelogASpeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BaelogDamage
+            // 
+            this.BaelogDamage.AutoSize = true;
+            this.BaelogDamage.BackColor = System.Drawing.Color.Transparent;
+            this.BaelogDamage.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BaelogDamage.ForeColor = System.Drawing.Color.Red;
+            this.BaelogDamage.Location = new System.Drawing.Point(652, 0);
+            this.BaelogDamage.Name = "BaelogDamage";
+            this.BaelogDamage.Size = new System.Drawing.Size(129, 18);
+            this.BaelogDamage.TabIndex = 238;
+            this.BaelogDamage.Text = "Baelog Damage";
+            this.BaelogDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ErikASpeed
+            // 
+            this.ErikASpeed.AutoSize = true;
+            this.ErikASpeed.BackColor = System.Drawing.Color.Transparent;
+            this.ErikASpeed.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErikASpeed.ForeColor = System.Drawing.Color.SpringGreen;
+            this.ErikASpeed.Location = new System.Drawing.Point(415, 28);
+            this.ErikASpeed.Name = "ErikASpeed";
+            this.ErikASpeed.Size = new System.Drawing.Size(123, 18);
+            this.ErikASpeed.TabIndex = 241;
+            this.ErikASpeed.Text = "Erik Atk Speed";
+            this.ErikASpeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ErikDamage
+            // 
+            this.ErikDamage.AutoSize = true;
+            this.ErikDamage.BackColor = System.Drawing.Color.Transparent;
+            this.ErikDamage.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErikDamage.ForeColor = System.Drawing.Color.Red;
+            this.ErikDamage.Location = new System.Drawing.Point(652, 28);
+            this.ErikDamage.Name = "ErikDamage";
+            this.ErikDamage.Size = new System.Drawing.Size(107, 18);
+            this.ErikDamage.TabIndex = 240;
+            this.ErikDamage.Text = "Erik Damage";
+            this.ErikDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OlafASpeed
+            // 
+            this.OlafASpeed.AutoSize = true;
+            this.OlafASpeed.BackColor = System.Drawing.Color.Transparent;
+            this.OlafASpeed.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OlafASpeed.ForeColor = System.Drawing.Color.SpringGreen;
+            this.OlafASpeed.Location = new System.Drawing.Point(415, 59);
+            this.OlafASpeed.Name = "OlafASpeed";
+            this.OlafASpeed.Size = new System.Drawing.Size(122, 18);
+            this.OlafASpeed.TabIndex = 243;
+            this.OlafASpeed.Text = "Olaf Atk Speed";
+            this.OlafASpeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OlafDamage
+            // 
+            this.OlafDamage.AutoSize = true;
+            this.OlafDamage.BackColor = System.Drawing.Color.Transparent;
+            this.OlafDamage.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OlafDamage.ForeColor = System.Drawing.Color.Red;
+            this.OlafDamage.Location = new System.Drawing.Point(652, 59);
+            this.OlafDamage.Name = "OlafDamage";
+            this.OlafDamage.Size = new System.Drawing.Size(106, 18);
+            this.OlafDamage.TabIndex = 242;
+            this.OlafDamage.Text = "Olaf Damage";
+            this.OlafDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2795,7 +3187,9 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(829, 240);
+            this.ClientSize = new System.Drawing.Size(1915, 1000);
+            this.Controls.Add(this.lblButch);
+            this.Controls.Add(this.picButch);
             this.Controls.Add(this.lblETC);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblManaRegen);
@@ -2926,9 +3320,7 @@
             this.Controls.Add(this.lblArthas);
             this.Controls.Add(this.lblChen);
             this.Controls.Add(this.lblDiablo);
-            this.Controls.Add(this.lblStiches);
             this.Controls.Add(this.lblMuradin);
-            this.Controls.Add(this.lblTyrael);
             this.Controls.Add(this.lblJohanna);
             this.Controls.Add(this.lblIllidan);
             this.Controls.Add(this.lblJania);
@@ -2944,24 +3336,13 @@
             this.Controls.Add(this.lblBrightwing);
             this.Controls.Add(this.lblAnub);
             this.Controls.Add(this.Border5_5);
-            this.Controls.Add(this.picBrightwing);
-            this.Controls.Add(this.picLiLi);
-            this.Controls.Add(this.picAnub);
             this.Controls.Add(this.picFalstad);
-            this.Controls.Add(this.picArthas);
             this.Controls.Add(this.picIllidan);
-            this.Controls.Add(this.picChen);
             this.Controls.Add(this.picJania);
-            this.Controls.Add(this.picDiablo);
             this.Controls.Add(this.picKael);
-            this.Controls.Add(this.picJohanna);
             this.Controls.Add(this.picKerrigan);
-            this.Controls.Add(this.picMuradin);
             this.Controls.Add(this.picNova);
-            this.Controls.Add(this.picSonya);
-            this.Controls.Add(this.picStitches);
             this.Controls.Add(this.picThrall);
-            this.Controls.Add(this.picTyrael);
             this.Controls.Add(this.picTychus);
             this.Controls.Add(this.picAbathur);
             this.Controls.Add(this.picAzmodan);
@@ -2978,7 +3359,6 @@
             this.Controls.Add(this.picETC);
             this.Controls.Add(this.picTassadar);
             this.Controls.Add(this.picTyrande);
-            this.Controls.Add(this.picUther);
             this.Controls.Add(this.picRaynor);
             this.Controls.Add(this.picHammer);
             this.Controls.Add(this.picZagara);
@@ -2993,6 +3373,20 @@
             this.Controls.Add(this.lblSylvanas);
             this.Controls.Add(this.lblZagara);
             this.Controls.Add(this.picValla);
+            this.Controls.Add(this.picBrightwing);
+            this.Controls.Add(this.picAnub);
+            this.Controls.Add(this.picLiLi);
+            this.Controls.Add(this.picArthas);
+            this.Controls.Add(this.picChen);
+            this.Controls.Add(this.picDiablo);
+            this.Controls.Add(this.picJohanna);
+            this.Controls.Add(this.picMuradin);
+            this.Controls.Add(this.picSonya);
+            this.Controls.Add(this.picStitches);
+            this.Controls.Add(this.picTyrael);
+            this.Controls.Add(this.picUther);
+            this.Controls.Add(this.lblTyrael);
+            this.Controls.Add(this.lblStiches);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1931, 1038);
@@ -3116,7 +3510,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.picSpec1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSpec4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picETC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picButch)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3322,6 +3719,32 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox picETC;
         private System.Windows.Forms.Label lblETC;
+        private System.Windows.Forms.PictureBox picButch;
+        private System.Windows.Forms.Label lblButch;
+        private System.Windows.Forms.Label lblDamageBaelog;
+        private System.Windows.Forms.Label lblDamageErik;
+        private System.Windows.Forms.Label lblHealthOlaf;
+        private System.Windows.Forms.Label lblHealthErik;
+        private System.Windows.Forms.Label lblHealthRegenBaelog;
+        private System.Windows.Forms.Label lblHealthBaelog;
+        private System.Windows.Forms.Label lblHealthRegenErik;
+        private System.Windows.Forms.Label lblHealthRegenOlaf;
+        private System.Windows.Forms.Label lblSpeedOlaf;
+        private System.Windows.Forms.Label lblSpeedErik;
+        private System.Windows.Forms.Label lblDamageOlaf;
+        private System.Windows.Forms.Label lblSpeedBaelog;
+        private System.Windows.Forms.Label OlafDamage;
+        private System.Windows.Forms.Label OlafASpeed;
+        private System.Windows.Forms.Label ErikDamage;
+        private System.Windows.Forms.Label BaelogHealth;
+        private System.Windows.Forms.Label BaelogDamage;
+        private System.Windows.Forms.Label ErikHealth;
+        private System.Windows.Forms.Label ErikASpeed;
+        private System.Windows.Forms.Label OlafHealth;
+        private System.Windows.Forms.Label BaelogRegen;
+        private System.Windows.Forms.Label BaelogASpeed;
+        private System.Windows.Forms.Label ErikRegen;
+        private System.Windows.Forms.Label OlafRegen;
     }
 }
 

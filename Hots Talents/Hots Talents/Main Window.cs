@@ -246,6 +246,37 @@ namespace Hots_Talents
                 picGold.Visible = true;
 
                 trackBar1.Value = 1;
+
+                lblHealthBaelog.Visible = false;
+                lblHealthRegenBaelog.Visible = false;
+                lblSpeedBaelog.Visible = false;
+                lblDamageBaelog.Visible = false;
+
+                lblHealthErik.Visible = false;
+                lblHealthRegenErik.Visible = false;
+                lblSpeedErik.Visible = false;
+                lblDamageErik.Visible = false;
+
+                lblHealthOlaf.Visible = false;
+                lblHealthRegenOlaf.Visible = false;
+                lblSpeedOlaf.Visible = false;
+                lblDamageOlaf.Visible = false;
+
+                BaelogHealth.Visible = false;
+                BaelogRegen.Visible = false;
+                BaelogASpeed.Visible = false;
+                BaelogDamage.Visible = false;
+
+                ErikHealth.Visible = false;
+                ErikRegen.Visible = false;
+                ErikASpeed.Visible = false;
+                ErikDamage.Visible = false;
+
+                OlafHealth.Visible = false;
+                OlafRegen.Visible = false;
+                OlafASpeed.Visible = false;
+                OlafDamage.Visible = false;
+			
             }
 
             else if (lblHero.Text == "The Lost Vikings")
@@ -254,6 +285,12 @@ namespace Hots_Talents
                 lblSpecial.Visible = true;
                 picSpec1.Visible = true;
                 spec1.Visible = true;
+                picSpec2.Visible = false;
+                picSpec3.Visible = false;
+                picSpec4.Visible = false;
+                spec2.Visible = false;
+                spec3.Visible = false;
+                spec4.Visible = false;
 
 
                 Border1_1.Visible = false;
@@ -336,6 +373,38 @@ namespace Hots_Talents
                 picGold.Visible = true;
 
                 trackBar1.Value = 1;
+
+                panel1.Visible = true;
+
+                lblHealthBaelog.Visible = true;
+                lblHealthRegenBaelog.Visible = true;
+                lblSpeedBaelog.Visible = true;
+                lblDamageBaelog.Visible = true;
+
+                lblHealthErik.Visible = true;
+                lblHealthRegenErik.Visible = true;
+                lblSpeedErik.Visible = true;
+                lblDamageErik.Visible = true;
+
+                lblHealthOlaf.Visible = true;
+                lblHealthRegenOlaf.Visible = true;
+                lblSpeedOlaf.Visible = true;
+                lblDamageOlaf.Visible = true;
+
+                BaelogHealth.Visible = true;
+                BaelogRegen.Visible = true;
+                BaelogASpeed.Visible = true;
+                BaelogDamage.Visible = true;
+
+                ErikHealth.Visible = true;
+                ErikRegen.Visible = true;
+                ErikASpeed.Visible = true;
+                ErikDamage.Visible = true;
+
+                OlafHealth.Visible = true;
+                OlafRegen.Visible = true;
+                OlafASpeed.Visible = true;
+                OlafDamage.Visible = true;
             }
 
             else if (lblHero.Text == "Brightwing")
@@ -426,6 +495,37 @@ namespace Hots_Talents
                 picGold.Visible = true;
 
                 trackBar1.Value = 1;
+
+                lblHealthBaelog.Visible = false;
+                lblHealthRegenBaelog.Visible = false;
+                lblSpeedBaelog.Visible = false;
+                lblDamageBaelog.Visible = false;
+
+                lblHealthErik.Visible = false;
+                lblHealthRegenErik.Visible = false;
+                lblSpeedErik.Visible = false;
+                lblDamageErik.Visible = false;
+
+                lblHealthOlaf.Visible = false;
+                lblHealthRegenOlaf.Visible = false;
+                lblSpeedOlaf.Visible = false;
+                lblDamageOlaf.Visible = false;
+
+                BaelogHealth.Visible = false;
+                BaelogRegen.Visible = false;
+                BaelogASpeed.Visible = false;
+                BaelogDamage.Visible = false;
+
+                ErikHealth.Visible = false;
+                ErikRegen.Visible = false;
+                ErikASpeed.Visible = false;
+                ErikDamage.Visible = false;
+
+                OlafHealth.Visible = false;
+                OlafRegen.Visible = false;
+                OlafASpeed.Visible = false;
+                OlafDamage.Visible = false;
+			
             }
 
             else if (lblHero.Text == "Uther")
@@ -516,6 +616,37 @@ namespace Hots_Talents
                 picGold.Visible = true;
 
                 trackBar1.Value = 1;
+
+                lblHealthBaelog.Visible = false;
+                lblHealthRegenBaelog.Visible = false;
+                lblSpeedBaelog.Visible = false;
+                lblDamageBaelog.Visible = false;
+
+                lblHealthErik.Visible = false;
+                lblHealthRegenErik.Visible = false;
+                lblSpeedErik.Visible = false;
+                lblDamageErik.Visible = false;
+
+                lblHealthOlaf.Visible = false;
+                lblHealthRegenOlaf.Visible = false;
+                lblSpeedOlaf.Visible = false;
+                lblDamageOlaf.Visible = false;
+
+                BaelogHealth.Visible = false;
+                BaelogRegen.Visible = false;
+                BaelogASpeed.Visible = false;
+                BaelogDamage.Visible = false;
+
+                ErikHealth.Visible = false;
+                ErikRegen.Visible = false;
+                ErikASpeed.Visible = false;
+                ErikDamage.Visible = false;
+
+                OlafHealth.Visible = false;
+                OlafRegen.Visible = false;
+                OlafASpeed.Visible = false;
+                OlafDamage.Visible = false;
+			
             }
 
             else if (lblHero.Text == "Falstad")
@@ -606,6 +737,37 @@ namespace Hots_Talents
                 picGold.Visible = true;
 
                 trackBar1.Value = 1;
+
+                lblHealthBaelog.Visible = false;
+                lblHealthRegenBaelog.Visible = false;
+                lblSpeedBaelog.Visible = false;
+                lblDamageBaelog.Visible = false;
+
+                lblHealthErik.Visible = false;
+                lblHealthRegenErik.Visible = false;
+                lblSpeedErik.Visible = false;
+                lblDamageErik.Visible = false;
+
+                lblHealthOlaf.Visible = false;
+                lblHealthRegenOlaf.Visible = false;
+                lblSpeedOlaf.Visible = false;
+                lblDamageOlaf.Visible = false;
+
+                BaelogHealth.Visible = false;
+                BaelogRegen.Visible = false;
+                BaelogASpeed.Visible = false;
+                BaelogDamage.Visible = false;
+
+                ErikHealth.Visible = false;
+                ErikRegen.Visible = false;
+                ErikASpeed.Visible = false;
+                ErikDamage.Visible = false;
+
+                OlafHealth.Visible = false;
+                OlafRegen.Visible = false;
+                OlafASpeed.Visible = false;
+                OlafDamage.Visible = false;
+			
             }
 
             else if (lblHero.Text == "Sgt. Hammer")
@@ -694,6 +856,37 @@ namespace Hots_Talents
                 label11.Visible = true;
                 label10.Visible = true;
                 picGold.Visible = true;
+
+                lblHealthBaelog.Visible = false;
+                lblHealthRegenBaelog.Visible = false;
+                lblSpeedBaelog.Visible = false;
+                lblDamageBaelog.Visible = false;
+
+                lblHealthErik.Visible = false;
+                lblHealthRegenErik.Visible = false;
+                lblSpeedErik.Visible = false;
+                lblDamageErik.Visible = false;
+
+                lblHealthOlaf.Visible = false;
+                lblHealthRegenOlaf.Visible = false;
+                lblSpeedOlaf.Visible = false;
+                lblDamageOlaf.Visible = false;
+
+                BaelogHealth.Visible = false;
+                BaelogRegen.Visible = false;
+                BaelogASpeed.Visible = false;
+                BaelogDamage.Visible = false;
+
+                ErikHealth.Visible = false;
+                ErikRegen.Visible = false;
+                ErikASpeed.Visible = false;
+                ErikDamage.Visible = false;
+
+                OlafHealth.Visible = false;
+                OlafRegen.Visible = false;
+                OlafASpeed.Visible = false;
+                OlafDamage.Visible = false;
+			
 
                 trackBar1.Value = 1;
             }
@@ -791,6 +984,37 @@ namespace Hots_Talents
                 label10.Visible = true;
                 picGold.Visible = true;
 
+                lblHealthBaelog.Visible = false;
+                lblHealthRegenBaelog.Visible = false;
+                lblSpeedBaelog.Visible = false;
+                lblDamageBaelog.Visible = false;
+
+                lblHealthErik.Visible = false;
+                lblHealthRegenErik.Visible = false;
+                lblSpeedErik.Visible = false;
+                lblDamageErik.Visible = false;
+
+                lblHealthOlaf.Visible = false;
+                lblHealthRegenOlaf.Visible = false;
+                lblSpeedOlaf.Visible = false;
+                lblDamageOlaf.Visible = false;
+
+                BaelogHealth.Visible = false;
+                BaelogRegen.Visible = false;
+                BaelogASpeed.Visible = false;
+                BaelogDamage.Visible = false;
+
+                ErikHealth.Visible = false;
+                ErikRegen.Visible = false;
+                ErikASpeed.Visible = false;
+                ErikDamage.Visible = false;
+
+                OlafHealth.Visible = false;
+                OlafRegen.Visible = false;
+                OlafASpeed.Visible = false;
+                OlafDamage.Visible = false;
+			
+
                 trackBar1.Value = 1;
             }
 
@@ -886,13 +1110,44 @@ namespace Hots_Talents
                 picGold.Visible = true;
 
                 trackBar1.Value = 1;
+
+                lblHealthBaelog.Visible = false;
+                lblHealthRegenBaelog.Visible = false;
+                lblSpeedBaelog.Visible = false;
+                lblDamageBaelog.Visible = false;
+
+                lblHealthErik.Visible = false;
+                lblHealthRegenErik.Visible = false;
+                lblSpeedErik.Visible = false;
+                lblDamageErik.Visible = false;
+
+                lblHealthOlaf.Visible = false;
+                lblHealthRegenOlaf.Visible = false;
+                lblSpeedOlaf.Visible = false;
+                lblDamageOlaf.Visible = false;
+
+                BaelogHealth.Visible = false;
+                BaelogRegen.Visible = false;
+                BaelogASpeed.Visible = false;
+                BaelogDamage.Visible = false;
+
+                ErikHealth.Visible = false;
+                ErikRegen.Visible = false;
+                ErikASpeed.Visible = false;
+                ErikDamage.Visible = false;
+
+                OlafHealth.Visible = false;
+                OlafRegen.Visible = false;
+                OlafASpeed.Visible = false;
+                OlafDamage.Visible = false;
+			
             }
         }
 
 
         //**ASSASSINS**//
 
-        System.Media.SoundPlayer open = new System.Media.SoundPlayer(@"open.wav");
+        System.Media.SoundPlayer open = new System.Media.SoundPlayer(@"C:\Users\Craig\Desktop\Hots Icons\Sound\open.wav");
 
         private void pic_assassin_Click(object sender, EventArgs e)
         {
@@ -916,6 +1171,7 @@ namespace Hots_Talents
             picTychus.Visible = true;
             picValla.Visible = true;
             picZeratul.Visible = true;
+            picButch.Visible = true;
 
             //ASSASSIN LABELS SHOW
             lblFalstad.Visible = true;
@@ -929,6 +1185,7 @@ namespace Hots_Talents
             lblTychus.Visible = true;
             lblValla.Visible = true;
             lblZeratul.Visible = true;
+            lblButch.Visible = true;
             lblAssassins.Visible = true;
 
             //WARRIOR PICS HIDE
@@ -1048,6 +1305,7 @@ namespace Hots_Talents
             picTychus.Visible = false;
             picValla.Visible = false;
             picZeratul.Visible = false;
+            picButch.Visible = false;
 
             //ASSASSIN LABELS HIDE
             lblFalstad.Visible = false;
@@ -1062,6 +1320,7 @@ namespace Hots_Talents
             lblValla.Visible = false;
             lblZeratul.Visible = false;
             lblAssassins.Visible = false;
+            lblButch.Visible = false;
 
             //SUPPORT LABELS HIDE
             lblBrightwing.Visible = false;
@@ -1175,6 +1434,7 @@ namespace Hots_Talents
             picTychus.Visible = false;
             picValla.Visible = false;
             picZeratul.Visible = false;
+            picButch.Visible = false;
 
             //ASSASSIN LABELS HIDE
             lblFalstad.Visible = false;
@@ -1189,6 +1449,7 @@ namespace Hots_Talents
             lblValla.Visible = false;
             lblZeratul.Visible = false;
             lblAssassins.Visible = false;
+            lblButch.Visible = false;
 
             //SPECIALISTS PICS HIDE
             picAbathur.Visible = false;
@@ -1287,6 +1548,7 @@ namespace Hots_Talents
                 picTychus.Visible = false;
                 picValla.Visible = false;
                 picZeratul.Visible = false;
+                picButch.Visible = false;
 
                 //ASSASSIN LABELS HIDE
                 lblFalstad.Visible = false;
@@ -1301,6 +1563,7 @@ namespace Hots_Talents
                 lblValla.Visible = false;
                 lblZeratul.Visible = false;
                 lblAssassins.Visible = false;
+                lblButch.Visible = false;
 
                 //SUPPORT LABELS HIDE
                 lblBrightwing.Visible = false;
@@ -1333,7 +1596,7 @@ namespace Hots_Talents
 
         public Bitmap renderBmp { get; set; }
 
-        System.Media.SoundPlayer click = new System.Media.SoundPlayer(@"click.wav");
+        System.Media.SoundPlayer click = new System.Media.SoundPlayer(@"C:\Users\Craig\Desktop\Hots Icons\Sound\click.wav");
 
         //**RECOMMENDED BUILD BUTTON**//
 
@@ -1861,6 +2124,20 @@ namespace Hots_Talents
                 Border6_2.Visible = true;
                 Border7_1.Visible = true;
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                click.Play();
+                initial();
+                //**Recommended**//
+                Border1_4.Visible = true;
+                Border2_2.Visible = true;
+                Border3_3.Visible = true;
+                Border4_1.Visible = true;
+                Border5_3.Visible = true;
+                Border6_3.Visible = true;
+                Border7_3.Visible = true;
+            }
         }
 
         private void Ability1_1_Click(object sender, EventArgs e)
@@ -2304,7 +2581,7 @@ namespace Hots_Talents
         }
 
 
-        System.Media.SoundPlayer hero = new System.Media.SoundPlayer(@"close.wav");
+        System.Media.SoundPlayer hero = new System.Media.SoundPlayer(@"C:\Users\Craig\Desktop\Hots Icons\Sound\close.wav");
 
         //**FALSTAD**//
 
@@ -2919,6 +3196,93 @@ namespace Hots_Talents
             lblManaRegen.Text = "3";
             lblSpeed.Text = "1.25";
             lblDamage.Text = "35";
+        }
+
+        //*THE BUTCHER**//
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            hero.Play();
+            while (this.Width < 1870)
+            {
+                this.Width += growW;
+                Application.DoEvents();
+            }
+
+            picHero.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Hero Icons\Assassins\The Butcher.png");
+            lblHero.Text = "The Butcher";
+            lblGold.Text = "10,000";
+
+            initial();
+
+            //**Recommended Build**//
+            Border1_4.Visible = true;
+            Border2_2.Visible = true;
+            Border3_3.Visible = true;
+            Border4_1.Visible = true;
+            Border5_3.Visible = true;
+            Border6_3.Visible = true;
+            Border7_3.Visible = true;
+
+            picQAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Skills\hamstring.png");
+            picWAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Skills\butchers-brand.png");
+            picEAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Skills\ruthless-onslaught.png");
+            picR1Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Skills\furnace-blast.png");
+            picR2Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Skills\lamb-to-the-slaughter.png");
+            picTrait.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Skills\fresh-meat.png");
+
+            lblQ.Text = "Hamstring\nQ";
+            lblW.Text = "Butcher's Brand\nW";
+            lblE.Text = "Ruthless Onslaught\nE";
+            lblR1.Text = "Furnace Blast\nR (Heroic)";
+            lblR2.Text = "Lamb to the Slaughter\nR (Heroic)";
+            lblTrait.Text = "Fresh Meat\nTrait";
+
+            Ability1_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 1\invigoration.png");
+            Ability1_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 1\block.png");
+            Ability1_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 1\chop-meat.png");
+            Ability1_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 1\victuals.png");
+            Ability1_5.Visible = false;
+
+            Ability2_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 4\flail-axe.png");
+            Ability2_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 4\unrelenting-pursuit.png");
+            Ability2_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 4\cheap-shot.png");
+            Ability2_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 4\envenom-talent.png");
+            Ability2_5.Visible = false;
+
+            Ability3_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 7\brutal-strike.png");
+            Ability3_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 7\insatiable-blade.png");
+            Ability3_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 7\abattoir.png");
+            Ability3_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 7\final-assault.png");
+            Ability3_5.Visible = false;
+
+            Ability4_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 10\furnace-blast-talent.png");
+            Ability4_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 10\lamb-to-the-slaughter-talent.png");
+
+            Ability5_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 13\burning-rage.png");
+            Ability5_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 13\savage-charge.png");
+            Ability5_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 13\crave-flesh.png");
+            Ability5_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 13\spell-shield.png");
+            Ability5_5.Visible = false;
+
+            Ability6_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 16\crippling-slam.png");
+            Ability6_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 16\enraged.png");
+            Ability6_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 16\blood-frenzy.png");
+            Ability6_4.Visible = false;
+            Ability6_5.Visible = false;
+
+            Ability7_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 20\fires-of-hell.png");
+            Ability7_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 20\slaughterhouse.png");
+            Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 20\nexus-blades.png");
+            Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\The Butcher\Talents\Tier 20\bolt-of-the-storm-talent.png");
+            Ability7_5.Visible = false;
+
+            lblHealth.Text = "920";
+            lblHealthRegen.Text = "1.914";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "1.11";
+            lblDamage.Text = "67";
         }
 
         //**THRALL**//
@@ -4522,6 +4886,21 @@ namespace Hots_Talents
             Ability7_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 20\checkpoint-reached.png");
             Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 20\the-sequel.png");
             Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 20\viking-fury-of-the-storm.png");
+
+            lblHealthBaelog.Text = "500";
+            lblHealthRegenBaelog.Text = "1.043";
+            lblSpeedBaelog.Text = "1.11";
+            lblDamageBaelog.Text = "26";
+
+            lblHealthErik.Text = "350";
+            lblHealthRegenErik.Text = "0.7304";
+            lblSpeedErik.Text = "1.43";
+            lblDamageErik.Text = "18";
+
+            lblHealthOlaf.Text = "650";
+            lblHealthRegenOlaf.Text = "1.3554";
+            lblSpeedOlaf.Text = "1.00";
+            lblDamageOlaf.Text = "20";
         }
 
         //**MURKY**//
@@ -5951,29 +6330,29 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                int BaelogHealth = 740;
-                double BaelogHRegen = 1.539;
-                int BaelogDamage = 39;
+                int BaelogHealthInt = 740;
+                double BaelogHRegenInt = 1.539;
+                int BaelogDamageInt = 39;
 
-                int ErikHealth = 740;
-                double ErikHRegen = 1.539;
-                int ErikDamage = 39;
+                int ErikHealthInt = 740;
+                double ErikHRegenInt = 1.539;
+                int ErikDamageInt = 39;
 
-                int OlafHealth = 740;
-                double OlafHRegen = 1.539;
-                int OlafDamage = 39;
+                int OlafHealthInt = 740;
+                double OlafHRegenInt = 1.539;
+                int OlafDamageInt = 39;
 
-                lblHealth.Text = (BaelogHealth + (trackBar1.Value - 1) * 100).ToString();
-                lblHealthRegen.Text = (BaelogHRegen + (trackBar1.Value - 1) * .207).ToString();
-                lblDamage.Text = (BaelogDamage + (trackBar1.Value - 1) * 7).ToString();
+                lblHealthBaelog.Text = (BaelogHealthInt + (trackBar1.Value - 1) * 100).ToString();
+                lblHealthRegenBaelog.Text = (BaelogHRegenInt + (trackBar1.Value - 1) * .207).ToString();
+                lblDamageBaelog.Text = (BaelogDamageInt + (trackBar1.Value - 1) * 7).ToString();
 
-                lblHealth.Text = (ErikHealth + (trackBar1.Value - 1) * 70).ToString();
-                lblHealthRegen.Text = (ErikHRegen + (trackBar1.Value - 1) * .145).ToString();
-                lblDamage.Text = (ErikDamage + (trackBar1.Value - 1) * 6).ToString();
+                lblHealthErik.Text = (ErikHealthInt + (trackBar1.Value - 1) * 70).ToString();
+                lblHealthRegenErik.Text = (ErikHRegenInt + (trackBar1.Value - 1) * .145).ToString();
+                lblDamageErik.Text = (ErikDamageInt + (trackBar1.Value - 1) * 6).ToString();
 
-                lblHealth.Text = (OlafHealth + (trackBar1.Value - 1) * 130).ToString();
-                lblHealthRegen.Text = (OlafHRegen + (trackBar1.Value - 1) * .270).ToString();
-                lblDamage.Text = (OlafDamage + (trackBar1.Value - 1) * 5).ToString();
+                lblHealthOlaf.Text = (OlafHealthInt + (trackBar1.Value - 1) * 130).ToString();
+                lblHealthRegenOlaf.Text = (OlafHRegenInt + (trackBar1.Value - 1) * .270).ToString();
+                lblDamageOlaf.Text = (OlafDamageInt + (trackBar1.Value - 1) * 5).ToString();
             }
 
             if (lblHero.Text == "Murky")
@@ -6151,7 +6530,24 @@ namespace Hots_Talents
                 lblManaRegen.Text = (UtherMRegen + (trackBar1.Value - 1) * .098).ToString();
                 lblDamage.Text = (UtherDamage + (trackBar1.Value - 1) * 7).ToString();
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                int ButcherHealth = 920;
+                double ButcherHRegen = 1.914;
+                int ButcherMana = 500;
+                double ButcherMRegen = 3;
+                int ButcherDamage = 67;
+
+                lblHealth.Text = (ButcherHealth + (trackBar1.Value - 1) * 200).ToString();
+                lblHealthRegen.Text = (ButcherHRegen + (trackBar1.Value - 1) * .418).ToString();
+                lblMana.Text = (ButcherMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (ButcherMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (ButcherDamage + (trackBar1.Value - 1) * 16).ToString();
+            }
         }
+			
+        
 
         //**TOOLTIPS**//
 
@@ -6421,6 +6817,13 @@ namespace Hots_Talents
                 int zagbane = 35 + (5 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Baneling Barrage";
                 toolTip1.SetToolTip(picQAbility, "Mana: 50\nCooldown: 10 seconds\n\nLaunch 4 Banelings that deal " + zagbane.ToString() + " splash damage each.");
+            }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                int butcherham = 40 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Hamstring";
+                toolTip1.SetToolTip(picQAbility, "Mana: 50\nCooldown: 4 seconds\n\nDeal " + butcherham.ToString() + " damage and slow enemies by 49.92% fading over 2 seconds. Your next Basic\nAttack will strike immediately.");
             }
         }
 
@@ -6694,6 +7097,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Hunter Killer";
                 toolTip1.SetToolTip(picWAbility, "Mana: 60\nCharge Cooldown: 14  seconds\n\nSummon a Hydralisk to attack a single target, dealing " + zaghunter.ToString() + " damage per second. Lasts 8\nseconds.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                double butcherbrand = 30 + (2.5 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Butcher's Brand";
+                toolTip1.SetToolTip(picWAbility, "Mana: 60\nCooldown: 14 seconds\n\nDeal " + butcherbrand.ToString() + " damage to an enemy and cause your Basic Attacks against them to heal you for\n75% of the damage done for 5 seconds. Healing doubled versus Heroes.");
+            }
         }
 
         //**E ABILITY**//
@@ -6941,6 +7351,13 @@ namespace Hots_Talents
                 int zagdroptwo = 13 + (2 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Infested Drop";
                 toolTip1.SetToolTip(picEAbility, "Mana: 50\nCooldown: 12 seconds\n\nBombard target area with a Zerg Drop Pod for " + zagdropone.ToString() + " damage.\n\nThe pod spawns 2 Roachlings that deal " + zagdroptwo.ToString() + " damage per second and last for 8 seconds.");
+            }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                int butcheronslaught = 60 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Ruthless Onslaught";
+                toolTip1.SetToolTip(picEAbility, "Mana: 75\nCooldown: 20 seconds\n\nCharge at an enemy, becoming Unstoppable and gaining Movement Speed. If you reach the target, they\nare stunned for 1 second and take " + butcheronslaught.ToString() + "damage.");
             }
         }
 
@@ -7206,6 +7623,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Devouring Maw";
                 toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nSummon a Devouring Maw that deals " + zagmawone.ToString() + " damage and devours enemies for 4 seconds.\nDevours enemies cannot fight and take " + zagmawtwo.ToString() + " damage per second.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                int butcherfurnace = 300 + (35 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Furnace Blast";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 75\nCooldown: 90 seconds\n\nAfter a 3 second delay, fire explodes around you dealing " + butcherfurnace.ToString() + " damage to enemies.\n\nCan be cast while using Ruthless Onslaught.");
+            }
         }
 
         //**R2 ABILITY**//
@@ -7464,6 +7888,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Nydus Network";
                 toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 50\nCharge Cooldown: 60 seconds\n\nSummon a Nydus Worm at target location that you can enter by right-clicking. While inside, you exit by\ntargeting a Nydus Worm with R or right-clicking near the Worm. Maximum 4 Nydus Worms.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                int butcherlamb = 75 + (15 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Lamb to the Slaughter";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana:75\nCooldown: 60 seconds\n\nThrow a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals " + butcherlamb.ToString() + "\ndamage and causes the enemy to be chained to the post for 4 seconds.");
+            }
         }
 
         //**TRAIT**//
@@ -7703,6 +8134,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Creep Tumor";
                 toolTip1.SetToolTip(picTrait, "Mana: 20\nCharge Cooldown: 15 secconds\n\nLay a Creep Tumor that generates Creep. You and your summons move 20% faster on Creep and\nrestore " + zagcreep.ToString() + " Health per second. Tumors last 240 seconds.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Fresh Meat";
+                toolTip1.SetToolTip(picTrait, "Nearby Minions drop 1 and Heroes drop 3 Fresh Meat when they die, which you can pick up to gain 1%\nbonus Attack Damage. Can hold up to 25 Meat. All Meat is lost on dying.");
+            }
         }
 
         //**ABILITY 1_1**//
@@ -7742,7 +8179,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Nova")
             {
                 toolTip1.ToolTipTitle = "Conjurer's Pursuit";
-                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases this bonus by 0.25.");
+                toolTip1.SetToolTip(Ability1_1, "Collecting Regeneration Globes permanently \nincreases Mana Regeneration by 0.1015 per\nsecond.");
             }
 
             if (lblHero.Text == "Raynor")
@@ -7844,7 +8281,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Li Li")
             {
                 toolTip1.ToolTipTitle = "Conjurer's Pursuit";
-                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 0.25.");
+                toolTip1.SetToolTip(Ability1_1, "Collecting Regeneration Globes permanently \nincreases Mana Regeneration by 0.1015 per\nsecond.");
             }
 
             if (lblHero.Text == "Malfurion")
@@ -7862,7 +8299,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Tassadar")
             {
                 toolTip1.ToolTipTitle = "Conjurer's Pursuit";
-                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 0.25.");
+                toolTip1.SetToolTip(Ability1_1, "Collecting Regeneration Globes permanently \nincreases Mana Regeneration by 0.1015 per\nsecond.");
             }
 
             if (lblHero.Text == "Tyrande")
@@ -7874,7 +8311,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Uther")
             {
                 toolTip1.ToolTipTitle = "Conjurer's Pursuit";
-                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 0.25.");
+                toolTip1.SetToolTip(Ability1_1, "Collecting Regeneration Globes permanently \nincreases Mana Regeneration by 0.1015 per\nsecond.");
             }
 
             if (lblHero.Text == "Abathur")
@@ -7892,7 +8329,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Gazlowe")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_1, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+                toolTip1.SetToolTip(Ability1_1, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "The Lost Vikings")
@@ -7929,6 +8366,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Centrifugal Hooks";
                 toolTip1.SetToolTip(Ability1_1, "Banelings can travel twice as far before\nexploding.");
+            }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Invigoration";
+                toolTip1.SetToolTip(Ability1_1, "If Hamstring hits a Hero, half of the Mana cost is\nrefunded and the cooldown is reduced by 1\nsecond.");
             }
         }
 
@@ -8156,6 +8599,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Corpse Feeders";
                 toolTip1.SetToolTip(Ability1_2, "Roachlings take 30% less damage from non-\nheroic sources.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Block";
+                toolTip1.SetToolTip(Ability1_2, "Periodically reduces the damage received from\nHero Basic Attacks by 50%. Stores up to 2\ncharges.");
+            }
         }
 
         //**ABILITY 1_3**//
@@ -8171,7 +8620,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Illidan")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_3, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases this bonus by 4.");
+                toolTip1.SetToolTip(Ability1_3, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "Jaina")
@@ -8384,6 +8833,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Reconstitution";
                 toolTip1.SetToolTip(Ability1_3, "Health Restoration bonus on Creep increased by 200%.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Chop Meat";
+                toolTip1.SetToolTip(Ability1_3, "Increases the damage of Hamstring by 50% to\nnon-Heroic targets, and Minions killed by\nHamstring drop 3 stacks of meat.");
+            }
         }
 
         //**ABILITY 1_4**//
@@ -8393,7 +8848,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Falstad")
             {
                 toolTip1.ToolTipTitle = "Conjurer's Pursuit";
-                toolTip1.SetToolTip(Ability1_4, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases this bonus by 0.25.");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently \nincreases Mana Regeneration by 0.1015 per\nsecond.");
             }
 
             if (lblHero.Text == "Illidan")
@@ -8405,7 +8860,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Jaina")
             {
                 toolTip1.ToolTipTitle = "Conjurer's Pursuit";
-                toolTip1.SetToolTip(Ability1_4, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases this bonus by 0.25.");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently \nincreases Mana Regeneration by 0.1015 per\nsecond.");
             }
 
             if (lblHero.Text == "Kael'Thas")
@@ -8442,7 +8897,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Tychus")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_4, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4 .");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "Valla")
@@ -8454,25 +8909,25 @@ namespace Hots_Talents
             if (lblHero.Text == "Zeratul")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_4, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "Anub'arak")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_4, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "Arthas")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_4, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "Chen")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_4, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "Diablo")
@@ -8490,7 +8945,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Johanna")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_4, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "Muradin")
@@ -8508,13 +8963,13 @@ namespace Hots_Talents
             if (lblHero.Text == "Stitches")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_4, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "Tyrael")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_4, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+                toolTip1.SetToolTip(Ability1_4, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
 
             if (lblHero.Text == "Brightwing")
@@ -8604,6 +9059,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Demolitionist";
                 toolTip1.SetToolTip(Ability1_4, "Basic Attacks against Structures destroy 1\nammo and deal an additional 10% damage.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Victuals";
+                toolTip1.SetToolTip(Ability1_4, "Heal for 3% of your Maximum Health when you\ncollect Fresh Meat. Meat continues to drop at\nmaximum stacks.");
+            }
         }
 
         //**ABILITY 1_5**//
@@ -8656,7 +9117,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Sgt. Hammer")
             {
                 toolTip1.ToolTipTitle = "Regeneration Master";
-                toolTip1.SetToolTip(Ability1_5, "Increases Health Regeneration by 4 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 4.");
+                toolTip1.SetToolTip(Ability1_5, "Collecting Regeneration Globes permanently\nincreases Health Regeneration by 1.5 per\nsecond.");
             }
         }
 
@@ -8889,6 +9350,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Envenomed Spines";
                 toolTip1.SetToolTip(Ability2_1, "Basic Attacks have their range increased by\n20% and deal an additional " + zagspines.ToString() + "\ndamage over 3 seconds.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Flail Axe";
+                toolTip1.SetToolTip(Ability2_1, "Increases the length of Hamstring by 40%.");
+            }
+			
         }
 
         //**ABILITY 2_2**//
@@ -9023,9 +9491,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                int brightshield = 185 + (35 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Protective Shield";
-                toolTip1.SetToolTip(Ability2_2, "Activate to shield an allied Hero from " + brightshield.ToString() + "\ndamage for 5 seconds.");
+                toolTip1.SetToolTip(Ability2_2, "Activate to shield an allied Hero for 15% of their max Health for 5 seconds.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -9119,6 +9586,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Medusa Blades";
                 toolTip1.SetToolTip(Ability2_2, "Basic Attacks deal 25% damage to three nearby targets.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Unrelenting Pursuit";
+                toolTip1.SetToolTip(Ability2_2, "Reduces the cooldown of Ruthless Onslaught by\n40% upon impact.");
+            }
+			
         }
 
         //**ABILITY 2_3**//
@@ -9328,7 +9802,7 @@ namespace Hots_Talents
             {
                 int nazvenom = 180 + (30 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Envenom";
-                toolTip1.SetToolTip(Ability2_3, "Activate to poison an enemy Hero, dealing " + nazvenom.ToString() + "\ndamage over 5 seconds.");
+                toolTip1.SetToolTip(Ability2_3, "Activate to poison an enemy Hero, dealing " + nazvenom.ToString() + " damage\nover 10 seconds.");
             }
 
             if (lblHero.Text == "Sgt. Hammer")
@@ -9346,6 +9820,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Tumor Clutch";
                 toolTip1.SetToolTip(Ability2_3, "Creep Tumor mana cost removed. Cooldown\ndecreased to 10 seconds.");
+            }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Cheap Shot";
+                toolTip1.SetToolTip(Ability2_3, "Hamstring does 100% more damage to targets\naffected by a slow, root, or stun.");
             }
         }
 
@@ -9369,14 +9849,14 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Envenom";
                 int jainavenom = 180 + (30 * trackBar1.Value);
-                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + jainavenom.ToString() + " damage over 5 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + jainavenom.ToString() + " damage\nover 10 seconds.");
             }
 
             if (lblHero.Text == "Kael'Thas")
             {
                 toolTip1.ToolTipTitle = "Envenom";
                 int kaelvenom = 180 + (30 * trackBar1.Value);
-                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + kaelvenom.ToString() + " damage over 5 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + kaelvenom.ToString() + " damage\nover 10 seconds.");
             }
 
             if (lblHero.Text == "Kerrigan")
@@ -9390,7 +9870,7 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Envenom";
                 int novavenom = 180 + (30 * trackBar1.Value);
-                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + novavenom.ToString() + " damage over 5 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + novavenom.ToString() + " damage\nover 10 seconds.");
             }
 
             if (lblHero.Text == "Raynor")
@@ -9403,7 +9883,7 @@ namespace Hots_Talents
             {
                 int thrallvenom = 180 + (30 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Envenom";
-                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing\n" + thrallvenom.ToString() + " damage over 5 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing\n" + thrallvenom.ToString() + " damage\nover 10 seconds.");
             }
 
             if (lblHero.Text == "Tychus")
@@ -9486,7 +9966,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Brightwing")
             {
                 toolTip1.ToolTipTitle = "Promote";
-                toolTip1.SetToolTip(Ability2_4, "Activate to give target allied lane Minion +300%\nHealth and +100% damage for 30 seconds. Has\n2 charges.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to cause an allied lane Minion to take\n75% reduced damage from non-Heroic targets \nand deal 100% bonus damage to non-Heroic \ntargets for 30 seconds. Has 2 charges.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -9497,9 +9977,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                int malfurionshield = 185 + (35 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Protective Shield";
-                toolTip1.SetToolTip(Ability2_4, "Activate to shield an allied Hero from " + malfurionshield.ToString() + "\ndamage for 5 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to shield an allied Hero for 15% of their max Health for 5 seconds.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -9511,7 +9990,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Tassadar")
             {
                 toolTip1.ToolTipTitle = "Promote";
-                toolTip1.SetToolTip(Ability2_4, "Activate to give target allied lane Minion +300%\nHealth and +100% damage for 30 seconds. Has\n2 charges.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to cause an allied lane Minion to take\n75% reduced damage from non-Heroic targets \nand deal 100% bonus damage to non-Heroic \ntargets for 30 seconds. Has 2 charges.");
             }
 
             if (lblHero.Text == "Tyrande")
@@ -9522,9 +10001,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Uther")
             {
-                int uthershield = 185 + (35 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Protective Shield";
-                toolTip1.SetToolTip(Ability2_4, "Activate to shield an allied Hero from " + uthershield.ToString() + "\ndamage for 5 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to shield an allied Hero for 15% of their max Health for 5 seconds.");
             }
 
             if (lblHero.Text == "Abathur")
@@ -9556,13 +10034,13 @@ namespace Hots_Talents
             {
                 int murkyvenom = 180 + (30 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Envenom";
-                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + murkyvenom.ToString() + "\ndamage over 5 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + murkyvenom.ToString() + " damage\nover 10 seconds.");
             }
 
             if (lblHero.Text == "Nazeebo")
             {
                 toolTip1.ToolTipTitle = "Promote";
-                toolTip1.SetToolTip(Ability2_4, "Activate to give target allied lane Minion +300%\nHealth and +100% damage for 30 seconds. Has\n2 charges.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to cause an allied lane Minion to take\n75% reduced damage from non-Heroic targets \nand deal 100% bonus damage to non-Heroic \ntargets for 30 seconds. Has 2 charges.");
             }
             if (lblHero.Text == "Sgt. Hammer")
             {
@@ -9574,14 +10052,22 @@ namespace Hots_Talents
             {
                 int sylvenom = 180 + (30 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Envenom";
-                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + sylvenom.ToString() + " damage\nover 5 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + sylvenom.ToString() + " damage\nover 10 seconds.");
             }
             if (lblHero.Text == "Zagara")
             {
                 int zagvenom = 180 + (30 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Envenom";
-                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + zagvenom.ToString() + "\ndamage over 5 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + zagvenom.ToString() + " damage\nover 10 seconds.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                double butchervenom = 179.96 + (29.92 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Envenom";
+                toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing\n" + butchervenom.ToString() + " damage over 10 seconds.");
+            }
+			
         }
 
         //**ABILITY 2_5**//
@@ -9592,7 +10078,7 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Envenom";
                 int kerrvenom = 180 + (30 * trackBar1.Value);
-                toolTip1.SetToolTip(Ability2_5, "Activate to poison an enemy Hero, dealing " + kerrvenom.ToString() + " damage over 5 seconds.");
+                toolTip1.SetToolTip(Ability2_5, "Activate to poison an enemy Hero, dealing " + kerrvenom.ToString() + " damage\nover 10 seconds.");
             }
 
             if (lblHero.Text == "Zeratul")
@@ -9634,7 +10120,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Gazlowe")
             {
                 toolTip1.ToolTipTitle = "Promote";
-                toolTip1.SetToolTip(Ability2_5, "Activate to give target allied lane Minion +300%\nHealth and +100% damage for 30 seconds. Has\n2 charges.");
+                toolTip1.SetToolTip(Ability2_5, "Activate to cause an allied lane Minion to take\n75% reduced damage from non-Heroic targets \nand deal 100% bonus damage to non-Heroic \ntargets for 30 seconds. Has 2 charges.");
             }
 
             if (lblHero.Text == "Zagara")
@@ -9873,6 +10359,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Battle Momentum";
                 toolTip1.SetToolTip(Ability3_1, "Basic Attacks reduce Ability cooldowns by 0.5\nseconds.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Brutal Strike";
+                toolTip1.SetToolTip(Ability3_1, "After using Hamstring, your next Basic Attack\ndeals an additional 50% damage.");
+            }
         }
 
         //**ABILITY 3_2**//
@@ -10109,6 +10601,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Volatile Acid";
                 toolTip1.SetToolTip(Ability3_2, "Baneling damage against non-Heroic targets\nincreased by 50%.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Insatiable Blade";
+                toolTip1.SetToolTip(Ability3_2, "Increases Butcher's Brand's healing from 75%\nto 100% of your Basic Attack damage.");
+            }
         }
 
         //**ABILITY 3_3**//
@@ -10341,6 +10839,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Ventral Sacs";
                 toolTip1.SetToolTip(Ability3_3, "Infested Drop now spawns 3 Roachlings.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Abattoir";
+                toolTip1.SetToolTip(Ability3_3, "Increases the maximum number of Fresh Meat\nto 35 , and you only lose half upon death.");
+            }
         }
 
         //**ABILITY 3_4**//
@@ -10557,6 +11061,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Endless Creep";
                 toolTip1.SetToolTip(Ability3_4, "Creep Tumors spread Creep 50% farther and\nhave 100% increased health.");
+            }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Final Assault";
+                toolTip1.SetToolTip(Ability3_4, "Increases Ruthless Onslaught's range by\n33.33%, and causes you to lunge at the enemy\nwhen close to impact.");
             }
         }
 
@@ -10905,6 +11415,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Devouring Maw";
                 toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nSummon a Devouring Maw that deals " + zagmawone.ToString() + " damage and devours enemies for 4 seconds.\nDevours enemies cannot fight and take " + zagmawtwo.ToString() + " damage per second.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                int butcherfurnace = 300 + (35 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Furnace Blast";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 75\nCooldown: 90 seconds\n\nAfter a 3 second delay, fire explodes around you dealing " + butcherfurnace.ToString() + " damage to enemies.\n\nCan be cast while using Ruthless Onslaught.");
+            }
         }
 
         //**ABILITY 4_2**//
@@ -11163,6 +11680,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Nydus Network";
                 toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 50\nCharge Cooldown: 60 seconds\n\nSummon a Nydus Worm at target location that you can enter by right-clicking. While inside, you exit by\ntargeting a Nydus Worm with R or right-clicking near the Worm. Maximum 4 Nydus Worms.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                int butcherlamb = 75 + (15 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Lamb to the Slaughter";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana:75\nCooldown: 60 seconds\n\nThrow a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals " + butcherlamb.ToString() + "\ndamage and causes the enemy to be chained to the post for 4 seconds.");
+            }
         }
 
         //**ABILITY 5_1**//
@@ -11245,7 +11769,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Arthas")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_1, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_1, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Chen")
@@ -11398,6 +11922,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Mutalisk";
                 toolTip1.SetToolTip(Ability5_1, "Your Hunter Killer now spawns a Mutalisk with a\nbounce attack and 50% increased duration.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                int butcherrage = 10 + (2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Burning Rage";
+                toolTip1.SetToolTip(Ability5_1, "Deal " + butcherrage.ToString() + " damage per second to\nnearby enemies.");
+            }
         }
 
         //**ABILITY 5_2**//
@@ -11492,7 +12023,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Diablo")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_2, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_2, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "E.T.C.")
@@ -11572,7 +12103,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Uther")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_2, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_2, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Abathur")
@@ -11628,6 +12159,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Grooved Spines";
                 toolTip1.SetToolTip(Ability5_2, "Hunter Killer has its range increased by 35%\nand damage increased by 20%.");
+            }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Savage Charge";
+                toolTip1.SetToolTip(Ability5_2, "Ruthless Onslaught deals bonus damage to\nHeroes equal to 15% of their current Health.");
             }
         }
 
@@ -11859,6 +12396,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Bile Drop";
                 toolTip1.SetToolTip(Ability5_3, "Increases the impact damage of Infested Drop\nby 100%.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Crave Flesh";
+                toolTip1.SetToolTip(Ability5_3, "While an enemy is affected by Butcher's Brand,\nyou gain 30% Movement Speed.");
+            }
         }
 
         //**ABILITY 5_4**//
@@ -11886,7 +12429,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Kael'Thas")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for 2 seconds.\nCan only trigger once every 30 seconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Kerrigan")
@@ -11898,7 +12441,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Nova")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for 2 seconds.\nCan only trigger once every 30 seconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Raynor")
@@ -11910,7 +12453,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Thrall")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Tychus")
@@ -11922,7 +12465,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Valla")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Zeratul")
@@ -11934,7 +12477,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Anub'arak")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Arthas")
@@ -11958,25 +12501,25 @@ namespace Hots_Talents
             if (lblHero.Text == "E.T.C.")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Johanna")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that \namage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Muradin")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that \namage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Sonya")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Stitches")
@@ -12018,7 +12561,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Tassadar")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Tyrande")
@@ -12072,13 +12615,19 @@ namespace Hots_Talents
             if (lblHero.Text == "Sylvanas")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that damage and further Ability\nDamaage by 50% for 2 seconds. Can only trigger once every 30 seconds.");
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Zagara")
             {
                 toolTip1.ToolTipTitle = "Giant Killer";
                 toolTip1.SetToolTip(Ability5_4, "Basic Attacks against enemy Heroes deal bonus\ndamage equal to 1.5% of the Hero's maximum\nHealth.");
+            }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
         }
 
@@ -12095,13 +12644,13 @@ namespace Hots_Talents
             if (lblHero.Text == "Zeratul")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_5, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_5, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Rehgar")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_5, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30 seconds.");
+                toolTip1.SetToolTip(Ability5_5, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
 
             if (lblHero.Text == "Tassadar")
@@ -12113,7 +12662,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Zagara")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
-                toolTip1.SetToolTip(Ability5_5, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n2 seconds. Can only trigger once every 30\nseconds.");
+                toolTip1.SetToolTip(Ability5_5, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
             }
         }
 
@@ -12342,6 +12891,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Baneling Massacre";
                 toolTip1.SetToolTip(Ability6_1, "Now spawns 8 Banelings.");
+            }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Crippling Slam";
+                toolTip1.SetToolTip(Ability6_1, "Hamstring's slow no longer fades out, and the\nduration is increased by 25%.");
             }
         }
 
@@ -12572,6 +13127,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Brood Expansion";
                 toolTip1.SetToolTip(Ability6_2, "Now spawns 8 Banelings.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Enraged";
+                toolTip1.SetToolTip(Ability6_2, "Receiving damage that reduces you below 50%\nof your maximum Health causes you to become\nEnraged for 10 seconds. You gain 40% Attack\nSpeed and reduce the duration of slows, stuns,\nsilences, and roots against you by 75% while Enraged.");
+            }
         }
 
         //**ABILITY 6_3**//
@@ -12587,7 +13148,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Illidan")
             {
                 toolTip1.ToolTipTitle = "Blood for Blood";
-                toolTip1.SetToolTip(Ability6_3, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+                toolTip1.SetToolTip(Ability6_3, "Activate to deal 10% of target enemy Hero's \nMax Health and heal for twice that amount.");
             }
 
             if (lblHero.Text == "Jaina")
@@ -12605,7 +13166,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Kerrigan")
             {
                 toolTip1.ToolTipTitle = "Blood for Blood";
-                toolTip1.SetToolTip(Ability6_3, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+                toolTip1.SetToolTip(Ability6_3, "Activate to deal 10% of target enemy Hero's \nMax Health and heal for twice that amount.");
             }
 
             if (lblHero.Text == "Nova")
@@ -12635,7 +13196,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Valla")
             {
                 toolTip1.ToolTipTitle = "Blood for Blood";
-                toolTip1.SetToolTip(Ability6_3, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+                toolTip1.SetToolTip(Ability6_3, "Activate to deal 10% of target enemy Hero's \nMax Health and heal for twice that amount.");
             }
 
             if (lblHero.Text == "Zeratul")
@@ -12726,7 +13287,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Rehgar")
             {
                 toolTip1.ToolTipTitle = "Blood for Blood";
-                toolTip1.SetToolTip(Ability6_3, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+                toolTip1.SetToolTip(Ability6_3, "Activate to deal 10% of target enemy Hero's \nMax Health and heal for twice that amount.");
             }
 
             if (lblHero.Text == "Tassadar")
@@ -12802,6 +13363,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Metabolic Boost";
                 toolTip1.SetToolTip(Ability6_3, "Movement Speed boost on Creep increased to 40%.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Blood Frenzy";
+                toolTip1.SetToolTip(Ability6_3, "Fresh Meat also increases your Attack Speed by\n1% per stack.");
+            }
         }
 
         //**ABILITY 6_4**//
@@ -12853,7 +13420,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Thrall")
             {
                 toolTip1.ToolTipTitle = "Blood for Blood";
-                toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+                toolTip1.SetToolTip(Ability6_4, "Activate to deal 10% of target enemy Hero's \nMax Health and heal for twice that amount.");
             }
 
             if (lblHero.Text == "Tychus")
@@ -12877,7 +13444,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Anub'arak")
             {
                 toolTip1.ToolTipTitle = "Blood for Blood";
-                toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+                toolTip1.SetToolTip(Ability6_4, "Activate to deal 10% of target enemy Hero's \nMax Health and heal for twice that amount.");
             }
 
             if (lblHero.Text == "Arthas")
@@ -12931,7 +13498,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Tyrael")
             {
                 toolTip1.ToolTipTitle = "Blood for Blood";
-                toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+                toolTip1.SetToolTip(Ability6_4, "Activate to deal 10% of target enemy Hero's \nMax Health and heal for twice that amount.");
             }
 
             if (lblHero.Text == "Brightwing")
@@ -12987,7 +13554,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Azmodan")
             {
                 toolTip1.ToolTipTitle = "Blood for Blood";
-                toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+                toolTip1.SetToolTip(Ability6_4, "Activate to deal 10% of target enemy Hero's \nMax Health and heal for twice that amount.");
             }
 
             if (lblHero.Text == "Gazlowe")
@@ -12999,7 +13566,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Murky")
             {
                 toolTip1.ToolTipTitle = "Blood for Blood";
-                toolTip1.SetToolTip(Ability6_4, "Activate to steal 15% of target enemy Hero's\nMax Health and slow its Movement Speed by\n30% for 3 seconds.");
+                toolTip1.SetToolTip(Ability6_4, "Activate to deal 10% of target enemy Hero's \nMax Health and heal for twice that amount.");
             }
 
             if (lblHero.Text == "Nazeebo")
@@ -13281,6 +13848,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Tyrant Maw";
                 toolTip1.SetToolTip(Ability7_1, "Devouring Maw deals 50% more damage and\neach Takedown reduces its cooldown by 25\nseconds.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Fires of Hell";
+                toolTip1.SetToolTip(Ability7_1, "Furnace Blast explodes a second time 3 seconds\nafter the initial explosion.");
+            }
         }
 
         //**ABILITY 7_2**//
@@ -13506,6 +14079,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Brooding Nest";
                 toolTip1.SetToolTip(Ability7_2, "Exiting a Nydus Worm spawns 6 broodlings to\nattack up the nearest lane. This effect has a 20\nsecond cooldown.");
+            }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Slaughterhouse";
+                toolTip1.SetToolTip(Ability7_2, "Lamb to the Slaughter now chains all enemy\nHeroes in range.");
             }
         }
 
@@ -13744,6 +14323,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Fury of the Storm";
                 toolTip1.SetToolTip(Ability7_3, "Every 5 seconds, your next basic attack will deal \nan additional " + zagfuryone.ToString() + " damage to the\ntarget, and " + zagfurytwo.ToString() + " damage to all\nnearby Minions and Mercenaries.");
             }
+
+            if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Nexus Blades";
+                toolTip1.SetToolTip(Ability7_3, "Basic attacks deal 20% more damage and slow\nthe target for 1 second.");
+            }
         }
 
         //**ABILITY 7_4**//
@@ -13969,6 +14554,12 @@ namespace Hots_Talents
             }
 
             if (lblHero.Text == "Zagara")
+            {
+                toolTip1.ToolTipTitle = "Bolt of the Storm";
+                toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
+            }
+
+            if (lblHero.Text == "The Butcher")
             {
                 toolTip1.ToolTipTitle = "Bolt of the Storm";
                 toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
