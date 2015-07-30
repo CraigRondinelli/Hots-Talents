@@ -226,34 +226,41 @@
             this.lblHealthRegen = new System.Windows.Forms.Label();
             this.lblHealth = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblDamageOlaf = new System.Windows.Forms.Label();
+            this.lblSpeedOlaf = new System.Windows.Forms.Label();
+            this.lblHealthRegenOlaf = new System.Windows.Forms.Label();
+            this.lblHealthRegenErik = new System.Windows.Forms.Label();
+            this.OlafDamage = new System.Windows.Forms.Label();
+            this.lblSpeedErik = new System.Windows.Forms.Label();
+            this.lblHealthOlaf = new System.Windows.Forms.Label();
+            this.lblDamageErik = new System.Windows.Forms.Label();
+            this.OlafASpeed = new System.Windows.Forms.Label();
+            this.ErikDamage = new System.Windows.Forms.Label();
+            this.BaelogHealth = new System.Windows.Forms.Label();
+            this.BaelogDamage = new System.Windows.Forms.Label();
+            this.lblDamageBaelog = new System.Windows.Forms.Label();
+            this.lblSpeedBaelog = new System.Windows.Forms.Label();
+            this.lblHealthErik = new System.Windows.Forms.Label();
+            this.ErikHealth = new System.Windows.Forms.Label();
+            this.ErikASpeed = new System.Windows.Forms.Label();
+            this.OlafHealth = new System.Windows.Forms.Label();
+            this.BaelogRegen = new System.Windows.Forms.Label();
+            this.BaelogASpeed = new System.Windows.Forms.Label();
+            this.lblHealthRegenBaelog = new System.Windows.Forms.Label();
+            this.ErikRegen = new System.Windows.Forms.Label();
+            this.lblHealthBaelog = new System.Windows.Forms.Label();
+            this.OlafRegen = new System.Windows.Forms.Label();
             this.picETC = new System.Windows.Forms.PictureBox();
             this.lblETC = new System.Windows.Forms.Label();
             this.picButch = new System.Windows.Forms.PictureBox();
             this.lblButch = new System.Windows.Forms.Label();
-            this.lblDamageBaelog = new System.Windows.Forms.Label();
-            this.lblDamageErik = new System.Windows.Forms.Label();
-            this.lblHealthOlaf = new System.Windows.Forms.Label();
-            this.lblHealthErik = new System.Windows.Forms.Label();
-            this.lblHealthRegenBaelog = new System.Windows.Forms.Label();
-            this.lblHealthBaelog = new System.Windows.Forms.Label();
-            this.lblHealthRegenErik = new System.Windows.Forms.Label();
-            this.lblHealthRegenOlaf = new System.Windows.Forms.Label();
-            this.lblSpeedOlaf = new System.Windows.Forms.Label();
-            this.lblSpeedErik = new System.Windows.Forms.Label();
-            this.lblDamageOlaf = new System.Windows.Forms.Label();
-            this.lblSpeedBaelog = new System.Windows.Forms.Label();
-            this.OlafHealth = new System.Windows.Forms.Label();
-            this.ErikHealth = new System.Windows.Forms.Label();
-            this.BaelogHealth = new System.Windows.Forms.Label();
-            this.OlafRegen = new System.Windows.Forms.Label();
-            this.ErikRegen = new System.Windows.Forms.Label();
-            this.BaelogRegen = new System.Windows.Forms.Label();
-            this.BaelogASpeed = new System.Windows.Forms.Label();
-            this.BaelogDamage = new System.Windows.Forms.Label();
-            this.ErikASpeed = new System.Windows.Forms.Label();
-            this.ErikDamage = new System.Windows.Forms.Label();
-            this.OlafASpeed = new System.Windows.Forms.Label();
-            this.OlafDamage = new System.Windows.Forms.Label();
+            this.picLeoric = new System.Windows.Forms.PictureBox();
+            this.lblLeoric = new System.Windows.Forms.Label();
+            this.picFranchise_Blizzard = new System.Windows.Forms.PictureBox();
+            this.picFranchise_Diablo = new System.Windows.Forms.PictureBox();
+            this.picFranchise_Starcraft = new System.Windows.Forms.PictureBox();
+            this.picFranchise_Warcraft = new System.Windows.Forms.PictureBox();
+            this.lblSort = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picFalstad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picIllidan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJania)).BeginInit();
@@ -374,13 +381,18 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picETC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLeoric)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFranchise_Blizzard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFranchise_Diablo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFranchise_Starcraft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFranchise_Warcraft)).BeginInit();
             this.SuspendLayout();
             // 
             // picFalstad
             // 
             this.picFalstad.BackColor = System.Drawing.Color.Black;
             this.picFalstad.Image = ((System.Drawing.Image)(resources.GetObject("picFalstad.Image")));
-            this.picFalstad.Location = new System.Drawing.Point(92, 302);
+            this.picFalstad.Location = new System.Drawing.Point(97, 394);
             this.picFalstad.Name = "picFalstad";
             this.picFalstad.Size = new System.Drawing.Size(70, 70);
             this.picFalstad.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -392,7 +404,7 @@
             // picIllidan
             // 
             this.picIllidan.Image = ((System.Drawing.Image)(resources.GetObject("picIllidan.Image")));
-            this.picIllidan.Location = new System.Drawing.Point(92, 391);
+            this.picIllidan.Location = new System.Drawing.Point(97, 483);
             this.picIllidan.Name = "picIllidan";
             this.picIllidan.Size = new System.Drawing.Size(70, 70);
             this.picIllidan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -404,7 +416,7 @@
             // picJania
             // 
             this.picJania.Image = ((System.Drawing.Image)(resources.GetObject("picJania.Image")));
-            this.picJania.Location = new System.Drawing.Point(92, 480);
+            this.picJania.Location = new System.Drawing.Point(97, 572);
             this.picJania.Name = "picJania";
             this.picJania.Size = new System.Drawing.Size(70, 70);
             this.picJania.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -416,7 +428,7 @@
             // picZeratul
             // 
             this.picZeratul.Image = ((System.Drawing.Image)(resources.GetObject("picZeratul.Image")));
-            this.picZeratul.Location = new System.Drawing.Point(545, 571);
+            this.picZeratul.Location = new System.Drawing.Point(550, 663);
             this.picZeratul.Name = "picZeratul";
             this.picZeratul.Size = new System.Drawing.Size(70, 70);
             this.picZeratul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -428,7 +440,7 @@
             // picKerrigan
             // 
             this.picKerrigan.Image = ((System.Drawing.Image)(resources.GetObject("picKerrigan.Image")));
-            this.picKerrigan.Location = new System.Drawing.Point(318, 302);
+            this.picKerrigan.Location = new System.Drawing.Point(323, 396);
             this.picKerrigan.Name = "picKerrigan";
             this.picKerrigan.Size = new System.Drawing.Size(70, 70);
             this.picKerrigan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -440,7 +452,7 @@
             // picTychus
             // 
             this.picTychus.Image = ((System.Drawing.Image)(resources.GetObject("picTychus.Image")));
-            this.picTychus.Location = new System.Drawing.Point(545, 393);
+            this.picTychus.Location = new System.Drawing.Point(550, 485);
             this.picTychus.Name = "picTychus";
             this.picTychus.Size = new System.Drawing.Size(70, 70);
             this.picTychus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -452,7 +464,7 @@
             // picRaynor
             // 
             this.picRaynor.Image = ((System.Drawing.Image)(resources.GetObject("picRaynor.Image")));
-            this.picRaynor.Location = new System.Drawing.Point(318, 480);
+            this.picRaynor.Location = new System.Drawing.Point(323, 570);
             this.picRaynor.Name = "picRaynor";
             this.picRaynor.Size = new System.Drawing.Size(70, 70);
             this.picRaynor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -464,7 +476,7 @@
             // picThrall
             // 
             this.picThrall.Image = ((System.Drawing.Image)(resources.GetObject("picThrall.Image")));
-            this.picThrall.Location = new System.Drawing.Point(545, 302);
+            this.picThrall.Location = new System.Drawing.Point(550, 392);
             this.picThrall.Name = "picThrall";
             this.picThrall.Size = new System.Drawing.Size(70, 70);
             this.picThrall.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -476,7 +488,7 @@
             // picNova
             // 
             this.picNova.Image = ((System.Drawing.Image)(resources.GetObject("picNova.Image")));
-            this.picNova.Location = new System.Drawing.Point(318, 394);
+            this.picNova.Location = new System.Drawing.Point(323, 484);
             this.picNova.Name = "picNova";
             this.picNova.Size = new System.Drawing.Size(70, 70);
             this.picNova.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -488,7 +500,7 @@
             // picKael
             // 
             this.picKael.Image = ((System.Drawing.Image)(resources.GetObject("picKael.Image")));
-            this.picKael.Location = new System.Drawing.Point(92, 569);
+            this.picKael.Location = new System.Drawing.Point(97, 661);
             this.picKael.Name = "picKael";
             this.picKael.Size = new System.Drawing.Size(70, 70);
             this.picKael.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -500,7 +512,7 @@
             // picValla
             // 
             this.picValla.Image = ((System.Drawing.Image)(resources.GetObject("picValla.Image")));
-            this.picValla.Location = new System.Drawing.Point(545, 485);
+            this.picValla.Location = new System.Drawing.Point(550, 575);
             this.picValla.Name = "picValla";
             this.picValla.Size = new System.Drawing.Size(70, 70);
             this.picValla.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -515,7 +527,7 @@
             this.lblFalstad.BackColor = System.Drawing.Color.Transparent;
             this.lblFalstad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFalstad.ForeColor = System.Drawing.Color.White;
-            this.lblFalstad.Location = new System.Drawing.Point(168, 325);
+            this.lblFalstad.Location = new System.Drawing.Point(173, 417);
             this.lblFalstad.Name = "lblFalstad";
             this.lblFalstad.Size = new System.Drawing.Size(83, 25);
             this.lblFalstad.TabIndex = 15;
@@ -528,7 +540,7 @@
             this.lblNova.BackColor = System.Drawing.Color.Transparent;
             this.lblNova.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNova.ForeColor = System.Drawing.Color.White;
-            this.lblNova.Location = new System.Drawing.Point(394, 419);
+            this.lblNova.Location = new System.Drawing.Point(399, 509);
             this.lblNova.Name = "lblNova";
             this.lblNova.Size = new System.Drawing.Size(62, 25);
             this.lblNova.TabIndex = 16;
@@ -541,7 +553,7 @@
             this.lblValla.BackColor = System.Drawing.Color.Transparent;
             this.lblValla.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblValla.ForeColor = System.Drawing.Color.White;
-            this.lblValla.Location = new System.Drawing.Point(621, 510);
+            this.lblValla.Location = new System.Drawing.Point(626, 600);
             this.lblValla.Name = "lblValla";
             this.lblValla.Size = new System.Drawing.Size(60, 25);
             this.lblValla.TabIndex = 17;
@@ -554,7 +566,7 @@
             this.lblTychus.BackColor = System.Drawing.Color.Transparent;
             this.lblTychus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTychus.ForeColor = System.Drawing.Color.White;
-            this.lblTychus.Location = new System.Drawing.Point(621, 416);
+            this.lblTychus.Location = new System.Drawing.Point(626, 508);
             this.lblTychus.Name = "lblTychus";
             this.lblTychus.Size = new System.Drawing.Size(82, 25);
             this.lblTychus.TabIndex = 18;
@@ -567,7 +579,7 @@
             this.lblThrall.BackColor = System.Drawing.Color.Transparent;
             this.lblThrall.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThrall.ForeColor = System.Drawing.Color.White;
-            this.lblThrall.Location = new System.Drawing.Point(621, 323);
+            this.lblThrall.Location = new System.Drawing.Point(626, 413);
             this.lblThrall.Name = "lblThrall";
             this.lblThrall.Size = new System.Drawing.Size(66, 25);
             this.lblThrall.TabIndex = 19;
@@ -580,7 +592,7 @@
             this.lblRaynor.BackColor = System.Drawing.Color.Transparent;
             this.lblRaynor.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRaynor.ForeColor = System.Drawing.Color.White;
-            this.lblRaynor.Location = new System.Drawing.Point(394, 499);
+            this.lblRaynor.Location = new System.Drawing.Point(399, 589);
             this.lblRaynor.Name = "lblRaynor";
             this.lblRaynor.Size = new System.Drawing.Size(81, 25);
             this.lblRaynor.TabIndex = 20;
@@ -593,7 +605,7 @@
             this.lblZeratul.BackColor = System.Drawing.Color.Transparent;
             this.lblZeratul.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblZeratul.ForeColor = System.Drawing.Color.White;
-            this.lblZeratul.Location = new System.Drawing.Point(621, 590);
+            this.lblZeratul.Location = new System.Drawing.Point(626, 682);
             this.lblZeratul.Name = "lblZeratul";
             this.lblZeratul.Size = new System.Drawing.Size(79, 25);
             this.lblZeratul.TabIndex = 21;
@@ -606,7 +618,7 @@
             this.lblKerrigan.BackColor = System.Drawing.Color.Transparent;
             this.lblKerrigan.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKerrigan.ForeColor = System.Drawing.Color.White;
-            this.lblKerrigan.Location = new System.Drawing.Point(394, 325);
+            this.lblKerrigan.Location = new System.Drawing.Point(399, 419);
             this.lblKerrigan.Name = "lblKerrigan";
             this.lblKerrigan.Size = new System.Drawing.Size(93, 25);
             this.lblKerrigan.TabIndex = 22;
@@ -619,7 +631,7 @@
             this.lblKael.BackColor = System.Drawing.Color.Transparent;
             this.lblKael.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKael.ForeColor = System.Drawing.Color.White;
-            this.lblKael.Location = new System.Drawing.Point(168, 590);
+            this.lblKael.Location = new System.Drawing.Point(173, 682);
             this.lblKael.Name = "lblKael";
             this.lblKael.Size = new System.Drawing.Size(107, 25);
             this.lblKael.TabIndex = 23;
@@ -632,7 +644,7 @@
             this.lblJania.BackColor = System.Drawing.Color.Transparent;
             this.lblJania.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJania.ForeColor = System.Drawing.Color.White;
-            this.lblJania.Location = new System.Drawing.Point(168, 499);
+            this.lblJania.Location = new System.Drawing.Point(173, 591);
             this.lblJania.Name = "lblJania";
             this.lblJania.Size = new System.Drawing.Size(64, 25);
             this.lblJania.TabIndex = 24;
@@ -645,7 +657,7 @@
             this.lblIllidan.BackColor = System.Drawing.Color.Transparent;
             this.lblIllidan.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIllidan.ForeColor = System.Drawing.Color.White;
-            this.lblIllidan.Location = new System.Drawing.Point(168, 412);
+            this.lblIllidan.Location = new System.Drawing.Point(173, 504);
             this.lblIllidan.Name = "lblIllidan";
             this.lblIllidan.Size = new System.Drawing.Size(68, 25);
             this.lblIllidan.TabIndex = 25;
@@ -658,7 +670,7 @@
             this.lblAssassins.BackColor = System.Drawing.Color.Transparent;
             this.lblAssassins.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAssassins.ForeColor = System.Drawing.Color.White;
-            this.lblAssassins.Location = new System.Drawing.Point(273, 227);
+            this.lblAssassins.Location = new System.Drawing.Point(278, 319);
             this.lblAssassins.Name = "lblAssassins";
             this.lblAssassins.Size = new System.Drawing.Size(249, 55);
             this.lblAssassins.TabIndex = 26;
@@ -671,7 +683,7 @@
             this.lblWarriors.BackColor = System.Drawing.Color.Transparent;
             this.lblWarriors.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWarriors.ForeColor = System.Drawing.Color.White;
-            this.lblWarriors.Location = new System.Drawing.Point(291, 232);
+            this.lblWarriors.Location = new System.Drawing.Point(296, 324);
             this.lblWarriors.Name = "lblWarriors";
             this.lblWarriors.Size = new System.Drawing.Size(213, 55);
             this.lblWarriors.TabIndex = 27;
@@ -681,7 +693,7 @@
             // picTyrael
             // 
             this.picTyrael.Image = ((System.Drawing.Image)(resources.GetObject("picTyrael.Image")));
-            this.picTyrael.Location = new System.Drawing.Point(545, 396);
+            this.picTyrael.Location = new System.Drawing.Point(550, 577);
             this.picTyrael.Name = "picTyrael";
             this.picTyrael.Size = new System.Drawing.Size(70, 70);
             this.picTyrael.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -693,7 +705,7 @@
             // picJohanna
             // 
             this.picJohanna.Image = ((System.Drawing.Image)(resources.GetObject("picJohanna.Image")));
-            this.picJohanna.Location = new System.Drawing.Point(318, 395);
+            this.picJohanna.Location = new System.Drawing.Point(323, 485);
             this.picJohanna.Name = "picJohanna";
             this.picJohanna.Size = new System.Drawing.Size(70, 70);
             this.picJohanna.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -705,7 +717,7 @@
             // picMuradin
             // 
             this.picMuradin.Image = ((System.Drawing.Image)(resources.GetObject("picMuradin.Image")));
-            this.picMuradin.Location = new System.Drawing.Point(318, 480);
+            this.picMuradin.Location = new System.Drawing.Point(323, 661);
             this.picMuradin.Name = "picMuradin";
             this.picMuradin.Size = new System.Drawing.Size(70, 70);
             this.picMuradin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -717,7 +729,7 @@
             // picSonya
             // 
             this.picSonya.Image = ((System.Drawing.Image)(resources.GetObject("picSonya.Image")));
-            this.picSonya.Location = new System.Drawing.Point(318, 569);
+            this.picSonya.Location = new System.Drawing.Point(550, 394);
             this.picSonya.Name = "picSonya";
             this.picSonya.Size = new System.Drawing.Size(70, 70);
             this.picSonya.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -729,7 +741,7 @@
             // picStitches
             // 
             this.picStitches.Image = ((System.Drawing.Image)(resources.GetObject("picStitches.Image")));
-            this.picStitches.Location = new System.Drawing.Point(545, 300);
+            this.picStitches.Location = new System.Drawing.Point(550, 483);
             this.picStitches.Name = "picStitches";
             this.picStitches.Size = new System.Drawing.Size(70, 70);
             this.picStitches.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -741,7 +753,7 @@
             // picDiablo
             // 
             this.picDiablo.Image = ((System.Drawing.Image)(resources.GetObject("picDiablo.Image")));
-            this.picDiablo.Location = new System.Drawing.Point(92, 570);
+            this.picDiablo.Location = new System.Drawing.Point(97, 662);
             this.picDiablo.Name = "picDiablo";
             this.picDiablo.Size = new System.Drawing.Size(70, 70);
             this.picDiablo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -753,7 +765,7 @@
             // picChen
             // 
             this.picChen.Image = ((System.Drawing.Image)(resources.GetObject("picChen.Image")));
-            this.picChen.Location = new System.Drawing.Point(92, 481);
+            this.picChen.Location = new System.Drawing.Point(97, 573);
             this.picChen.Name = "picChen";
             this.picChen.Size = new System.Drawing.Size(70, 70);
             this.picChen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -765,7 +777,7 @@
             // picArthas
             // 
             this.picArthas.Image = ((System.Drawing.Image)(resources.GetObject("picArthas.Image")));
-            this.picArthas.Location = new System.Drawing.Point(92, 392);
+            this.picArthas.Location = new System.Drawing.Point(97, 484);
             this.picArthas.Name = "picArthas";
             this.picArthas.Size = new System.Drawing.Size(70, 70);
             this.picArthas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -777,7 +789,7 @@
             // picAnub
             // 
             this.picAnub.Image = ((System.Drawing.Image)(resources.GetObject("picAnub.Image")));
-            this.picAnub.Location = new System.Drawing.Point(92, 301);
+            this.picAnub.Location = new System.Drawing.Point(97, 393);
             this.picAnub.Name = "picAnub";
             this.picAnub.Size = new System.Drawing.Size(70, 70);
             this.picAnub.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -792,7 +804,7 @@
             this.lblJohanna.BackColor = System.Drawing.Color.Transparent;
             this.lblJohanna.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJohanna.ForeColor = System.Drawing.Color.White;
-            this.lblJohanna.Location = new System.Drawing.Point(394, 419);
+            this.lblJohanna.Location = new System.Drawing.Point(399, 509);
             this.lblJohanna.Name = "lblJohanna";
             this.lblJohanna.Size = new System.Drawing.Size(95, 25);
             this.lblJohanna.TabIndex = 38;
@@ -805,7 +817,7 @@
             this.lblTyrael.BackColor = System.Drawing.Color.Transparent;
             this.lblTyrael.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTyrael.ForeColor = System.Drawing.Color.White;
-            this.lblTyrael.Location = new System.Drawing.Point(620, 419);
+            this.lblTyrael.Location = new System.Drawing.Point(625, 600);
             this.lblTyrael.Name = "lblTyrael";
             this.lblTyrael.Size = new System.Drawing.Size(72, 25);
             this.lblTyrael.TabIndex = 39;
@@ -818,7 +830,7 @@
             this.lblMuradin.BackColor = System.Drawing.Color.Transparent;
             this.lblMuradin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMuradin.ForeColor = System.Drawing.Color.White;
-            this.lblMuradin.Location = new System.Drawing.Point(394, 499);
+            this.lblMuradin.Location = new System.Drawing.Point(399, 680);
             this.lblMuradin.Name = "lblMuradin";
             this.lblMuradin.Size = new System.Drawing.Size(90, 25);
             this.lblMuradin.TabIndex = 40;
@@ -831,7 +843,7 @@
             this.lblSonya.BackColor = System.Drawing.Color.Transparent;
             this.lblSonya.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSonya.ForeColor = System.Drawing.Color.White;
-            this.lblSonya.Location = new System.Drawing.Point(394, 590);
+            this.lblSonya.Location = new System.Drawing.Point(626, 415);
             this.lblSonya.Name = "lblSonya";
             this.lblSonya.Size = new System.Drawing.Size(73, 25);
             this.lblSonya.TabIndex = 41;
@@ -844,7 +856,7 @@
             this.lblStiches.BackColor = System.Drawing.Color.Transparent;
             this.lblStiches.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStiches.ForeColor = System.Drawing.Color.White;
-            this.lblStiches.Location = new System.Drawing.Point(620, 325);
+            this.lblStiches.Location = new System.Drawing.Point(625, 508);
             this.lblStiches.Name = "lblStiches";
             this.lblStiches.Size = new System.Drawing.Size(83, 25);
             this.lblStiches.TabIndex = 42;
@@ -857,7 +869,7 @@
             this.lblDiablo.BackColor = System.Drawing.Color.Transparent;
             this.lblDiablo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDiablo.ForeColor = System.Drawing.Color.White;
-            this.lblDiablo.Location = new System.Drawing.Point(168, 590);
+            this.lblDiablo.Location = new System.Drawing.Point(173, 682);
             this.lblDiablo.Name = "lblDiablo";
             this.lblDiablo.Size = new System.Drawing.Size(73, 25);
             this.lblDiablo.TabIndex = 43;
@@ -870,7 +882,7 @@
             this.lblChen.BackColor = System.Drawing.Color.Transparent;
             this.lblChen.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChen.ForeColor = System.Drawing.Color.White;
-            this.lblChen.Location = new System.Drawing.Point(168, 499);
+            this.lblChen.Location = new System.Drawing.Point(173, 591);
             this.lblChen.Name = "lblChen";
             this.lblChen.Size = new System.Drawing.Size(63, 25);
             this.lblChen.TabIndex = 44;
@@ -883,7 +895,7 @@
             this.lblArthas.BackColor = System.Drawing.Color.Transparent;
             this.lblArthas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblArthas.ForeColor = System.Drawing.Color.White;
-            this.lblArthas.Location = new System.Drawing.Point(168, 412);
+            this.lblArthas.Location = new System.Drawing.Point(173, 504);
             this.lblArthas.Name = "lblArthas";
             this.lblArthas.Size = new System.Drawing.Size(74, 25);
             this.lblArthas.TabIndex = 45;
@@ -896,7 +908,7 @@
             this.lblAnub.BackColor = System.Drawing.Color.Transparent;
             this.lblAnub.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAnub.ForeColor = System.Drawing.Color.White;
-            this.lblAnub.Location = new System.Drawing.Point(168, 325);
+            this.lblAnub.Location = new System.Drawing.Point(173, 417);
             this.lblAnub.Name = "lblAnub";
             this.lblAnub.Size = new System.Drawing.Size(108, 25);
             this.lblAnub.TabIndex = 46;
@@ -906,7 +918,7 @@
             // picBrightwing
             // 
             this.picBrightwing.Image = ((System.Drawing.Image)(resources.GetObject("picBrightwing.Image")));
-            this.picBrightwing.Location = new System.Drawing.Point(92, 302);
+            this.picBrightwing.Location = new System.Drawing.Point(97, 394);
             this.picBrightwing.Name = "picBrightwing";
             this.picBrightwing.Size = new System.Drawing.Size(70, 70);
             this.picBrightwing.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -918,7 +930,7 @@
             // picLiLi
             // 
             this.picLiLi.Image = ((System.Drawing.Image)(resources.GetObject("picLiLi.Image")));
-            this.picLiLi.Location = new System.Drawing.Point(92, 393);
+            this.picLiLi.Location = new System.Drawing.Point(97, 485);
             this.picLiLi.Name = "picLiLi";
             this.picLiLi.Size = new System.Drawing.Size(70, 70);
             this.picLiLi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -930,7 +942,7 @@
             // picMalfurion
             // 
             this.picMalfurion.Image = ((System.Drawing.Image)(resources.GetObject("picMalfurion.Image")));
-            this.picMalfurion.Location = new System.Drawing.Point(92, 482);
+            this.picMalfurion.Location = new System.Drawing.Point(97, 574);
             this.picMalfurion.Name = "picMalfurion";
             this.picMalfurion.Size = new System.Drawing.Size(70, 70);
             this.picMalfurion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -942,7 +954,7 @@
             // picRehgar
             // 
             this.picRehgar.Image = ((System.Drawing.Image)(resources.GetObject("picRehgar.Image")));
-            this.picRehgar.Location = new System.Drawing.Point(92, 571);
+            this.picRehgar.Location = new System.Drawing.Point(97, 663);
             this.picRehgar.Name = "picRehgar";
             this.picRehgar.Size = new System.Drawing.Size(70, 70);
             this.picRehgar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -954,7 +966,7 @@
             // picUther
             // 
             this.picUther.Image = ((System.Drawing.Image)(resources.GetObject("picUther.Image")));
-            this.picUther.Location = new System.Drawing.Point(315, 482);
+            this.picUther.Location = new System.Drawing.Point(320, 572);
             this.picUther.Name = "picUther";
             this.picUther.Size = new System.Drawing.Size(70, 70);
             this.picUther.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -966,7 +978,7 @@
             // picTyrande
             // 
             this.picTyrande.Image = ((System.Drawing.Image)(resources.GetObject("picTyrande.Image")));
-            this.picTyrande.Location = new System.Drawing.Point(318, 396);
+            this.picTyrande.Location = new System.Drawing.Point(323, 486);
             this.picTyrande.Name = "picTyrande";
             this.picTyrande.Size = new System.Drawing.Size(70, 70);
             this.picTyrande.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -978,7 +990,7 @@
             // picTassadar
             // 
             this.picTassadar.Image = ((System.Drawing.Image)(resources.GetObject("picTassadar.Image")));
-            this.picTassadar.Location = new System.Drawing.Point(318, 302);
+            this.picTassadar.Location = new System.Drawing.Point(323, 396);
             this.picTassadar.Name = "picTassadar";
             this.picTassadar.Size = new System.Drawing.Size(70, 70);
             this.picTassadar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -993,7 +1005,7 @@
             this.lblBrightwing.BackColor = System.Drawing.Color.Transparent;
             this.lblBrightwing.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBrightwing.ForeColor = System.Drawing.Color.White;
-            this.lblBrightwing.Location = new System.Drawing.Point(168, 325);
+            this.lblBrightwing.Location = new System.Drawing.Point(173, 417);
             this.lblBrightwing.Name = "lblBrightwing";
             this.lblBrightwing.Size = new System.Drawing.Size(112, 25);
             this.lblBrightwing.TabIndex = 60;
@@ -1006,7 +1018,7 @@
             this.lblLiLi.BackColor = System.Drawing.Color.Transparent;
             this.lblLiLi.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLiLi.ForeColor = System.Drawing.Color.White;
-            this.lblLiLi.Location = new System.Drawing.Point(168, 412);
+            this.lblLiLi.Location = new System.Drawing.Point(173, 504);
             this.lblLiLi.Name = "lblLiLi";
             this.lblLiLi.Size = new System.Drawing.Size(52, 25);
             this.lblLiLi.TabIndex = 59;
@@ -1019,7 +1031,7 @@
             this.lblMalfurion.BackColor = System.Drawing.Color.Transparent;
             this.lblMalfurion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMalfurion.ForeColor = System.Drawing.Color.White;
-            this.lblMalfurion.Location = new System.Drawing.Point(168, 499);
+            this.lblMalfurion.Location = new System.Drawing.Point(173, 591);
             this.lblMalfurion.Name = "lblMalfurion";
             this.lblMalfurion.Size = new System.Drawing.Size(101, 25);
             this.lblMalfurion.TabIndex = 58;
@@ -1032,7 +1044,7 @@
             this.lblRehgar.BackColor = System.Drawing.Color.Transparent;
             this.lblRehgar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRehgar.ForeColor = System.Drawing.Color.White;
-            this.lblRehgar.Location = new System.Drawing.Point(168, 590);
+            this.lblRehgar.Location = new System.Drawing.Point(173, 682);
             this.lblRehgar.Name = "lblRehgar";
             this.lblRehgar.Size = new System.Drawing.Size(82, 25);
             this.lblRehgar.TabIndex = 57;
@@ -1045,7 +1057,7 @@
             this.lblUther.BackColor = System.Drawing.Color.Transparent;
             this.lblUther.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUther.ForeColor = System.Drawing.Color.White;
-            this.lblUther.Location = new System.Drawing.Point(391, 499);
+            this.lblUther.Location = new System.Drawing.Point(396, 589);
             this.lblUther.Name = "lblUther";
             this.lblUther.Size = new System.Drawing.Size(64, 25);
             this.lblUther.TabIndex = 56;
@@ -1058,7 +1070,7 @@
             this.lblTyrande.BackColor = System.Drawing.Color.Transparent;
             this.lblTyrande.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTyrande.ForeColor = System.Drawing.Color.White;
-            this.lblTyrande.Location = new System.Drawing.Point(394, 419);
+            this.lblTyrande.Location = new System.Drawing.Point(399, 509);
             this.lblTyrande.Name = "lblTyrande";
             this.lblTyrande.Size = new System.Drawing.Size(91, 25);
             this.lblTyrande.TabIndex = 55;
@@ -1071,7 +1083,7 @@
             this.lblTassadar.BackColor = System.Drawing.Color.Transparent;
             this.lblTassadar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTassadar.ForeColor = System.Drawing.Color.White;
-            this.lblTassadar.Location = new System.Drawing.Point(394, 325);
+            this.lblTassadar.Location = new System.Drawing.Point(399, 419);
             this.lblTassadar.Name = "lblTassadar";
             this.lblTassadar.Size = new System.Drawing.Size(102, 25);
             this.lblTassadar.TabIndex = 54;
@@ -1084,7 +1096,7 @@
             this.lblSupoort.BackColor = System.Drawing.Color.Transparent;
             this.lblSupoort.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSupoort.ForeColor = System.Drawing.Color.White;
-            this.lblSupoort.Location = new System.Drawing.Point(285, 232);
+            this.lblSupoort.Location = new System.Drawing.Point(290, 324);
             this.lblSupoort.Name = "lblSupoort";
             this.lblSupoort.Size = new System.Drawing.Size(225, 55);
             this.lblSupoort.TabIndex = 61;
@@ -1094,7 +1106,7 @@
             // picAbathur
             // 
             this.picAbathur.Image = ((System.Drawing.Image)(resources.GetObject("picAbathur.Image")));
-            this.picAbathur.Location = new System.Drawing.Point(92, 301);
+            this.picAbathur.Location = new System.Drawing.Point(97, 393);
             this.picAbathur.Name = "picAbathur";
             this.picAbathur.Size = new System.Drawing.Size(70, 70);
             this.picAbathur.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1106,7 +1118,7 @@
             // picAzmodan
             // 
             this.picAzmodan.Image = ((System.Drawing.Image)(resources.GetObject("picAzmodan.Image")));
-            this.picAzmodan.Location = new System.Drawing.Point(92, 392);
+            this.picAzmodan.Location = new System.Drawing.Point(97, 484);
             this.picAzmodan.Name = "picAzmodan";
             this.picAzmodan.Size = new System.Drawing.Size(70, 70);
             this.picAzmodan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1118,7 +1130,7 @@
             // picGazlowe
             // 
             this.picGazlowe.Image = ((System.Drawing.Image)(resources.GetObject("picGazlowe.Image")));
-            this.picGazlowe.Location = new System.Drawing.Point(92, 481);
+            this.picGazlowe.Location = new System.Drawing.Point(97, 573);
             this.picGazlowe.Name = "picGazlowe";
             this.picGazlowe.Size = new System.Drawing.Size(70, 70);
             this.picGazlowe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1130,7 +1142,7 @@
             // picVikings
             // 
             this.picVikings.Image = ((System.Drawing.Image)(resources.GetObject("picVikings.Image")));
-            this.picVikings.Location = new System.Drawing.Point(92, 570);
+            this.picVikings.Location = new System.Drawing.Point(97, 662);
             this.picVikings.Name = "picVikings";
             this.picVikings.Size = new System.Drawing.Size(70, 70);
             this.picVikings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1142,7 +1154,7 @@
             // picHammer
             // 
             this.picHammer.Image = ((System.Drawing.Image)(resources.GetObject("picHammer.Image")));
-            this.picHammer.Location = new System.Drawing.Point(315, 481);
+            this.picHammer.Location = new System.Drawing.Point(320, 571);
             this.picHammer.Name = "picHammer";
             this.picHammer.Size = new System.Drawing.Size(70, 70);
             this.picHammer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1154,7 +1166,7 @@
             // picNazeebo
             // 
             this.picNazeebo.Image = ((System.Drawing.Image)(resources.GetObject("picNazeebo.Image")));
-            this.picNazeebo.Location = new System.Drawing.Point(318, 395);
+            this.picNazeebo.Location = new System.Drawing.Point(323, 485);
             this.picNazeebo.Name = "picNazeebo";
             this.picNazeebo.Size = new System.Drawing.Size(70, 70);
             this.picNazeebo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1166,7 +1178,7 @@
             // picMurky
             // 
             this.picMurky.Image = ((System.Drawing.Image)(resources.GetObject("picMurky.Image")));
-            this.picMurky.Location = new System.Drawing.Point(318, 301);
+            this.picMurky.Location = new System.Drawing.Point(323, 395);
             this.picMurky.Name = "picMurky";
             this.picMurky.Size = new System.Drawing.Size(70, 70);
             this.picMurky.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1178,7 +1190,7 @@
             // picSylvanas
             // 
             this.picSylvanas.Image = ((System.Drawing.Image)(resources.GetObject("picSylvanas.Image")));
-            this.picSylvanas.Location = new System.Drawing.Point(318, 569);
+            this.picSylvanas.Location = new System.Drawing.Point(323, 661);
             this.picSylvanas.Name = "picSylvanas";
             this.picSylvanas.Size = new System.Drawing.Size(70, 70);
             this.picSylvanas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1190,7 +1202,7 @@
             // picZagara
             // 
             this.picZagara.Image = ((System.Drawing.Image)(resources.GetObject("picZagara.Image")));
-            this.picZagara.Location = new System.Drawing.Point(544, 300);
+            this.picZagara.Location = new System.Drawing.Point(549, 390);
             this.picZagara.Name = "picZagara";
             this.picZagara.Size = new System.Drawing.Size(70, 70);
             this.picZagara.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1205,7 +1217,7 @@
             this.lblAbathur.BackColor = System.Drawing.Color.Transparent;
             this.lblAbathur.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAbathur.ForeColor = System.Drawing.Color.White;
-            this.lblAbathur.Location = new System.Drawing.Point(168, 325);
+            this.lblAbathur.Location = new System.Drawing.Point(173, 417);
             this.lblAbathur.Name = "lblAbathur";
             this.lblAbathur.Size = new System.Drawing.Size(87, 25);
             this.lblAbathur.TabIndex = 79;
@@ -1218,7 +1230,7 @@
             this.lblAzmodan.BackColor = System.Drawing.Color.Transparent;
             this.lblAzmodan.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAzmodan.ForeColor = System.Drawing.Color.White;
-            this.lblAzmodan.Location = new System.Drawing.Point(168, 412);
+            this.lblAzmodan.Location = new System.Drawing.Point(173, 504);
             this.lblAzmodan.Name = "lblAzmodan";
             this.lblAzmodan.Size = new System.Drawing.Size(102, 25);
             this.lblAzmodan.TabIndex = 78;
@@ -1231,7 +1243,7 @@
             this.lblGazlowe.BackColor = System.Drawing.Color.Transparent;
             this.lblGazlowe.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGazlowe.ForeColor = System.Drawing.Color.White;
-            this.lblGazlowe.Location = new System.Drawing.Point(168, 499);
+            this.lblGazlowe.Location = new System.Drawing.Point(173, 591);
             this.lblGazlowe.Name = "lblGazlowe";
             this.lblGazlowe.Size = new System.Drawing.Size(95, 25);
             this.lblGazlowe.TabIndex = 77;
@@ -1244,7 +1256,7 @@
             this.lblVikings.BackColor = System.Drawing.Color.Transparent;
             this.lblVikings.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVikings.ForeColor = System.Drawing.Color.White;
-            this.lblVikings.Location = new System.Drawing.Point(168, 590);
+            this.lblVikings.Location = new System.Drawing.Point(173, 682);
             this.lblVikings.Name = "lblVikings";
             this.lblVikings.Size = new System.Drawing.Size(129, 25);
             this.lblVikings.TabIndex = 76;
@@ -1257,7 +1269,7 @@
             this.lblHammer.BackColor = System.Drawing.Color.Transparent;
             this.lblHammer.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHammer.ForeColor = System.Drawing.Color.White;
-            this.lblHammer.Location = new System.Drawing.Point(391, 499);
+            this.lblHammer.Location = new System.Drawing.Point(396, 589);
             this.lblHammer.Name = "lblHammer";
             this.lblHammer.Size = new System.Drawing.Size(136, 25);
             this.lblHammer.TabIndex = 75;
@@ -1270,7 +1282,7 @@
             this.lblNazeebo.BackColor = System.Drawing.Color.Transparent;
             this.lblNazeebo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNazeebo.ForeColor = System.Drawing.Color.White;
-            this.lblNazeebo.Location = new System.Drawing.Point(394, 419);
+            this.lblNazeebo.Location = new System.Drawing.Point(399, 509);
             this.lblNazeebo.Name = "lblNazeebo";
             this.lblNazeebo.Size = new System.Drawing.Size(98, 25);
             this.lblNazeebo.TabIndex = 74;
@@ -1283,7 +1295,7 @@
             this.lblMurky.BackColor = System.Drawing.Color.Transparent;
             this.lblMurky.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMurky.ForeColor = System.Drawing.Color.White;
-            this.lblMurky.Location = new System.Drawing.Point(394, 325);
+            this.lblMurky.Location = new System.Drawing.Point(399, 419);
             this.lblMurky.Name = "lblMurky";
             this.lblMurky.Size = new System.Drawing.Size(71, 25);
             this.lblMurky.TabIndex = 73;
@@ -1296,7 +1308,7 @@
             this.lblSylvanas.BackColor = System.Drawing.Color.Transparent;
             this.lblSylvanas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSylvanas.ForeColor = System.Drawing.Color.White;
-            this.lblSylvanas.Location = new System.Drawing.Point(394, 590);
+            this.lblSylvanas.Location = new System.Drawing.Point(399, 682);
             this.lblSylvanas.Name = "lblSylvanas";
             this.lblSylvanas.Size = new System.Drawing.Size(100, 25);
             this.lblSylvanas.TabIndex = 72;
@@ -1309,7 +1321,7 @@
             this.lblZagara.BackColor = System.Drawing.Color.Transparent;
             this.lblZagara.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblZagara.ForeColor = System.Drawing.Color.White;
-            this.lblZagara.Location = new System.Drawing.Point(620, 325);
+            this.lblZagara.Location = new System.Drawing.Point(625, 415);
             this.lblZagara.Name = "lblZagara";
             this.lblZagara.Size = new System.Drawing.Size(80, 25);
             this.lblZagara.TabIndex = 71;
@@ -1322,7 +1334,7 @@
             this.lblSpecialists.BackColor = System.Drawing.Color.Transparent;
             this.lblSpecialists.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSpecialists.ForeColor = System.Drawing.Color.White;
-            this.lblSpecialists.Location = new System.Drawing.Point(266, 232);
+            this.lblSpecialists.Location = new System.Drawing.Point(271, 324);
             this.lblSpecialists.Name = "lblSpecialists";
             this.lblSpecialists.Size = new System.Drawing.Size(263, 55);
             this.lblSpecialists.TabIndex = 80;
@@ -1333,7 +1345,7 @@
             // 
             this.pic_assassin.BackColor = System.Drawing.Color.Transparent;
             this.pic_assassin.Image = ((System.Drawing.Image)(resources.GetObject("pic_assassin.Image")));
-            this.pic_assassin.Location = new System.Drawing.Point(45, 20);
+            this.pic_assassin.Location = new System.Drawing.Point(43, 20);
             this.pic_assassin.Name = "pic_assassin";
             this.pic_assassin.Size = new System.Drawing.Size(182, 200);
             this.pic_assassin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1345,7 +1357,7 @@
             // 
             this.pic_warrior.BackColor = System.Drawing.Color.Transparent;
             this.pic_warrior.Image = ((System.Drawing.Image)(resources.GetObject("pic_warrior.Image")));
-            this.pic_warrior.Location = new System.Drawing.Point(232, 20);
+            this.pic_warrior.Location = new System.Drawing.Point(230, 20);
             this.pic_warrior.Name = "pic_warrior";
             this.pic_warrior.Size = new System.Drawing.Size(182, 200);
             this.pic_warrior.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1357,7 +1369,7 @@
             // 
             this.pic_support.BackColor = System.Drawing.Color.Transparent;
             this.pic_support.Image = ((System.Drawing.Image)(resources.GetObject("pic_support.Image")));
-            this.pic_support.Location = new System.Drawing.Point(419, 20);
+            this.pic_support.Location = new System.Drawing.Point(417, 20);
             this.pic_support.Name = "pic_support";
             this.pic_support.Size = new System.Drawing.Size(182, 200);
             this.pic_support.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -1369,7 +1381,7 @@
             // 
             this.pic_specialist.BackColor = System.Drawing.Color.Transparent;
             this.pic_specialist.Image = ((System.Drawing.Image)(resources.GetObject("pic_specialist.Image")));
-            this.pic_specialist.Location = new System.Drawing.Point(606, 20);
+            this.pic_specialist.Location = new System.Drawing.Point(604, 20);
             this.pic_specialist.Name = "pic_specialist";
             this.pic_specialist.Size = new System.Drawing.Size(182, 200);
             this.pic_specialist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -2815,159 +2827,18 @@
             this.panel1.Size = new System.Drawing.Size(892, 77);
             this.panel1.TabIndex = 215;
             // 
-            // picETC
+            // lblDamageOlaf
             // 
-            this.picETC.Image = ((System.Drawing.Image)(resources.GetObject("picETC.Image")));
-            this.picETC.Location = new System.Drawing.Point(318, 300);
-            this.picETC.Name = "picETC";
-            this.picETC.Size = new System.Drawing.Size(70, 70);
-            this.picETC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picETC.TabIndex = 216;
-            this.picETC.TabStop = false;
-            this.picETC.Visible = false;
-            this.picETC.Click += new System.EventHandler(this.picETC_Click);
-            // 
-            // lblETC
-            // 
-            this.lblETC.AutoSize = true;
-            this.lblETC.BackColor = System.Drawing.Color.Transparent;
-            this.lblETC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblETC.ForeColor = System.Drawing.Color.White;
-            this.lblETC.Location = new System.Drawing.Point(394, 325);
-            this.lblETC.Name = "lblETC";
-            this.lblETC.Size = new System.Drawing.Size(72, 25);
-            this.lblETC.TabIndex = 217;
-            this.lblETC.Text = "E.T.C.";
-            this.lblETC.Visible = false;
-            // 
-            // picButch
-            // 
-            this.picButch.Image = ((System.Drawing.Image)(resources.GetObject("picButch.Image")));
-            this.picButch.Location = new System.Drawing.Point(318, 571);
-            this.picButch.Name = "picButch";
-            this.picButch.Size = new System.Drawing.Size(70, 70);
-            this.picButch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picButch.TabIndex = 218;
-            this.picButch.TabStop = false;
-            this.picButch.Visible = false;
-            this.picButch.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // lblButch
-            // 
-            this.lblButch.AutoSize = true;
-            this.lblButch.BackColor = System.Drawing.Color.Transparent;
-            this.lblButch.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblButch.ForeColor = System.Drawing.Color.White;
-            this.lblButch.Location = new System.Drawing.Point(396, 590);
-            this.lblButch.Name = "lblButch";
-            this.lblButch.Size = new System.Drawing.Size(129, 25);
-            this.lblButch.TabIndex = 219;
-            this.lblButch.Text = "The Butcher";
-            this.lblButch.Visible = false;
-            // 
-            // lblDamageBaelog
-            // 
-            this.lblDamageBaelog.AutoSize = true;
-            this.lblDamageBaelog.BackColor = System.Drawing.Color.Transparent;
-            this.lblDamageBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDamageBaelog.ForeColor = System.Drawing.Color.White;
-            this.lblDamageBaelog.Location = new System.Drawing.Point(802, 0);
-            this.lblDamageBaelog.Name = "lblDamageBaelog";
-            this.lblDamageBaelog.Size = new System.Drawing.Size(49, 18);
-            this.lblDamageBaelog.TabIndex = 225;
-            this.lblDamageBaelog.Text = "Skills";
-            this.lblDamageBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblDamageErik
-            // 
-            this.lblDamageErik.AutoSize = true;
-            this.lblDamageErik.BackColor = System.Drawing.Color.Transparent;
-            this.lblDamageErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDamageErik.ForeColor = System.Drawing.Color.White;
-            this.lblDamageErik.Location = new System.Drawing.Point(800, 29);
-            this.lblDamageErik.Name = "lblDamageErik";
-            this.lblDamageErik.Size = new System.Drawing.Size(49, 18);
-            this.lblDamageErik.TabIndex = 224;
-            this.lblDamageErik.Text = "Skills";
-            this.lblDamageErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblHealthOlaf
-            // 
-            this.lblHealthOlaf.AutoSize = true;
-            this.lblHealthOlaf.BackColor = System.Drawing.Color.Transparent;
-            this.lblHealthOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHealthOlaf.ForeColor = System.Drawing.Color.White;
-            this.lblHealthOlaf.Location = new System.Drawing.Point(131, 59);
-            this.lblHealthOlaf.Name = "lblHealthOlaf";
-            this.lblHealthOlaf.Size = new System.Drawing.Size(49, 18);
-            this.lblHealthOlaf.TabIndex = 223;
-            this.lblHealthOlaf.Text = "Skills";
-            this.lblHealthOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblHealthErik
-            // 
-            this.lblHealthErik.AutoSize = true;
-            this.lblHealthErik.BackColor = System.Drawing.Color.Transparent;
-            this.lblHealthErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHealthErik.ForeColor = System.Drawing.Color.White;
-            this.lblHealthErik.Location = new System.Drawing.Point(131, 29);
-            this.lblHealthErik.Name = "lblHealthErik";
-            this.lblHealthErik.Size = new System.Drawing.Size(49, 18);
-            this.lblHealthErik.TabIndex = 222;
-            this.lblHealthErik.Text = "Skills";
-            this.lblHealthErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblHealthRegenBaelog
-            // 
-            this.lblHealthRegenBaelog.AutoSize = true;
-            this.lblHealthRegenBaelog.BackColor = System.Drawing.Color.Transparent;
-            this.lblHealthRegenBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHealthRegenBaelog.ForeColor = System.Drawing.Color.White;
-            this.lblHealthRegenBaelog.Location = new System.Drawing.Point(340, 0);
-            this.lblHealthRegenBaelog.Name = "lblHealthRegenBaelog";
-            this.lblHealthRegenBaelog.Size = new System.Drawing.Size(49, 18);
-            this.lblHealthRegenBaelog.TabIndex = 221;
-            this.lblHealthRegenBaelog.Text = "Skills";
-            this.lblHealthRegenBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblHealthBaelog
-            // 
-            this.lblHealthBaelog.AutoSize = true;
-            this.lblHealthBaelog.BackColor = System.Drawing.Color.Transparent;
-            this.lblHealthBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHealthBaelog.ForeColor = System.Drawing.Color.White;
-            this.lblHealthBaelog.Location = new System.Drawing.Point(131, 0);
-            this.lblHealthBaelog.Name = "lblHealthBaelog";
-            this.lblHealthBaelog.Size = new System.Drawing.Size(49, 18);
-            this.lblHealthBaelog.TabIndex = 220;
-            this.lblHealthBaelog.Text = "Skills";
-            this.lblHealthBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblHealthRegenErik
-            // 
-            this.lblHealthRegenErik.AutoSize = true;
-            this.lblHealthRegenErik.BackColor = System.Drawing.Color.Transparent;
-            this.lblHealthRegenErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHealthRegenErik.ForeColor = System.Drawing.Color.White;
-            this.lblHealthRegenErik.Location = new System.Drawing.Point(340, 28);
-            this.lblHealthRegenErik.Name = "lblHealthRegenErik";
-            this.lblHealthRegenErik.Size = new System.Drawing.Size(49, 18);
-            this.lblHealthRegenErik.TabIndex = 231;
-            this.lblHealthRegenErik.Text = "Skills";
-            this.lblHealthRegenErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblHealthRegenOlaf
-            // 
-            this.lblHealthRegenOlaf.AutoSize = true;
-            this.lblHealthRegenOlaf.BackColor = System.Drawing.Color.Transparent;
-            this.lblHealthRegenOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHealthRegenOlaf.ForeColor = System.Drawing.Color.White;
-            this.lblHealthRegenOlaf.Location = new System.Drawing.Point(340, 59);
-            this.lblHealthRegenOlaf.Name = "lblHealthRegenOlaf";
-            this.lblHealthRegenOlaf.Size = new System.Drawing.Size(49, 18);
-            this.lblHealthRegenOlaf.TabIndex = 230;
-            this.lblHealthRegenOlaf.Text = "Skills";
-            this.lblHealthRegenOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDamageOlaf.AutoSize = true;
+            this.lblDamageOlaf.BackColor = System.Drawing.Color.Transparent;
+            this.lblDamageOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDamageOlaf.ForeColor = System.Drawing.Color.White;
+            this.lblDamageOlaf.Location = new System.Drawing.Point(800, 59);
+            this.lblDamageOlaf.Name = "lblDamageOlaf";
+            this.lblDamageOlaf.Size = new System.Drawing.Size(49, 18);
+            this.lblDamageOlaf.TabIndex = 227;
+            this.lblDamageOlaf.Text = "Skills";
+            this.lblDamageOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSpeedOlaf
             // 
@@ -2982,6 +2853,45 @@
             this.lblSpeedOlaf.Text = "Skills";
             this.lblSpeedOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lblHealthRegenOlaf
+            // 
+            this.lblHealthRegenOlaf.AutoSize = true;
+            this.lblHealthRegenOlaf.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthRegenOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthRegenOlaf.ForeColor = System.Drawing.Color.White;
+            this.lblHealthRegenOlaf.Location = new System.Drawing.Point(340, 59);
+            this.lblHealthRegenOlaf.Name = "lblHealthRegenOlaf";
+            this.lblHealthRegenOlaf.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthRegenOlaf.TabIndex = 230;
+            this.lblHealthRegenOlaf.Text = "Skills";
+            this.lblHealthRegenOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealthRegenErik
+            // 
+            this.lblHealthRegenErik.AutoSize = true;
+            this.lblHealthRegenErik.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthRegenErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthRegenErik.ForeColor = System.Drawing.Color.White;
+            this.lblHealthRegenErik.Location = new System.Drawing.Point(340, 28);
+            this.lblHealthRegenErik.Name = "lblHealthRegenErik";
+            this.lblHealthRegenErik.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthRegenErik.TabIndex = 231;
+            this.lblHealthRegenErik.Text = "Skills";
+            this.lblHealthRegenErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OlafDamage
+            // 
+            this.OlafDamage.AutoSize = true;
+            this.OlafDamage.BackColor = System.Drawing.Color.Transparent;
+            this.OlafDamage.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OlafDamage.ForeColor = System.Drawing.Color.Red;
+            this.OlafDamage.Location = new System.Drawing.Point(652, 59);
+            this.OlafDamage.Name = "OlafDamage";
+            this.OlafDamage.Size = new System.Drawing.Size(106, 18);
+            this.OlafDamage.TabIndex = 242;
+            this.OlafDamage.Text = "Olaf Damage";
+            this.OlafDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // lblSpeedErik
             // 
             this.lblSpeedErik.AutoSize = true;
@@ -2995,59 +2905,57 @@
             this.lblSpeedErik.Text = "Skills";
             this.lblSpeedErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblDamageOlaf
+            // lblHealthOlaf
             // 
-            this.lblDamageOlaf.AutoSize = true;
-            this.lblDamageOlaf.BackColor = System.Drawing.Color.Transparent;
-            this.lblDamageOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDamageOlaf.ForeColor = System.Drawing.Color.White;
-            this.lblDamageOlaf.Location = new System.Drawing.Point(800, 59);
-            this.lblDamageOlaf.Name = "lblDamageOlaf";
-            this.lblDamageOlaf.Size = new System.Drawing.Size(49, 18);
-            this.lblDamageOlaf.TabIndex = 227;
-            this.lblDamageOlaf.Text = "Skills";
-            this.lblDamageOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHealthOlaf.AutoSize = true;
+            this.lblHealthOlaf.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthOlaf.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthOlaf.ForeColor = System.Drawing.Color.White;
+            this.lblHealthOlaf.Location = new System.Drawing.Point(131, 59);
+            this.lblHealthOlaf.Name = "lblHealthOlaf";
+            this.lblHealthOlaf.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthOlaf.TabIndex = 223;
+            this.lblHealthOlaf.Text = "Skills";
+            this.lblHealthOlaf.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblSpeedBaelog
+            // lblDamageErik
             // 
-            this.lblSpeedBaelog.AutoSize = true;
-            this.lblSpeedBaelog.BackColor = System.Drawing.Color.Transparent;
-            this.lblSpeedBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSpeedBaelog.ForeColor = System.Drawing.Color.White;
-            this.lblSpeedBaelog.Location = new System.Drawing.Point(583, -1);
-            this.lblSpeedBaelog.Name = "lblSpeedBaelog";
-            this.lblSpeedBaelog.Size = new System.Drawing.Size(49, 18);
-            this.lblSpeedBaelog.TabIndex = 226;
-            this.lblSpeedBaelog.Text = "Skills";
-            this.lblSpeedBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDamageErik.AutoSize = true;
+            this.lblDamageErik.BackColor = System.Drawing.Color.Transparent;
+            this.lblDamageErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDamageErik.ForeColor = System.Drawing.Color.White;
+            this.lblDamageErik.Location = new System.Drawing.Point(800, 29);
+            this.lblDamageErik.Name = "lblDamageErik";
+            this.lblDamageErik.Size = new System.Drawing.Size(49, 18);
+            this.lblDamageErik.TabIndex = 224;
+            this.lblDamageErik.Text = "Skills";
+            this.lblDamageErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // OlafHealth
+            // OlafASpeed
             // 
-            this.OlafHealth.AutoSize = true;
-            this.OlafHealth.BackColor = System.Drawing.Color.Transparent;
-            this.OlafHealth.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OlafHealth.ForeColor = System.Drawing.Color.DarkOrange;
-            this.OlafHealth.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.OlafHealth.Location = new System.Drawing.Point(-1, 59);
-            this.OlafHealth.Name = "OlafHealth";
-            this.OlafHealth.Size = new System.Drawing.Size(93, 18);
-            this.OlafHealth.TabIndex = 232;
-            this.OlafHealth.Text = "Olaf Health";
-            this.OlafHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OlafASpeed.AutoSize = true;
+            this.OlafASpeed.BackColor = System.Drawing.Color.Transparent;
+            this.OlafASpeed.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OlafASpeed.ForeColor = System.Drawing.Color.SpringGreen;
+            this.OlafASpeed.Location = new System.Drawing.Point(415, 59);
+            this.OlafASpeed.Name = "OlafASpeed";
+            this.OlafASpeed.Size = new System.Drawing.Size(122, 18);
+            this.OlafASpeed.TabIndex = 243;
+            this.OlafASpeed.Text = "Olaf Atk Speed";
+            this.OlafASpeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ErikHealth
+            // ErikDamage
             // 
-            this.ErikHealth.AutoSize = true;
-            this.ErikHealth.BackColor = System.Drawing.Color.Transparent;
-            this.ErikHealth.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ErikHealth.ForeColor = System.Drawing.Color.DarkOrange;
-            this.ErikHealth.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.ErikHealth.Location = new System.Drawing.Point(-1, 28);
-            this.ErikHealth.Name = "ErikHealth";
-            this.ErikHealth.Size = new System.Drawing.Size(94, 18);
-            this.ErikHealth.TabIndex = 233;
-            this.ErikHealth.Text = "Erik Health";
-            this.ErikHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ErikDamage.AutoSize = true;
+            this.ErikDamage.BackColor = System.Drawing.Color.Transparent;
+            this.ErikDamage.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErikDamage.ForeColor = System.Drawing.Color.Red;
+            this.ErikDamage.Location = new System.Drawing.Point(652, 28);
+            this.ErikDamage.Name = "ErikDamage";
+            this.ErikDamage.Size = new System.Drawing.Size(107, 18);
+            this.ErikDamage.TabIndex = 240;
+            this.ErikDamage.Text = "Erik Damage";
+            this.ErikDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BaelogHealth
             // 
@@ -3063,31 +2971,98 @@
             this.BaelogHealth.Text = "Baelog Health";
             this.BaelogHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // OlafRegen
+            // BaelogDamage
             // 
-            this.OlafRegen.AutoSize = true;
-            this.OlafRegen.BackColor = System.Drawing.Color.Transparent;
-            this.OlafRegen.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OlafRegen.ForeColor = System.Drawing.Color.DarkOrange;
-            this.OlafRegen.Location = new System.Drawing.Point(202, 59);
-            this.OlafRegen.Name = "OlafRegen";
-            this.OlafRegen.Size = new System.Drawing.Size(93, 18);
-            this.OlafRegen.TabIndex = 235;
-            this.OlafRegen.Text = "Olaf Regen";
-            this.OlafRegen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BaelogDamage.AutoSize = true;
+            this.BaelogDamage.BackColor = System.Drawing.Color.Transparent;
+            this.BaelogDamage.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BaelogDamage.ForeColor = System.Drawing.Color.Red;
+            this.BaelogDamage.Location = new System.Drawing.Point(652, 0);
+            this.BaelogDamage.Name = "BaelogDamage";
+            this.BaelogDamage.Size = new System.Drawing.Size(129, 18);
+            this.BaelogDamage.TabIndex = 238;
+            this.BaelogDamage.Text = "Baelog Damage";
+            this.BaelogDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ErikRegen
+            // lblDamageBaelog
             // 
-            this.ErikRegen.AutoSize = true;
-            this.ErikRegen.BackColor = System.Drawing.Color.Transparent;
-            this.ErikRegen.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ErikRegen.ForeColor = System.Drawing.Color.DarkOrange;
-            this.ErikRegen.Location = new System.Drawing.Point(202, 28);
-            this.ErikRegen.Name = "ErikRegen";
-            this.ErikRegen.Size = new System.Drawing.Size(94, 18);
-            this.ErikRegen.TabIndex = 236;
-            this.ErikRegen.Text = "Erik Regen";
-            this.ErikRegen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDamageBaelog.AutoSize = true;
+            this.lblDamageBaelog.BackColor = System.Drawing.Color.Transparent;
+            this.lblDamageBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDamageBaelog.ForeColor = System.Drawing.Color.White;
+            this.lblDamageBaelog.Location = new System.Drawing.Point(802, 0);
+            this.lblDamageBaelog.Name = "lblDamageBaelog";
+            this.lblDamageBaelog.Size = new System.Drawing.Size(49, 18);
+            this.lblDamageBaelog.TabIndex = 225;
+            this.lblDamageBaelog.Text = "Skills";
+            this.lblDamageBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblSpeedBaelog
+            // 
+            this.lblSpeedBaelog.AutoSize = true;
+            this.lblSpeedBaelog.BackColor = System.Drawing.Color.Transparent;
+            this.lblSpeedBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpeedBaelog.ForeColor = System.Drawing.Color.White;
+            this.lblSpeedBaelog.Location = new System.Drawing.Point(583, -1);
+            this.lblSpeedBaelog.Name = "lblSpeedBaelog";
+            this.lblSpeedBaelog.Size = new System.Drawing.Size(49, 18);
+            this.lblSpeedBaelog.TabIndex = 226;
+            this.lblSpeedBaelog.Text = "Skills";
+            this.lblSpeedBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHealthErik
+            // 
+            this.lblHealthErik.AutoSize = true;
+            this.lblHealthErik.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthErik.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthErik.ForeColor = System.Drawing.Color.White;
+            this.lblHealthErik.Location = new System.Drawing.Point(131, 29);
+            this.lblHealthErik.Name = "lblHealthErik";
+            this.lblHealthErik.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthErik.TabIndex = 222;
+            this.lblHealthErik.Text = "Skills";
+            this.lblHealthErik.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ErikHealth
+            // 
+            this.ErikHealth.AutoSize = true;
+            this.ErikHealth.BackColor = System.Drawing.Color.Transparent;
+            this.ErikHealth.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErikHealth.ForeColor = System.Drawing.Color.DarkOrange;
+            this.ErikHealth.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ErikHealth.Location = new System.Drawing.Point(-1, 28);
+            this.ErikHealth.Name = "ErikHealth";
+            this.ErikHealth.Size = new System.Drawing.Size(94, 18);
+            this.ErikHealth.TabIndex = 233;
+            this.ErikHealth.Text = "Erik Health";
+            this.ErikHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ErikASpeed
+            // 
+            this.ErikASpeed.AutoSize = true;
+            this.ErikASpeed.BackColor = System.Drawing.Color.Transparent;
+            this.ErikASpeed.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErikASpeed.ForeColor = System.Drawing.Color.SpringGreen;
+            this.ErikASpeed.Location = new System.Drawing.Point(415, 28);
+            this.ErikASpeed.Name = "ErikASpeed";
+            this.ErikASpeed.Size = new System.Drawing.Size(123, 18);
+            this.ErikASpeed.TabIndex = 241;
+            this.ErikASpeed.Text = "Erik Atk Speed";
+            this.ErikASpeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OlafHealth
+            // 
+            this.OlafHealth.AutoSize = true;
+            this.OlafHealth.BackColor = System.Drawing.Color.Transparent;
+            this.OlafHealth.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OlafHealth.ForeColor = System.Drawing.Color.DarkOrange;
+            this.OlafHealth.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.OlafHealth.Location = new System.Drawing.Point(-1, 59);
+            this.OlafHealth.Name = "OlafHealth";
+            this.OlafHealth.Size = new System.Drawing.Size(93, 18);
+            this.OlafHealth.TabIndex = 232;
+            this.OlafHealth.Text = "Olaf Health";
+            this.OlafHealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BaelogRegen
             // 
@@ -3115,70 +3090,192 @@
             this.BaelogASpeed.Text = "Baelog Atk Speed";
             this.BaelogASpeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // BaelogDamage
+            // lblHealthRegenBaelog
             // 
-            this.BaelogDamage.AutoSize = true;
-            this.BaelogDamage.BackColor = System.Drawing.Color.Transparent;
-            this.BaelogDamage.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BaelogDamage.ForeColor = System.Drawing.Color.Red;
-            this.BaelogDamage.Location = new System.Drawing.Point(652, 0);
-            this.BaelogDamage.Name = "BaelogDamage";
-            this.BaelogDamage.Size = new System.Drawing.Size(129, 18);
-            this.BaelogDamage.TabIndex = 238;
-            this.BaelogDamage.Text = "Baelog Damage";
-            this.BaelogDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHealthRegenBaelog.AutoSize = true;
+            this.lblHealthRegenBaelog.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthRegenBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthRegenBaelog.ForeColor = System.Drawing.Color.White;
+            this.lblHealthRegenBaelog.Location = new System.Drawing.Point(340, 0);
+            this.lblHealthRegenBaelog.Name = "lblHealthRegenBaelog";
+            this.lblHealthRegenBaelog.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthRegenBaelog.TabIndex = 221;
+            this.lblHealthRegenBaelog.Text = "Skills";
+            this.lblHealthRegenBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ErikASpeed
+            // ErikRegen
             // 
-            this.ErikASpeed.AutoSize = true;
-            this.ErikASpeed.BackColor = System.Drawing.Color.Transparent;
-            this.ErikASpeed.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ErikASpeed.ForeColor = System.Drawing.Color.SpringGreen;
-            this.ErikASpeed.Location = new System.Drawing.Point(415, 28);
-            this.ErikASpeed.Name = "ErikASpeed";
-            this.ErikASpeed.Size = new System.Drawing.Size(123, 18);
-            this.ErikASpeed.TabIndex = 241;
-            this.ErikASpeed.Text = "Erik Atk Speed";
-            this.ErikASpeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ErikRegen.AutoSize = true;
+            this.ErikRegen.BackColor = System.Drawing.Color.Transparent;
+            this.ErikRegen.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErikRegen.ForeColor = System.Drawing.Color.DarkOrange;
+            this.ErikRegen.Location = new System.Drawing.Point(202, 28);
+            this.ErikRegen.Name = "ErikRegen";
+            this.ErikRegen.Size = new System.Drawing.Size(94, 18);
+            this.ErikRegen.TabIndex = 236;
+            this.ErikRegen.Text = "Erik Regen";
+            this.ErikRegen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ErikDamage
+            // lblHealthBaelog
             // 
-            this.ErikDamage.AutoSize = true;
-            this.ErikDamage.BackColor = System.Drawing.Color.Transparent;
-            this.ErikDamage.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ErikDamage.ForeColor = System.Drawing.Color.Red;
-            this.ErikDamage.Location = new System.Drawing.Point(652, 28);
-            this.ErikDamage.Name = "ErikDamage";
-            this.ErikDamage.Size = new System.Drawing.Size(107, 18);
-            this.ErikDamage.TabIndex = 240;
-            this.ErikDamage.Text = "Erik Damage";
-            this.ErikDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHealthBaelog.AutoSize = true;
+            this.lblHealthBaelog.BackColor = System.Drawing.Color.Transparent;
+            this.lblHealthBaelog.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHealthBaelog.ForeColor = System.Drawing.Color.White;
+            this.lblHealthBaelog.Location = new System.Drawing.Point(131, 0);
+            this.lblHealthBaelog.Name = "lblHealthBaelog";
+            this.lblHealthBaelog.Size = new System.Drawing.Size(49, 18);
+            this.lblHealthBaelog.TabIndex = 220;
+            this.lblHealthBaelog.Text = "Skills";
+            this.lblHealthBaelog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // OlafASpeed
+            // OlafRegen
             // 
-            this.OlafASpeed.AutoSize = true;
-            this.OlafASpeed.BackColor = System.Drawing.Color.Transparent;
-            this.OlafASpeed.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OlafASpeed.ForeColor = System.Drawing.Color.SpringGreen;
-            this.OlafASpeed.Location = new System.Drawing.Point(415, 59);
-            this.OlafASpeed.Name = "OlafASpeed";
-            this.OlafASpeed.Size = new System.Drawing.Size(122, 18);
-            this.OlafASpeed.TabIndex = 243;
-            this.OlafASpeed.Text = "Olaf Atk Speed";
-            this.OlafASpeed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OlafRegen.AutoSize = true;
+            this.OlafRegen.BackColor = System.Drawing.Color.Transparent;
+            this.OlafRegen.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OlafRegen.ForeColor = System.Drawing.Color.DarkOrange;
+            this.OlafRegen.Location = new System.Drawing.Point(202, 59);
+            this.OlafRegen.Name = "OlafRegen";
+            this.OlafRegen.Size = new System.Drawing.Size(93, 18);
+            this.OlafRegen.TabIndex = 235;
+            this.OlafRegen.Text = "Olaf Regen";
+            this.OlafRegen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // OlafDamage
+            // picETC
             // 
-            this.OlafDamage.AutoSize = true;
-            this.OlafDamage.BackColor = System.Drawing.Color.Transparent;
-            this.OlafDamage.Font = new System.Drawing.Font("Moire", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OlafDamage.ForeColor = System.Drawing.Color.Red;
-            this.OlafDamage.Location = new System.Drawing.Point(652, 59);
-            this.OlafDamage.Name = "OlafDamage";
-            this.OlafDamage.Size = new System.Drawing.Size(106, 18);
-            this.OlafDamage.TabIndex = 242;
-            this.OlafDamage.Text = "Olaf Damage";
-            this.OlafDamage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.picETC.Image = ((System.Drawing.Image)(resources.GetObject("picETC.Image")));
+            this.picETC.Location = new System.Drawing.Point(323, 394);
+            this.picETC.Name = "picETC";
+            this.picETC.Size = new System.Drawing.Size(70, 70);
+            this.picETC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picETC.TabIndex = 216;
+            this.picETC.TabStop = false;
+            this.picETC.Visible = false;
+            this.picETC.Click += new System.EventHandler(this.picETC_Click);
+            // 
+            // lblETC
+            // 
+            this.lblETC.AutoSize = true;
+            this.lblETC.BackColor = System.Drawing.Color.Transparent;
+            this.lblETC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblETC.ForeColor = System.Drawing.Color.White;
+            this.lblETC.Location = new System.Drawing.Point(399, 419);
+            this.lblETC.Name = "lblETC";
+            this.lblETC.Size = new System.Drawing.Size(72, 25);
+            this.lblETC.TabIndex = 217;
+            this.lblETC.Text = "E.T.C.";
+            this.lblETC.Visible = false;
+            // 
+            // picButch
+            // 
+            this.picButch.Image = ((System.Drawing.Image)(resources.GetObject("picButch.Image")));
+            this.picButch.Location = new System.Drawing.Point(323, 663);
+            this.picButch.Name = "picButch";
+            this.picButch.Size = new System.Drawing.Size(70, 70);
+            this.picButch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picButch.TabIndex = 218;
+            this.picButch.TabStop = false;
+            this.picButch.Visible = false;
+            this.picButch.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // lblButch
+            // 
+            this.lblButch.AutoSize = true;
+            this.lblButch.BackColor = System.Drawing.Color.Transparent;
+            this.lblButch.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblButch.ForeColor = System.Drawing.Color.White;
+            this.lblButch.Location = new System.Drawing.Point(401, 682);
+            this.lblButch.Name = "lblButch";
+            this.lblButch.Size = new System.Drawing.Size(129, 25);
+            this.lblButch.TabIndex = 219;
+            this.lblButch.Text = "The Butcher";
+            this.lblButch.Visible = false;
+            // 
+            // picLeoric
+            // 
+            this.picLeoric.Image = ((System.Drawing.Image)(resources.GetObject("picLeoric.Image")));
+            this.picLeoric.Location = new System.Drawing.Point(323, 572);
+            this.picLeoric.Name = "picLeoric";
+            this.picLeoric.Size = new System.Drawing.Size(70, 70);
+            this.picLeoric.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLeoric.TabIndex = 220;
+            this.picLeoric.TabStop = false;
+            this.picLeoric.Visible = false;
+            this.picLeoric.Click += new System.EventHandler(this.picLeoric_Click);
+            // 
+            // lblLeoric
+            // 
+            this.lblLeoric.AutoSize = true;
+            this.lblLeoric.BackColor = System.Drawing.Color.Transparent;
+            this.lblLeoric.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLeoric.ForeColor = System.Drawing.Color.White;
+            this.lblLeoric.Location = new System.Drawing.Point(401, 589);
+            this.lblLeoric.Name = "lblLeoric";
+            this.lblLeoric.Size = new System.Drawing.Size(71, 25);
+            this.lblLeoric.TabIndex = 221;
+            this.lblLeoric.Text = "Leoric";
+            this.lblLeoric.Visible = false;
+            // 
+            // picFranchise_Blizzard
+            // 
+            this.picFranchise_Blizzard.BackColor = System.Drawing.Color.Transparent;
+            this.picFranchise_Blizzard.Image = ((System.Drawing.Image)(resources.GetObject("picFranchise_Blizzard.Image")));
+            this.picFranchise_Blizzard.Location = new System.Drawing.Point(213, 225);
+            this.picFranchise_Blizzard.Name = "picFranchise_Blizzard";
+            this.picFranchise_Blizzard.Size = new System.Drawing.Size(96, 96);
+            this.picFranchise_Blizzard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.picFranchise_Blizzard.TabIndex = 222;
+            this.picFranchise_Blizzard.TabStop = false;
+            this.picFranchise_Blizzard.Click += new System.EventHandler(this.picFranchise_Blizzard_Click);
+            // 
+            // picFranchise_Diablo
+            // 
+            this.picFranchise_Diablo.BackColor = System.Drawing.Color.Transparent;
+            this.picFranchise_Diablo.Image = ((System.Drawing.Image)(resources.GetObject("picFranchise_Diablo.Image")));
+            this.picFranchise_Diablo.Location = new System.Drawing.Point(314, 226);
+            this.picFranchise_Diablo.Name = "picFranchise_Diablo";
+            this.picFranchise_Diablo.Size = new System.Drawing.Size(96, 96);
+            this.picFranchise_Diablo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picFranchise_Diablo.TabIndex = 223;
+            this.picFranchise_Diablo.TabStop = false;
+            this.picFranchise_Diablo.Click += new System.EventHandler(this.picFranchise_Diablo_Click);
+            // 
+            // picFranchise_Starcraft
+            // 
+            this.picFranchise_Starcraft.BackColor = System.Drawing.Color.Transparent;
+            this.picFranchise_Starcraft.Image = ((System.Drawing.Image)(resources.GetObject("picFranchise_Starcraft.Image")));
+            this.picFranchise_Starcraft.Location = new System.Drawing.Point(415, 225);
+            this.picFranchise_Starcraft.Name = "picFranchise_Starcraft";
+            this.picFranchise_Starcraft.Size = new System.Drawing.Size(96, 96);
+            this.picFranchise_Starcraft.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picFranchise_Starcraft.TabIndex = 224;
+            this.picFranchise_Starcraft.TabStop = false;
+            this.picFranchise_Starcraft.Click += new System.EventHandler(this.picFranchise_Starcraft_Click);
+            // 
+            // picFranchise_Warcraft
+            // 
+            this.picFranchise_Warcraft.BackColor = System.Drawing.Color.Transparent;
+            this.picFranchise_Warcraft.Image = ((System.Drawing.Image)(resources.GetObject("picFranchise_Warcraft.Image")));
+            this.picFranchise_Warcraft.Location = new System.Drawing.Point(516, 226);
+            this.picFranchise_Warcraft.Name = "picFranchise_Warcraft";
+            this.picFranchise_Warcraft.Size = new System.Drawing.Size(96, 96);
+            this.picFranchise_Warcraft.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picFranchise_Warcraft.TabIndex = 225;
+            this.picFranchise_Warcraft.TabStop = false;
+            this.picFranchise_Warcraft.Click += new System.EventHandler(this.picFranchise_Warcraft_Click);
+            // 
+            // lblSort
+            // 
+            this.lblSort.AutoSize = true;
+            this.lblSort.BackColor = System.Drawing.Color.Transparent;
+            this.lblSort.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSort.ForeColor = System.Drawing.Color.White;
+            this.lblSort.Location = new System.Drawing.Point(271, 325);
+            this.lblSort.Name = "lblSort";
+            this.lblSort.Size = new System.Drawing.Size(0, 55);
+            this.lblSort.TabIndex = 226;
+            this.lblSort.Visible = false;
             // 
             // Form1
             // 
@@ -3188,8 +3285,12 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1915, 1000);
-            this.Controls.Add(this.lblButch);
-            this.Controls.Add(this.picButch);
+            this.Controls.Add(this.lblSort);
+            this.Controls.Add(this.picFranchise_Warcraft);
+            this.Controls.Add(this.picFranchise_Starcraft);
+            this.Controls.Add(this.picFranchise_Diablo);
+            this.Controls.Add(this.picFranchise_Blizzard);
+            this.Controls.Add(this.lblLeoric);
             this.Controls.Add(this.lblETC);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblManaRegen);
@@ -3316,7 +3417,6 @@
             this.Controls.Add(this.lblRehgar);
             this.Controls.Add(this.lblWarriors);
             this.Controls.Add(this.lblAssassins);
-            this.Controls.Add(this.picZeratul);
             this.Controls.Add(this.lblArthas);
             this.Controls.Add(this.lblChen);
             this.Controls.Add(this.lblDiablo);
@@ -3327,8 +3427,6 @@
             this.Controls.Add(this.lblKael);
             this.Controls.Add(this.lblKerrigan);
             this.Controls.Add(this.lblZeratul);
-            this.Controls.Add(this.lblThrall);
-            this.Controls.Add(this.lblTychus);
             this.Controls.Add(this.lblValla);
             this.Controls.Add(this.lblNova);
             this.Controls.Add(this.lblFalstad);
@@ -3336,32 +3434,9 @@
             this.Controls.Add(this.lblBrightwing);
             this.Controls.Add(this.lblAnub);
             this.Controls.Add(this.Border5_5);
-            this.Controls.Add(this.picFalstad);
-            this.Controls.Add(this.picIllidan);
-            this.Controls.Add(this.picJania);
-            this.Controls.Add(this.picKael);
-            this.Controls.Add(this.picKerrigan);
-            this.Controls.Add(this.picNova);
-            this.Controls.Add(this.picThrall);
-            this.Controls.Add(this.picTychus);
-            this.Controls.Add(this.picAbathur);
-            this.Controls.Add(this.picAzmodan);
-            this.Controls.Add(this.picGazlowe);
-            this.Controls.Add(this.picVikings);
-            this.Controls.Add(this.picMurky);
-            this.Controls.Add(this.picNazeebo);
-            this.Controls.Add(this.picSylvanas);
             this.Controls.Add(this.Border2_5);
             this.Controls.Add(this.Border6_5);
             this.Controls.Add(this.Border7_5);
-            this.Controls.Add(this.picMalfurion);
-            this.Controls.Add(this.picRehgar);
-            this.Controls.Add(this.picETC);
-            this.Controls.Add(this.picTassadar);
-            this.Controls.Add(this.picTyrande);
-            this.Controls.Add(this.picRaynor);
-            this.Controls.Add(this.picHammer);
-            this.Controls.Add(this.picZagara);
             this.Controls.Add(this.lblMurky);
             this.Controls.Add(this.lblTassadar);
             this.Controls.Add(this.lblNazeebo);
@@ -3371,22 +3446,51 @@
             this.Controls.Add(this.lblRaynor);
             this.Controls.Add(this.lblHammer);
             this.Controls.Add(this.lblSylvanas);
-            this.Controls.Add(this.lblZagara);
-            this.Controls.Add(this.picValla);
-            this.Controls.Add(this.picBrightwing);
-            this.Controls.Add(this.picAnub);
-            this.Controls.Add(this.picLiLi);
-            this.Controls.Add(this.picArthas);
-            this.Controls.Add(this.picChen);
-            this.Controls.Add(this.picDiablo);
-            this.Controls.Add(this.picJohanna);
-            this.Controls.Add(this.picMuradin);
-            this.Controls.Add(this.picSonya);
-            this.Controls.Add(this.picStitches);
-            this.Controls.Add(this.picTyrael);
-            this.Controls.Add(this.picUther);
             this.Controls.Add(this.lblTyrael);
             this.Controls.Add(this.lblStiches);
+            this.Controls.Add(this.lblButch);
+            this.Controls.Add(this.lblThrall);
+            this.Controls.Add(this.lblZagara);
+            this.Controls.Add(this.lblTychus);
+            this.Controls.Add(this.picMalfurion);
+            this.Controls.Add(this.picFalstad);
+            this.Controls.Add(this.picAbathur);
+            this.Controls.Add(this.picBrightwing);
+            this.Controls.Add(this.picAnub);
+            this.Controls.Add(this.picAzmodan);
+            this.Controls.Add(this.picLiLi);
+            this.Controls.Add(this.picArthas);
+            this.Controls.Add(this.picIllidan);
+            this.Controls.Add(this.picChen);
+            this.Controls.Add(this.picJania);
+            this.Controls.Add(this.picGazlowe);
+            this.Controls.Add(this.picKael);
+            this.Controls.Add(this.picVikings);
+            this.Controls.Add(this.picRehgar);
+            this.Controls.Add(this.picDiablo);
+            this.Controls.Add(this.picKerrigan);
+            this.Controls.Add(this.picMurky);
+            this.Controls.Add(this.picETC);
+            this.Controls.Add(this.picTassadar);
+            this.Controls.Add(this.picNova);
+            this.Controls.Add(this.picNazeebo);
+            this.Controls.Add(this.picTyrande);
+            this.Controls.Add(this.picJohanna);
+            this.Controls.Add(this.picHammer);
+            this.Controls.Add(this.picLeoric);
+            this.Controls.Add(this.picUther);
+            this.Controls.Add(this.picRaynor);
+            this.Controls.Add(this.picSylvanas);
+            this.Controls.Add(this.picMuradin);
+            this.Controls.Add(this.picButch);
+            this.Controls.Add(this.picThrall);
+            this.Controls.Add(this.picZagara);
+            this.Controls.Add(this.picSonya);
+            this.Controls.Add(this.picStitches);
+            this.Controls.Add(this.picTychus);
+            this.Controls.Add(this.picValla);
+            this.Controls.Add(this.picTyrael);
+            this.Controls.Add(this.picZeratul);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1931, 1038);
@@ -3514,6 +3618,11 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picETC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLeoric)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFranchise_Blizzard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFranchise_Diablo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFranchise_Starcraft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFranchise_Warcraft)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3745,6 +3854,13 @@
         private System.Windows.Forms.Label BaelogASpeed;
         private System.Windows.Forms.Label ErikRegen;
         private System.Windows.Forms.Label OlafRegen;
+        private System.Windows.Forms.PictureBox picLeoric;
+        private System.Windows.Forms.Label lblLeoric;
+        private System.Windows.Forms.PictureBox picFranchise_Blizzard;
+        private System.Windows.Forms.PictureBox picFranchise_Diablo;
+        private System.Windows.Forms.PictureBox picFranchise_Starcraft;
+        private System.Windows.Forms.PictureBox picFranchise_Warcraft;
+        private System.Windows.Forms.Label lblSort;
     }
 }
 

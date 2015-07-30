@@ -1,0 +1,14 @@
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\bin\Release\Hots Talents.exe.config
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\bin\Release\Hots Talents.exe.manifest
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\bin\Release\Hots Talents.application
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\bin\Release\Hots Talents.exe
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\bin\Release\Hots Talents.pdb
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Release\Hots Talents.csprojResolveAssemblyReference.cache
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Release\Hots_Talents.Falstad_Talents.resources
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Release\Hots_Talents.Form1.resources
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Release\Hots_Talents.Properties.Resources.resources
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Release\Hots Talents.csproj.GenerateResource.Cache
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Release\Hots Talents.exe.manifest
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Release\Hots Talents.application
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Release\Hots Talents.exe
+C:\Users\Craig\Desktop\Hots Icons\Hots Talents\Hots Talents\obj\Release\Hots Talents.pdb

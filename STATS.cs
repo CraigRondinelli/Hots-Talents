@@ -204,7 +204,11 @@
 			
 			
 			
-			hero.Play();
+
+			
+			
+			
+					hero.Play();
             while (this.Width < 1870)
             {
                 this.Width += growW;
@@ -286,6 +290,3 @@
             lblSpeed.Text = "1.11";
             lblDamage.Text = "67";
 			
-			
-			
-		

@@ -333,7 +333,6 @@ namespace Hots_Talents
                 Ability2_1.Visible = true;
                 Ability2_2.Visible = true;
                 Ability2_3.Visible = true;
-                Ability2_4.Visible = true;
                 Ability3_1.Visible = true;
                 Ability3_2.Visible = true;
                 Ability3_3.Visible = true;
@@ -1018,6 +1017,129 @@ namespace Hots_Talents
                 trackBar1.Value = 1;
             }
 
+            else if (lblHero.Text == "Leoric")
+            {
+
+                lblSpecial.Visible = true;
+                picSpec1.Visible = true;
+                picSpec2.Visible = true;
+
+                spec1.Visible = true;
+                spec2.Visible = true;
+
+                Border1_1.Visible = false;
+                Border1_2.Visible = false;
+                Border1_3.Visible = false;
+                Border1_4.Visible = false;
+                Border1_5.Visible = false;
+                Border2_1.Visible = false;
+                Border2_2.Visible = false;
+                Border2_3.Visible = false;
+                Border2_4.Visible = false;
+                Border2_5.Visible = false;
+                Border3_1.Visible = false;
+                Border3_2.Visible = false;
+                Border3_3.Visible = false;
+                Border3_4.Visible = false;
+                Border3_5.Visible = false;
+                Border4_1.Visible = false;
+                Border4_2.Visible = false;
+                Border5_1.Visible = false;
+                Border5_2.Visible = false;
+                Border5_3.Visible = false;
+                Border5_4.Visible = false;
+                Border5_5.Visible = false;
+                Border6_1.Visible = false;
+                Border6_2.Visible = false;
+                Border6_3.Visible = false;
+                Border6_4.Visible = false;
+                Border6_5.Visible = false;
+                Border7_1.Visible = false;
+                Border7_2.Visible = false;
+                Border7_3.Visible = false;
+                Border7_4.Visible = false;
+                Border7_5.Visible = false;
+
+                Ability1_1.Visible = true;
+                Ability1_2.Visible = true;
+                Ability1_3.Visible = true;
+                Ability1_4.Visible = true;
+                Ability2_1.Visible = true;
+                Ability2_2.Visible = true;
+                Ability2_3.Visible = true;
+                Ability2_4.Visible = true;
+                Ability3_1.Visible = true;
+                Ability3_2.Visible = true;
+                Ability3_3.Visible = true;
+                Ability3_4.Visible = true;
+                Ability4_1.Visible = true;
+                Ability4_2.Visible = true;
+                Ability5_1.Visible = true;
+                Ability5_2.Visible = true;
+                Ability5_3.Visible = true;
+                Ability5_4.Visible = true;
+                Ability6_1.Visible = true;
+                Ability6_2.Visible = true;
+                Ability6_3.Visible = true;
+                Ability6_4.Visible = true;
+                Ability7_1.Visible = true;
+                Ability7_2.Visible = true;
+                Ability7_3.Visible = true;
+                Ability7_4.Visible = true;
+
+                picQAbility.Visible = true;
+                picWAbility.Visible = true;
+                picEAbility.Visible = true;
+                picR1Ability.Visible = true;
+                picR2Ability.Visible = true;
+                picTrait.Visible = true;
+
+
+                picHero.Visible = true;
+                label7.Visible = true;
+                label9.Visible = true;
+                label8.Visible = true;
+                label14.Visible = true;
+                label13.Visible = true;
+                label12.Visible = true;
+                label11.Visible = true;
+                label10.Visible = true;
+                picGold.Visible = true;
+
+                lblHealthBaelog.Visible = false;
+                lblHealthRegenBaelog.Visible = false;
+                lblSpeedBaelog.Visible = false;
+                lblDamageBaelog.Visible = false;
+
+                lblHealthErik.Visible = false;
+                lblHealthRegenErik.Visible = false;
+                lblSpeedErik.Visible = false;
+                lblDamageErik.Visible = false;
+
+                lblHealthOlaf.Visible = false;
+                lblHealthRegenOlaf.Visible = false;
+                lblSpeedOlaf.Visible = false;
+                lblDamageOlaf.Visible = false;
+
+                BaelogHealth.Visible = false;
+                BaelogRegen.Visible = false;
+                BaelogASpeed.Visible = false;
+                BaelogDamage.Visible = false;
+
+                ErikHealth.Visible = false;
+                ErikRegen.Visible = false;
+                ErikASpeed.Visible = false;
+                ErikDamage.Visible = false;
+
+                OlafHealth.Visible = false;
+                OlafRegen.Visible = false;
+                OlafASpeed.Visible = false;
+                OlafDamage.Visible = false;
+
+
+                trackBar1.Value = 1;
+            }
+
             else
             {
                 Border1_1.Visible = false;
@@ -1140,8 +1262,288 @@ namespace Hots_Talents
                 OlafRegen.Visible = false;
                 OlafASpeed.Visible = false;
                 OlafDamage.Visible = false;
-			
             }
+        }
+
+        void franchise_sort()
+        {
+            //WARRIOR PICS HIDE
+            picAnub.Visible = false;
+            picArthas.Visible = false;
+            picChen.Visible = false;
+            picDiablo.Visible = false;
+            picETC.Visible = false;
+            picJohanna.Visible = false;
+            picMuradin.Visible = false;
+            picSonya.Visible = false;
+            picStitches.Visible = false;
+            picTyrael.Visible = false;
+            picLeoric.Visible = false;
+
+            //WARRIOR LABELS HIDE
+            lblWarriors.Visible = false;
+            lblAnub.Visible = false;
+            lblArthas.Visible = false;
+            lblChen.Visible = false;
+            lblDiablo.Visible = false;
+            lblETC.Visible = false;
+            lblJohanna.Visible = false;
+            lblMuradin.Visible = false;
+            lblSonya.Visible = false;
+            lblStiches.Visible = false;
+            lblTyrael.Visible = false;
+            lblLeoric.Visible = false;
+
+            //SUPPORT LABELS HIDE
+            lblBrightwing.Visible = false;
+            lblLiLi.Visible = false;
+            lblMalfurion.Visible = false;
+            lblRehgar.Visible = false;
+            lblSupoort.Visible = false;
+            lblTassadar.Visible = false;
+            lblTyrande.Visible = false;
+            lblUther.Visible = false;
+
+            //SUPPORT PICS HIDE
+            picBrightwing.Visible = false;
+            picLiLi.Visible = false;
+            picMalfurion.Visible = false;
+            picRehgar.Visible = false;
+            picTassadar.Visible = false;
+            picTyrande.Visible = false;
+            picUther.Visible = false;
+
+            //SPECIALIST PICS HIDE
+            picAbathur.Visible = false;
+            picAzmodan.Visible = false;
+            picGazlowe.Visible = false;
+            picHammer.Visible = false;
+            picMurky.Visible = false;
+            picNazeebo.Visible = false;
+            picSylvanas.Visible = false;
+            picVikings.Visible = false;
+            picZagara.Visible = false;
+
+            //SPECIALIST LABELS HIDE
+            lblAbathur.Visible = false;
+            lblAzmodan.Visible = false;
+            lblGazlowe.Visible = false;
+            lblHammer.Visible = false;
+            lblMurky.Visible = false;
+            lblNazeebo.Visible = false;
+            lblSylvanas.Visible = false;
+            lblVikings.Visible = false;
+            lblZagara.Visible = false;
+            lblSpecialists.Visible = false;
+
+            //ASSASSIN PIC HIDE
+            picFalstad.Visible = false;
+            picIllidan.Visible = false;
+            picJania.Visible = false;
+            picKael.Visible = false;
+            picKerrigan.Visible = false;
+            picNova.Visible = false;
+            picRaynor.Visible = false;
+            picThrall.Visible = false;
+            picTychus.Visible = false;
+            picValla.Visible = false;
+            picZeratul.Visible = false;
+            picButch.Visible = false;
+
+            //ASSASSIN LABELS HIDE
+            lblFalstad.Visible = false;
+            lblIllidan.Visible = false;
+            lblJania.Visible = false;
+            lblKael.Visible = false;
+            lblKerrigan.Visible = false;
+            lblNova.Visible = false;
+            lblRaynor.Visible = false;
+            lblThrall.Visible = false;
+            lblTychus.Visible = false;
+            lblValla.Visible = false;
+            lblZeratul.Visible = false;
+            lblAssassins.Visible = false;
+            lblButch.Visible = false;
+        }
+
+        void diablo_unsort()
+        {
+            lblSort.Visible = false;
+
+            picAzmodan.Location = new Point(97, 484);
+            picDiablo.Location = new Point(97, 662);
+            picJohanna.Location = new Point(323, 483);
+            picLeoric.Location = new Point(323, 572);
+            picNazeebo.Location = new Point(323, 483);
+            picSonya.Location = new Point(550, 394);
+            picButch.Location = new Point(323, 663);
+            picTyrael.Location = new Point(550, 577);
+            picValla.Location = new Point(550, 577);
+
+            lblAzmodan.Location = new Point(173, 504);
+            lblDiablo.Location = new Point(173, 682);
+            lblJohanna.Location = new Point(399, 509);
+            lblLeoric.Location = new Point(401, 589);
+            lblNazeebo.Location = new Point(399, 509);
+            lblSonya.Location = new Point(626, 415);
+            lblButch.Location = new Point(399, 680);
+            lblTyrael.Location = new Point(626, 600);
+            lblValla.Location = new Point(626, 600);
+
+            picAzmodan.Visible = false;
+            picDiablo.Visible = false;
+            picJohanna.Visible = false;
+            picLeoric.Visible = false;
+            picNazeebo.Visible = false;
+            picSonya.Visible = false;
+            picButch.Visible = false;
+            picTyrael.Visible = false;
+            picValla.Visible = false;
+
+            lblAzmodan.Visible = false;
+            lblDiablo.Visible = false;
+            lblJohanna.Visible = false;
+            lblLeoric.Visible = false;
+            lblNazeebo.Visible = false;
+            lblSonya.Visible = false;
+            lblButch.Visible = false;
+            lblTyrael.Visible = false;
+            lblValla.Visible = false;
+        }
+
+        void starcraft_unsort()
+        {
+            lblSort.Visible = false;
+
+            picAbathur.Location = new Point(97, 394);
+            picKerrigan.Location = new Point(323, 396);
+            picNova.Location = new Point(323, 483);
+            picRaynor.Location = new Point(323, 572);
+            picHammer.Location = new Point(323, 572);
+            picTassadar.Location = new Point(323, 396);
+            picTychus.Location = new Point(550, 483);
+            picZagara.Location = new Point(550, 392);
+            picZeratul.Location = new Point(550, 663);
+
+            lblAbathur.Location = new Point(173, 417);
+            lblKerrigan.Location = new Point(399, 419);
+            lblNova.Location = new Point(399, 509);
+            lblRaynor.Location = new Point(401, 589);
+            lblHammer.Location = new Point(401, 589);
+            lblTassadar.Location = new Point(399, 419);
+            lblTychus.Location = new Point(625, 508);
+            lblZagara.Location = new Point(626, 415);
+            lblZeratul.Location = new Point(626, 682);
+
+            picAbathur.Visible = false;
+            picKerrigan.Visible = false;
+            picNova.Visible = false;
+            picRaynor.Visible = false;
+            picHammer.Visible = false;
+            picTassadar.Visible = false;
+            picTychus.Visible = false;
+            picZagara.Visible = false;
+            picZeratul.Visible = false;
+
+            lblAbathur.Visible = false;
+            lblKerrigan.Visible = false;
+            lblNova.Visible = false;
+            lblRaynor.Visible = false;
+            lblHammer.Visible = false;
+            lblTassadar.Visible = false;
+            lblTychus.Visible = false;
+            lblZagara.Visible = false;
+            lblZeratul.Visible = false;
+        }
+
+        void warcraft_unsort()
+        {
+            lblSort.Visible = false;
+
+            picAnub.Location = new Point(97, 394);
+            picArthas.Location = new Point(97, 484);
+            picBrightwing.Location = new Point(97, 394);
+            picChen.Location = new Point(97, 573);
+            picETC.Location = new Point(323,396);
+            picFalstad.Location = new Point(97, 394);
+            picGazlowe.Location = new Point(97, 573);
+            picIllidan.Location = new Point(97, 484);
+            picJania.Location = new Point(97, 573);
+            picKael.Location = new Point(97, 661);
+            picLiLi.Location = new Point(97, 484);
+            picMalfurion.Location = new Point(97, 573);
+            picMuradin.Location = new Point(323, 661);
+            picMurky.Location = new Point(323, 396);
+            picRehgar.Location = new Point(97, 662);
+            picStitches.Location = new Point(550, 483);
+            picSylvanas.Location = new Point(323, 662);
+            picThrall.Location = new Point(550, 392);
+            picTyrande.Location = new Point(323, 485);
+            picUther.Location = new Point(323, 572);
+
+            lblAnub.Location = new Point(173, 417);
+            lblArthas.Location = new Point(173, 504);
+            lblBrightwing.Location = new Point(173, 417);
+            lblChen.Location = new Point(173, 591);
+            lblETC.Location = new Point(399, 419);
+            lblFalstad.Location = new Point(173, 417);
+            lblGazlowe.Location = new Point(173, 591);
+            lblIllidan.Location = new Point(173, 504);
+            lblJania.Location = new Point(173, 591);
+            lblKael.Location = new Point(173, 682);
+            lblLiLi.Location = new Point(173, 504);
+            lblMalfurion.Location = new Point(173, 591);
+            lblMuradin.Location = new Point(399, 680);
+            lblMurky.Location = new Point(399, 419);
+            lblRehgar.Location = new Point(173, 682);
+            lblStiches.Location = new Point(625, 508);
+            lblSylvanas.Location = new Point(399, 680);
+            lblThrall.Location = new Point(626, 415);
+            lblTyrande.Location = new Point(399, 509);
+            lblUther.Location = new Point(401, 589);
+
+
+            picAnub.Visible = false;
+            picArthas.Visible = false;
+            picBrightwing.Visible = false;
+            picChen.Visible = false;
+            picETC.Visible = false;
+            picFalstad.Visible = false;
+            picGazlowe.Visible = false;
+            picIllidan.Visible = false;
+            picJania.Visible = false;
+            picKael.Visible = false;
+            picLiLi.Visible = false;
+            picMalfurion.Visible = false;
+            picMuradin.Visible = false;
+            picMurky.Visible = false;
+            picRehgar.Visible = false;
+            picStitches.Visible = false;
+            picSylvanas.Visible = false;
+            picThrall.Visible = false;
+            picTyrande.Visible = false;
+            picUther.Visible = false;
+
+            lblAnub.Visible = false;
+            lblArthas.Visible = false;
+            lblBrightwing.Visible = false;
+            lblChen.Visible = false;
+            lblETC.Visible = false;
+            lblFalstad.Visible = false;
+            lblGazlowe.Visible = false;
+            lblIllidan.Visible = false;
+            lblJania.Visible = false;
+            lblKael.Visible = false;
+            lblLiLi.Visible = false;
+            lblMalfurion.Visible = false;
+            lblMuradin.Visible = false;
+            lblMurky.Visible = false;
+            lblRehgar.Visible = false;
+            lblStiches.Visible = false;
+            lblSylvanas.Visible = false;
+            lblThrall.Visible = false;
+            lblTyrande.Visible = false;
+            lblUther.Visible = false;
         }
 
 
@@ -1158,6 +1560,10 @@ namespace Hots_Talents
                 this.Height += growH;
                 Application.DoEvents();
             }
+
+            diablo_unsort();
+            starcraft_unsort();
+            warcraft_unsort();
 
             //ASSASSIN PICS SHOW
             picFalstad.Visible = true;
@@ -1199,6 +1605,7 @@ namespace Hots_Talents
             picSonya.Visible = false;
             picStitches.Visible = false;
             picTyrael.Visible = false;
+            picLeoric.Visible = false;
 
             //WARRIOR LABELS HIDE
             lblWarriors.Visible = false;
@@ -1212,6 +1619,7 @@ namespace Hots_Talents
             lblSonya.Visible = false;
             lblStiches.Visible = false;
             lblTyrael.Visible = false;
+            lblLeoric.Visible = false;
 
             //SUPPORT LABELS HIDE
             lblBrightwing.Visible = false;
@@ -1268,6 +1676,10 @@ namespace Hots_Talents
                 Application.DoEvents();
             }
 
+            diablo_unsort();
+            starcraft_unsort();
+            warcraft_unsort();
+
             //WARRIOR LABELS SHOW
             lblWarriors.Visible = true;
             lblAnub.Visible = true;
@@ -1280,6 +1692,7 @@ namespace Hots_Talents
             lblSonya.Visible = true;
             lblStiches.Visible = true;
             lblTyrael.Visible = true;
+            lblLeoric.Visible = true;
 
             //WARRIOR PICS SHOW
             picAnub.Visible = true;
@@ -1292,6 +1705,7 @@ namespace Hots_Talents
             picSonya.Visible = true;
             picStitches.Visible = true;
             picTyrael.Visible = true;
+            picLeoric.Visible = true;
 
             //ASSASSIN PIC HIDE
             picFalstad.Visible = false;
@@ -1378,6 +1792,10 @@ namespace Hots_Talents
                 Application.DoEvents();
             }
 
+            diablo_unsort();
+            starcraft_unsort();
+            warcraft_unsort();
+
             //SUPPORT PICS SHOW
             picBrightwing.Visible = true;
             picLiLi.Visible = true;
@@ -1408,6 +1826,7 @@ namespace Hots_Talents
             picSonya.Visible = false;
             picStitches.Visible = false;
             picTyrael.Visible = false;
+            picLeoric.Visible = false;
 
             //WARRIOR LABELS HIDE
             lblWarriors.Visible = false;
@@ -1421,6 +1840,7 @@ namespace Hots_Talents
             lblSonya.Visible = false;
             lblStiches.Visible = false;
             lblTyrael.Visible = false;
+            lblLeoric.Visible = false;
 
             //ASSASSIN PICS HIDE
             picFalstad.Visible = false;
@@ -1488,6 +1908,10 @@ namespace Hots_Talents
                     Application.DoEvents();
                 }
 
+                diablo_unsort();
+                starcraft_unsort();
+                warcraft_unsort();
+
                 //SPECIALISTS PICS SHOW
                 picAbathur.Visible = true;
                 picAzmodan.Visible = true;
@@ -1522,6 +1946,7 @@ namespace Hots_Talents
                 picSonya.Visible = false;
                 picStitches.Visible = false;
                 picTyrael.Visible = false;
+                picLeoric.Visible = false;
 
                 //WARRIOR LABELS HIDE
                 lblWarriors.Visible = false;
@@ -1535,6 +1960,7 @@ namespace Hots_Talents
                 lblSonya.Visible = false;
                 lblStiches.Visible = false;
                 lblTyrael.Visible = false;
+                lblLeoric.Visible = false;
 
                 //ASSASSIN PICS HIDE
                 picFalstad.Visible = false;
@@ -1583,6 +2009,10 @@ namespace Hots_Talents
                 picTassadar.Visible = false;
                 picTyrande.Visible = false;
                 picUther.Visible = false;
+
+                //RESET POSITIONS
+                picVikings.Location = new Point(97, 661);
+                lblVikings.Location = new Point(173, 682);
 
             }
         }
@@ -2116,13 +2546,13 @@ namespace Hots_Talents
                 click.Play();
                 initial();
                 //**Recommended**//
-                Border1_3.Visible = true;
-                Border2_4.Visible = true;
-                Border3_4.Visible = true;
-                Border4_1.Visible = true;
-                Border5_3.Visible = true;
+                Border1_4.Visible = true;
+                Border2_2.Visible = true;
+                Border3_3.Visible = true;
+                Border4_2.Visible = true;
+                Border5_2.Visible = true;
                 Border6_2.Visible = true;
-                Border7_1.Visible = true;
+                Border7_2.Visible = true;
             }
 
             if (lblHero.Text == "The Butcher")
@@ -2136,6 +2566,20 @@ namespace Hots_Talents
                 Border4_1.Visible = true;
                 Border5_3.Visible = true;
                 Border6_3.Visible = true;
+                Border7_3.Visible = true;
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                click.Play();
+                initial();
+                //**Recommended**//
+                Border1_4.Visible = true;
+                Border2_1.Visible = true;
+                Border3_4.Visible = true;
+                Border4_1.Visible = true;
+                Border5_3.Visible = true;
+                Border6_2.Visible = true;
                 Border7_3.Visible = true;
             }
         }
@@ -2571,11 +3015,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                Ability1_4.Visible = false;
                 Ability1_5.Visible = false;
-                Ability5_4.Visible = false;
                 Ability5_5.Visible = false;
-                Ability6_4.Visible = false;
                 Ability6_5.Visible = false;
             }
         }
@@ -2784,7 +3225,7 @@ namespace Hots_Talents
             Border2_4.Visible = true;
             Border3_2.Visible = true;
             Border4_2.Visible = true;
-            Border5_4.Visible = true;
+            Border5_3.Visible = true;
             Border6_2.Visible = true;
             Border7_4.Visible = true;
 
@@ -2826,7 +3267,7 @@ namespace Hots_Talents
             Ability5_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Talents\Tier 13\64px-Storm_Front_Icon.png");
             Ability5_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Talents\Tier 13\Improved_Ice_Block_Icon.png");
             Ability5_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Talents\Tier 13\Icy_Veins_Icon.png");
-            Ability5_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Talents\Tier 13\Sprint_Icon.png");
+            Ability5_4.Visible = false;
             Ability5_5.Visible = false;
 
             Ability6_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Jaina\Talents\Tier 16\64px-Snow_Crash_Icon.png");
@@ -4179,6 +4620,99 @@ namespace Hots_Talents
             lblDamage.Text = "45";
         }
 
+        //**LEORIC**//
+
+        private void picLeoric_Click(object sender, EventArgs e)
+        {
+            hero.Play();
+            while (this.Width < 1870)
+            {
+                this.Width += growW;
+                Application.DoEvents();
+            }
+
+            picHero.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Hero Icons\Warriors\Leoric.png");
+            lblHero.Text = "Leoric";
+            lblGold.Text = "10,000";
+
+            initial();
+
+            //**Recommended Build**//
+            Border1_4.Visible = true;
+            Border2_1.Visible = true;
+            Border3_4.Visible = true;
+            Border4_1.Visible = true;
+            Border5_3.Visible = true;
+            Border6_2.Visible = true;
+            Border7_3.Visible = true;
+
+            picQAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Skills\skeletal-swing.png");
+            picWAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Skills\drain-hope.png");
+            picEAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Skills\wraith-walk.png");
+            picR1Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Skills\entomb.png");
+            picR2Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Skills\march-of-the-black-king.png");
+            picTrait.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Skills\undying.png");
+
+            lblQ.Text = "Skeletal Swing\nQ";
+            lblW.Text = "Drain Hope\nW";
+            lblE.Text = "Wraith Walk\nE";
+            lblR1.Text = "Entomb\nR (Heroic)";
+            lblR2.Text = "March of the Black King\nR (Heroic)";
+            lblTrait.Text = "Undying\nTrait";
+
+            Ability1_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 1\mana-thirst.png");
+            Ability1_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 1\hopelessness.png");
+            Ability1_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 1\block.png");
+            Ability1_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 1\reanimation.png");
+            Ability1_5.Visible = false;
+
+            Ability2_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 4\fealty-unto-death.png");
+            Ability2_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 4\willing-vessel.png");
+            Ability2_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 4\hardened-bones.png");
+            Ability2_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 4\royal-focus.png");
+            Ability2_5.Visible = false;
+
+            Ability3_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 7\ghastly-reach.png");
+            Ability3_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 7\lingering-apparition.png");
+            Ability3_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 7\paralyzing-rage.png");
+            Ability3_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 7\ossein-renewal-talent.png");
+            Ability3_5.Visible = false;
+
+            Ability4_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 10\entomb-talent.png");
+            Ability4_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 10\march-of-the-black-king-talent.png");
+
+            Ability5_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 13\burning-rage.png");
+            Ability5_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 13\crushing-hope.png");
+            Ability5_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 13\drain-momentum.png");
+            Ability5_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 13\spell-shield.png");
+            Ability5_5.Visible = false;
+
+            Ability6_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 16\renewed-swing.png");
+            Ability6_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 16\consume-vitality.png");
+            Ability6_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 16\unyielding-despair.png");
+            Ability6_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 16\imposing-presence.png");
+            Ability6_5.Visible = false;
+
+            Ability7_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 20\buried-alive.png");
+            Ability7_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 20\death-march.png");
+            Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 20\spectral-leech.png");
+            Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Talents\Tier 20\hardened-shield-talent.png");
+            Ability7_5.Visible = false;
+
+            picSpec1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Skills\ghastly-swing.png");
+            picSpec2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Leoric\Skills\drain-essence.png");
+
+            spec1.Text = "Ghastly Swing";
+            spec2.Text = "Drain Essence";
+
+            lblHealth.Text = "1020";
+            lblHealthRegen.Text = "2.125";
+            lblMana.Text = "500";
+            lblManaRegen.Text = "3";
+            lblSpeed.Text = "0.77";
+            lblDamage.Text = "55";
+        }
+
         //**MURADIN**//
 
         private void picMuradin_Click(object sender, EventArgs e)
@@ -4825,20 +5359,20 @@ namespace Hots_Talents
             initial();
 
             //**Recommended Build**//
-            Border1_3.Visible = true;
-            Border2_4.Visible = true;
-            Border3_4.Visible = true;
-            Border4_1.Visible = true;
-            Border5_3.Visible = true;
+            Border1_4.Visible = true;
+            Border2_2.Visible = true;
+            Border3_3.Visible = true;
+            Border4_2.Visible = true;
+            Border5_2.Visible = true;
             Border6_2.Visible = true;
-            Border7_1.Visible = true;
+            Border7_2.Visible = true;
 
             picQAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Skills\spin-to-win.png");
             picWAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Skills\jump.png");
             picEAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Skills\norse-force.png");
             picR1Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Skills\longboat-raid.png");
             picR2Ability.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Skills\play-again.png");
-            picTrait.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Skills\fast-restart.png");
+            picTrait.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Skills\Viking_Hoard_Icon.png");
             picSpec1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Skills\go-go-go.png");
 
             lblQ.Text = "Spin to Win\nQ (Talent)";
@@ -4846,40 +5380,42 @@ namespace Hots_Talents
             lblE.Text = "Norse Force\nE (Talent)";
             lblR1.Text = "Longboat Raid\nR (Heroic)";
             lblR2.Text = "Play Again!\nR (Heroic)";
-            lblTrait.Text = "Fast Restart\nTrait";
+            lblTrait.Text = "Viking Hoard\nTrait";
             spec1.Text = "Go Go Go!";
 
             Ability1_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 1\olaf-the-stout.png");
             Ability1_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 1\spy-games.png");
-            Ability1_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 1\viking-hoard.png");
-            Ability1_4.Visible = false;
+            Ability1_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 1\64px-Explosive_Attacks_Icon.png");
+            Ability1_4.Visible = true;
+            Ability1_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 1\64px-Viking_Bribery_Icon.png");
             Ability1_5.Visible = false;
 
             Ability2_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 4\pain-dont-hurt.png");
-            Ability2_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 4\its-a-sabotage.png");
-            Ability2_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 4\hardheaded-redhead.png");
-            Ability2_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 4\spin-to-win.png");
+            Ability2_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 4\64px-Erik_The_Swift_Icon.png");
+            Ability2_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 4\its-a-sabotage.png");
+            Ability2_4.Visible = false;
             Ability2_5.Visible = false;
 
             Ability3_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 7\baleog-the-fierce.png");
-            Ability3_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 7\erik-the-swift.png");
-            Ability3_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 7\mercenary-lord.png");
-            Ability3_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 7\jump.png");
+            Ability3_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 7\mercenary-lord.png");
+            Ability3_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 7\64px-Spin_To_Win_Icon.png");
+            Ability3_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 7\64px-Norse_Force_Icon.png");
             Ability3_5.Visible = false;
 
             Ability4_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 10\longboat-raid-talent.png");
             Ability4_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 10\play-again-talent.png");
 
             Ability5_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 13\hunka-burning-olaf.png");
-            Ability5_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 13\speedrun.png");
-            Ability5_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 13\impatience-is-a-virtue.png");
+            Ability5_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 13\64px-Jump!_Icon.png");
+            Ability5_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 13\Nordic_Attack_Squad_Icon.png");
             Ability5_4.Visible = false;
             Ability5_5.Visible = false;
 
             Ability6_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 16\large-and-in-charge.png");
-            Ability6_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 16\64-kb-marathon.png");
-            Ability6_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 16\norse-force.png");
-            Ability6_4.Visible = false;
+            Ability6_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 16\Impatience_Is_a_Virtue_Icon.png");
+            Ability6_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 16\64-kb-marathon.png");
+            Ability6_4.Visible = true;
+            Ability6_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 16\Executioner_Icon.png");
             Ability6_5.Visible = false;
 
             Ability7_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Lost Vikings\Talents\Tier 20\ragnarok-n-roll.png");
@@ -6545,6 +7081,21 @@ namespace Hots_Talents
                 lblManaRegen.Text = (ButcherMRegen + (trackBar1.Value - 1) * .098).ToString();
                 lblDamage.Text = (ButcherDamage + (trackBar1.Value - 1) * 16).ToString();
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                int LeoricHealth = 1020;
+                double LeoricHRegen = 2.125;
+                int LeoricMana = 500;
+                double LeoricMRegen = 3;
+                int LeoricDamage = 55;
+
+                lblHealth.Text = (LeoricHealth + (trackBar1.Value - 1) * 220).ToString();
+                lblHealthRegen.Text = (LeoricHRegen + (trackBar1.Value - 1) * .457).ToString();
+                lblMana.Text = (LeoricMana + (trackBar1.Value - 1) * 10).ToString();
+                lblManaRegen.Text = (LeoricMRegen + (trackBar1.Value - 1) * .098).ToString();
+                lblDamage.Text = (LeoricDamage + (trackBar1.Value - 1) * 13).ToString();
+            }
         }
 			
         
@@ -6784,7 +7335,7 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Murky")
             {
-                int murkyslimeone = 55 + (6 * trackBar1.Value);
+                double murkyslimeone = 55 + (6.2 * trackBar1.Value);
                 double murkyslimetwo = 137.5 + (15 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Slime";
                 toolTip1.SetToolTip(picQAbility, "Cooldown: 4 seconds\n\nDeal " + murkyslimeone.ToString() + " damage and applies Slime on nearby enemies for 8 seconds, slowing enemies by 20%.\n\nDoes " + murkyslimetwo.ToString() + " damage to enemies who are already Slimed.");
@@ -6824,6 +7375,13 @@ namespace Hots_Talents
                 int butcherham = 40 + (10 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Hamstring";
                 toolTip1.SetToolTip(picQAbility, "Mana: 50\nCooldown: 4 seconds\n\nDeal " + butcherham.ToString() + " damage and slow enemies by 49.92% fading over 2 seconds. Your next Basic\nAttack will strike immediately.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                int leoricswing = 110 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Skeletal Swing";
+                toolTip1.SetToolTip(picQAbility, "Mana: 50\nCooldown: 8 seconds\n\nSwing in front of you to deal " + leoricswing.ToString() + " damage and slow enemies by 40% for 2.5 seconds.\nDeals double damage to all non-Heroic sources.");
             }
         }
 
@@ -7064,7 +7622,7 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Murky")
             {
-                int murkypuffer = 130 + (35 * trackBar1.Value);
+                int murkypuffer = 134 + (36 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Pufferfish";
                 toolTip1.SetToolTip(picWAbility, "Cooldown: 15 seconds\n\nSpit out a Pufferfish at the target point. After 3 seconds, the fish will blow up for " + murkypuffer.ToString() + " damage.\nEnemies can attack the fish to prevent it from exploding.");
             }
@@ -7103,6 +7661,12 @@ namespace Hots_Talents
                 double butcherbrand = 30 + (2.5 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Butcher's Brand";
                 toolTip1.SetToolTip(picWAbility, "Mana: 60\nCooldown: 14 seconds\n\nDeal " + butcherbrand.ToString() + " damage to an enemy and cause your Basic Attacks against them to heal you for\n75% of the damage done for 5 seconds. Healing doubled versus Heroes.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Drain Hope";
+                toolTip1.SetToolTip(picWAbility, "Mana: 60\nCooldown: 12 seconds\n\nGrab an enemy Hero's soul, dealing up to 25% of their maximum Health as damage and healing you for\nup to 25% of your maximum Health while you are nearby, over 4 seconds. You are slowed by 20%\nwhile this is active.");
             }
         }
 
@@ -7315,10 +7879,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                int vikingsnorseone = 100 + (20 * trackBar1.Value);
-                int vikingsnorsetwo = 200 + (40 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Norse Force!";
-                toolTip1.SetToolTip(picEAbility, "Cooldown: 60 seconds\n\nAll Vikings gain a " + vikingsnorseone.ToString() + " to " + vikingsnorsetwo.ToString() + " point Shield, increasing in strength for each\nViking alive. Lasts 7 seconds.");
+                toolTip1.SetToolTip(picWAbility, "Cooldown: 30 seconds\n\nAll Vikings gain a 40 to 80 point Shield, increasing in strength for each\nViking alive. Lasts 4 seconds.");
             }
 
             if (lblHero.Text == "Murky")
@@ -7359,6 +7921,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Ruthless Onslaught";
                 toolTip1.SetToolTip(picEAbility, "Mana: 75\nCooldown: 20 seconds\n\nCharge at an enemy, becoming Unstoppable and gaining Movement Speed. If you reach the target, they\nare stunned for 1 second and take " + butcheronslaught.ToString() + "damage.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Wraith Walk";
+                toolTip1.SetToolTip(picEAbility, "Mana: 50\nCooldown: 14 seconds\n\nSeparate from your body, becoming Unstoppable and gaining Movement Speed accelerating up to 50%\nover 2.5 seconds. When Wraith Walk ends or is cancelled, your body jumps to your wraith.");
+            }
         }
 
         //**R1 ABILITY**//
@@ -7374,7 +7942,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Illidan")
             {
                 toolTip1.ToolTipTitle = "Metamorphosis";
-                int illmetaone = 200 + (10 * trackBar1.Value);
+                int illmetaone = 20 + (4 * trackBar1.Value);
                 int illmetatwo = 100 + (15 * trackBar1.Value);
                 toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nCooldown: 120 seconds\n\nTransform into Demon Form at the target location, dealing " + illmetaone.ToString() + " damage in the area.\nGain " + illmetatwo.ToString() + " temporary max Health for each Hero hit and 20% increased Attack Speed.\nLasts for 18 seconds.");
             }
@@ -7611,7 +8179,7 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Sylvanas")
             {
-                int sylwail = 200 + (20 * trackBar1.Value);
+                int sylwail = 140 + (18 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Wailing Arrow";
                 toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 100\nCooldown: 90 seconds\n\nShoot an arrow that can be reactivated to deal " + sylwail.ToString() + " damage and silencing enemies in an\narea for 2,5 seconds. The arrow detonates automatically when it reaches maximum range.");
             }
@@ -7629,6 +8197,12 @@ namespace Hots_Talents
                 int butcherfurnace = 300 + (35 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Furnace Blast";
                 toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 75\nCooldown: 90 seconds\n\nAfter a 3 second delay, fire explodes around you dealing " + butcherfurnace.ToString() + " damage to enemies.\n\nCan be cast while using Ruthless Onslaught.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Entomb";
+                toolTip1.SetToolTip(picR1Ability, "Heroic Ability\nMana: 75\nCooldown: 50 seconds\n\nCreate an unpathable tomb in front of you for 4 seconds.");
             }
         }
 
@@ -7880,7 +8454,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Sylvanas")
             {
                 toolTip1.ToolTipTitle = "Possession";
-                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 20\nCooldown: 4 seconds\n\nForce an enemy Minion to fight for you. It gains 20% Attack Damage and Health. Cooldown increased to\n20 seconds when used on Catapults.");
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 20\n7 Charges\nCharge Cooldown: 12 seconds\n\nForce an enemy Minion to fight for you. It gains 20% Attack Damage. Catapults consume \n5 charges.");
             }
 
             if (lblHero.Text == "Zagara")
@@ -7894,6 +8468,13 @@ namespace Hots_Talents
                 int butcherlamb = 75 + (15 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Lamb to the Slaughter";
                 toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana:75\nCooldown: 60 seconds\n\nThrow a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals " + butcherlamb.ToString() + "\ndamage and causes the enemy to be chained to the post for 4 seconds.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                int leoricmarch = 210 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "March of the Black King";
+                toolTip1.SetToolTip(picR2Ability, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nBecome Unstoppable and swing your mace three times, healing yourself for 7.03% of your maximum\nHealth for each enemy Hero hit and dealing " + leoricmarch.ToString() + " damage.");
             }
         }
 
@@ -8100,9 +8681,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                toolTip1.ToolTipTitle = "Fast Restart";
-                toolTip1.SetToolTip(picTrait, "The Lost Vikings' death time is reduced by 25% .");
-            }
+                toolTip1.ToolTipTitle = "Viking Hoard";
+                toolTip1.SetToolTip(picTrait, "Regeneration globes permanently increase Health Regeneration\nby 0.5 per second.");
 
             if (lblHero.Text == "Murky")
             {
@@ -8140,8 +8720,15 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Fresh Meat";
                 toolTip1.SetToolTip(picTrait, "Nearby Minions drop 1 and Heroes drop 3 Fresh Meat when they die, which you can pick up to gain 1%\nbonus Attack Damage. Can hold up to 25 Meat. All Meat is lost on dying.");
             }
-        }
 
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Undying";
+                toolTip1.SetToolTip(picTrait, "Become a ghost when you die, and resurrect upon reaching full health. Your Abilities don't do damage\nwhile dead, but can still heal causing you to cheat death.");
+            }
+        }
+        
+     }
         //**ABILITY 1_1**//
 
         private void Ability1_1_MouseHover_1(object sender, EventArgs e)
@@ -8372,6 +8959,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Invigoration";
                 toolTip1.SetToolTip(Ability1_1, "If Hamstring hits a Hero, half of the Mana cost is\nrefunded and the cooldown is reduced by 1\nsecond.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Mana Thirst";
+                toolTip1.SetToolTip(Ability1_1, "Skeletal Swing restores 10 Mana per enemy hit,\nup to 50 Mana.");
             }
         }
 
@@ -8605,6 +9198,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Block";
                 toolTip1.SetToolTip(Ability1_2, "Periodically reduces the damage received from\nHero Basic Attacks by 50%. Stores up to 2\ncharges.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Hopelessness";
+                toolTip1.SetToolTip(Ability1_2, "Increases the range of Drain Hope by 20%.");
+            }
+			
         }
 
         //**ABILITY 1_3**//
@@ -8800,8 +9400,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                toolTip1.ToolTipTitle = "Viking Hoard";
-                toolTip1.SetToolTip(Ability1_3, "Each Lost Viking gains 1 Health per second. This bonus\nis increased by 0.5 on all Vikings when a Regeneration\nGlobe is picked up.");
+                toolTip1.ToolTipTitle = "Explosive Attacks";
+                toolTip1.SetToolTip(Ability1_3, "Increases Baelog's splash damage against non-\nHeroic enemies to 100%.");
             }
 
             if (lblHero.Text == "Murky")
@@ -8838,6 +9438,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Chop Meat";
                 toolTip1.SetToolTip(Ability1_3, "Increases the damage of Hamstring by 50% to\nnon-Heroic targets, and Minions killed by\nHamstring drop 3 stacks of meat.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Block";
+                toolTip1.SetToolTip(Ability1_3, "Periodically reduces the damage received from\nHero Basic Attacks by 50%. Stores up to 2\ncharges.");
             }
         }
 
@@ -9065,6 +9671,20 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Victuals";
                 toolTip1.SetToolTip(Ability1_4, "Heal for 3% of your Maximum Health when you\ncollect Fresh Meat. Meat continues to drop at\nmaximum stacks.");
             }
+
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Reanimation";
+                toolTip1.SetToolTip(Ability1_4, "Every Regeneration Globe gathered increases\nyour Health Regeneration by 1.5 per second,\neven during Undying. You also gain the ability to\ngather Regeneration Globes while Undying.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Viking Bribery";
+                toolTip1.SetToolTip(Ability1_4, "Kill enemy Minions to gain stacks of Bribe. Use 40\nstacks to bribe target Mercenary, instantly\ndefeating them. Does not work on Bosses.");
+            }
+			
         }
 
         //**ABILITY 1_5**//
@@ -9356,7 +9976,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Flail Axe";
                 toolTip1.SetToolTip(Ability2_1, "Increases the length of Hamstring by 40%.");
             }
-			
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Fealty Unto Death";
+                toolTip1.SetToolTip(Ability2_1, "When a nearby Minion dies, you gain 1% of your\nmaximum Health and 5 Mana, even while\nUndying.");
+            }
         }
 
         //**ABILITY 2_2**//
@@ -9425,8 +10050,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Zeratul")
             {
-                toolTip1.ToolTipTitle = "Vampiric Assault";
-                toolTip1.SetToolTip(Ability2_2, "Basic Attacks heal for 15% of the damage dealt\nto the primary target.");
+                toolTip1.ToolTipTitle = "Vampiric Strike";
+                toolTip1.SetToolTip(Ability2_2, "Basic Attacks heal for 25% of the damage dealt\nto the primary target.");
             }
 
             if (lblHero.Text == "Anub'arak")
@@ -9553,8 +10178,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                toolTip1.ToolTipTitle = "It's a Sabotage!";
-                toolTip1.SetToolTip(Ability2_2, "Erik's Basic Attacks against Structures destroy 5\nAmmo over 10 seconds.");
+                toolTip1.ToolTipTitle = "Erik the Swift";
+                toolTip1.SetToolTip(Ability2_2, "Permanently increases Erik's base Movement\nSpeed by 10%, and as long as Erik is moving he\nheals 15 Health per second.");
             }
 
             if (lblHero.Text == "Murky")
@@ -9592,7 +10217,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Unrelenting Pursuit";
                 toolTip1.SetToolTip(Ability2_2, "Reduces the cooldown of Ruthless Onslaught by\n40% upon impact.");
             }
-			
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Willing Vessel";
+                toolTip1.SetToolTip(Ability2_2, "Increases the healing from Drain Hope to 30%\nof your maximum Health.");
+            }
         }
 
         //**ABILITY 2_3**//
@@ -9788,14 +10418,14 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                toolTip1.ToolTipTitle = "Hardheaded Redhead";
-                toolTip1.SetToolTip(Ability2_3, "Erik gains a melee Basic Attack that knocks\nthe enemy away. This effect has a 6 second\ncooldown.");
+                toolTip1.ToolTipTitle = "It's a Sabotage!";
+                toolTip1.SetToolTip(Ability2_3, "Erik's Basic Attacks against Structures destory 5 Ammon and deal 100 damage\nover 10 seconds.");
             }
 
             if (lblHero.Text == "Murky")
             {
                 toolTip1.ToolTipTitle = "Living The Dream";
-                toolTip1.SetToolTip(Ability2_3, "Passively grants 10% Ability Power. Every 5 seconds\nMurky is alive he gains 1% more Ability\nPower, to a maximum of 15% extra. These\nstacks are lost on death.");
+                toolTip1.SetToolTip(Ability2_3, "Passively grants 10% Ability Power. Every 5 seconds\nMurky is alive he gains 5% more Ability\nPower, to a maximum of 15% extra. These\nstacks are lost on death.");
             }
 
             if (lblHero.Text == "Nazeebo")
@@ -9826,6 +10456,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Cheap Shot";
                 toolTip1.SetToolTip(Ability2_3, "Hamstring does 100% more damage to targets\naffected by a slow, root, or stun.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Hardened Bones";
+                toolTip1.SetToolTip(Ability2_3, "During Wraith Walk, you take 25% less damage.");
             }
         }
 
@@ -9888,7 +10524,7 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Tychus")
             {
-                int tychusmelt = 120 + (50 * trackBar1.Value);
+                int tychusmelt = 200 + (30 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Melting Point";
                 toolTip1.SetToolTip(Ability2_4, "Frag Grenade deals an additional " + tychusmelt.ToString() + "\ndamage over 10 seconds to Minions and Structures.");
             }
@@ -10014,7 +10650,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Azmodan")
             {
                 toolTip1.ToolTipTitle = "Bound Minion";
-                toolTip1.SetToolTip(Ability2_4, "Using General of Hell on a Lane Minion increases\nthe Minion's damage by 100% and its Health by\n300% for 30 seconds.");
+                toolTip1.SetToolTip(Ability2_4, "Using General of Hell on a Lane Minion decreases\nthe Minion's damage from non-Heroic targers by 75%\nand deals 100% bonus damage to non-Heroic targets.");
             }
 
             if (lblHero.Text == "Gazlowe")
@@ -10023,15 +10659,9 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability2_4, "Deth Lazor gains an additional charge level after\nreaching max size, which increases the damage\ndealt by 25%.");
             }
 
-            if (lblHero.Text == "The Lost Vikings")
-            {
-                int vikingsspin = 50 + (10 * trackBar1.Value);
-                toolTip1.ToolTipTitle = "Spin To Win!";
-                toolTip1.SetToolTip(Ability2_4, "Cooldown: 12 seconds\n\nActivate to have each Viking deal " + vikingsspin.ToString() + " damage to nearby enemies.");
-            }
-
             if (lblHero.Text == "Murky")
             {
+
                 int murkyvenom = 180 + (30 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Envenom";
                 toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing " + murkyvenom.ToString() + " damage\nover 10 seconds.");
@@ -10067,7 +10697,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Envenom";
                 toolTip1.SetToolTip(Ability2_4, "Activate to poison an enemy Hero, dealing\n" + butchervenom.ToString() + " damage over 10 seconds.");
             }
-			
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Royal Focus";
+                toolTip1.SetToolTip(Ability2_4, "If your body takes no damage during Wraith\nWalk's duration, the cooldown is reduced to 4\nseconds.");
+            }
         }
 
         //**ABILITY 2_5**//
@@ -10365,6 +11000,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Brutal Strike";
                 toolTip1.SetToolTip(Ability3_1, "After using Hamstring, your next Basic Attack\ndeals an additional 50% damage.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Ghastly Reach";
+                toolTip1.SetToolTip(Ability3_1, "Increases the range of Skeletal Swing by 25%.");
+            }
         }
 
         //**ABILITY 3_2**//
@@ -10566,9 +11207,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                int erikswift = 15 + (3 * trackBar1.Value);
-                toolTip1.ToolTipTitle = "Erik the Swift";
-                toolTip1.SetToolTip(Ability3_2, "As long as Erik is moving, he heals " + erikswift.ToString() + "\nhealth per second.");
+                toolTip1.ToolTipTitle = "Mercenary Lord";
+                toolTip1.SetToolTip(Ability3_2, "Siege and Bruiser Mercenaries near your hero\ndeal 50% more damage.");
             }
 
             if (lblHero.Text == "Murky")
@@ -10606,6 +11246,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Insatiable Blade";
                 toolTip1.SetToolTip(Ability3_2, "Increases Butcher's Brand's healing from 75%\nto 100% of your Basic Attack damage.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Lingering Apparition";
+                toolTip1.SetToolTip(Ability3_2, "Increases the duration of Wraith Walk by 60%.");
             }
         }
 
@@ -10798,16 +11444,18 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Infernal Globe";
                 toolTip1.SetToolTip(Ability3_3, "Reduces the cast and travel time by 40% and\ndeals an additional " + azmodaninfernal.ToString() + " damage over\n4 seconds.");
             }
+
             if (lblHero.Text == "Gazlowe")
             {
                 toolTip1.ToolTipTitle = "Engine Gunk";
                 toolTip1.SetToolTip(Ability3_3, "Turret attacks slow Movement Speed by 25%\nfor 2 seconds.");
             }
 
-            if (lblHero.Text == "The Lost Vikings")
+            if (lblHero.Text == "The Lost Vikings")            
             {
-                toolTip1.ToolTipTitle = "Mercenary Lord";
-                toolTip1.SetToolTip(Ability3_3, "Siege and Bruiser Mercenaries near your hero\ndeal 50% more damage.");
+                int vikingsspin = 50 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Spin To Win!";
+                toolTip1.SetToolTip(Ability3_3, "Cooldown: 12 seconds\n\nActivate to have each Viking deal " + vikingsspin.ToString() + " damage to nearby enemies.");
             }
 
             if (lblHero.Text == "Murky")
@@ -10844,6 +11492,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Abattoir";
                 toolTip1.SetToolTip(Ability3_3, "Increases the maximum number of Fresh Meat\nto 35 , and you only lose half upon death.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Paralyzing Rage";
+                toolTip1.SetToolTip(Ability3_3, "Increases the Movement Speed slow of Skeletal\nSwing to 60%.");
             }
         }
 
@@ -11035,8 +11689,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                toolTip1.ToolTipTitle = "Jump!";
-                toolTip1.SetToolTip(Ability3_4, "Makes all Vikings Invulnerable and able to pass\nover enemies for 1.5 seconds.");
+                toolTip1.ToolTipTitle = "Norse Force!";
+                toolTip1.SetToolTip(Ability3_4, "Cooldown: 30 seconds\n\nAll Vikings gain a 40 to 80 point Shield, increasing in strength for each\nViking alive. Lasts 4 seconds.");
             }
 
             if (lblHero.Text == "Murky")
@@ -11067,6 +11721,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Final Assault";
                 toolTip1.SetToolTip(Ability3_4, "Increases Ruthless Onslaught's range by\n33.33%, and causes you to lunge at the enemy\nwhen close to impact.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Ossein Renewal";
+                toolTip1.SetToolTip(Ability3_4, "Activate to heal 20% of your maximum life over\n6 seconds. Can be used while Undying to revive\nfaster.");
             }
         }
 
@@ -11422,6 +12082,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Furnace Blast";
                 toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 75\nCooldown: 90 seconds\n\nAfter a 3 second delay, fire explodes around you dealing " + butcherfurnace.ToString() + " damage to enemies.\n\nCan be cast while using Ruthless Onslaught.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Entomb";
+                toolTip1.SetToolTip(Ability4_1, "Heroic Ability\nMana: 75\nCooldown: 50 seconds\n\nCreate an unpathable tomb in front of you for 4 seconds.");
+            }
         }
 
         //**ABILITY 4_2**//
@@ -11687,6 +12353,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Lamb to the Slaughter";
                 toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana:75\nCooldown: 60 seconds\n\nThrow a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals " + butcherlamb.ToString() + "\ndamage and causes the enemy to be chained to the post for 4 seconds.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                int leoricmarch = 210 + (10 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "March of the Black King";
+                toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 80 seconds\n\nBecome Unstoppable and swing your mace three times, healing yourself for 7.03% of your maximum\nHealth for each enemy Hero hit and dealing " + leoricmarch.ToString() + " damage.");
+            }
         }
 
         //**ABILITY 5_1**//
@@ -11929,6 +12602,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Burning Rage";
                 toolTip1.SetToolTip(Ability5_1, "Deal " + butcherrage.ToString() + " damage per second to\nnearby enemies.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                int leoricrage = 12 + (2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Burning Rage";
+                toolTip1.SetToolTip(Ability5_1, "Deal " + leoricrage.ToString() + " damage per second to\nnearby enemies.");
+            }
         }
 
         //**ABILITY 5_2**//
@@ -12127,8 +12807,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                toolTip1.ToolTipTitle = "Speedrun";
-                toolTip1.SetToolTip(Ability5_2, "While under 50% life, Vikings gain 20%\nincreased Movement Speed.");
+                toolTip1.ToolTipTitle = "Jump!";
+                toolTip1.SetToolTip(Ability5_2,"Cooldown: 30 seconds\nMakes all Vikings Invulnerable and able to pass\nover enemies for 1.5 seconds.");
             }
 
             if (lblHero.Text == "Murky")
@@ -12165,6 +12845,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Savage Charge";
                 toolTip1.SetToolTip(Ability5_2, "Ruthless Onslaught deals bonus damage to\nHeroes equal to 15% of their current Health.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Crushing Hope";
+                toolTip1.SetToolTip(Ability5_2, "If Drain Hope lasts its full duration, it deals\nbonus damage equal to 10% of the victim's\nMaximum Health. This damage does not heal\nyou.");
             }
         }
 
@@ -12362,8 +13048,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                toolTip1.ToolTipTitle = "Impatience Is a Virtue";
-                toolTip1.SetToolTip(Ability5_3, "Enemies damaged by a Viking's Basic Attack\nreduce the cooldown of all Viking Abilities by\n0.25 seconds.");
+                toolTip1.ToolTipTitle = "Nordic Attack Squad";
+                toolTip1.SetToolTip(Ability5_3, "Cooldown: 30 seconds\nActivate to have all Viking Basic Attacks deal bonus damage equal to 1% of a\nHero's maximum Health for 5 seconds.");
             }
 
             if (lblHero.Text == "Murky")
@@ -12401,6 +13087,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Crave Flesh";
                 toolTip1.SetToolTip(Ability5_3, "While an enemy is affected by Butcher's Brand,\nyou gain 30% Movement Speed.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Drain Momentum";
+                toolTip1.SetToolTip(Ability5_3, "Drain Hope no longer causes you to lose\nMovement Speed.");
             }
         }
 
@@ -12625,6 +13317,12 @@ namespace Hots_Talents
             }
 
             if (lblHero.Text == "The Butcher")
+            {
+                toolTip1.ToolTipTitle = "Spell Shield";
+                toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
+            }
+
+            if (lblHero.Text == "Leoric")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
                 toolTip1.SetToolTip(Ability5_4, "Upon taking Ability Damage, reduce that\ndamage and further Ability Damage by 50% for\n3 seconds. Can only trigger once every 30\nseconds.");
@@ -12898,6 +13596,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Crippling Slam";
                 toolTip1.SetToolTip(Ability6_1, "Hamstring's slow no longer fades out, and the\nduration is increased by 25%.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Renewed Swing";
+                toolTip1.SetToolTip(Ability6_1, "Skeletal Swing can be recast again for free\nwithin 3 seconds for 50% damage.");
+            }
         }
 
         //**ABILITY 6_2**//
@@ -13094,8 +13798,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                toolTip1.ToolTipTitle = "64 KB Marathon";
-                toolTip1.SetToolTip(Ability6_2, "Gain an additional 40% Movement Speed when\nactivating Go Go Go! that decays over 4\nseconds. Additionally, the Vikings are\nUnstoppable for 1 second.");
+                toolTip1.ToolTipTitle = "Impatience Is a Virtue";
+                toolTip1.SetToolTip(Ability6_2, "Enemies damaged by a Viking's Basic Attack\nreduce the cooldown of all Viking Abilities by 0.25 seconds.");
             }
 
             if (lblHero.Text == "Murky")
@@ -13133,6 +13837,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Enraged";
                 toolTip1.SetToolTip(Ability6_2, "Receiving damage that reduces you below 50%\nof your maximum Health causes you to become\nEnraged for 10 seconds. You gain 40% Attack\nSpeed and reduce the duration of slows, stuns,\nsilences, and roots against you by 75% while Enraged.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Consume Vitality";
+                toolTip1.SetToolTip(Ability6_2, "Skeletal Swing heals you for 2% of your\nmaximum Health per target hit, up to 10%.\nEffective while Undying.");
+            }
+			
         }
 
         //**ABILITY 6_3**//
@@ -13328,10 +14039,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "The Lost Vikings")
             {
-                int vikingsnorseone = 100 + (20 * trackBar1.Value);
-                int vikingsnorsetwo = 200 + (40 * trackBar1.Value);
-                toolTip1.ToolTipTitle = "Norse Force!";
-                toolTip1.SetToolTip(Ability6_3, "Cooldown: 60 seconds\n\nAll Vikings gain a " + vikingsnorseone.ToString() + " to " + vikingsnorsetwo.ToString() + " point Shield, increasing in strength for each\nViking alive. Lasts 7 seconds.");
+                toolTip1.ToolTipTitle = "64 KB Marathon";
+                toolTip1.SetToolTip(Ability6_3, "Gain an additional 40% Movement Speed when\nactivating Go Go Go! that decays over 4 seconds.\nAdditionally, the Vikings will break out of Roots ");
             }
 
             if (lblHero.Text == "Murky")
@@ -13368,6 +14077,12 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Blood Frenzy";
                 toolTip1.SetToolTip(Ability6_3, "Fresh Meat also increases your Attack Speed by\n1% per stack.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Unyielding Despair";
+                toolTip1.SetToolTip(Ability6_3, "Every second Drain Hope is active, its cooldown\nis reduced by 1 second.");
             }
         }
 
@@ -13592,6 +14307,19 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Stoneskin";
                 toolTip1.SetToolTip(Ability6_4, "Activate to gain 30% of your maximum Health\nas a Shield for 5 seconds.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Imposing Presence";
+                toolTip1.SetToolTip(Ability6_4, "Enemies that attack you have their Attack\nSpeed slowed by 50%.");
+            }
+
+            if (lblHero.Text == "The Lost Vikings")
+            {
+                toolTip1.ToolTipTitle = "Executioner";
+                toolTip1.SetToolTip(Ability6_4, "Basic Attacks deal 40% more damage against\nslowed, rooted, or stunned targets.");
+            }
+			
         }
 
         //**ABILITY 6_5**//
@@ -13854,6 +14582,13 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Fires of Hell";
                 toolTip1.SetToolTip(Ability7_1, "Furnace Blast explodes a second time 3 seconds\nafter the initial explosion.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                int leoricburied = 36 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Buried Alive";
+                toolTip1.SetToolTip(Ability7_1, "Enemies inside Entomb take " + leoricburied.ToString() + "\ndamage per second.");
+            }
         }
 
         //**ABILITY 7_2**//
@@ -14072,8 +14807,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Sylvanas")
             {
                 toolTip1.ToolTipTitle = "Dark Lady's Call";
-                toolTip1.SetToolTip(Ability7_2, "Increases the Attack Damage and Health bonus to 30% and allows\nPossession of enemy Mercenaries with a 20 second cooldown.");
-            }
+                toolTip1.SetToolTip(Ability7_2, "Increases the maximum charges of Possession by 3, decreases the recharge rate by 4 seconds\n and allows enemy Mercanries to be possessed for 5 charges.");
 
             if (lblHero.Text == "Zagara")
             {
@@ -14086,8 +14820,15 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Slaughterhouse";
                 toolTip1.SetToolTip(Ability7_2, "Lamb to the Slaughter now chains all enemy\nHeroes in range.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Death March";
+                toolTip1.SetToolTip(Ability7_2, "Your final swing of March of the Black King also\napplies the base version of Drain Hope to all\nenemy Heroes in a large area.");
+            }
         }
 
+    }
         //**ABILITY 7_3**//
 
         private void Ability7_3_MouseHover_1(object sender, EventArgs e)
@@ -14329,6 +15070,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Nexus Blades";
                 toolTip1.SetToolTip(Ability7_3, "Basic attacks deal 20% more damage and slow\nthe target for 1 second.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Spectral Leech";
+                toolTip1.SetToolTip(Ability7_3, "Basic Attacks against enemy Heroes deal bonus\ndamage equal to 5% of the Hero's maximum\nHealth and heal you for the same amount.");
+            }
         }
 
         //**ABILITY 7_4**//
@@ -14564,6 +15311,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Bolt of the Storm";
                 toolTip1.SetToolTip(Ability7_4, "Activate to teleport to a nearby location.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Hardened Shield";
+                toolTip1.SetToolTip(Ability7_4, "Activate to reduce damage taken by 75% for 4\nseconds.");
+            }
         }
 
         //**ABILITY 7_5**//
@@ -14644,6 +15397,12 @@ namespace Hots_Talents
                 toolTip1.ToolTipTitle = "Stab";
                 toolTip1.SetToolTip(picSpec1, "Charge Cooldown: 3 seconds\n\nShoots a spike towards target area that deals " + abathurstab.ToString() + " damage to the first enemy it contacts.");
             }
+
+            if (lblHero.Text == "Leoric")
+            {
+                toolTip1.ToolTipTitle = "Ghastly Swing";
+                toolTip1.SetToolTip(picSpec1, "Undying Ability\nCooldown: 8 seconds\n\nSwing in front of you to slow enemies by 40% for 2.5 seconds.");
+            }
         }
 
         //**SPECIAL 2**//
@@ -14668,6 +15427,13 @@ namespace Hots_Talents
                 int abathurspike = 32 + (10 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Spike Burst";
                 toolTip1.SetToolTip(picSpec1, "Cooldown: 6 seconds\n\nDeals " + abathurspike.ToString() + " damage to nearby enemies.");
+            }
+
+            if (lblHero.Text == "Leoric")
+            {
+                double leoricdrain = 178.2 + (16.2 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Drain Essence";
+                toolTip1.SetToolTip(picSpec2, "Undying Ability\nCooldown: 12 seconds\n\nThrow out a chain, attaching to the first enemy Hero hit healing you for up to " + leoricdrain.ToString() + "\nhealth over 4 seconds as long as your remain close to the enemy. You drain more essence the longer\nyou remain connected.");
             }
         }
 
@@ -14699,5 +15465,242 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(picSpec1, "Cooldown: 30 seconds\n\nQuickly tunnel to a visible location.");
             }
         }
+
+        //**BLIZZARD FRANCHISE SORT**// 
+        private void picFranchise_Blizzard_Click(object sender, EventArgs e)
+        {
+            open.Play();
+
+            while (this.Height < 1000)
+            {
+                this.Height += growH;
+                Application.DoEvents();
+            }
+
+            franchise_sort();
+
+            lblSort.Visible = true;
+            lblSort.Text = "Blizzard";
+
+            picVikings.Location = new Point(97, 394);
+            picVikings.Visible = true;
+            lblVikings.Location = new Point(173, 417);
+            lblVikings.Visible = true;
+        }
+
+        //**DIABLO FRANCHISE SORT**//
+        private void picFranchise_Diablo_Click(object sender, EventArgs e)
+        {
+            open.Play();
+
+            while (this.Height < 1000)
+            {
+                this.Height += growH;
+                Application.DoEvents();
+            }
+
+            franchise_sort();
+
+            lblSort.Visible = true;
+            lblSort.Text = "Diablo";
+
+            picAzmodan.Location = new Point(97, 394);
+            picDiablo.Location = new Point(97, 483);
+            picJohanna.Location = new Point(97, 572);
+            picLeoric.Location = new Point(97, 661);
+            picNazeebo.Location = new Point(323, 394);
+            picSonya.Location = new Point(323, 483);
+            picButch.Location = new Point(323, 572);
+            picTyrael.Location = new Point(323, 661);
+            picValla.Location = new Point(550, 394);
+
+            lblAzmodan.Location = new Point(173, 417);
+            lblDiablo.Location = new Point(173, 504);
+            lblJohanna.Location = new Point(173, 591);
+            lblLeoric.Location = new Point(173, 682);
+            lblNazeebo.Location = new Point(399, 417);
+            lblSonya.Location = new Point(399, 504);
+            lblButch.Location = new Point(399, 591);
+            lblTyrael.Location = new Point(399, 682);
+            lblValla.Location = new Point(626, 417);
+
+            picAzmodan.Visible = true;
+            picDiablo.Visible = true;
+            picJohanna.Visible = true;
+            picLeoric.Visible = true;
+            picNazeebo.Visible = true;
+            picSonya.Visible = true;
+            picButch.Visible = true;
+            picTyrael.Visible = true;
+            picValla.Visible = true;
+
+            lblAzmodan.Visible = true;
+            lblDiablo.Visible = true;
+            lblJohanna.Visible = true;
+            lblLeoric.Visible = true;
+            lblNazeebo.Visible = true;
+            lblSonya.Visible = true;
+            lblButch.Visible = true;
+            lblTyrael.Visible = true;
+            lblValla.Visible = true;
+        }
+
+        private void picFranchise_Starcraft_Click(object sender, EventArgs e)
+        {
+            open.Play();
+
+            while (this.Height < 1000)
+            {
+                this.Height += growH;
+                Application.DoEvents();
+            }
+
+            franchise_sort();
+
+            lblSort.Visible = true;
+            lblSort.Text = "Starcraft";
+
+            picAbathur.Location = new Point(97, 394);
+            picKerrigan.Location = new Point(97, 483);
+            picNova.Location = new Point(97, 572);
+            picRaynor.Location = new Point(97, 661);
+            picHammer.Location = new Point(323, 394);
+            picTassadar.Location = new Point(323, 483);
+            picTychus.Location = new Point(323, 572);
+            picZagara.Location = new Point(323, 661);
+            picZeratul.Location = new Point(550, 394);
+
+            lblAbathur.Location = new Point(173, 417);
+            lblKerrigan.Location = new Point(173, 504);
+            lblNova.Location = new Point(173, 591);
+            lblRaynor.Location = new Point(173, 682);
+            lblHammer.Location = new Point(399, 417);
+            lblTassadar.Location = new Point(399, 504);
+            lblTychus.Location = new Point(399, 591);
+            lblZagara.Location = new Point(399, 682);
+            lblZeratul.Location = new Point(626, 417);
+
+            picAbathur.Visible = true;
+            picKerrigan.Visible = true;
+            picNova.Visible = true;
+            picRaynor.Visible = true;
+            picHammer.Visible = true;
+            picTassadar.Visible = true;
+            picTychus.Visible = true;
+            picZagara.Visible = true;
+            picZeratul.Visible = true;
+
+            lblAbathur.Visible = true;
+            lblKerrigan.Visible = true;
+            lblNova.Visible = true;
+            lblRaynor.Visible = true;
+            lblHammer.Visible = true;
+            lblTassadar.Visible = true;
+            lblTychus.Visible = true;
+            lblZagara.Visible = true;
+            lblZeratul.Visible = true;
+        }
+
+        private void picFranchise_Warcraft_Click(object sender, EventArgs e)
+        {
+            open.Play();
+
+            while (this.Height < 1000)
+            {
+                this.Height += growH;
+                Application.DoEvents();
+            }
+
+            franchise_sort();
+
+            lblSort.Visible = true;
+            lblSort.Text = "Warcraft";
+
+            picAnub.Location = new Point(97, 394);
+            picArthas.Location = new Point(97, 483);
+            picBrightwing.Location = new Point(97, 572);
+            picChen.Location = new Point(97, 661);
+            picETC.Location = new Point(97, 751);
+            picFalstad.Location = new Point(323, 394);
+            picGazlowe.Location = new Point(323, 483);
+            picIllidan.Location = new Point(323, 572);
+            picJania.Location = new Point(323, 661);
+            picKael.Location = new Point(323, 751);
+            picLiLi.Location = new Point(550, 394);
+            picMalfurion.Location = new Point (550, 483);
+            picMuradin.Location = new Point (550, 572);
+            picMurky.Location = new Point (550, 661);
+            picRehgar.Location = new Point (550, 751);
+            picStitches.Location = new Point(756, 394);
+            picSylvanas.Location = new Point(756, 483);
+            picThrall.Location = new Point(756, 572);
+            picTyrande.Location = new Point(756, 661);
+            picUther.Location = new Point(756, 751);
+
+            lblAnub.Location = new Point(173, 417);
+            lblArthas.Location = new Point(173, 504);
+            lblBrightwing.Location = new Point(173, 591);
+            lblChen.Location = new Point(173, 682);
+            lblETC.Location = new Point(173, 769);
+            lblFalstad.Location = new Point(399, 417);
+            lblGazlowe.Location = new Point(399, 504);
+            lblIllidan.Location = new Point(399, 591);
+            lblJania.Location = new Point(399, 682);
+            lblKael.Location = new Point(399, 769);
+            lblLiLi.Location = new Point(626, 417);
+            lblMalfurion.Location = new Point(626, 504);
+            lblMuradin.Location = new Point(626, 591);
+            lblMurky.Location = new Point(626, 682);
+            lblRehgar.Location = new Point(626, 769);
+            lblStiches.Location = new Point(833, 417);
+            lblSylvanas.Location = new Point(833, 504);
+            lblThrall.Location = new Point(833, 591);
+            lblTyrande.Location = new Point(833, 682);
+            lblUther.Location = new Point(833, 769);
+
+
+            picAnub.Visible = true;
+            picArthas.Visible = true;
+            picBrightwing.Visible = true;
+            picChen.Visible = true;
+            picETC.Visible = true;
+            picFalstad.Visible = true;
+            picGazlowe.Visible = true;
+            picIllidan.Visible = true;
+            picJania.Visible = true;
+            picKael.Visible = true;
+            picLiLi.Visible = true;
+            picMalfurion.Visible = true;
+            picMuradin.Visible = true;
+            picMurky.Visible = true;
+            picRehgar.Visible = true;
+            picStitches.Visible = true;
+            picSylvanas.Visible = true;
+            picThrall.Visible = true;
+            picTyrande.Visible = true;
+            picUther.Visible = true;
+
+            lblAnub.Visible = true;
+            lblArthas.Visible = true;
+            lblBrightwing.Visible = true;
+            lblChen.Visible = true;
+            lblETC.Visible = true;
+            lblFalstad.Visible = true;
+            lblGazlowe.Visible = true;
+            lblIllidan.Visible = true;
+            lblJania.Visible = true;
+            lblKael.Visible = true;
+            lblLiLi.Visible = true;
+            lblMalfurion.Visible = true;
+            lblMuradin.Visible = true;
+            lblMurky.Visible = true;
+            lblRehgar.Visible = true;
+            lblStiches.Visible = true;
+            lblSylvanas.Visible = true;
+            lblThrall.Visible = true;
+            lblTyrande.Visible = true;
+            lblUther.Visible = true;
+        }
+
+        }
     }
-}
