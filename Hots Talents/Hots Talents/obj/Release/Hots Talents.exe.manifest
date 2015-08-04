@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hots Talents.exe" size="9768376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hots Talents.exe" size="9770936">
       <assemblyIdentity name="Hots Talents" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xvK8le5iE5QftN08tavJqfeH2mGPvXhp9s+c2R82gf4=</dsig:DigestValue>
+        <dsig:DigestValue>zN+etftmJpOWbNrZylUrKKXzYj29NlMgdWdXk/hI/oc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

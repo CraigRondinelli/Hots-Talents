@@ -2434,13 +2434,13 @@ namespace Hots_Talents
                 click.Play();
                 initial();
                 //**Recommended**//
-                Border1_3.Visible = true;
-                Border2_2.Visible = true;
-                Border3_2.Visible = true;
+                Border1_1.Visible = true;
+                Border2_1.Visible = true;
+                Border3_1.Visible = true;
                 Border4_1.Visible = true;
                 Border5_3.Visible = true;
                 Border6_3.Visible = true;
-                Border7_3.Visible = true;
+                Border7_4.Visible = true;
             }
 
             if (lblHero.Text == "Malfurion")
@@ -5902,13 +5902,13 @@ namespace Hots_Talents
             initial();
 
             //**Recommended Build**//
-            Border1_3.Visible = true;
-            Border2_2.Visible = true;
-            Border3_2.Visible = true;
+            Border1_1.Visible = true;
+            Border2_1.Visible = true;
+            Border3_1.Visible = true;
             Border4_1.Visible = true;
             Border5_3.Visible = true;
             Border6_3.Visible = true;
-            Border7_3.Visible = true;
+            Border7_4.Visible = true;
 
             picQAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Skills\arcane-flare.png");
             picWAbility.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Skills\polymorph.png");
@@ -5926,44 +5926,45 @@ namespace Hots_Talents
             lblTrait.Text = "Soothing Mist\nTrait";
             spec1.Text = "Phase Shift";
 
-            Ability1_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 1\arcane-precision.png");
-            Ability1_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 1\shield-dust.png");
-            Ability1_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 1\bribe-talent.png");
-            Ability1_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 1\scouting-drone-talent.png");
+            Ability1_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 1\Unfurling_Spray_Icon.png");
+            Ability1_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 1\64px-Hyper_Shift_Icon.png");
+            Ability1_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 1\arcane-precision.png");
+            Ability1_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 1\bribe-talent.png");
             Ability1_5.Visible = false;
 
-            Ability2_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 4\anti-magic-powder.png");
-            Ability2_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 4\protective-shield-talent.png");
-            Ability2_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 4\envenom-talent.png");
-            Ability2_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 4\promote-talent.png");
+            Ability2_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 4\Manic_Pixie_Icon.png");
+            Ability2_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 4\Arcane_Barrage_Icon.png");
+            Ability2_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 4\64px-Peekaboo!_Icon.png");
+            Ability2_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 4\Unstable_Anomaly_Icon.png");
             Ability2_5.Visible = false;
 
-            Ability3_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 7\regenerative-rains.png");
-            Ability3_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 7\gust-of-healing.png");
-            Ability3_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 7\calldown-mule-talent.png");
-            Ability3_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 7\cleanse-talent.png");
+            Ability3_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 7\Mistified_Icon.png");
+            Ability3_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 7\64px-Phase_Shield_Icon.png");
+            Ability3_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 7\Dream_Shot_Icon.png");
+            Ability3_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 7\Cleanse_Icon.png");
             Ability3_5.Visible = false;
 
             Ability4_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 10\blink-heal-talent.png");
             Ability4_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 10\emerald-wind-talent.png");
 
-            Ability5_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 13\sticky-flare.png");
-            Ability5_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 13\phase-shield.png");
-            Ability5_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 13\sprint-talent.png");
-            Ability5_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 13\ice-block-talent.png");
+            Ability5_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 13\Sticky_Flare_Icon.png");
+            Ability5_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 13\Pixie_Boost_Icon.png");
+            Ability5_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 13\Shield_Dust_Icon.png");
+            Ability5_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 13\Ice_Block_Icon.png");
             Ability5_5.Visible = false;
 
-            Ability6_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 16\hardened-focus.png");
-            Ability6_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 16\sticky-powder.png");
-            Ability6_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 16\critterize.png");
-            Ability6_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 16\stoneskin-talent.png");
+            Ability6_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 16\Greater_Polymorph_Icon.png");
+            Ability6_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 16\Bouncy_Dust_Icon.png");
+            Ability6_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 16\Critterize_Icon.png");
+            Ability6_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 16\Hardened_Focus_Icon.png");
             Ability6_5.Visible = false;
 
-            Ability7_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\yseras-blessing.png");
+            Ability7_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\Double_Wyrmhole_Icon.png");
             Ability7_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\continuous-winds.png");
-            Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\storm-shield-talent.png");
-            Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\rewind-talent.png");
-            Ability7_5.Visible = false;
+            Ability7_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\Revitalizing_Mist_Icon.png");
+            Ability7_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\storm-shield-talent.png");
+            Ability7_5.Visible = true;
+            Ability7_5.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Brightwing\Talents\Tier 20\rewind-talent.png");
 
             lblHealth.Text = "750";
             lblHealthRegen.Text = "1.6132";
@@ -7529,7 +7530,7 @@ namespace Hots_Talents
             {
                 int stitchesslam = 55 + (6 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Slam";
-                toolTip1.SetToolTip(picWAbility, "Mana: 55\nCooldown: 8 seconds\n\nDeal " + stitchesslam.ToString() + " damage to enemies within the target area.");
+                toolTip1.SetToolTip(picWAbility, "Mana: 45\nCooldown: 8 seconds\n\nDeal " + stitchesslam.ToString() + " damage to enemies within the target area.");
             }
 
             if (lblHero.Text == "Tyrael")
@@ -7783,7 +7784,7 @@ namespace Hots_Talents
             {
                 int johannaglare = 50 + (4 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Shield Glare";
-                toolTip1.SetToolTip(picEAbility, "Mana: 45\nCooldown: 12 seconds\n\nDeal " + johannaglare.ToString() + " damage to enemies and cause them to miss their next 2 Basic Attacks within 4\nseconds.");
+                toolTip1.SetToolTip(picEAbility, "Mana: 45\nCooldown: 12 seconds\n\nDeal " + johannaglare.ToString() + " damage to enemies and cause them to miss their Basic Attacks within 1.5\nseconds.");
             }
 
             if (lblHero.Text == "Muradin")
@@ -7805,7 +7806,7 @@ namespace Hots_Talents
                 int stitchesdevourone = 300 + (20 * trackBar1.Value);
                 int stitchesdevourtwo = 50 + (10 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Devour";
-                toolTip1.SetToolTip(picEAbility, "Mana: 75\nCooldown: 30 seconds\n\nDeal " + stitchesdevourone.ToString() + " damage to Minions or " + stitchesdevourtwo.ToString() + " damage to Heroes. Restores 19.92% of\nyour maximum Health.");
+                toolTip1.SetToolTip(picEAbility, "Mana: 65\nCooldown: 24 seconds\n\nDeal " + stitchesdevourone.ToString() + " damage to Minions or " + stitchesdevourtwo.ToString() + " damage to Heroes. Restores 19.92% of\nyour maximum Health.");
             }
 
             if (lblHero.Text == "Tyrael")
@@ -7825,7 +7826,7 @@ namespace Hots_Talents
             {
                 int liliwind = 30 + (13 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Blinding Wind";
-                toolTip1.SetToolTip(picEAbility, "Mana: 40\nCooldown: 10 seconds\n\nThrow a cloud of Blinding Wind at the 2 nearest enemies (prioritizing Heroes), dealing " + liliwind.ToString() + "\ndamage. Targers miss their next 2 Basic Attacks in the next 4 seconds.");
+                toolTip1.SetToolTip(picEAbility, "Mana: 40\nCooldown: 10 seconds\n\nThrow a cloud of Blinding Wind at the 2 nearest enemies (prioritizing Heroes), dealing " + liliwind.ToString() + "\ndamage. Targers miss their Basic Attacks in the next 2 seconds.");
             }
 
             if (lblHero.Text == "Malfurion")
@@ -8552,7 +8553,7 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Anub'arak")
             {
-                int anubhost = 8 + (2 * trackBar1.Value);
+                double anubhost = 7 + (1.8 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Scarab Host";
                 toolTip1.SetToolTip(picTrait, "Spawn a Beetle at Anub'arak's location whenever he casts a spell. Beetles last for 10 seconds, attacking\nnearby enemies for " + anubhost.ToString() + " damage.");
             }
@@ -8861,8 +8862,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Arcane Precision";
-                toolTip1.SetToolTip(Ability1_1, "Inner area damage increased by 33%.");
+                toolTip1.ToolTipTitle = "Unfurling Spray";
+                toolTip1.SetToolTip(Ability1_1, "Increases Soothing Mist's Range by\n33%.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -9102,8 +9103,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Shield Dust";
-                toolTip1.SetToolTip(Ability1_2, "Increase number of Basic Attack blocks to 2.");
+                toolTip1.ToolTipTitle = "Hyper Shift";
+                toolTip1.SetToolTip(Ability1_2, "Every time you a heal a Hero with Soothing Mist,\nreduce the cooldown of Phase Shift by 2 seconds.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -9339,8 +9340,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Bribe";
-                toolTip1.SetToolTip(Ability1_3, "Kill enemy Minions to gain stacks of Bribe. Use\n20 stacks to bribe target Mercenary, instantly\ndefeating them. Does not work on Bosses.");
+                toolTip1.ToolTipTitle = "Arcane Precision";
+                toolTip1.SetToolTip(Ability1_3, "Increases Arcane Flare's inner area\ndamage by 50%.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -9580,8 +9581,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Scouting Drone";
-                toolTip1.SetToolTip(Ability1_4, "Places a Scouting Drone at target location,\nrevealing a large area around it for 45 seconds.\nThis drone cannot be hidden and is killed by\nenemies with 2 Basic Attacks.");
+                toolTip1.ToolTipTitle = "Bribe";
+                toolTip1.SetToolTip(Ability1_4, "Kill enemy Minions to gain stacks of Bribe. Use\n20 stacks to bribe target Mercenary, instantly\ndefeating them. Does not work on Bosses.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -9875,8 +9876,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Anti-magic Powder";
-                toolTip1.SetToolTip(Ability2_1, "Block one instance of Spell damage by 50%.");
+                toolTip1.ToolTipTitle = "Manic Pixie";
+                toolTip1.SetToolTip(Ability2_1, "When Soothing Mist heals an ally\nwith Pixie Dust on them, they heal\nfor an additional 30 over 4 seconds.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -10116,8 +10117,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Protective Shield";
-                toolTip1.SetToolTip(Ability2_2, "Activate to shield an allied Hero for 15% of their max Health for 5 seconds.");
+                toolTip1.ToolTipTitle = "Arcane Barrage";
+                toolTip1.SetToolTip(Ability2_2, "Increases the range of Arcane Flare by 50%.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -10358,9 +10359,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                int brightvenom = 180 + (30 * trackBar1.Value);
-                toolTip1.ToolTipTitle = "Envenom";
-                toolTip1.SetToolTip(Ability2_3, "Activate to poison an enemy Hero, dealing " + brightvenom.ToString() + "\nddamage over 5 seconds.");
+                toolTip1.ToolTipTitle = "Peekaboo!";
+                toolTip1.SetToolTip(Ability2_3, "Phase Shifting to an ally grants vision\nand reveals cloakers in a large area\nfor 6 seconds.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -10601,14 +10601,14 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Promote";
-                toolTip1.SetToolTip(Ability2_4, "Activate to cause an allied lane Minion to take\n75% reduced damage from non-Heroic targets \nand deal 100% bonus damage to non-Heroic \ntargets for 30 seconds. Has 2 charges.");
+                toolTip1.ToolTipTitle = "Unstable Anomaly";
+                toolTip1.SetToolTip(Ability2_4, "When Polymorph ends, deal 50\ndamage to the target and all nearby\nenemies.");
             }
 
             if (lblHero.Text == "Li Li")
             {
                 toolTip1.ToolTipTitle = "Lingering Blind";
-                toolTip1.SetToolTip(Ability2_4, "Increases the number of Basic Attacks missed\ndue to Blinding Wind from 2 to 3");
+                toolTip1.SetToolTip(Ability2_4, "Blinding Wind now lasts 3 seconds.");
             }
 
             if (lblHero.Text == "Malfurion")
@@ -10899,8 +10899,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Regenerative Rains";
-                toolTip1.SetToolTip(Ability3_1, "Soothing Mist activates each time you use a\nbasic Ability, but with 50% reduced\neffectiveness.");
+                toolTip1.ToolTipTitle = "Mistified";
+                toolTip1.SetToolTip(Ability3_1, "Reduces the cooldown of Soothing\nMist by 1 second every time you\ncast a Basic Ability.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -11145,8 +11145,9 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Gust of Healing";
-                toolTip1.SetToolTip(Ability3_2, "Activate to release a Soothing Mist every second\nfor 4 seconds.");
+                int brightphase = 200 + (50 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Phase Shield";
+                toolTip1.SetToolTip(Ability3_2, "After finishing the teleport, the target of your\nPhase Shift gains a " + brightphase.ToString() + " point\nShield for 3 seconds.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -11390,8 +11391,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Calldown: MULE";
-                toolTip1.SetToolTip(Ability3_3, "Activate to calldown a Mule that repairs\nStructures, one at a time, near target point for\n40 seconds, healing for 100 Health every 1\nsecond. Grants 1 ammo every 3 seconds.");
+                toolTip1.ToolTipTitle = "Dream Shot";
+                toolTip1.SetToolTip(Ability3_3, "Reduces the cooldown of Arcane Flare\nby 1 second for each enemy Hero hit\nby the outer radius, and 3 seconds\nfor each hit by the inner radius.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -11629,7 +11630,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Brightwing")
             {
                 toolTip1.ToolTipTitle = "Cleanse";
-                toolTip1.SetToolTip(Ability3_4, "Activate to remove all stuns, roots, silences, and\nslows from the target and prevents their \nreapplication for 1 second.");
+                toolTip1.SetToolTip(Ability3_4, "Cooldown: 30 seconds\nActivate to remove all stuns, roots, silences, and\nslows from the target and prevents their \nreapplication for 1 second.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -12174,7 +12175,7 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Anub'arak")
             {
-                int anublocustone = 20 + (8 * trackBar1.Value);
+                double anublocustone = 16 + (6.4 * trackBar1.Value);
                 double anublocusttwo = 10 + (1.5 * trackBar1.Value);
                 toolTip1.ToolTipTitle = "Locust Swarm";
                 toolTip1.SetToolTip(Ability4_2, "Heroic Ability\nMana: 100\nCooldown: 100 seconds\n\nDeals " + anublocustone.ToString() + " damage per second in an area around Anub'arak. Each enemy damaged heals\nAnub'arak for " + anublocusttwo.ToString() + " health.");
@@ -12500,7 +12501,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Brightwing")
             {
                 toolTip1.ToolTipTitle = "Sticky Flare";
-                toolTip1.SetToolTip(Ability5_1, "Targets are slowed by 30% Movement Speed for\n3 seconds.");
+                toolTip1.SetToolTip(Ability5_1, "Targets are slowed by 40% Movement Speed for\n2 seconds.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -12745,9 +12746,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                int brightphase = 200 + (50 * trackBar1.Value);
-                toolTip1.ToolTipTitle = "Phase Shield";
-                toolTip1.SetToolTip(Ability5_2, "After finishing the teleport, the target of your\nPhase Shift gains a " + brightphase.ToString() + " point\nShield for 3 seconds.");
+                toolTip1.ToolTipTitle = "Pixie Boost";
+                toolTip1.SetToolTip(Ability5_2, "Pixie Dust now gives 50% bomus\nMovement Speed, decaying to 20%\nover 1.5 seconds.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -12988,8 +12988,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Sprint";
-                toolTip1.SetToolTip(Ability5_3, "Activate to gain 75% Movement Speed for 3\nseconds.");
+                toolTip1.ToolTipTitle = "Shield Dust";
+                toolTip1.SetToolTip(Ability5_3, "Pixie Dust now reduces Ability damage\ntaken by 50%.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -13112,12 +13112,6 @@ namespace Hots_Talents
                 toolTip1.SetToolTip(Ability5_4, "Ignore all collision while using Sweeping Strike, allowing you to go over walls and terrain.");
             }
 
-            if (lblHero.Text == "Jaina")
-            {
-                toolTip1.ToolTipTitle = "Sprint";
-                toolTip1.SetToolTip(Ability5_4, "Activate to gain 75% Movement Speed for 3 seconds.");
-            }
-
             if (lblHero.Text == "Kael'Thas")
             {
                 toolTip1.ToolTipTitle = "Spell Shield";
@@ -13229,7 +13223,7 @@ namespace Hots_Talents
             if (lblHero.Text == "Brightwing")
             {
                 toolTip1.ToolTipTitle = "Ice Block";
-                toolTip1.SetToolTip(Ability5_4, "Activate to place yourself in Stasis and gain\nInvulnerability for 3 seconds.");
+                toolTip1.SetToolTip(Ability5_4, "Cooldown: 60 seconds\nActivate to place yourself in Stasis and gain\nInvulnerability for 3 seconds.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -13497,8 +13491,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Hardened Focus";
-                toolTip1.SetToolTip(Ability6_1, "While above 80% life, your Basic Ability\ncooldowns regenerate 50% faster.");
+                toolTip1.ToolTipTitle = "Greater Polymorph";
+                toolTip1.SetToolTip(Ability6_1, "Increases the duration of\nPolymorph by 1 second.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -13737,8 +13731,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Sticky Powder";
-                toolTip1.SetToolTip(Ability6_2, "Polymorph targets are slowed by 50%\nMovement Speed.");
+                toolTip1.ToolTipTitle = "Bouncy Dust";
+                toolTip1.SetToolTip(Ability6_2, "Pixie Dust bounces to another\nnearby ally upon impact.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -14218,8 +14212,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Stoneskin";
-                toolTip1.SetToolTip(Ability6_4, "Activate to gain 30% of your maximum Health\nas a Shield for 5 seconds.");
+                toolTip1.ToolTipTitle = "Hardened Focus";
+                toolTip1.SetToolTip(Ability6_4, "While above 80% life, your Basic Ability\ncooldowns regenerate 50% faster.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -14483,8 +14477,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Ysera's Blessing";
-                toolTip1.SetToolTip(Ability7_1, "Increase maximum charges to 3.");
+                toolTip1.ToolTipTitle = "Double Wyrmhole";
+                toolTip1.SetToolTip(Ability7_1, "Blink Heal can be cast a second time\non a different target within 2 seconds\nwithout consuming a charge.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -14961,14 +14955,14 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Storm Shield";
-                toolTip1.SetToolTip(Ability7_3, "Activate to give all nearby allied Heroes a Shield\nfor 20% of their max Health for 3 seconds.");
+                toolTip1.ToolTipTitle = "Revitalizing Mist";
+                toolTip1.SetToolTip(Ability7_3, "Healing another Hero with Soothing Mist\nincreases their healing recieved from Soothing\nMist by 25% for 6 seconds.\nStacks 3 times.");
             }
 
             if (lblHero.Text == "Li Li")
             {
                 toolTip1.ToolTipTitle = "Kung Fu Hustle";
-                toolTip1.SetToolTip(Ability7_3, "Abilities recharge three times as fast while Fast\nFeet is active.");
+                toolTip1.SetToolTip(Ability7_3, "Abilities recharge 150% faster while Fast\nFeet is active.");
             }
 
             if (lblHero.Text == "Malfurion")
@@ -15210,8 +15204,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Brightwing")
             {
-                toolTip1.ToolTipTitle = "Rewind";
-                toolTip1.SetToolTip(Ability7_4, "Activate to reset the cooldowns of your Basic\nAbilities.");
+                toolTip1.ToolTipTitle = "Storm Shield";
+                toolTip1.SetToolTip(Ability7_4, "Cooldown: 45 seconds\nActivate to give all nearby allied Heroes a Shield\nfor 20% of their max Health for 3 seconds.");
             }
 
             if (lblHero.Text == "Li Li")
@@ -15348,6 +15342,12 @@ namespace Hots_Talents
             }
 
             if (lblHero.Text == "Tyrande")
+            {
+                toolTip1.ToolTipTitle = "Rewind";
+                toolTip1.SetToolTip(Ability7_5, "Activate to reset the cooldowns of your next Basic\nAbilities.");
+            }
+
+            if (lblHero.Text == "Brightwing")
             {
                 toolTip1.ToolTipTitle = "Rewind";
                 toolTip1.SetToolTip(Ability7_5, "Activate to reset the cooldowns of your next Basic\nAbilities.");
