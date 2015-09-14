@@ -6102,25 +6102,23 @@ namespace Hots_Talents
             lblR2.Text = "Twilight Dream\nR (Heroic)";
             lblTrait.Text = "Innervate\nTrait";
 
-            Ability1_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 1\conjurers-pursuit.png");
+            Ability1_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 1\scouting-drone-talent.png");
             Ability1_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 1\moonburn.png");
             Ability1_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 1\harmony.png");
-            Ability1_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 1\scouting-drone-talent.png");
+            Ability1_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 1\shando.png");
             Ability1_5.Visible = false;
 
-            Ability2_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 4\vengeful-roots.png");
-            Ability2_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 4\shandos-clarity.png");
-            Ability2_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 4\versatile.png");
-            Ability2_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 4\protective-shield-talent.png");
-            Ability2_5.Visible = true;
-            Ability2_5.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 4\healing-ward-talent.png");
+            Ability2_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 4\rampart-regrowth.png");
+            Ability2_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 4\versatile.png");
+            Ability2_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 4\elunes-grace.png");
+            Ability2_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 4\vengeful-roots.png");
+            Ability2_5.Visible = false;
 
-            Ability3_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 7\battle-momentum.png");
-            Ability3_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 7\enduring-growth.png");
-            Ability3_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 7\strangling-vines.png");
-            Ability3_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 7\elunes-grace.png");
-            Ability3_5.Visible = true;
-            Ability3_5.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 7\calldown-mule-talent.png");
+            Ability3_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 7\calldown-mule-talent.png");
+            Ability3_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 7\strangling-vines.png");
+            Ability3_3.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 7\enduring-growth.png");
+            Ability3_4.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 7\cleanse.png");
+            Ability3_5.Visible = false;
 
             Ability4_1.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 10\tranquility-talent.png");
             Ability4_2.ImageLocation = (@"C:\Users\Craig\Desktop\Hots Icons\Abilites\Malfurion\Talents\Tier 10\twilight-dream-talent.png");
@@ -8874,8 +8872,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                toolTip1.ToolTipTitle = "Conjurer's Pursuit";
-                toolTip1.SetToolTip(Ability1_1, "Increases Mana Regeneration by 0.5 per second.\nEvery 3 Regeneration Globes gathered increases\nthis bonus by 0.25.");
+                toolTip1.ToolTipTitle = "Scouting Drone";
+                toolTip1.SetToolTip(Ability1_1, "Cooldown: 45 seconds\nPlaces a Scouting Drone at target location, revealing a\nlarge area around it for 45 seconds. This drone cannot\nbe hidden and is killed by enemies with 2 Basic Attacks.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -9593,8 +9591,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                toolTip1.ToolTipTitle = "Scouting Drone";
-                toolTip1.SetToolTip(Ability1_4, "Places a Scouting Drone at target location,\nrevealing a large area around it for 45 seconds.\nThis drone cannot be hidden and is killed by\nenemies with 2 Basic Attacks.");
+                toolTip1.ToolTipTitle = "Shan'do's Clarity";
+                toolTip1.SetToolTip(Ability1_4, "Reduces Innervates cooldown by 10 seconds.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -9888,9 +9886,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                int malfurionvengeful = 20 + (6 * trackBar1.Value);
-                toolTip1.ToolTipTitle = "Vengeful Roots";
-                toolTip1.SetToolTip(Ability2_1, "Entangling Roots also spawns a Treant that does " + malfurionvengeful.ToString() + "\ndamage per second and lasts\n12 seconds.");
+                toolTip1.ToolTipTitle = "Rampant Growth";
+                toolTip1.SetToolTip(Ability2_1, "Increases the initial heal of Regrowth by 20%.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -10130,99 +10127,99 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                toolTip1.ToolTipTitle = "Shan'do's Clarity";
-                toolTip1.SetToolTip(Ability2_2, "Innervate's cooldown is reduced by 10 seconds\nand grants Mana twice as fast.");
-            }
+                toolTip1.ToolTipTitle = "Versatile";
+                toolTip1.SetToolTip(Ability2_2, "Increase Innervate's Mana return to 25%.");
 
-            if (lblHero.Text == "Rehgar")
-            {
-                toolTip1.ToolTipTitle = "Chain Reaction";
-                toolTip1.SetToolTip(Ability2_2, "Chain Heals on allies with Lightning Shield active\nare increased by 25%.");
-            }
+                if (lblHero.Text == "Rehgar")
+                {
+                    toolTip1.ToolTipTitle = "Chain Reaction";
+                    toolTip1.SetToolTip(Ability2_2, "Chain Heals on allies with Lightning Shield active\nare increased by 25%.");
+                }
 
-            if (lblHero.Text == "Tassadar")
-            {
-                toolTip1.ToolTipTitle = "Leeching Plasma";
-                toolTip1.SetToolTip(Ability2_2, "While Plasma Shield is active, 20% of the\ntarget's Basic Attack damage against the\nprimary target is returned as Health.");
-            }
+                if (lblHero.Text == "Tassadar")
+                {
+                    toolTip1.ToolTipTitle = "Leeching Plasma";
+                    toolTip1.SetToolTip(Ability2_2, "While Plasma Shield is active, 20% of the\ntarget's Basic Attack damage against the\nprimary target is returned as Health.");
+                }
 
-            if (lblHero.Text == "Tyrande")
-            {
-                int tyrandeshield = 285 + (35 * trackBar1.Value);
-                toolTip1.ToolTipTitle = "Protective Shield";
-                toolTip1.SetToolTip(Ability2_2, "Activate to shield an allied Hero from " + tyrandeshield.ToString() + " damage for 5\nseconds.");
-            }
+                if (lblHero.Text == "Tyrande")
+                {
+                    int tyrandeshield = 285 + (35 * trackBar1.Value);
+                    toolTip1.ToolTipTitle = "Protective Shield";
+                    toolTip1.SetToolTip(Ability2_2, "Activate to shield an allied Hero from " + tyrandeshield.ToString() + " damage for 5\nseconds.");
+                }
 
-            if (lblHero.Text == "Uther")
-            {
-                toolTip1.ToolTipTitle = "Hammer of the Lightbringer";
-                toolTip1.SetToolTip(Ability2_2, "Basic Attacks also restore 8 Mana.");
-            }
+                if (lblHero.Text == "Uther")
+                {
+                    toolTip1.ToolTipTitle = "Hammer of the Lightbringer";
+                    toolTip1.SetToolTip(Ability2_2, "Basic Attacks also restore 8 Mana.");
+                }
 
-            if (lblHero.Text == "Abathur")
-            {
-                toolTip1.ToolTipTitle = "Ballistosproes";
-                toolTip1.SetToolTip(Ability2_2, "Increases Toxic Nest's range to global and\nincreases duration by 20%.");
-            }
+                if (lblHero.Text == "Abathur")
+                {
+                    toolTip1.ToolTipTitle = "Ballistosproes";
+                    toolTip1.SetToolTip(Ability2_2, "Increases Toxic Nest's range to global and\nincreases duration by 20%.");
+                }
 
-            if (lblHero.Text == "Azmodan")
-            {
-                toolTip1.ToolTipTitle = "Gluttony";
-                toolTip1.SetToolTip(Ability2_2, "15% of the damage dealt by All Shall Burn is\nreturned as Health for Azmodan.");
-            }
+                if (lblHero.Text == "Azmodan")
+                {
+                    toolTip1.ToolTipTitle = "Gluttony";
+                    toolTip1.SetToolTip(Ability2_2, "15% of the damage dealt by All Shall Burn is\nreturned as Health for Azmodan.");
+                }
 
-            if (lblHero.Text == "Gazlowe")
-            {
-                toolTip1.ToolTipTitle = "Reduce, Reuse, Recycle";
-                toolTip1.SetToolTip(Ability2_2, "Enemy minions that die near you have a 15%\nchance to drop scrap.");
-            }
+                if (lblHero.Text == "Gazlowe")
+                {
+                    toolTip1.ToolTipTitle = "Reduce, Reuse, Recycle";
+                    toolTip1.SetToolTip(Ability2_2, "Enemy minions that die near you have a 15%\nchance to drop scrap.");
+                }
 
-            if (lblHero.Text == "The Lost Vikings")
-            {
-                toolTip1.ToolTipTitle = "Erik the Swift";
-                toolTip1.SetToolTip(Ability2_2, "Permanently increases Erik's base Movement\nSpeed by 10%, and as long as Erik is moving he\nheals 15 Health per second.");
-            }
+                if (lblHero.Text == "The Lost Vikings")
+                {
+                    toolTip1.ToolTipTitle = "Erik the Swift";
+                    toolTip1.SetToolTip(Ability2_2, "Permanently increases Erik's base Movement\nSpeed by 10%, and as long as Erik is moving he\nheals 15 Health per second.");
+                }
 
-            if (lblHero.Text == "Murky")
-            {
-                toolTip1.ToolTipTitle = "Tufferfish";
-                toolTip1.SetToolTip(Ability2_2, "Pufferfish take an additional attack before being disarmed.");
-            }
+                if (lblHero.Text == "Murky")
+                {
+                    toolTip1.ToolTipTitle = "Tufferfish";
+                    toolTip1.SetToolTip(Ability2_2, "Pufferfish take an additional attack before being disarmed.");
+                }
 
-            if (lblHero.Text == "Nazeebo")
-            {
-                toolTip1.ToolTipTitle = "Gathering Power";
-                toolTip1.SetToolTip(Ability2_2, "Passively grants 5% Ability Power. Each Hero\ntakedown increases this bonus by 2% to a\nmaximum of 15% . This bonus Ability Power is\nreset to 5% on death.");
-            }
+                if (lblHero.Text == "Nazeebo")
+                {
+                    toolTip1.ToolTipTitle = "Gathering Power";
+                    toolTip1.SetToolTip(Ability2_2, "Passively grants 5% Ability Power. Each Hero\ntakedown increases this bonus by 2% to a\nmaximum of 15% . This bonus Ability Power is\nreset to 5% on death.");
+                }
 
-            if (lblHero.Text == "Sgt. Hammer")
-            {
-                toolTip1.ToolTipTitle = "Focused Attack";
-                toolTip1.SetToolTip(Ability2_2, "Every 10 seconds, your next Basic Attack deals\n75% additional damage. Basic Attacks reduce\nthis cooldown by 1 second.");
-            }
+                if (lblHero.Text == "Sgt. Hammer")
+                {
+                    toolTip1.ToolTipTitle = "Focused Attack";
+                    toolTip1.SetToolTip(Ability2_2, "Every 10 seconds, your next Basic Attack deals\n75% additional damage. Basic Attacks reduce\nthis cooldown by 1 second.");
+                }
 
-            if (lblHero.Text == "Sylvanas")
-            {
-                toolTip1.ToolTipTitle = "Overflowing Quiver";
-                toolTip1.SetToolTip(Ability2_2, "Whenever you would gain a Withering Fire charge from killing a Minion\nor Hero while at maximum charges, it is automatically fired.");
-            }
+                if (lblHero.Text == "Sylvanas")
+                {
+                    toolTip1.ToolTipTitle = "Overflowing Quiver";
+                    toolTip1.SetToolTip(Ability2_2, "Whenever you would gain a Withering Fire charge from killing a Minion\nor Hero while at maximum charges, it is automatically fired.");
+                }
 
-            if (lblHero.Text == "Zagara")
-            {
-                toolTip1.ToolTipTitle = "Medusa Blades";
-                toolTip1.SetToolTip(Ability2_2, "Basic Attacks deal 25% damage to three nearby targets.");
-            }
+                if (lblHero.Text == "Zagara")
+                {
+                    toolTip1.ToolTipTitle = "Medusa Blades";
+                    toolTip1.SetToolTip(Ability2_2, "Basic Attacks deal 25% damage to three nearby targets.");
+                }
 
-            if (lblHero.Text == "The Butcher")
-            {
-                toolTip1.ToolTipTitle = "Unrelenting Pursuit";
-                toolTip1.SetToolTip(Ability2_2, "Reduces the cooldown of Ruthless Onslaught by\n40% upon impact.");
-            }
+                if (lblHero.Text == "The Butcher")
+                {
+                    toolTip1.ToolTipTitle = "Unrelenting Pursuit";
+                    toolTip1.SetToolTip(Ability2_2, "Reduces the cooldown of Ruthless Onslaught by\n40% upon impact.");
+                }
 
-            if (lblHero.Text == "Leoric")
-            {
-                toolTip1.ToolTipTitle = "Willing Vessel";
-                toolTip1.SetToolTip(Ability2_2, "Increases the healing from Drain Hope to 30%\nof your maximum Health.");
+                if (lblHero.Text == "Leoric")
+                {
+                    toolTip1.ToolTipTitle = "Willing Vessel";
+                    toolTip1.SetToolTip(Ability2_2, "Increases the healing from Drain Hope to 30%\nof your maximum Health.");
+                }
             }
         }
 
@@ -10371,8 +10368,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                toolTip1.ToolTipTitle = "Versatile";
-                toolTip1.SetToolTip(Ability2_3, "Innervate also increases Attack Speed by 10%\nand can be cast on non-mana using Heroes.");
+                toolTip1.ToolTipTitle = "Elune's Grace";
+                toolTip1.SetToolTip(Ability2_3, "Increases hte range of Regrowth, Moonfire, and Entangling Roots\nby 30%.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -10613,8 +10610,9 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                toolTip1.ToolTipTitle = "Protective Shield";
-                toolTip1.SetToolTip(Ability2_4, "Activate to shield an allied Hero for 15% of their max Health for 5 seconds.");
+                int malfurionvengeful = 20 + (6 * trackBar1.Value);
+                toolTip1.ToolTipTitle = "Vengeful Roots";
+                toolTip1.SetToolTip(Ability2_4, "Entangling Roots also spawns a Treant that does " + malfurionvengeful.ToString() + "\ndamage per second and lasts 12 seconds.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -10720,12 +10718,6 @@ namespace Hots_Talents
             {
                 toolTip1.ToolTipTitle = "Vorpal Blade";
                 toolTip1.SetToolTip(Ability2_5, "Activate to teleport to the last non-structure\ntarget you attacked within 3 seconds. 15 second\ncooldown.");
-            }
-
-            if (lblHero.Text == "Malfurion")
-            {
-                toolTip1.ToolTipTitle = "Healing Ward";
-                toolTip1.SetToolTip(Ability2_5, "Activate to place a ward on the ground that\nheals allies in an area for 1.95% of their max\nHealth every second for 10 seconds.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -10911,8 +10903,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                toolTip1.ToolTipTitle = "Battle Momentum";
-                toolTip1.SetToolTip(Ability3_1, "Basic Attacks reduce Ability cooldowns by 0.5\nseconds.");
+                toolTip1.ToolTipTitle = "Calldown: MULE";
+                toolTip1.SetToolTip(Ability3_1, "Cooldown: 60 seconds\nActivate to calldown a Mule that repairs Structures, one\nat a time, near target point for 40 seconds, healing for\n100 Health every 1 second. Grants 1 ammo every 3\n seconds.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -11158,8 +11150,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                toolTip1.ToolTipTitle = "Enduring Growth";
-                toolTip1.SetToolTip(Ability3_2, "Increases the duration of Regrowth by 6\nseconds.");
+                toolTip1.ToolTipTitle = "Strangling Vines";
+                toolTip1.SetToolTip(Ability3_2, "Entangling Roots deals 100% more damage.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -11404,8 +11396,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                toolTip1.ToolTipTitle = "Strangling Vines";
-                toolTip1.SetToolTip(Ability3_3, "Entangling Roots deals 100% more damage.");
+                toolTip1.ToolTipTitle = "Enduring Growth";
+                toolTip1.SetToolTip(Ability3_3, "Increases the duration of Regrowth by 6 seconds.");
             }
 
             if (lblHero.Text == "Rehgar")
@@ -11642,8 +11634,8 @@ namespace Hots_Talents
 
             if (lblHero.Text == "Malfurion")
             {
-                toolTip1.ToolTipTitle = "Elune's Grace";
-                toolTip1.SetToolTip(Ability3_4, "Increases the range of Regrowth, Moonfire, and\nEntangling Roots by 2.");
+                toolTip1.ToolTipTitle = "Cleanse";
+                toolTip1.SetToolTip(Ability3_4, "Cooldown: 30 seconds\nActivate to remove all stuns, roots, silences, and slows\nfrom the target and prevents their reapplication for 1 second.");
             }
 
             if (lblHero.Text == "Rehgar")
